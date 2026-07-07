@@ -1,0 +1,2 @@
+# TradingAgent
+Robinhood trading agent
