@@ -1,0 +1,15 @@
+# Secrets — NEVER commit
+.env
+*.secrets
+.trading-agent.secrets
+
+# Local notification fallback (may contain P&L)
+NOTIFICATIONS.md
+
+# VM logs
+logs/
+*.log
+
+# OS / editor
+.DS_Store
+*.swp

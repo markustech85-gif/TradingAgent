@@ -1,0 +1,29 @@
+{
+  "permissions": {
+    "allow": [
+      "mcp__Robhinhood__get_accounts",
+      "mcp__Robhinhood__get_portfolio",
+      "mcp__Robhinhood__get_equity_positions",
+      "mcp__Robhinhood__get_equity_quotes",
+      "mcp__Robhinhood__get_equity_orders",
+      "mcp__Robhinhood__get_equity_historicals",
+      "mcp__Robhinhood__get_equity_fundamentals",
+      "mcp__Robhinhood__review_equity_order",
+      "mcp__Robhinhood__search",
+      "Bash(bash scripts/perplexity.sh:*)",
+      "Bash(bash scripts/whatsapp.sh:*)",
+      "Bash(git add:*)",
+      "Bash(git commit:*)",
+      "Bash(git push:*)",
+      "Bash(git pull:*)",
+      "Bash(date:*)"
+    ],
+    "deny": [
+      "mcp__Robhinhood__place_option_order",
+      "mcp__Robhinhood__cancel_option_order",
+      "mcp__Robhinhood__review_option_order",
+      "mcp__Robhinhood__place_equity_order",
+      "mcp__Robhinhood__cancel_equity_order"
+    ]
+  }
+}
