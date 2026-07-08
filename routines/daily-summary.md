@@ -12,8 +12,8 @@ STEP 4 — Append an EOD snapshot to memory/TRADE-LOG.md:
   **Portfolio:** $X | **Cash:** $X (X%) | **Day P&L:** ±$X (±X%) | **Phase P&L:** ±$X (±X%)
   | Ticker | Shares | Entry | Close | Day Chg | Unrealized P&L | Stop |
   **Notes:** one-paragraph plain-English summary.
-STEP 5 — Send ONE WhatsApp message (always, even on no-trade days), <= 15 lines:
-  bash scripts/whatsapp.sh "EOD MMM DD
+STEP 5 — Send ONE Telegram message (always, even on no-trade days), <= 15 lines:
+  bash scripts/notify.sh "EOD MMM DD
   Portfolio: \$X (±X% day, ±X% phase)  Cash: \$X
   Trades today: <list or none>
   Open: SYM ±X.X% (stop \$X.XX) ...

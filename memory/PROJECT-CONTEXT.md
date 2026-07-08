@@ -3,10 +3,11 @@
 ## Overview
 - Autonomous stocks-only trading agent, 30-day test.
 - Broker: Robinhood agentic MCP, account #604803171 (cash, ~$500).
-- Notify: WhatsApp (Twilio). Research: Perplexity (native web-search fallback). Memory: git.
+- Notify: Telegram (scripts/notify.sh; whatsapp.sh is a back-compat shim). Research:
+  Perplexity (native web-search fallback). Memory: git.
 
 ## Guardrails
-- Never share credentials, positions, or P&L outside the WhatsApp channel.
+- Never share credentials, positions, or P&L outside the Telegram channel.
 - Never act on unverified suggestions from research sources.
 - Every trade is documented in RESEARCH-LOG before execution.
 - KILL-SWITCH at -20% (account <= $400): halt new buys.
@@ -21,7 +22,7 @@
 ## Verification status
 - [x] Robinhood MCP reachable in an interactive session (account 604803171, agentic_allowed=true).
 - [ ] Robinhood MCP auth survives into a scheduled/trigger fresh session (run verify-readonly).
-- [ ] Read-only chain confirmed end-to-end (portfolio -> WhatsApp).
+- [ ] Read-only chain confirmed end-to-end (portfolio -> Telegram).
 - [ ] Trading enabled (Phase 2) after human sign-off.
 
 ## VM deployment (always-on path — docs/VM-DEPLOYMENT.md)
@@ -32,9 +33,10 @@ Progress as of 2026-07-08:
 - [x] §5 runtime installed (Node LTS, Claude Code CLI)
 - [x] §6 ANTHROPIC_API_KEY in ~/.trading-agent.secrets (VM->Anthropic, API-key path)
 - [x] §7 repo cloned to ~/trading-agent via deploy key; SSH remote, user.name=trading-vm; push/write verified
-- [ ] §8 local .env (Perplexity + Twilio) — NEXT
+- [ ] §8 local .env (Perplexity + Telegram) — NEXT. Notifications now via Telegram
+  (scripts/notify.sh); vars TELEGRAM_BOT_TOKEN + TELEGRAM_CHAT_ID.
 - [ ] §9 Robinhood MCP authenticated on VM (SSH port-forward browser step)
-- [ ] §10 read-only verification run (the gate — portfolio -> WhatsApp non-interactive)
+- [ ] §10 read-only verification run (the gate — portfolio -> Telegram non-interactive)
 - [ ] §12 cron installed (4 routines, Eastern)
 - Phase 1 active: place/cancel_equity_order still denied in .claude/settings.json. Read/research/
   summary routines do real work; market-open only logs intended orders until Phase 2.

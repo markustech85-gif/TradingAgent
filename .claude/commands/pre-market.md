@@ -9,5 +9,5 @@ STEP 3 — Research via bash scripts/perplexity.sh "<query>" for: index futures;
          news on each held ticker. If it exits 3, use native web search; note fallback.
 STEP 4 — Append a dated entry to memory/RESEARCH-LOG.md: account snapshot; market context;
          2-3 trade ideas (catalyst + entry + stop + target, names <= ~$90); risk; decision (default HOLD).
-STEP 5 — Notification only if urgent: bash scripts/whatsapp.sh "<one line>".
+STEP 5 — Notification only if urgent: bash scripts/notify.sh "<one line>".
 (No commit — this is the local test command. Review the RESEARCH-LOG entry by hand.)

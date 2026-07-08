@@ -122,14 +122,24 @@ cd ~/trading-agent
 git config user.email "vm@trading-agent"; git config user.name "trading-vm"
 ```
 
-## 8. Local `.env` (Perplexity + Twilio)
+## 8. Local `.env` (Perplexity + Telegram)
 
 On the VM you use local mode — the wrapper scripts read `.env`:
 ```bash
-cp env.template .env && nano .env   # fill in Perplexity + Twilio values
+cp env.template .env && nano .env   # fill in Perplexity + Telegram values
 chmod 600 .env
 ```
 (`.env` is gitignored — never commit it.)
+
+**Telegram setup (for notifications via `scripts/notify.sh`):**
+1. In Telegram, message **@BotFather** → `/newbot` → follow prompts. It returns a
+   **bot token** (`123456789:AA...`) → put in `TELEGRAM_BOT_TOKEN`.
+2. Open a chat with your new bot and send it any message (e.g. "hi"). This is required
+   before the bot can message you.
+3. Get your **chat ID**: `curl -s "https://api.telegram.org/bot<TOKEN>/getUpdates"`
+   and read `result[].message.chat.id` (a number) → put in `TELEGRAM_CHAT_ID`.
+4. Smoke-test: `bash scripts/notify.sh "VM notify test $(date)"` — it should land in
+   your Telegram. If it writes to `NOTIFICATIONS.md` instead, a var is missing.
 
 ## 9. Authenticate the Robinhood MCP on the VM
 
@@ -154,10 +164,10 @@ Prove the whole chain works unattended **before** any routine can trade:
 source ~/.trading-agent.secrets
 cd ~/trading-agent
 claude -p "Call the Robinhood MCP get_portfolio for account 604803171. Send the equity and
-buying power to WhatsApp via: bash scripts/whatsapp.sh. Do NOT place, modify, or cancel any
+buying power to Telegram via: bash scripts/notify.sh. Do NOT place, modify, or cancel any
 order." --permission-mode bypassPermissions --max-turns 15
 ```
-If you get real portfolio numbers on WhatsApp from a non-interactive run, the VM path works.
+If you get real portfolio numbers on Telegram from a non-interactive run, the VM path works.
 If the MCP fails to authenticate here, fix that before proceeding (re-run Section 9).
 
 ## 11. Runner script
@@ -183,11 +193,11 @@ Test one immediately by running the runner by hand:
 ## 13. Monitoring
 
 - **Logs:** everything appends to `~/logs/<routine>-<date>.log`. Skim these the first week.
-- **Failure alerts:** the runner already WhatsApps on a non-zero exit.
-- **Heartbeat:** the daily-summary always sends — if a weekday passes with no EOD WhatsApp,
-  something's wrong. Consider a separate 5pm "did daily-summary run today?" check.
+- **Failure alerts:** the runner already messages Telegram on a non-zero exit.
+- **Heartbeat:** the daily-summary always sends — if a weekday passes with no EOD Telegram
+  message, something's wrong. Consider a separate 5pm "did daily-summary run today?" check.
 - **Auth watch (only if you chose the OAuth-token path):** add a weekly job that runs a trivial
-  `claude -p "say ok"` and WhatsApps if it fails, to catch token expiry before market hours.
+  `claude -p "say ok"` and pings Telegram if it fails, to catch token expiry before market hours.
 - **Disk:** logs grow; add `find ~/logs -mtime +30 -delete` to a weekly cron.
 
 ## 14. Cost control
@@ -196,7 +206,7 @@ Test one immediately by running the runner by hand:
 - Guards: `--max-turns`, concise prompts, and choosing a cheaper model for these routines
   (pass `--model` in the runner) — the research/summary work doesn't need the top model.
 - Log `total_cost_usd` from the `--output-format json` result to watch spend; a weekly
-  WhatsApp of the running total keeps you ahead of the bill.
+  Telegram message of the running total keeps you ahead of the bill.
 
 ## 15. Safety recap
 
@@ -204,5 +214,5 @@ Test one immediately by running the runner by hand:
 - During your first live days, keep the order-placing MCP tools denied in
   `.claude/settings.json` and re-enable them only when you're ready (see HANDOFF §2),
   or run market-open by hand first and let only the read/summary routines run on cron.
-- The VM holds real credentials (API key, Twilio, Robinhood token, deploy key). Keep SSH
+- The VM holds real credentials (API key, Telegram bot token, Robinhood token, deploy key). Keep SSH
   key-only, firewall on, and the box patched.
