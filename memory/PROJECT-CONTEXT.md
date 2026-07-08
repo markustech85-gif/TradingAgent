@@ -24,5 +24,21 @@
 - [ ] Read-only chain confirmed end-to-end (portfolio -> WhatsApp).
 - [ ] Trading enabled (Phase 2) after human sign-off.
 
+## VM deployment (always-on path — docs/VM-DEPLOYMENT.md)
+Production path = own DigitalOcean VM + cron running `claude -p` headless (NOT Anthropic Routines).
+Progress as of 2026-07-08:
+- [x] §3 droplet provisioned (Ubuntu, 2 GB), SSH in
+- [x] §4 hardened (non-root `trader`, ufw, root/password login off, tz=America/New_York)
+- [x] §5 runtime installed (Node LTS, Claude Code CLI)
+- [x] §6 ANTHROPIC_API_KEY in ~/.trading-agent.secrets (VM->Anthropic, API-key path)
+- [x] §7 repo cloned to ~/trading-agent via deploy key; SSH remote, user.name=trading-vm; push/write verified
+- [ ] §8 local .env (Perplexity + Twilio) — NEXT
+- [ ] §9 Robinhood MCP authenticated on VM (SSH port-forward browser step)
+- [ ] §10 read-only verification run (the gate — portfolio -> WhatsApp non-interactive)
+- [ ] §12 cron installed (4 routines, Eastern)
+- Phase 1 active: place/cancel_equity_order still denied in .claude/settings.json. Read/research/
+  summary routines do real work; market-open only logs intended orders until Phase 2.
+- bin/run-routine.sh already in repo (Section 11 needs no hand-authoring).
+
 ## Key files (read every session)
 - memory/STRATEGY.md, TRADE-LOG.md, RESEARCH-LOG.md, PROJECT-CONTEXT.md
