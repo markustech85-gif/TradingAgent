@@ -12,6 +12,7 @@
       "mcp__Robhinhood__search",
       "Bash(bash scripts/perplexity.sh:*)",
       "Bash(bash scripts/whatsapp.sh:*)",
+      "Bash(bash scripts/notify.sh:*)",
       "Bash(git add:*)",
       "Bash(git commit:*)",
       "Bash(git push:*)",

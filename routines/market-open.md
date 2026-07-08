@@ -14,7 +14,7 @@ STEP 1 — Read memory: STRATEGY.md; TODAY's RESEARCH-LOG entry (if missing, run
          TRADE-LOG.md (for the weekly trade count).
 STEP 2 — Reconcile with live data (Robinhood MCP): get_portfolio; get_equity_positions;
          get_equity_orders (so you never double-buy); get_equity_quotes for each planned ticker.
-STEP 3 — KILL-SWITCH: if account value <= $400 (-20% from $500), place NO buys; WhatsApp alert;
+STEP 3 — KILL-SWITCH: if account value <= $400 (-20% from $500), place NO buys; Telegram alert;
          skip to STEP 8. Otherwise run the Buy-Side Gate (STRATEGY.md) on each planned order;
          skip any that fail and log the reason.
 STEP 4 — For each approved trade: call review_equity_order (type=limit, marketable at the ask,
@@ -27,7 +27,7 @@ STEP 5 — Immediately place the protective stop: place_equity_order type=stop_m
 STEP 6 — Append each trade to memory/TRADE-LOG.md: date, ticker, side, shares, entry, stop,
          thesis, target, R:R, buy ref_id, stop order_id.
 STEP 7 — Notification: ONLY if a trade was placed.
-         bash scripts/whatsapp.sh "<tickers, shares, fills, one-line why>".
+         bash scripts/notify.sh "<tickers, shares, fills, one-line why>".
 STEP 8 — COMMIT + PUSH if any trade executed:
   git add memory/TRADE-LOG.md && git commit -m "market-open $DATE" && git push origin main
   Skip commit if no trades fired. On push failure: rebase and retry.

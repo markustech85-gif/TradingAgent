@@ -2,7 +2,7 @@
 
 A self-contained blueprint for building an autonomous, cloud-scheduled **stocks-only**
 trading agent on top of Claude Code, using **Robinhood (agentic MCP)**, **Perplexity**,
-**WhatsApp (Twilio)**, **GitHub**, and **Claude Code Routines**.
+**Telegram**, **GitHub**, and **Claude Code Routines**.
 
 Adapted from the "Opus 4.7 Trading Bot" blueprint (which used Alpaca + ClickUp) to this
 stack, recalibrated for a **$500** account and a **30-day test**. Claude is the bot: every
@@ -32,14 +32,14 @@ commits to git.
 
 Four scheduled routines run each weekday. Each spins up a fresh Claude Code cloud
 container that clones the repo, reads memory, pulls live Robinhood state via the MCP,
-decides + acts under hard rules, writes memory, notifies you on WhatsApp, and commits
+decides + acts under hard rules, writes memory, notifies you on Telegram, and commits
 back to `main`.
 
 - **Pre-market** (~8:00 AM ET): research catalysts, write today's ideas to the research log.
 - **Market-open** (~9:30 AM ET): run the buy-side gate, place approved buys, set a
   protective stop on each.
 - **Midday** (~12:00 PM ET): cut losers at −7%, re-peg winners' stops, exit broken theses.
-- **Daily-summary** (~4:15 PM ET): compute P&L, snapshot the book, send a WhatsApp recap.
+- **Daily-summary** (~4:15 PM ET): compute P&L, snapshot the book, send a Telegram recap.
 
 Three properties drive the design: **stateless runs** (each fire is independent, so failures
 self-heal next tick), **git-as-memory** (all state is append-only dated markdown on `main`,
@@ -54,7 +54,7 @@ the prompt before every order).
 |---|---|---|---|
 | Trading | **Robinhood agentic MCP** (`Robhinhood` namespace) | Alpaca REST + `alpaca.sh` | Trading is an **MCP connector**; the agent calls MCP tools directly. **No trading wrapper script.** |
 | Research | **Perplexity** via `scripts/perplexity.sh` | Perplexity (same) | Unchanged; curl wrapper reading `PERPLEXITY_API_KEY`. |
-| Notifications | **WhatsApp** via Twilio (`scripts/whatsapp.sh`) | ClickUp + `clickup.sh` | New wrapper; same graceful-fallback pattern. |
+| Notifications | **Telegram** Bot API (`scripts/notify.sh`; `whatsapp.sh` = back-compat shim) | ClickUp + `clickup.sh` | New wrapper; same graceful-fallback pattern. |
 | Memory / state | **Git** (markdown on `main`) | Git (same) | Unchanged. |
 | Scheduling | **Claude Code Routines** | Claude Code cloud routines (same) | Unchanged. Min interval 1hr; runs may start a few min late; ~15 runs/day account cap. |
 | Repo | **GitHub** | GitHub (same) | Unchanged. |
@@ -66,8 +66,8 @@ the prompt before every order).
 - Robinhood **agentic** account — you have this: **#604803171**, agentic-enabled, cash type, ~$500.
 - A **private GitHub repo** for this project.
 - A **Perplexity API key** (research). Optional: the agent falls back to native web search if unset.
-- A **Twilio account** with the **WhatsApp sandbox** enabled (fast to start): note the Account SID,
-  Auth Token, the sandbox `from` number, and your verified WhatsApp `to` number.
+- A **Telegram bot** (fast to start): create one with **@BotFather** for a bot token, then get
+  your numeric chat ID from `getUpdates` after messaging the bot once. See `docs/VM-DEPLOYMENT.md` §8.
 - **Claude Code** on a paid plan with **Routines** (research preview) enabled, plus the
   **Claude GitHub App** installed on the repo.
 
@@ -83,7 +83,8 @@ trading-agent/
 ├── .gitignore                # Must exclude .env
 ├── scripts/
 │   ├── perplexity.sh         # Research wrapper (curl → Perplexity)
-│   └── whatsapp.sh           # Notification wrapper (curl → Twilio WhatsApp)
+│   ├── notify.sh             # Notification wrapper (curl → Telegram Bot API)
+│   └── whatsapp.sh           # Back-compat shim → notify.sh
 │                             # (no trading script — Robinhood is an MCP connector)
 ├── routines/                 # Cloud routine prompts (production)
 │   ├── pre-market.md
@@ -165,9 +166,10 @@ Gate, Sell-Side rules, the entry checklist, the kill-switch, and the autonomy no
 ## 7. Wrapper scripts
 
 After creating both, run `chmod +x scripts/*.sh`. See `scripts/perplexity.sh` and
-`scripts/whatsapp.sh` in the repo. Both source a local `.env` if present, and both fail
-gracefully: perplexity exits 3 when `PERPLEXITY_API_KEY` is unset (caller falls back to web
-search); whatsapp appends to `NOTIFICATIONS.md` when Twilio vars are missing.
+`scripts/notify.sh` in the repo (`whatsapp.sh` is a thin shim that forwards to `notify.sh`).
+Both source a local `.env` if present, and both fail gracefully: perplexity exits 3 when
+`PERPLEXITY_API_KEY` is unset (caller falls back to web search); notify appends to
+`NOTIFICATIONS.md` when the Telegram vars are missing.
 
 ---
 
@@ -198,7 +200,7 @@ See `memory/TRADE-LOG.md` (Day 0 baseline), `memory/RESEARCH-LOG.md` (template e
 
 See `routines/pre-market.md`, `routines/market-open.md`, `routines/midday.md`,
 `routines/daily-summary.md`, and the read-only `routines/verify-readonly.md`. Every prompt
-shares a header: an **environment-variable check** (Perplexity + Twilio only — Robinhood is a
+shares a header: an **environment-variable check** (Perplexity + Telegram only — Robinhood is a
 connector), a **Robinhood-reachability check**, a **no-`.env`** guardrail, and a **mandatory
 commit-and-push** at the end. All times America/New_York, weekdays.
 
@@ -217,7 +219,7 @@ commit/push step, and add a read-only `portfolio.md`.
 1. Create a private GitHub repo; clone it; open in Claude Code.
 2. Build the structure in Section 4. Create scripts, prompts, CLAUDE.md, env.template, memory seeds.
 3. `chmod +x scripts/*.sh`. Add `.env` to `.gitignore`.
-4. Sign up for Perplexity (key) and Twilio (SID, token, WhatsApp sandbox join + your number).
+4. Sign up for Perplexity (key) and create a Telegram bot (bot token + your chat ID).
 5. `cp env.template .env`, fill it in locally.
 6. Attach the **Robinhood connector** to your Claude Code session.
 7. **Local smoke test:** run `/portfolio` — you should see account 604803171, positions, orders
@@ -225,7 +227,7 @@ commit/push step, and add a read-only `portfolio.md`.
 8. Install the Claude GitHub App on the repo.
 9. **Do Section 13 (read-only routine verification) before enabling any trading routine.**
 10. Create the four routines (select the repo, attach the Robinhood connector, add the
-    Perplexity + Twilio env vars, enable pushing to `main`, set the cron + America/New_York,
+    Perplexity + Telegram env vars, enable pushing to `main`, set the cron + America/New_York,
     paste the matching prompt verbatim).
 11. "Run now" on pre-market first; watch the log; confirm the RESEARCH-LOG entry is committed + pushed.
 12. Seed TRADE-LOG.md with the Day 0 snapshot so Day 1's summary has a baseline.
@@ -244,8 +246,8 @@ This is the single biggest unknown, because the Robinhood MCP is an OAuth connec
 routine runs in a fresh Anthropic-hosted container. **Before any routine can place a trade:**
 
 1. Create a throwaway routine whose prompt is read-only (see `routines/verify-readonly.md`).
-2. Attach the Robinhood connector + the Twilio env vars. "Run now."
-3. If you get real portfolio numbers on WhatsApp, MCP auth works in routines — proceed.
+2. Attach the Robinhood connector + the Telegram env vars. "Run now."
+3. If you get real portfolio numbers on Telegram, MCP auth works in routines — proceed.
 4. If it can't authenticate, the connector doesn't carry into the cloud run. Fallback:
    run the routines **locally** on your Mac, or use the VM path (`docs/VM-DEPLOYMENT.md`).
 
@@ -259,7 +261,7 @@ routine runs in a fresh Anthropic-hosted container. **Before any routine can pla
 | `git push` fails (proxy/permission) | Default `claude/`-only branch restriction still on | Enable pushing to `main` in the routine's settings |
 | "Repository not accessible" | Claude GitHub App not installed on the repo | Install it, grant access to just this repo |
 | Yesterday's trades missing today | Previous run didn't commit+push | Check `git log origin/main`; re-verify the commit step in the prompt |
-| WhatsApp message never arrives | A Twilio var missing / sandbox not joined | Script fell back to NOTIFICATIONS.md; add the vars, re-join the sandbox |
+| Telegram message never arrives | A Telegram var missing / never messaged the bot | Script fell back to NOTIFICATIONS.md; add the vars, and message the bot once so it can reply |
 | Perplexity calls skipped | `PERPLEXITY_API_KEY` unset | Script exits 3; agent uses web search. Add the key or accept the fallback |
 | Order rejected: whole-share cap | Name priced too high for a $100 whole-share position | Skip it or pick a lower-priced name (per STRATEGY sizing) |
 | Stop order rejected | Tried to stop a fractional position | Use whole shares only (per STRATEGY) |

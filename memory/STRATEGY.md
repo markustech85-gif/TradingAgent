@@ -75,7 +75,7 @@ There is **NO native trailing-stop type** (Alpaca had one; Robinhood does not).
 
 ## Kill-Switch (30-day test safety)
 - If total account drawdown from the $500 start reaches **−20%** (account value ≤ $400),
-  halt all new buys, send a WhatsApp alert, and only manage/exit existing
+  halt all new buys, send a Telegram alert, and only manage/exit existing
   positions until a human reviews. New entries resume only on manual re-enable.
 
 ## Autonomy

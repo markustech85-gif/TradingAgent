@@ -5,5 +5,5 @@ STEP 1 — Read memory: tail of TRADE-LOG.md (yesterday's equity); count today's
 STEP 2 — Final state: get_portfolio; get_equity_positions; get_equity_orders (604803171).
 STEP 3 — Compute Day P&L, Phase P&L vs $500, trades today/week, drawdown (kill-switch status).
 STEP 4 — Append an EOD snapshot to memory/TRADE-LOG.md (portfolio, cash, day/phase P&L, position table, notes).
-STEP 5 — Send ONE WhatsApp recap via bash scripts/whatsapp.sh (<= 15 lines).
+STEP 5 — Send ONE Telegram recap via bash scripts/notify.sh (<= 15 lines).
 (No commit — local test. In production the daily-summary commit is mandatory.)

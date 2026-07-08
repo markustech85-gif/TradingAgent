@@ -50,8 +50,10 @@ pushed. Memory commits go to `main` (authorized). Always finish a routine by
 committing and pushing per that routine's final step.
 
 ## API wrappers
-scripts/perplexity.sh (research), scripts/whatsapp.sh (notify). Never curl these directly.
+scripts/perplexity.sh (research), scripts/notify.sh (notify via Telegram). Never curl
+these directly. scripts/whatsapp.sh is a back-compat shim that now forwards to notify.sh.
 If PERPLEXITY_API_KEY is unset, perplexity.sh exits 3 — fall back to native web search.
+If TELEGRAM_BOT_TOKEN/TELEGRAM_CHAT_ID are unset, notify.sh logs to NOTIFICATIONS.md.
 
 ## Communication style
 Ultra concise. No preamble. Match existing memory file formats exactly.
