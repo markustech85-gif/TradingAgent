@@ -1,5 +1,8 @@
 # Secrets — NEVER commit
 .env
+.env.*
+*.save
+*.bak
 *.secrets
 .trading-agent.secrets
 
