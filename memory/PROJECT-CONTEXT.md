@@ -33,9 +33,13 @@ Progress as of 2026-07-08:
 - [x] §5 runtime installed (Node LTS, Claude Code CLI)
 - [x] §6 ANTHROPIC_API_KEY in ~/.trading-agent.secrets (VM->Anthropic, API-key path)
 - [x] §7 repo cloned to ~/trading-agent via deploy key; SSH remote, user.name=trading-vm; push/write verified
-- [ ] §8 local .env (Perplexity + Telegram) — NEXT. Notifications now via Telegram
-  (scripts/notify.sh); vars TELEGRAM_BOT_TOKEN + TELEGRAM_CHAT_ID.
-- [ ] §9 Robinhood MCP authenticated on VM (SSH port-forward browser step)
+- [x] §8 local .env done; Telegram notifications working end-to-end via scripts/notify.sh
+  (bot + TELEGRAM_BOT_TOKEN/TELEGRAM_CHAT_ID in VM .env; test message received on phone).
+  NOTE: notifications switched from Twilio WhatsApp to Telegram; whatsapp.sh is now a shim.
+- [ ] §9 Robinhood MCP authenticated on VM (SSH port-forward browser step) — NEXT.
+  One-time browser OAuth via `ssh -L 8080:localhost:8080 trader@<ip>` then `claude mcp add`;
+  token persists on VM disk, refreshes itself. Mac only needed for this one step.
+  BLOCKER: need the Robinhood MCP add command/URL from the earlier interactive setup.
 - [ ] §10 read-only verification run (the gate — portfolio -> Telegram non-interactive)
 - [ ] §12 cron installed (4 routines, Eastern)
 - Phase 1 active: place/cancel_equity_order still denied in .claude/settings.json. Read/research/
