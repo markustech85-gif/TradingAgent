@@ -1,5 +1,5 @@
 Local test version of the DAILY SUMMARY (uses local .env; no cloud env-var block, no commit/push).
-STOCKS ONLY. Ultra-concise. DATE=$(date +%Y-%m-%d).
+US STOCKS & ETFs ONLY. Ultra-concise. DATE=$(date +%Y-%m-%d).
 
 STEP 1 — Read memory: tail of TRADE-LOG.md (yesterday's equity); count today's + this week's trades.
 STEP 2 — Final state: get_portfolio; get_equity_positions; get_equity_orders (604803171).

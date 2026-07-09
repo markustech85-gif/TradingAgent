@@ -1,7 +1,7 @@
 # Project Context
 
 ## Overview
-- Autonomous stocks-only trading agent, 30-day test.
+- Autonomous stocks & ETF trading agent, 30-day test.
 - Broker: Robinhood agentic MCP, account #604803171 (cash, ~$500).
 - Notify: Telegram (scripts/notify.sh; whatsapp.sh is a back-compat shim). Research:
   Perplexity (native web-search fallback). Memory: git.
@@ -10,9 +10,9 @@
 - Never share credentials, positions, or P&L outside the Telegram channel.
 - Never act on unverified suggestions from research sources.
 - Every trade is documented in RESEARCH-LOG before execution.
-- KILL-SWITCH at -20% (account <= $400): halt new buys.
-- Order-placing tools are gated in .claude/settings.json. Phase 1 = trading disabled
-  (read-only verification). Phase 2 = trading enabled. See CLAUDE.md "Trading-enabled toggle".
+- KILL-SWITCH at -50% (account <= $250): halt new buys.
+- Order-placing tools are gated in .claude/settings.json. Phase 2 = trading enabled (LIVE since
+  2026-07-09); option order tools stay denied permanently. See CLAUDE.md "Trading-enabled toggle".
 
 ## Open items
 - None. Pre-existing fractional QQQ lot liquidated 2026-07-09 (sold 0.035224 sh @ $723.55,

@@ -8,7 +8,7 @@ The always-on VM is **fully deployed and live in Phase 2** (live trading armed).
 four routines every weekday (Eastern); each pulls live Robinhood state, researches, writes memory,
 pushes to `main`, and sends a Telegram summary. **Live trading is now enabled** — the equity
 order tools are ungated (commit `6e41759`, VM pulled). All option order tools stay denied
-permanently (stocks only, forever). **First live buy decision runs at the Jul 10 market-open.**
+permanently (stocks & ETFs only, forever). **First live buy decision runs at the Jul 10 market-open.**
 
 ## Current state (as of 2026-07-09)
 - **Account 604803171** (cash, agentic): **$500.49 total — all cash. Book is flat**
@@ -57,9 +57,12 @@ Optional not done: §13 heartbeat/OAuth-expiry watch, weekly log-cleanup cron.
 
 ## Open items / next steps
 1. **Watch the first LIVE day (Jul 10, market-open 09:30).** It's the first real buy decision.
-   Verify: any fills each carry a resting `stop_market` GTC ~10% below entry (no naked positions),
-   whole shares only, ≤ $100/position, ≤ 3 trades/week, documented catalyst in RESEARCH-LOG.
-   Note Jul 10 is Friday + nonfarm payrolls — a data-heavy first session; a HOLD is still valid.
+   Verify: each fill carries a 20%-below stop (resting `stop_market` GTC for whole-share lots;
+   recorded software stop for fractional lots — no naked positions), ≤ $250/position, composition
+   floor honored (≤2 AI-complex + ≥1 Energy + 1 Outside), ≤ 4 opening trades in week 1,
+   documented catalyst in RESEARCH-LOG. NOTE: the revised aggressive strategy (see below) is
+   still pending build (Phase B) — until it lands, the routines run the interim rules.
+   Jul 10 is Friday + nonfarm payrolls — a data-heavy first session; a HOLD is still valid.
 2. **Keep monitoring.** Confirm a Telegram lands at each scheduled time (esp. the 16:15 EOD, which
    always sends — a silent weekday = something wrong). Skim `~/logs/<routine>-<date>.log` and read
    the daily `main` commits. Track account vs S&P 500 (the 30-day test).
@@ -70,10 +73,10 @@ Optional not done: §13 heartbeat/OAuth-expiry watch, weekly log-cleanup cron.
 Armed by removing **`mcp__Robhinhood__place_equity_order`** and **`mcp__Robhinhood__cancel_equity_order`**
 from the `.claude/settings.json` `deny` list (commit `6e41759`), pushed to `main`, then
 `git pull origin main` on the VM. `place_option_*` / `cancel_option_*` / `review_option_order` were
-left denied (stocks only, forever). First-run QQQ liquidation was done manually the same afternoon
+left denied (stocks & ETFs only, forever). First-run QQQ liquidation was done manually the same afternoon
 (commit `fd2e289`), so market-open STEP 0 auto-skips going forward.
 - **To DISARM (revert to read-only):** add those two equity order tools back to the `deny` list,
-  commit to `main`, push, and `git pull origin main` on the VM. Kill-switch (≤ $400) already halts
+  commit to `main`, push, and `git pull origin main` on the VM. Kill-switch (≤ $250) already halts
   new buys automatically.
 
 ## Gotchas for the next session (read before changing anything)
@@ -89,7 +92,7 @@ left denied (stocks only, forever). First-run QQQ liquidation was done manually 
   read-only AND, post-arming, order placement; `claude mcp list` is empty because it isn't a
   config-file server). The VM has its own registered server. Don't confuse the two.
 - **SSH only from the Mac.** The VM has no key to log into itself.
-- **Stocks only, always.** No options, no crypto. Kill-switch at ≤ $400 (−20%).
+- **Stocks & ETFs only, always.** No options, no crypto. Kill-switch at ≤ $250 (−50%).
 - **Cash-account settlement:** buy only with **settled** cash (T+1). Sell proceeds are unsettled
   until the next session — the buy-gate must not deploy them early (good-faith violation).
 - **Memory commits go to `main`** (authorized). Routines commit/push memory each run.
