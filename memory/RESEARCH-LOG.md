@@ -38,3 +38,31 @@ TRADE or HOLD (default HOLD if no edge)
 ### Decision
 HOLD. Day 1, risk-off tape, no high-conviction 2:1 catalyst, and Phase 1 gating in effect.
 Preserve capital; revisit at market-open. Watch XLE for a pullback entry vs a chase.
+
+## 2026-07-09 — Pre-market Research
+### Account
+- Equity $25.26 (fractional QQQ 0.0352 sh only) / Cash $475 / Buying power $475 / Total $500.26
+- Drawdown vs $500 start: +0.05% — kill-switch clear. No agent positions, no resting stops.
+- Phase 1 (order tools gated in settings.json). Ideas below are logged intent, not armed.
+### Market Context
+- Mildly risk-OFF but whipsawing. ES Sep ~7,525–7,550 (-0.6% to -0.8%) on Trump "ceasefire over"
+  Iran headline; oil + bond yields up. Countervailing "de-escalation hopes" headlines same morning.
+- BUT tech firm: QQQ pre-mkt $717.1 vs $711.4 close (+0.8%). Semis bouncing back hard from
+  yesterday's rollover: INTC pre $115.4 (+4.7%), MU +4%, AMAT pre $599 (+4%). Reversal of 7/8 read.
+- Sector momentum: Semis/Tech + Consumer Discretionary leading; energy flat (XLE $55.5, oil pop faded).
+- VIX near YTD lows (complacent). Econ: Fri nonfarm payrolls; ADP/JOLTS + Fed speakers pre-blackout. None today.
+- Earnings/movers: YUM +6.9%, GLW +5.7%, EXPD +5.8% — all >$90, don't fit $100 cap.
+### Trade Ideas (all logged intent, not armed; must be <= ~$90 for whole-share fit)
+1. PFE — defensive/high-yield anchor if Iran risk-off resumes. Entry ~$24.10, stop $22.40 (-7%),
+   target $27.50, R:R ~2:1. Soft catalyst; slow mover. Fits cap easily (~4 sh).
+2. XLE — energy ETF; only works if oil re-spikes on fresh headline. Entry ~$55.50, stop $51.40 (-7.4%),
+   target $61. R:R ~1.4:1. CAUTION: oil pop already faded; sub-par R:R, headline-chase.
+3. (No sub-$90 semi/tech play) — the actual momentum today (INTC $115, GLW $194, AMAT $599) is all
+   above the $90 whole-share cap. Universe constraint blocks the day's strongest sector. Noted, not forced.
+### Risk Factors
+- Iran headline whipsaw both directions intraday; low VIX = little cushion if a shock lands.
+- Strongest momentum (semis) is priced out of our universe → forcing a sub-$90 sub-catalyst name is a trap.
+- Cash-account: settled cash only; no rush on day 2.
+### Decision
+HOLD. Day 2, whipsaw tape, no sub-$90 name with a hard same-day 2:1 catalyst, Phase 1 gating in effect.
+Preserve capital. Watch PFE as defensive add if risk-off resumes; revisit at market-open.
