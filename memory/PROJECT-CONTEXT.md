@@ -45,10 +45,16 @@ Progress as of 2026-07-08:
 - [x] §10 read-only verification PASSED (the gate). Headless `claude -p --permission-mode
   bypassPermissions` ran get_portfolio(604803171) and sent equity/buying power to Telegram
   non-interactively. Equity $25.03 (fractional QQQ lot), BP $475.00, total $500.03. No orders.
-- [ ] §12 cron installed (4 routines, Eastern)
+- [x] §11 runner verified: `bin/run-routine.sh pre-market` ran headless end-to-end (research ->
+  Telegram -> commit/push to main, `b5681c8`), success, permission_denials=[]. Cost ~$0.59/run on
+  claude-opus-4-8[1m] — accepted for now to gauge real benefit; revisit --model if it drags returns.
+- [x] §12 cron installed (4 routines, Eastern) via `crontab -e`, with `PATH=` (so cron finds
+  /usr/bin/claude) and `MAILTO=""`. Verified cron fires + resolves claude on a 1-min test line,
+  then removed it. Jobs: pre-market 08:00, market-open 09:30, midday 12:00, daily-summary 16:15 M-F.
 - Phase 1 active: place/cancel_equity_order still denied in .claude/settings.json. Read/research/
   summary routines do real work; market-open only logs intended orders until Phase 2.
-- bin/run-routine.sh already in repo (Section 11 needs no hand-authoring).
+- VM DEPLOYMENT COMPLETE for Phase 1. Remaining: human sign-off -> Phase 2 (remove the two order-tool
+  denies in .claude/settings.json) + first-run fractional-QQQ liquidation. Optional: §13 heartbeat check.
 
 ## Key files (read every session)
 - memory/STRATEGY.md, TRADE-LOG.md, RESEARCH-LOG.md, PROJECT-CONTEXT.md
