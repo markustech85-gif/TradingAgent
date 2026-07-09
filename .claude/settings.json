@@ -22,9 +22,7 @@
     "deny": [
       "mcp__Robhinhood__place_option_order",
       "mcp__Robhinhood__cancel_option_order",
-      "mcp__Robhinhood__review_option_order",
-      "mcp__Robhinhood__place_equity_order",
-      "mcp__Robhinhood__cancel_equity_order"
+      "mcp__Robhinhood__review_option_order"
     ]
   }
 }
