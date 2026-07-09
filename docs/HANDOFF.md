@@ -271,6 +271,8 @@ routine runs in a fresh Anthropic-hosted container. **Before any routine can pla
 
 ## 15. Notification philosophy
 
-Quiet by design. Pre-market: silent unless urgent. Market-open: only if a trade fired.
-Midday: only if action was taken. Daily-summary: always, one message. A chatty bot gets
-ignored — and then you miss the message that mattered.
+**Updated 2026-07-09:** all four routines now send **one concise ≤8-line Telegram summary every
+run** (account, kill-switch, ideas/actions, decision/next), so you get a per-run heartbeat while
+building trust in the agent. Urgent/kill-switch events are surfaced as the first line. Original
+"quiet by design" behavior (pre-market silent-unless-urgent; market-open/midday only on action)
+is preserved in git history if you want to revert to fewer messages later.
