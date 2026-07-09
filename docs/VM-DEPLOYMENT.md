@@ -228,7 +228,7 @@ Test one immediately by running the runner by hand:
 
 ## 15. Safety recap
 
-- Kill-switch (−20% / account ≤ $400) lives in STRATEGY.md and is checked before every buy.
+- Kill-switch (−50% / account ≤ $250) lives in STRATEGY.md and is checked before every buy.
 - During your first live days, keep the order-placing MCP tools denied in
   `.claude/settings.json` and re-enable them only when you're ready (see HANDOFF §2),
   or run market-open by hand first and let only the read/summary routines run on cron.

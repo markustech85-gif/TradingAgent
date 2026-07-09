@@ -1,13 +1,13 @@
 # TradingAgent
 
-Autonomous, cloud-scheduled **stocks-only** trading agent built on Claude Code.
+Autonomous, cloud-scheduled **stocks & ETF** trading agent built on Claude Code.
 Broker: **Robinhood** (agentic MCP, account #604803171, cash, ~$500). Goal: beat the
 S&P 500 over a 30-day test. Research via Perplexity, alerts via Telegram,
 state + audit trail in git.
 
-> ⚠️ **Real money.** Order-placing tools start **DENIED** in `.claude/settings.json`
-> (Phase 1). Nothing can trade until you finish the read-only verification and flip to
-> Phase 2. See [Go-live](#go-live-order-of-operations).
+> ⚠️ **Real money — LIVE.** Trading is armed (Phase 2, since 2026-07-09): `place_equity_order`
+> + `cancel_equity_order` are enabled. Option order tools stay denied permanently (stocks & ETFs
+> only). To revert to read-only, re-add the two equity order tools to `deny`.
 
 ## How it works
 
@@ -19,7 +19,7 @@ state, acts under the hard rules in `memory/STRATEGY.md`, writes memory, and com
 |---|---|---|---|
 | pre-market | 8:00 AM | `0 8 * * 1-5` | Research catalysts → `RESEARCH-LOG.md` |
 | market-open | 9:30 AM | `30 9 * * 1-5` | Buy-side gate → buys + protective stops |
-| midday | 12:00 PM | `0 12 * * 1-5` | Cut losers −7%, re-peg winners' stops |
+| midday | 12:00 PM | `0 12 * * 1-5` | Cut losers −20%, re-peg winners' stops |
 | daily-summary | 4:15 PM | `15 16 * * 1-5` | P&L, EOD snapshot, one Telegram recap |
 
 ## Layout
@@ -52,15 +52,17 @@ docs/                  HANDOFF.md (design blueprint), VM-DEPLOYMENT.md (always-o
    confirm it reaches Robinhood and sends a Telegram message — *in an unattended run*. This is the gate.
 4. **Enable trading (Phase 2)** — only after step 3: remove `place_equity_order` and
    `cancel_equity_order` from the `deny` list in `.claude/settings.json`. Option tools stay
-   denied permanently (stocks only).
+   denied permanently (stocks & ETFs only). *(Done 2026-07-09.)*
 5. **Arm the four routines** and monitor the first week closely — read every commit.
 
 ## Guardrails
 
-- Stocks only — options/crypto order tools permanently denied.
-- ≤ 6 positions, each ≤ 20% ($100); 75–85% deployed; whole shares only.
-- Every position carries a resting GTC `stop_market` (10% below entry; ratchets on winners).
-- Cut losers at −7%. Max 3 new trades/week.
-- **Kill-switch:** account ≤ $400 (−20%) → halt new buys, alert, manage-only.
+- Stocks & ETFs only — options/crypto order tools permanently denied.
+- ≤ 4 positions, each ≤ 50% ($250); ~100% deployed; hybrid whole-share/fractional.
+- Composition floor: ≤2 AI-complex + ≥1 Energy + 1 Outside; ETF or its constituents, never both.
+- Every position carries a 20%-below-entry stop — resting GTC `stop_market` (whole-share) or a
+  software stop checked each scan (fractional); ratchets on winners.
+- Cut losers at −20%. Up to 4 opening trades in week 1, then ≤3 new trades/week.
+- **Kill-switch:** account ≤ $250 (−50%) → halt new buys, alert, manage-only.
 
 Full rules: [`memory/STRATEGY.md`](memory/STRATEGY.md). Design detail: [`docs/HANDOFF.md`](docs/HANDOFF.md).

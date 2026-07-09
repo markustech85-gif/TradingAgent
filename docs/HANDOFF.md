@@ -1,6 +1,6 @@
 # Trading Agent — Claude Code Build Handoff Packet
 
-A self-contained blueprint for building an autonomous, cloud-scheduled **stocks-only**
+A self-contained blueprint for building an autonomous, cloud-scheduled **stocks & ETF**
 trading agent on top of Claude Code, using **Robinhood (agentic MCP)**, **Perplexity**,
 **Telegram**, **GitHub**, and **Claude Code Routines**.
 
@@ -38,7 +38,7 @@ back to `main`.
 - **Pre-market** (~8:00 AM ET): research catalysts, write today's ideas to the research log.
 - **Market-open** (~9:30 AM ET): run the buy-side gate, place approved buys, set a
   protective stop on each.
-- **Midday** (~12:00 PM ET): cut losers at −7%, re-peg winners' stops, exit broken theses.
+- **Midday** (~12:00 PM ET): cut losers at −20%, re-peg winners' stops, exit broken theses.
 - **Daily-summary** (~4:15 PM ET): compute P&L, snapshot the book, send a Telegram recap.
 
 Three properties drive the design: **stateless runs** (each fire is independent, so failures
@@ -137,19 +137,20 @@ Order shape essentials:
 - `ref_id`: a UUID idempotency key — generate one per logical order, re-send on retry.
 
 **Gotchas baked into this design:**
-1. **No native trailing stop.** We simulate one: place a fixed `stop_market` GTC at 10%
+1. **No native trailing stop.** We simulate one: place a fixed `stop_market` GTC at 20%
    below entry, then **re-peg it upward** (cancel + replace) at each routine run as the
    position rises. Never move a stop down; never within 3% of current price.
-2. **Fractional/dollar orders can't carry a resting stop** (and only work as regular-hours
-   market orders). So this agent trades **whole shares only**, and restricts the universe to
-   names priced low enough that a whole-share position fits the 20% ($100) cap. This keeps
-   a real broker-side stop on every position.
+2. **HYBRID stops (fractional enabled).** Fractional/dollar orders can't carry a resting stop
+   (regular-hours market orders only). So: buy **whole shares + a resting broker stop** whenever
+   one share fits the per-position budget (≤50%/$250); for pricier names, buy **fractional +
+   a software stop** the agent enforces at each scan (accepting between-scan gap risk). Every
+   position still starts with a 20%-below stop — resting or software.
 3. **Always `review_equity_order` before `place_equity_order`** — it surfaces buying-power
    and halt alerts and the live quote. In autonomous mode this is the validation gate, not a
    human-approval pause.
 4. **Reconcile before buying.** A routine is stateless and may retry. Before placing buys,
    read `get_equity_positions` and today's `get_equity_orders` so you never double-buy.
-5. **Crypto is not supported** via this MCP. Stocks only anyway.
+5. **Crypto is not supported** via this MCP. Stocks & ETFs only anyway.
 6. **PDT rule was eliminated June 4, 2026** — no day-trade-count gate. But this is a **cash
    account**, so good-faith settlement still applies: don't buy with unsettled proceeds.
 
@@ -263,8 +264,8 @@ routine runs in a fresh Anthropic-hosted container. **Before any routine can pla
 | Yesterday's trades missing today | Previous run didn't commit+push | Check `git log origin/main`; re-verify the commit step in the prompt |
 | Telegram message never arrives | A Telegram var missing / never messaged the bot | Script fell back to NOTIFICATIONS.md; add the vars, and message the bot once so it can reply |
 | Perplexity calls skipped | `PERPLEXITY_API_KEY` unset | Script exits 3; agent uses web search. Add the key or accept the fallback |
-| Order rejected: whole-share cap | Name priced too high for a $100 whole-share position | Skip it or pick a lower-priced name (per STRATEGY sizing) |
-| Stop order rejected | Tried to stop a fractional position | Use whole shares only (per STRATEGY) |
+| Order rejected: position cap | Name's whole-share cost exceeds the ≤50% ($250) budget | Buy fractional (dollar-sized) + software stop, or size down (per STRATEGY) |
+| Stop order rejected | Tried to rest a stop on a fractional lot | Expected — fractional lots use a software stop; whole-share lots get the resting `stop_market` (per STRATEGY) |
 | Duplicate buys after a retry | Didn't reconcile before buying | Ensure the prompt reads positions/orders first; reuse the `ref_id` on true retries |
 
 ---
