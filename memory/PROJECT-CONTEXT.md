@@ -21,8 +21,8 @@
 
 ## Verification status
 - [x] Robinhood MCP reachable in an interactive session (account 604803171, agentic_allowed=true).
-- [ ] Robinhood MCP auth survives into a scheduled/trigger fresh session (run verify-readonly).
-- [ ] Read-only chain confirmed end-to-end (portfolio -> Telegram).
+- [x] Robinhood MCP auth survives into a non-interactive run (VM headless `claude -p`, §10 passed).
+- [x] Read-only chain confirmed end-to-end (portfolio -> Telegram) via headless run.
 - [ ] Trading enabled (Phase 2) after human sign-off.
 
 ## VM deployment (always-on path — docs/VM-DEPLOYMENT.md)
@@ -36,15 +36,25 @@ Progress as of 2026-07-08:
 - [x] §8 local .env done; Telegram notifications working end-to-end via scripts/notify.sh
   (bot + TELEGRAM_BOT_TOKEN/TELEGRAM_CHAT_ID in VM .env; test message received on phone).
   NOTE: notifications switched from Twilio WhatsApp to Telegram; whatsapp.sh is now a shim.
-- [ ] §9 Robinhood MCP authenticated on VM (SSH port-forward browser step) — NEXT.
-  One-time browser OAuth via `ssh -L 8080:localhost:8080 trader@<ip>` then `claude mcp add`;
-  token persists on VM disk, refreshes itself. Mac only needed for this one step.
-  BLOCKER: need the Robinhood MCP add command/URL from the earlier interactive setup.
-- [ ] §10 read-only verification run (the gate — portfolio -> Telegram non-interactive)
-- [ ] §12 cron installed (4 routines, Eastern)
+- [x] §9 Robinhood MCP authenticated on VM. Added user-scoped as name `Robhinhood` (typo kept so
+  it matches settings.json + routines): `claude mcp add --transport http --callback-port 8080
+  --scope user Robhinhood https://agent.robinhood.com/mcp/trading`, then `/mcp` -> Authenticate.
+  OAuth callback tunneled via `ssh -L 8080:localhost:8080 trader@146.190.68.23`; token on VM disk,
+  self-refreshing. NOTE: in cloud sessions the connector is HOST-MANAGED (no `mcp add`, `mcp list`
+  empty) — the VM registers its own remote OAuth server; there was never a stored command to copy.
+- [x] §10 read-only verification PASSED (the gate). Headless `claude -p --permission-mode
+  bypassPermissions` ran get_portfolio(604803171) and sent equity/buying power to Telegram
+  non-interactively. Equity $25.03 (fractional QQQ lot), BP $475.00, total $500.03. No orders.
+- [x] §11 runner verified: `bin/run-routine.sh pre-market` ran headless end-to-end (research ->
+  Telegram -> commit/push to main, `b5681c8`), success, permission_denials=[]. Cost ~$0.59/run on
+  claude-opus-4-8[1m] — accepted for now to gauge real benefit; revisit --model if it drags returns.
+- [x] §12 cron installed (4 routines, Eastern) via `crontab -e`, with `PATH=` (so cron finds
+  /usr/bin/claude) and `MAILTO=""`. Verified cron fires + resolves claude on a 1-min test line,
+  then removed it. Jobs: pre-market 08:00, market-open 09:30, midday 12:00, daily-summary 16:15 M-F.
 - Phase 1 active: place/cancel_equity_order still denied in .claude/settings.json. Read/research/
   summary routines do real work; market-open only logs intended orders until Phase 2.
-- bin/run-routine.sh already in repo (Section 11 needs no hand-authoring).
+- VM DEPLOYMENT COMPLETE for Phase 1. Remaining: human sign-off -> Phase 2 (remove the two order-tool
+  denies in .claude/settings.json) + first-run fractional-QQQ liquidation. Optional: §13 heartbeat check.
 
 ## Key files (read every session)
 - memory/STRATEGY.md, TRADE-LOG.md, RESEARCH-LOG.md, PROJECT-CONTEXT.md

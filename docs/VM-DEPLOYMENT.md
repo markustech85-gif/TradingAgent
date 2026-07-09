@@ -143,19 +143,37 @@ chmod 600 .env
 
 ## 9. Authenticate the Robinhood MCP on the VM
 
-The OAuth step needs a browser, which the VM lacks. Forward the auth port from the VM to your Mac:
+The OAuth step needs a browser, which the VM lacks. The Robinhood MCP is a **remote OAuth server**
+at `https://agent.robinhood.com/mcp/trading` — you connect to that URL, you do not run a server.
 
-```bash
-# On your MAC, open an SSH tunnel (leave it running):
-ssh -L 8080:localhost:8080 trader@<droplet-ip>
-```
-Inside that session, on the VM, add the Robinhood MCP connector:
-```bash
-cd ~/trading-agent
-claude mcp add ...   # follow Robinhood's connector instructions; it prints a localhost URL
-```
-When it prints a `http://localhost:8080/...` URL, paste it into your **Mac's** browser, complete
-the Robinhood OAuth, and the token is stored on the VM. Confirm with `claude mcp list`.
+> **In cloud/Routines sessions the connector is HOST-MANAGED** (injected by the platform;
+> `claude mcp list` is empty there). So there is no stored `mcp add` command to copy from an earlier
+> setup — the VM registers its own. Values below are all you need.
+
+> **Name it exactly `Robhinhood`** (yes, the misspelling). Every tool gate in `.claude/settings.json`
+> and every routine references `mcp__Robhinhood__*`. A different name silently voids the Phase-1
+> order-tool `deny` list. This is the one thing you cannot get wrong.
+
+1. On your **Mac**, open an SSH tunnel for the OAuth callback (leave it running — this also logs
+   you into the VM):
+   ```bash
+   ssh -L 8080:localhost:8080 trader@<droplet-ip>
+   ```
+2. In that session, **on the VM**, register the connector (user scope so cron picks it up in any cwd):
+   ```bash
+   source ~/.trading-agent.secrets
+   cd ~/trading-agent
+   claude mcp add --transport http --callback-port 8080 --scope user \
+     Robhinhood https://agent.robinhood.com/mcp/trading
+   ```
+   `--callback-port 8080` pins the redirect URI to match the tunnel.
+3. Start the OAuth (registering doesn't authenticate; first connect does): run `claude`, then
+   `/mcp` -> select **Robhinhood** -> **Authenticate**. With no browser on the VM it prints a
+   `https://robinhood.com/oauth?...&redirect_uri=http%3A%2F%2Flocalhost%3A8080%2Fcallback...` URL.
+4. Paste that URL into your **Mac's** browser, sign in, approve the agentic account (604803171).
+   Robinhood redirects to `localhost:8080/callback` -> through the tunnel -> the VM stores the token
+   (self-refreshing). You'll see `Authentication successful. Connected to Robhinhood.`
+5. Confirm with `claude mcp list` (should show `Robhinhood` connected), then tear down the tunnel.
 
 ## 10. VERIFY read-only (the gate — do not skip)
 
