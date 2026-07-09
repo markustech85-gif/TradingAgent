@@ -19,8 +19,14 @@ STEP 3 — Research via bash scripts/perplexity.sh "<query>" for: index futures;
 STEP 4 — Append a dated entry to memory/RESEARCH-LOG.md: account snapshot; market context;
          2-3 trade ideas each with catalyst + entry + stop + target (only names <= ~$90 so a
          whole-share position fits the $100 cap); risk factors; decision (default HOLD).
-STEP 5 — Notification: SILENT unless urgent (held position already < -7% pre-market; thesis
-         broke overnight; kill-switch drawdown hit). If urgent: bash scripts/notify.sh "<one line>".
+STEP 5 — Notification (ALWAYS send one concise Telegram, <= 8 lines):
+         bash scripts/notify.sh "PRE-MKT MMM DD
+         Acct: \$X (±X% vs \$500)  Kill-switch: OK|HIT
+         Tape: <risk-on/off, one line>
+         Ideas: <2-3 tickers w/ entry — or none>
+         Decision: <HOLD|WATCH|intent logged (Phase 1)>"
+         If urgent (held position already < -7% pre-market; thesis broke overnight; kill-switch
+         drawdown hit), make the FIRST line "⚠ URGENT: <reason>".
 STEP 6 — COMMIT + PUSH (mandatory):
   git add memory/RESEARCH-LOG.md && git commit -m "pre-market $DATE" && git push origin main
   On push failure: git pull --rebase origin main, then push. Never force-push.

@@ -18,7 +18,12 @@ STEP 4 — Re-peg winners' stops. For each eligible position, cancel the old sto
 STEP 5 — Thesis check. If a thesis broke intraday, exit even if not yet -7%. Document in TRADE-LOG.
 STEP 6 — Optional: bash scripts/perplexity.sh for anything moving sharply with no obvious cause;
          append an afternoon addendum to RESEARCH-LOG.
-STEP 7 — Notification: ONLY if action was taken. bash scripts/notify.sh "<action summary>".
+STEP 7 — Notification (ALWAYS send one concise Telegram, <= 8 lines):
+         bash scripts/notify.sh "MIDDAY MMM DD
+         Acct: \$X  Kill-switch: OK|HIT
+         Actions: <cuts / stop re-pegs — or none, all within tolerance>
+         Open: SYM ±X.X% (stop \$X.XX) ...
+         Next: <one line>"
 STEP 8 — COMMIT + PUSH if memory changed:
   git add memory/TRADE-LOG.md memory/RESEARCH-LOG.md && git commit -m "midday $DATE" && git push origin main
   Skip if no-op. On push failure: rebase and retry.

@@ -26,8 +26,13 @@ STEP 5 — Immediately place the protective stop: place_equity_order type=stop_m
          (Whole-share position => resting stop is accepted.)
 STEP 6 — Append each trade to memory/TRADE-LOG.md: date, ticker, side, shares, entry, stop,
          thesis, target, R:R, buy ref_id, stop order_id.
-STEP 7 — Notification: ONLY if a trade was placed.
-         bash scripts/notify.sh "<tickers, shares, fills, one-line why>".
+STEP 7 — Notification (ALWAYS send one concise Telegram, <= 8 lines):
+         bash scripts/notify.sh "MKT-OPEN MMM DD
+         Acct: \$X  Kill-switch: OK|HIT
+         Trades: <tickers, shares, fills — or none placed>
+         Phase 1: <intended orders logged, if any — omit line if Phase 2>
+         Next: <one line>"
+         If the kill-switch triggered, make the FIRST line "⚠ KILL-SWITCH: no buys".
 STEP 8 — COMMIT + PUSH if any trade executed:
   git add memory/TRADE-LOG.md && git commit -m "market-open $DATE" && git push origin main
   Skip commit if no trades fired. On push failure: rebase and retry.
