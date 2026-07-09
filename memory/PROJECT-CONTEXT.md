@@ -15,15 +15,16 @@
   (read-only verification). Phase 2 = trading enabled. See CLAUDE.md "Trading-enabled toggle".
 
 ## Open items
-- **Pre-existing fractional QQQ lot (~0.035 shares, ~$25):** liquidate on the FIRST
-  market-open run (Phase 2) to start clean with a whole-shares-only book. Until Phase 2,
-  leave it and note it. Once sold, remove this item.
+- None. Pre-existing fractional QQQ lot liquidated 2026-07-09 (sold 0.035224 sh @ $723.55,
+  proceeds $25.49; see TRADE-LOG). Book is whole-shares-clean; all cash.
 
 ## Verification status
 - [x] Robinhood MCP reachable in an interactive session (account 604803171, agentic_allowed=true).
 - [x] Robinhood MCP auth survives into a non-interactive run (VM headless `claude -p`, §10 passed).
 - [x] Read-only chain confirmed end-to-end (portfolio -> Telegram) via headless run.
-- [ ] Trading enabled (Phase 2) after human sign-off.
+- [x] Trading enabled (Phase 2) after human sign-off. Armed 2026-07-09: removed
+  place/cancel_equity_order denies from .claude/settings.json (commit 6e41759), VM pulled.
+  All option order tools remain denied permanently (stocks only). First live run: Jul 10 market-open.
 
 ## VM deployment (always-on path — docs/VM-DEPLOYMENT.md)
 Production path = own DigitalOcean VM + cron running `claude -p` headless (NOT Anthropic Routines).
