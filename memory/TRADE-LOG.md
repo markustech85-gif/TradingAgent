@@ -80,3 +80,21 @@ fractional QQQ lot (0.035 sh) at $723.55 vs $709.74 cost — cleared the book fo
 start, netting +$0.49. No discretionary positions opened; 0 opening trades used (week-1 cap 4).
 Fully in cash ($500.49; buying power $475 pending settlement). Kill-switch OK. Book is clean
 and ready for first discretionary entries next session.
+
+### Jul 10 — EOD Snapshot (Day 2, Friday)
+**Portfolio:** $500.54 | **Cash:** $119.08 (23.8%) | **Day P&L:** +$0.05 (+0.01%) | **Phase P&L:** +$0.54 (+0.11%)
+
+| Ticker | Bucket | Shares | Entry | Close | Day Chg | Unrealized P&L | Stop | Protection |
+| — | — | — | — | — | — | — | — | — |
+| XLE | Energy | 4 | $54.97 | $55.08 | +0.47% | +$0.42 (+0.19%) | $43.98 | resting 6a50fa5e |
+| XLV | Outside | 1 | $161.53 | $160.89 | −0.79% | −$0.65 (−0.40%) | $129.22 | resting 6a50fa42 |
+
+**Book:** 2/4 | AI-complex 0/2 · Energy 1 · Outside 1/1 | dedup OK
+**Cadence:** wk of Jul 06 (wk #1) | opening trades 2/4
+
+**Notes:** First live positions day. Opened both intended legs at market-open (~09:57 ET) after the
+investor-profile gate cleared: XLE 4 sh @ $54.97 (Energy) and XLV 1 sh @ $161.53 (Outside), each
+protected with a resting 20% stop_market GTC. XLE closed slightly green (+0.19%), XLV slightly red
+(−0.40%); both far above stops, neither near a ratchet trigger. Day flat (+$0.05) vs Jul 09 EOD.
+Portfolio $500.54, cash $119.08. Kill-switch OK. Composition floor progressing: need ≤2 AI-complex
+legs to complete it; 2 opening trades remain this week (cap 4).
