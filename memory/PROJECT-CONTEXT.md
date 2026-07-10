@@ -15,12 +15,12 @@
   2026-07-09); option order tools stay denied permanently. See CLAUDE.md "Trading-enabled toggle".
 
 ## Open items
-- **BLOCKER (2026-07-10): investor profile incomplete → all trades rejected.** Robinhood
-  requires the account's investor/investment profile completed before the 2nd trade. First
-  live market-open buy (XLE) returned API 400. HUMAN ACTION NEEDED — complete profile at
-  https://applink.robinhood.com/investment_profile?account_number=604803171&context=second_trade
-  Until done, market-open can only log intended orders (no fills possible). Clear this item
-  once trades go through.
+- **RESOLVED 2026-07-10: investor profile completed by the user.** The Jul 10 market-open buys
+  hit an account-level API 400 (Robinhood requires the investment profile before the 2nd trade).
+  Profile completed 2026-07-10; a non-placing review_equity_order probe (XLE) came back clean
+  (order_checks empty, no gate alert). No code change needed — the next market-open run re-attempts
+  automatically (routines are stateless). CONFIRM on the first actual fill; if a place still 400s,
+  the profile did not fully clear — re-check the same Robinhood link.
 - Pre-existing fractional QQQ lot liquidated 2026-07-09 (sold 0.035224 sh @ $723.55,
   proceeds $25.49; see TRADE-LOG). Book is whole-shares-clean; all cash.
 
