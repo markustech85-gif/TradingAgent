@@ -10,17 +10,25 @@ ROBINHOOD: call get_accounts; confirm account 604803171 exists and agentic_allow
 If not reachable -> STOP, send one Telegram alert, exit.
 PERSISTENCE: fresh clone; changes vanish unless committed+pushed. MUST push at STEP 6.
 
-STEP 1 — Read memory: STRATEGY.md; tail of TRADE-LOG.md; tail of RESEARCH-LOG.md.
+STEP 1 — Read memory: STRATEGY.md; BUCKETS.md (bucket watchlist + Tier-1 gate); tail of
+         TRADE-LOG.md (open-position rows + `Cadence:` line); tail of RESEARCH-LOG.md.
 STEP 2 — Live state (Robinhood MCP): get_portfolio(604803171); get_equity_positions(604803171);
          get_equity_orders(604803171). Compute drawdown vs $500 (kill-switch check).
 STEP 3 — Research via bash scripts/perplexity.sh "<query>" for: index futures; VIX;
          top market catalysts today $DATE; pre-open earnings; economic calendar (CPI/PPI/FOMC/jobs);
-         sector momentum; news on each held ticker. If it exits 3, use native web search; note fallback.
+         sector momentum; news on each held ticker. Scan the BUCKETS.md buckets for setups —
+         AI-complex (QQQ/SMH/QTUM/VRT), Energy (XLE/URA/VST/CEG/OKLO/SMR), Outside (UFO + rotating
+         XLV/XLF/XLI/GLD/GDX/XLP). If perplexity exits 3, use native web search; note fallback.
 STEP 4 — Append a dated entry to memory/RESEARCH-LOG.md: account snapshot; market context;
-         2-3 trade ideas from the STRATEGY.md watchlist (tag each idea's bucket: AI-complex /
-         Energy / Outside), each with catalyst (same-day OR multi-day swing) + entry + stop
-         (20% below) + target; note whole-share-fit vs the per-position budget (fractional if
-         pricier); risk factors; decision (default HOLD).
+         up to 3 trade ideas drawn from the BUCKETS.md watchlist, chosen to move the book TOWARD the
+         composition floor (<=2 AI-complex, >=1 Energy, exactly 1 Outside) — include an Outside
+         diversifier idea when the slot is open. Tag each idea: bucket (AI-complex/Energy/Outside)
+         + lane (same-day catalyst | multi-day swing) + catalyst + entry + stop (20% below) + target
+         + R:R. Note whole-share-fit vs the per-position budget (1 share <= ~$250 -> whole-share +
+         resting stop; else fractional + software stop). For any OFF-watchlist Outside idea, apply
+         the BUCKETS.md §5 Tier-1 gate here: log the multi-day catalyst AND >=1 confirming Tier-1
+         indicator (trend vs moving average / volume / sector momentum via get_equity_historicals);
+         no confirmation -> drop the idea. Risk factors; decision (default HOLD).
 STEP 5 — Notification (ALWAYS send one concise Telegram, <= 8 lines):
          bash scripts/notify.sh "PRE-MKT MMM DD
          Acct: \$X (±X% vs \$500)  Kill-switch: OK|HIT

@@ -1,5 +1,19 @@
 # Trade Log
 
+## Schema (Phase B — every routine reads/writes these)
+Bucket engine + composition/de-dup/cadence/Tier-1 rules live in `memory/BUCKETS.md`.
+
+**Open-position row** (keep one current line per open lot; this is the state the routines count):
+`- SYM | bucket=<AI-complex|Energy|Outside> | qty=<N sh | $A frac> | entry=$X | stop=$X |`
+`  protection=<resting ORDER_ID | software $X> | lane=<catalyst|swing> | opened=YYYY-MM-DD`
+- `protection=resting <id>` → whole-share lot with a broker `stop_market` GTC resting (re-peg each run).
+- `protection=software $X` → fractional lot, NO resting order; sell at the scan if price ≤ $X.
+
+**EOD snapshot** carries a position table + two state lines:
+| Ticker | Bucket | Shares | Entry | Close | Day Chg | Unrealized P&L | Stop | Protection |
+- `Book: n/4 | AI-complex a/2 · Energy e · Outside o/1 | dedup OK` — composition vs the floor.
+- `Cadence: wk of YYYY-MM-DD (wk #k) | opening trades u/CAP` — CAP=4 in week 1, else 3 (BUY-to-open only).
+
 ## Day 0 — EOD Snapshot (pre-launch baseline)
 **Portfolio:** $500.00 | **Cash:** $475.00 | **Day P&L:** $0 | **Phase P&L:** $0
 Pre-existing lot: QQQ ~0.035 shares (~$25, fractional) — to be liquidated on the
@@ -18,12 +32,15 @@ Tonight's EOD snapshot (16:15) records the flat book live. STEP 0 will auto-skip
 ### Jul 09 — EOD Snapshot (Day 1, Thursday)
 **Portfolio:** $500.49 | **Cash:** $500.49 (100%) | **Day P&L:** +$0.49 (+0.10%) | **Phase P&L:** +$0.49 (+0.10%)
 
-| Ticker | Shares | Entry | Close | Day Chg | Unrealized P&L | Stop |
-| — | — | — | — | — | — | — |
-| (none) | — | — | — | — | — | — |
+| Ticker | Bucket | Shares | Entry | Close | Day Chg | Unrealized P&L | Stop | Protection |
+| — | — | — | — | — | — | — | — | — |
+| (none) | — | — | — | — | — | — | — | — |
+
+**Book:** 0/4 | AI-complex 0/2 · Energy 0 · Outside 0/1 | dedup OK
+**Cadence:** wk of Jul 06 (wk #1) | opening trades 0/4
 
 **Notes:** Phase 2 armed today. First-run housekeeping done: liquidated the pre-existing
 fractional QQQ lot (0.035 sh) at $723.55 vs $709.74 cost — cleared the book for a clean
-start, netting +$0.49. No discretionary positions opened; 0 of 3 weekly new-trade budget used.
+start, netting +$0.49. No discretionary positions opened; 0 opening trades used (week-1 cap 4).
 Fully in cash ($500.49; buying power $475 pending settlement). Kill-switch OK. Book is clean
 and ready for first discretionary entries next session.

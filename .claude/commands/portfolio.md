@@ -7,5 +7,7 @@ Do NOT place, modify, or cancel any order.
 4. get_equity_orders(604803171) — any resting/open orders (esp. stops).
 5. get_equity_quotes for each held symbol; compute unrealized P&L.
 Print a clean snapshot: equity, cash, deployed %, each position with unrealized P&L, its bucket
-(AI-complex/Energy/Outside) and its stop (resting or software), and drawdown vs the $500 start
-(kill-switch status, ≤ $250 = HIT). No commit.
+(classify via memory/BUCKETS.md — AI-complex/Energy/Outside) and its protection (resting or
+software, from the TRADE-LOG open-position row), the `Book:` composition line vs the floor
+(≤2 AI-complex · ≥1 Energy · exactly 1 Outside), and drawdown vs the $500 start (kill-switch
+status, ≤ $250 = HIT). No commit.

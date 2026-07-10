@@ -10,6 +10,7 @@ Communicate ultra-concise: short bullets, no fluff.
 - memory/TRADE-LOG.md       — open positions, entries, stops, EOD snapshots.
 - memory/RESEARCH-LOG.md    — today's research before any trade.
 - memory/PROJECT-CONTEXT.md — mission, guardrails, open items.
+- memory/BUCKETS.md         — deterministic bucket lookup + buy-gate (G1–G10) + cadence + Tier-1 gate.
 
 ## Trading interface
 Robinhood is an MCP connector (`Robhinhood` namespace). Call its tools directly:
@@ -26,7 +27,7 @@ get_equity_orders, review_equity_order, place_equity_order, cancel_equity_order.
 - No options / no crypto. US stocks & ETFs only.
 - Max 4 positions, each <= 50% ($250). ~100% deployed (whole-share remainder in cash).
 - Composition floor: <=2 AI-complex + >=1 Energy + exactly 1 Outside. De-dup: ETF or its
-  constituents, never both.
+  constituents, never both. Classify every candidate + run the buy-gate via memory/BUCKETS.md.
 - 20%-below-entry stop on every position (resting if whole-share, software if fractional);
   ratchet to 7% at +15%, 5% at +20%. Never move a stop down or within 3% of price.
 - Cut losers at -20%. Two lanes: same-day catalyst OR multi-day swing.

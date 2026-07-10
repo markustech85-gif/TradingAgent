@@ -25,7 +25,10 @@ US-listed stocks and ETFs only — no options, no crypto. Discipline is the hard
   - Tag every position's protection type in TRADE-LOG (`resting` vs `software`).
 
 ## Composition Floor (diversification — enforced by bucket)
-Every ticker maps to exactly one bucket (see Watchlist). At full deployment:
+Every ticker maps to exactly one bucket (see Watchlist). The flattened ticker→bucket lookup, the
+de-dup adjacency, the ordered buy-gate (G1–G10), cadence counting, and the off-list Tier-1 gate are
+operationalized in **`memory/BUCKETS.md`** — the routines run that as the deterministic engine.
+At full deployment:
 - **≤2 AI-complex** + **≥1 Energy** + **exactly 1 Outside** → AI capped ~50%, two uncorrelated legs.
 - Partial book (<4): whenever ≥2 positions are held, at least one must be a non-AI-complex leg
   (Energy or Outside).

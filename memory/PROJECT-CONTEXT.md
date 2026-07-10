@@ -58,4 +58,5 @@ Progress as of 2026-07-08:
   denies in .claude/settings.json) + first-run fractional-QQQ liquidation. Optional: §13 heartbeat check.
 
 ## Key files (read every session)
-- memory/STRATEGY.md, TRADE-LOG.md, RESEARCH-LOG.md, PROJECT-CONTEXT.md
+- memory/STRATEGY.md, BUCKETS.md, TRADE-LOG.md, RESEARCH-LOG.md, PROJECT-CONTEXT.md
+  (BUCKETS.md = the deterministic bucket/composition/cadence/Tier-1 engine the routines run.)
