@@ -66,3 +66,31 @@ Preserve capital; revisit at market-open. Watch XLE for a pullback entry vs a ch
 ### Decision
 HOLD. Day 2, whipsaw tape, no sub-$90 name with a hard same-day 2:1 catalyst, Phase 1 gating in effect.
 Preserve capital. Watch PFE as defensive add if risk-off resumes; revisit at market-open.
+
+## 2026-07-10 — Pre-market Research
+### Account
+- Equity $0 / Cash $500.49 / Buying power $500.49 / Total $500.49. Book FLAT (0/4).
+- Drawdown vs $500 start: +0.10% — kill-switch clear. No positions, no resting stops.
+- Phase 2 LIVE (order tools armed). Cadence: wk of Jul 06 (wk #1) | opening trades 0/4.
+### Market Context
+- Mild risk-OFF / rotation. ES Sep futures ~7,575–7,582 (~-0.1%); **Nasdaq-100 futures ~-1.3%** — tech-led weakness.
+- Tape (pre-mkt vs prior close): QQQ $720.25 (-0.4%), SMH $602 (-1.0%, semis soft), VRT $322.5 (-0.4%).
+  Energy FIRM: XLE $55.09 (+0.5%), URA $43.00 (+1.5%). Defensives firm: XLV $162.88 (+0.4%), XLP $83.52 (+0.4%). GLD -0.5%, GDX -0.5%.
+- Rotation read: OUT of AI/semis → INTO Energy + Healthcare/Staples (defensive). Same pattern as prior 2 sessions.
+- VIX calm/lower. Econ: NO major confirmed release today (June CPI=Jul 14, PPI=Jul 15, FOMC=Jul 29). NFIB/ADP-weekly minor.
+- CAUTION: Perplexity's "Iran ceasefire over / oil spike" narrative is recycled from Jul 8–9 — treating as STALE/unconfirmed. Energy strength in the tape is real regardless.
+### Trade Ideas (build toward composition floor from flat book — seed Energy + Outside first, defer AI into soft-tech tape)
+1. XLE — **Energy** (ETF), **swing lane**. Catalyst: energy sector leadership vs soft tech; multi-day relative-strength theme.
+   Entry ~$55.10 (ask), stop $44.08 (-20%), target $62 (+12.5%). R:R structural ~0.6:1 on 20% stop; swing target ~1.6:1 to first resistance.
+   Whole-share fit: ~4 sh @ $55 ≈ $220 ≤ $250 → whole-share + RESTING stop. Fills the Energy floor (≥1).
+2. XLV — **Outside** (healthcare, on-watchlist rotating alt), **swing lane**. Catalyst: defensive rotation as tech softens; XLV firm 3 sessions.
+   Entry ~$162.85, stop $130.28 (-20%), target $178 (+9.3%). Whole-share fit: 1 sh $163 ≤ $250 → whole-share + RESTING stop. Fills the Outside slot (exactly 1).
+3. QTUM — **AI-complex** (quantum tilt ETF), **swing lane**, LOWER priority. Catalyst: relative strength — green (+0.5%) while QQQ/SMH red.
+   Entry ~$156.25, stop $125.00 (-20%), target $185 (+18%). Whole-share fit: 1 sh $156 ≤ $250 → whole-share + RESTING stop. WATCH only — adding AI into a -1.3% Nasdaq tape is chasing; wait for tech to stabilize.
+### Risk Factors
+- Tech is index-heavy; a -1.3% Nasdaq drag can pull the whole tape risk-off, including defensives late in the day.
+- Energy "leadership" partly rests on an unconfirmed/stale geopolitical headline — can whipsaw fast if it's already priced/faded.
+- 20%-structural stops mean any single entry risks ~$44 max; discipline = don't force 4 slots. UFO pre-mkt bid/ask is wide ($46.50/$51.77) — illiquid, avoid at open.
+- Day 3, wk-1 cadence has room (0/4) but overtrading is the documented failure mode.
+### Decision
+WATCH. Pre-market does not arm orders. At market-open, prioritize **XLE (Energy)** and **XLV (Outside)** as the disciplined first two legs IF they hold their pre-mkt bid and the tape isn't cratering; defer QTUM/AI until semis stabilize. Default to patience — a partial book (or none) beats forcing entries into a risk-off open.
