@@ -14,6 +14,21 @@ Bucket engine + composition/de-dup/cadence/Tier-1 rules live in `memory/BUCKETS.
 - `Book: n/4 | AI-complex a/2 · Energy e · Outside o/1 | dedup OK` — composition vs the floor.
 - `Cadence: wk of YYYY-MM-DD (wk #k) | opening trades u/CAP` — CAP=4 in week 1, else 3 (BUY-to-open only).
 
+## Jul 10 — FIRST LIVE POSITIONS OPENED (blocker cleared, ~09:57 ET)
+Investor-profile gate resolved (user completed it mid-morning). Placed the two intended legs
+in-session (human-approved), both filled, both protected with resting 20% stops. No API 400.
+
+**Open positions (live state — routines count these):**
+- XLE | bucket=Energy | qty=4 sh | entry=$54.97 | stop=$43.98 | protection=resting 6a50fa5e-f071-4338-97a1-1a0ea355ba89 | lane=swing | opened=2026-07-10
+- XLV | bucket=Outside | qty=1 sh | entry=$161.53 | stop=$129.22 | protection=resting 6a50fa42-d10b-4a94-8bd8-74beb5a96ad5 | lane=swing | opened=2026-07-10
+
+Fills: XLE 4 sh @ $54.97 (buy ref_id d9eb4ff9…, order 6a50fa0e…); XLV 1 sh @ $161.5299 (buy ref_id fa0f3cf0…, order 6a50fa10…). $0 fees.
+Targets (≥2:1): XLE ~$62, XLV ~$178.
+**Book:** 2/4 | AI-complex 0/2 · Energy 1 · Outside 1/1 | dedup OK
+**Cadence:** wk of Jul 06 (wk #1) | opening trades 2/4
+Portfolio: $500.51 | equity $381.43 | cash $119.08. Kill-switch OK. Room for up to 2 more legs
+(need ≤2 AI-complex to complete the floor; 2 opening trades left this week).
+
 ## Jul 10 — Market-open BLOCKED by Robinhood investor-profile gate (no fills)
 First live discretionary run. Book flat, kill-switch OK ($500.49). Gate passed 2 legs
 (XLE Energy, XLV Outside); QTUM/AI deferred per research. **place_equity_order returned
