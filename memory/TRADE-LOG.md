@@ -14,6 +14,20 @@ Bucket engine + composition/de-dup/cadence/Tier-1 rules live in `memory/BUCKETS.
 - `Book: n/4 | AI-complex a/2 · Energy e · Outside o/1 | dedup OK` — composition vs the floor.
 - `Cadence: wk of YYYY-MM-DD (wk #k) | opening trades u/CAP` — CAP=4 in week 1, else 3 (BUY-to-open only).
 
+## Jul 10 — Market-open BLOCKED by Robinhood investor-profile gate (no fills)
+First live discretionary run. Book flat, kill-switch OK ($500.49). Gate passed 2 legs
+(XLE Energy, XLV Outside); QTUM/AI deferred per research. **place_equity_order returned
+API 400** — Robinhood requires the account's investor profile completed before the SECOND
+trade (the Jul 7 QQQ buy + Jul 9 sell = trade #1). This is an ACCOUNT-level block, not a
+tool deny — ALL equity trades blocked until a human completes:
+https://applink.robinhood.com/investment_profile?account_number=604803171&context=second_trade
+No orders placed, no stops (no positions), no cadence used (still 0/4). Retry next run once
+profile is done.
+- INTENDED (not armed): XLE — Energy, BUY 4 sh @ ~$54.97 (limit $55.15 marketable), stop
+  $43.98 (-20%), resting, swing lane, target $62. ref_id d3f8a1c2 (rejected).
+- INTENDED (not armed): XLV — Outside, BUY 1 sh @ ~$162.56, stop $130.05 (-20%), resting,
+  swing lane, target $178.
+
 ## Day 0 — EOD Snapshot (pre-launch baseline)
 **Portfolio:** $500.00 | **Cash:** $475.00 | **Day P&L:** $0 | **Phase P&L:** $0
 Pre-existing lot: QQQ ~0.035 shares (~$25, fractional) — to be liquidated on the
