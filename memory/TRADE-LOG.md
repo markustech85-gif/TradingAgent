@@ -106,3 +106,22 @@ protected with a resting 20% stop_market GTC. XLE closed slightly green (+0.19%)
 (−0.40%); both far above stops, neither near a ratchet trigger. Day flat (+$0.05) vs Jul 09 EOD.
 Portfolio $500.54, cash $119.08. Kill-switch OK. Composition floor progressing: need ≤2 AI-complex
 legs to complete it; 2 opening trades remain this week (cap 4).
+
+### Jul 13 — EOD Snapshot (Day 3, Monday)
+**Portfolio:** $508.42 | **Cash:** $119.08 (23.4%) | **Day P&L:** +$7.88 (+1.57%) | **Phase P&L:** +$8.42 (+1.68%)
+
+| Ticker | Bucket | Shares | Entry | Close | Day Chg | Unrealized P&L | Stop | Protection |
+| — | — | — | — | — | — | — | — | — |
+| XLE | Energy | 4 | $54.97 | $56.75 | +3.03% | +$7.12 (+3.24%) | $43.98 | resting 6a50fa5e |
+| XLV | Outside | 1 | $161.53 | $161.38 | +0.34% | −$0.15 (−0.09%) | $129.22 | resting 6a50fa42 |
+
+**Book:** 2/4 | AI-complex 0/2 · Energy 1 · Outside 1/1 | dedup OK
+**Cadence:** wk of Jul 13 (wk #2) | opening trades 0/3
+
+**Notes:** Strong day for Energy — XLE +3.03% on the session, lifting the position to +3.24% vs entry
+and the account to a new high of $508.42 (+1.68% phase). XLV essentially flat (+0.34% day, −0.09% vs
+entry), holding its defensive role. No trades today; new week (wk #2) opens 0/3 on the opening-trade
+cadence. Both lots sit far above their 20% stops (resting GTC, confirmed, zero fills) and neither is
+near a +15%/+20% ratchet trigger, so no stop moves. Cash held at $119.08 ahead of tomorrow's CPI
+print (Jul 14) — event risk kept dry per pre-market plan. Kill-switch OK. Composition floor still
+needs AI-complex legs; room for up to 2 more positions and 3 opening trades this week.
