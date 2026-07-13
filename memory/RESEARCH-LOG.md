@@ -1,5 +1,28 @@
 # Research Log
 
+## 2026-07-13 — Pre-market Research
+### Account
+- Equity $384.62 / Cash $119.08 / Buying power $119.08 / Total $503.70. Book 2/4.
+- Drawdown vs $500 start: **+0.74%** — kill-switch clear ($250 trip far off).
+- Cadence: NEW WEEK. Wk of Jul 06 was wk #1 (first trade Jul 10). **Now wk of Jul 13 (wk #2) → CAP=3, opening trades 0/3.**
+- Held: XLE 4 sh @ $54.97 (stop $43.98 resting), XLV 1 sh @ $161.53 (stop $129.22 resting). Both intact.
+### Market Context
+- Mild risk-OFF, cautious ahead of **June CPI (tomorrow, Jul 14)**. ES Sep ~7,587 (−0.4%); S&P closed 7,620 Jul 10 (1-mo high).
+- Tape (pre-mkt non-reg vs Jul 10 close): QQQ $718.3 (−1.0%), SMH $599.4 (−1.9% semis rolling over), VRT $312 (−2.1%). AI-complex SOFT.
+- Firm: XLE $55.74 (+1.2%), XLV $161.65 (+0.5%), XLF $55.87 (+0.3%), XLP +0.2%. Soft: URA −1.9%, GLD −1.2%, GDX −1.4%, UFO −1.7%.
+- Rotation read: OUT of AI/semis → INTO Energy + defensives (healthcare/financials) — SAME pattern 3+ sessions. Favorable for current book.
+- Econ week: **CPI Jul 14**, PPI Jul 15, retail sales, FOMC Jul 29. VIX calm. Earnings season kicking off. Iran de-escalation → crude soft (mild energy headwind, but XLE holding).
+### Trade Ideas (toward composition floor: need ≤2 AI-complex; Energy 1 & Outside 1 already filled)
+1. QTUM — **AI-complex** (quantum ETF), swing lane, **WATCH ONLY**. Would begin the AI leg (floor allows ≤2). Quote ~$154 (roughly flat vs $154.46; wide bid/ask 152/154.36). 1 whole share $154 > $119 cash → can't afford whole-share; only ~$100 fractional + software stop. Catalyst thin; adding AI into −1.9% semis / pre-CPI risk-off = chasing. DEFER until tech stabilizes post-CPI. Entry ~$154, stop $123 (−20%), target $185.
+2. No Energy add — floor met (1). URA soft (−1.9%), no catalyst; energy singles (VST/CEG) > cash budget. Skip.
+3. No Outside add — slot filled (XLV, 1/1). G5 blocks a 2nd Outside.
+### Risk Factors
+- CPI tomorrow = binary event risk; a hot print reprices the whole tape. Don't deploy scarce cash ($119) into a chase the day before.
+- Strongest momentum sector (AI/semis) is BOTH rolling over AND priced above our $119 cash → no clean AI entry exists. Universe + cash constraint.
+- Cash-account: only $119.08 settled → any new leg is fractional/software-stop and small; not worth forcing pre-CPI.
+### Decision
+**HOLD.** Both legs green/flat, theses intact (energy relative strength + defensive rotation), stops resting far below. No new-trade catalyst clears the gate: AI names soft + unaffordable whole-share, other buckets full or without catalyst, CPI event risk tomorrow. Preserve $119 cash. Re-evaluate AI leg (QTUM/QQQ) after CPI if tech stabilizes. Pre-market does not arm orders regardless.
+
 ## YYYY-MM-DD — Pre-market Research
 ### Account
 - Equity / Cash / Buying power:
