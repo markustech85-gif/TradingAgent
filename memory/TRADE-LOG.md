@@ -14,6 +14,14 @@ Bucket engine + composition/de-dup/cadence/Tier-1 rules live in `memory/BUCKETS.
 - `Book: n/4 | AI-complex a/2 · Energy e · Outside o/1 | dedup OK` — composition vs the floor.
 - `Cadence: wk of YYYY-MM-DD (wk #k) | opening trades u/CAP` — CAP=4 in week 1, else 3 (BUY-to-open only).
 
+## Jul 13 — MIDDAY scan (no actions)
+Reconciled live vs book. Both lots above stops, no ratchet trigger, theses intact.
+- XLE $56.43 (+2.66% vs entry) — stop $43.98 resting (6a50fa5e, confirmed/no fills). Hold. Energy firm (+2.5% today).
+- XLV $161.33 (−0.12% vs entry) — stop $129.22 resting (6a50fa42, confirmed/no fills). Hold. Defensive flat.
+No cuts (neither ≤ −20%), no thesis breaks, no stop re-pegs (neither at +15%/+20%).
+Portfolio $506.10 | equity $387.02 | cash $119.08. Drawdown +1.22% vs $500. Kill-switch OK.
+Note: CPI tomorrow (Jul 14) = event risk; preserving $119 cash per pre-market decision.
+
 ## Jul 10 — FIRST LIVE POSITIONS OPENED (blocker cleared, ~09:57 ET)
 Investor-profile gate resolved (user completed it mid-morning). Placed the two intended legs
 in-session (human-approved), both filled, both protected with resting 20% stops. No API 400.
