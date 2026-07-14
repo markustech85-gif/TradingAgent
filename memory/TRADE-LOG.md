@@ -14,6 +14,25 @@ Bucket engine + composition/de-dup/cadence/Tier-1 rules live in `memory/BUCKETS.
 - `Book: n/4 | AI-complex a/2 · Energy e · Outside o/1 | dedup OK` — composition vs the floor.
 - `Cadence: wk of YYYY-MM-DD (wk #k) | opening trades u/CAP` — CAP=4 in week 1, else 3 (BUY-to-open only).
 
+## Jul 14 — MARKET-OPEN: SMH AI-complex leg opened (post-CPI, ~09:31 ET)
+CPI-day open: benign print → risk-on tape (SMH +3.4%, QQQ +1.0%, VRT +3.4%). Executed the
+pre-market-planned AI-complex add to open the composition floor. Gate G1–G10 all PASS
+(B′={XLE·en, XLV·out, SMH·ai}, |B′|=3; cadence 0→1/3). Fractional (whole share $606 > $119 cash).
+- SMH | BUCKET=AI-complex | BUY | $110 fractional (0.182021 sh) | entry=$604.3248 | stop=$483.46
+  (−20% SOFTWARE — no resting stop on fractional; sold at scan if price ≤ $483.46) | lane=swing
+  | thesis: semis reversing up off prior rollover, AI-capex intact, CPI relief | target=$690 (+14.2%)
+  | R:R structural <1:1 on 20% stop (catastrophe stop), swing thesis-driven | buy ref_id b8230870-c38c-4ba7-8fe7-7ddead90f683 (order 6a563a26, filled @ $604.3248, $0 fees)
+- No action on XLE (+4.0%) / XLV (−1.3%): both above stops, neither at −20% or a +15% ratchet.
+
+**Open positions (live state — routines count these):**
+- XLE | bucket=Energy | qty=4 sh | entry=$54.97 | stop=$43.98 | protection=resting 6a50fa5e-f071-4338-97a1-1a0ea355ba89 | lane=swing | opened=2026-07-10
+- XLV | bucket=Outside | qty=1 sh | entry=$161.53 | stop=$129.22 | protection=resting 6a50fa42-d10b-4a94-8bd8-74beb5a96ad5 | lane=swing | opened=2026-07-10
+- SMH | bucket=AI-complex | qty=$110 frac (0.182021 sh) | entry=$604.3248 | stop=$483.46 | protection=software $483.46 | lane=swing | opened=2026-07-14
+
+**Book:** 3/4 | AI-complex 1/2 · Energy 1 · Outside 1/1 | dedup OK
+**Cadence:** wk of Jul 13 (wk #2) | opening trades 1/3
+Portfolio $507.22 | equity $388.14 → ~$498 deployed post-fill | cash ~$9. Kill-switch OK.
+
 ## Jul 13 — MIDDAY scan (no actions)
 Reconciled live vs book. Both lots above stops, no ratchet trigger, theses intact.
 - XLE $56.43 (+2.66% vs entry) — stop $43.98 resting (6a50fa5e, confirmed/no fills). Hold. Energy firm (+2.5% today).
