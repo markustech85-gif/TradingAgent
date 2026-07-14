@@ -117,3 +117,34 @@ Preserve capital. Watch PFE as defensive add if risk-off resumes; revisit at mar
 - Day 3, wk-1 cadence has room (0/4) but overtrading is the documented failure mode.
 ### Decision
 WATCH. Pre-market does not arm orders. At market-open, prioritize **XLE (Energy)** and **XLV (Outside)** as the disciplined first two legs IF they hold their pre-mkt bid and the tape isn't cratering; defer QTUM/AI until semis stabilize. Default to patience — a partial book (or none) beats forcing entries into a risk-off open.
+
+## 2026-07-14 — Pre-market Research
+### Account
+- Total $508.30 | Equity $389.22 | Cash/buying power $119.08 | vs $500 start: **+1.66%** — kill-switch OK.
+- Book 2/4: XLE 4 sh @ $54.97 (Energy; pre-mkt ~$57.01 → **+3.7%**; resting stop $43.98 id 6a50fa5e) ·
+  XLV 1 sh @ $161.53 (Outside; pre-mkt ~$161.18 → **−0.2%**; resting stop $129.22 id 6a50fa42).
+- Composition: AI-complex 0/2 · Energy 1 · Outside 1/1 · dedup OK. Cadence wk of Jul 13 (wk #2) | opening trades **0/3**.
+- Both stops confirmed GTC, zero fills; neither near a +15%/+20% ratchet. Phase 2 LIVE.
+### Market Context
+- **CPI DAY** — June CPI at 8:30 AM ET is the dominant catalyst. Print → reaction, not pre-position. Next: PPI Jul 15, FOMC Jul 29.
+- Tape MIXED. Overnight index futures soft on a recycled Iran/Hormuz headline (Nasdaq fut −1.37%, ES −0.1 to −0.6% on stale early-AM data),
+  but pre-market equity quotes FIRM: QQQ $715.6 (+0.5%), **SMH $601 (+2.6%, semis bouncing hard)**, VRT $311.5 (+1.8%), XLE $57.01 (+0.5%).
+- Sector momentum: **Energy leads** (XLE Strong Buy, RSI ~70, +5.86% 5-day; Goldman "Top 10 energy, 26% upside"). Semis reversing up.
+  Gold firm (GLD +0.75%) on geopolitics. Financials soft (XLF −0.5%). Healthcare flat (XLV −0.2%, no fresh catalyst).
+- VIX not reported by feed; likely modestly elevated on Iran/oil + CPI risk. Treat Iran "ceasefire over" narrative as recycled/stale (dates to Jul 8).
+### Trade Ideas (move book toward floor — AI-complex is the open gap; cash caps any add to ~$119 → fractional + software stop)
+1. **SMH — AI-complex (semis ETF), swing/catalyst lane.** Catalyst: semis reversing up (+2.6% pre-mkt) off the prior 2-day rollover; AI-capex theme intact.
+   Entry ~$601 (fractional ~$110), stop $480.80 (−20% software), target $690 (+14.8%). Fills 1st AI-complex slot. Whole share ($601) > $119 cash → **fractional + software stop**.
+2. **QQQ — AI-complex (broad Nasdaq-100), swing lane.** Lower-vol alternative to SMH; broad exposure. Catalyst: tech firm pre-mkt (+0.5%), post-CPI stabilization.
+   Entry ~$715.6 (fractional ~$110), stop $572.5 (−20% software), target $790 (+10%). Substitute for SMH — hold at most one broad-AI. **Fractional + software stop**.
+3. **VRT — AI-complex single (data-center power), swing lane.** Catalyst: AI-capex + power-demand crossover (+1.8% pre-mkt); independent of the broad-AI slot.
+   Entry ~$311.5 (fractional ~$110), stop $249.2 (−20% software), target $360 (+15.6%). **Fractional + software stop**. Third-choice — single-name vol.
+### Risk Factors
+- CPI at 8:30 ET can whipsaw the whole tape both ways in minutes — do NOT arm an AI add before the print; react to it.
+- Only $119 cash → any add is a small fractional lot with a SOFTWARE stop (between-scan gap risk); 20% stop = ~$22 max risk on a $110 lot.
+- Overnight futures/equity-quote divergence (futures red, pre-mkt green) = unsettled tape; open could gap either way.
+- Semi "bounce" is one session — could fade if CPI runs hot and yields rise. Don't chase a green pre-mkt tick into a hot print.
+### Decision
+**WATCH.** Pre-market does not arm orders. Plan for market-open: HOLD XLE + XLV (both healthy, above stops, no ratchet); consider adding **ONE** AI-complex
+fractional leg (**SMH** preferred on semi momentum, else QQQ) to open the composition floor — but ONLY after the 8:30 CPI print and if the tape holds and CPI is not a shock.
+Cadence has room (0/3). Default to patience: a hot CPI or risk-off open = no add. Re-peg nothing (no position near a ratchet).
