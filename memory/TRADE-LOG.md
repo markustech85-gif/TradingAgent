@@ -152,3 +152,23 @@ cadence. Both lots sit far above their 20% stops (resting GTC, confirmed, zero f
 near a +15%/+20% ratchet trigger, so no stop moves. Cash held at $119.08 ahead of tomorrow's CPI
 print (Jul 14) — event risk kept dry per pre-market plan. Kill-switch OK. Composition floor still
 needs AI-complex legs; room for up to 2 more positions and 3 opening trades this week.
+
+### Jul 14 — EOD Snapshot (Day 4, Tuesday)
+**Portfolio:** $504.23 | **Cash:** $9.08 (1.8%) | **Day P&L:** −$4.19 (−0.82%) | **Phase P&L:** +$4.23 (+0.85%)
+
+| Ticker | Bucket | Shares | Entry | Close | Day Chg | Unrealized P&L | Stop | Protection |
+| — | — | — | — | — | — | — | — | — |
+| XLE | Energy | 4 | $54.97 | $56.95 | +0.37% | +$7.92 (+3.60%) | $43.98 | resting 6a50fa5e |
+| XLV | Outside | 1 | $161.53 | $158.28 | −1.94% | −$3.26 (−2.02%) | $129.22 | resting 6a50fa42 |
+| SMH | AI-complex | 0.182021 | $604.32 | $600.04 | +2.46% | −$0.78 (−0.71%) | $483.46 | software (fractional) |
+
+**Book:** 3/4 | AI-complex 1/2 · Energy 1 · Outside 1/1 | dedup OK
+**Cadence:** wk of Jul 13 (wk #2) | opening trades 1/3
+**Notes:** Added the first AI-complex leg at market-open — SMH 0.182021 sh @ $604.32 ($110 fractional,
+software stop $483.46) — advancing the composition floor to AI-complex 1/2 (book 3/4). Account slipped
+−0.82% on the day to $504.23 despite a risk-on CPI-day tape: XLV rotated down −1.94% (defensives sold as
+risk assets bid) and our SMH lot sits −0.71% vs entry after we bought near the intraday highs (semis +2.46%
+on the session). XLE held firm (+0.37% day, +3.60% vs entry), the clear leader. No cuts (none ≤ −20%), no
+thesis breaks, no ratchet triggers (none at +15%/+20%), stops unchanged. Cash drawn down to $9.08 (~98%
+deployed) as planned. Kill-switch OK (+0.85% phase). Room for 1 more position and 2 opening trades this week;
+one more AI-complex leg would complete the floor at ≤2.
