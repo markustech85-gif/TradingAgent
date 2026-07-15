@@ -33,6 +33,14 @@ pre-market-planned AI-complex add to open the composition floor. Gate G1–G10 a
 **Cadence:** wk of Jul 13 (wk #2) | opening trades 1/3
 Portfolio $507.22 | equity $388.14 → ~$498 deployed post-fill | cash ~$9. Kill-switch OK.
 
+## Jul 15 — MIDDAY scan (no actions)
+Reconciled live vs book (3/4). All lots above stops, no ratchet trigger, no thesis break. PPI day.
+- XLE $56.05 (+1.96% vs entry; −1.58% day) — resting stop $43.98 (6a50fa5e, confirmed, 0 fills). Hold. Energy consolidating after run, still book leader.
+- XLV $159.15 (−1.47% vs entry; +0.54% day) — resting stop $129.22 (6a50fa42, confirmed, 0 fills). Hold. Defensive ballast, firm on the day.
+- SMH $582.62 (−3.59% vs entry; −2.95% day) — software stop $483.46. Hold. Semis pulling back intraday but far above stop; AI-capex thesis intact, single-session move.
+No cuts (none ≤ −20%), no thesis breaks, no stop re-pegs (none at +15%/+20%). Cash $9.08 — no add fundable.
+Portfolio $498.47 | equity $489.40 | cash $9.08. Drawdown −0.31% vs $500. Kill-switch OK.
+
 ## Jul 14 — MIDDAY scan (no actions)
 Reconciled live vs book (3/4). All lots above stops, no ratchet trigger, no thesis break.
 - XLE $56.665 (+3.08% vs entry) — resting stop $43.98 (6a50fa5e, confirmed, 0 fills). Hold. Energy firm.
