@@ -31,7 +31,7 @@ pre-market-planned AI-complex add to open the composition floor. Gate G1–G10 a
 
 **Book:** 3/4 | AI-complex 1/2 · Energy 1 · Outside 1/1 | dedup OK
 **Cadence:** wk of Jul 13 (wk #2) | opening trades 1/3
-Portfolio $507.22 | equity $388.14 → ~$498 deployed post-fill | cash ~$9. Kill-switch OK.
+Portfolio $501.07 | equity $491.99 | cash $9.08 (as of Jul 15 EOD). Kill-switch OK.
 
 ## Jul 15 — MIDDAY scan (no actions)
 Reconciled live vs book (3/4). All lots above stops, no ratchet trigger, no thesis break. PPI day.
@@ -180,3 +180,22 @@ on the session). XLE held firm (+0.37% day, +3.60% vs entry), the clear leader. 
 thesis breaks, no ratchet triggers (none at +15%/+20%), stops unchanged. Cash drawn down to $9.08 (~98%
 deployed) as planned. Kill-switch OK (+0.85% phase). Room for 1 more position and 2 opening trades this week;
 one more AI-complex leg would complete the floor at ≤2.
+
+### Jul 15 — EOD Snapshot (Day 5, Wednesday)
+**Portfolio:** $501.07 | **Cash:** $9.08 (1.8%) | **Day P&L:** −$3.16 (−0.63%) | **Phase P&L:** +$1.07 (+0.21%)
+
+| Ticker | Bucket | Shares | Entry | Close | Day Chg | Unrealized P&L | Stop | Protection |
+| — | — | — | — | — | — | — | — | — |
+| XLE | Energy | 4 | $54.97 | $56.49 | −0.81% | +$6.08 (+2.77%) | $43.98 | resting 6a50fa5e |
+| XLV | Outside | 1 | $161.53 | $158.33 | +0.03% | −$3.20 (−1.98%) | $129.22 | resting 6a50fa42 |
+| SMH | AI-complex | 0.182021 | $604.32 | $590.54 | −1.63% | −$2.51 (−2.28%) | $483.46 | software (fractional) |
+
+**Book:** 3/4 | AI-complex 1/2 · Energy 1 · Outside 1/1 | dedup OK
+**Cadence:** wk of Jul 13 (wk #2) | opening trades 1/3
+**Notes:** Quiet PPI-day session, account off −0.63% to $501.07 (+0.21% phase, still above the $500 start).
+No trades today (wk #2 opening trades hold at 1/3). Semis extended their pullback — SMH −1.63% on the day to
+$590.54, now −2.28% vs Tue's entry as the post-CPI semis pop fades. XLE gave back −0.81% but remains the book
+leader at +2.77% vs entry; XLV essentially flat (+0.03%) holding its defensive ballast role at −1.98% vs entry.
+No cuts (none ≤ −20%), no thesis breaks, no ratchet triggers (none at +15%/+20%), stops unchanged — XLE/XLV
+resting GTC (confirmed, 0 fills), SMH software $483.46. Cash $9.08 (~98% deployed), no add fundable. Kill-switch
+OK. Room for 1 more position + 2 opening trades this week; one more AI-complex leg would complete the floor at ≤2.
