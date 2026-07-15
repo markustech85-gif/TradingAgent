@@ -148,3 +148,30 @@ WATCH. Pre-market does not arm orders. At market-open, prioritize **XLE (Energy)
 **WATCH.** Pre-market does not arm orders. Plan for market-open: HOLD XLE + XLV (both healthy, above stops, no ratchet); consider adding **ONE** AI-complex
 fractional leg (**SMH** preferred on semi momentum, else QQQ) to open the composition floor — but ONLY after the 8:30 CPI print and if the tape holds and CPI is not a shock.
 Cadence has room (0/3). Default to patience: a hot CPI or risk-off open = no add. Re-peg nothing (no position near a ratchet).
+
+## 2026-07-15 — Pre-market Research
+### Account
+- Total $504.35 | Equity $495.27 | Cash/buying power **$9.08** | vs $500 start: **+0.87%** — kill-switch OK.
+- Book 3/4: XLE 4 sh @ $54.97 (Energy; pre-mkt ~$56.90 → **+3.5%**; resting stop $43.98 id 6a50fa5e) ·
+  XLV 1 sh @ $161.53 (Outside; pre-mkt ~$157.35 → **−2.6%**; resting stop $129.22 id 6a50fa42) ·
+  SMH 0.182021 sh @ $604.33 (AI-complex; pre-mkt ~$606.10 → **+0.3%**; software stop $483.46).
+- Composition: AI-complex 1/2 · Energy 1 · Outside 1/1 · dedup OK. Cadence wk of Jul 13 (wk #2) | opening trades **1/3**.
+- All stops confirmed GTC (zero fills); no position near a −20% cut or a +15%/+20% ratchet. Phase 2 LIVE.
+- **Dry powder $9.08 → NO new position is fundable this session** regardless of setup; effectively ~98% deployed.
+### Market Context
+- **PPI DAY** — June PPI at 8:30 AM ET is the dominant scheduled catalyst; consensus ~6.2% YoY vs May 6.5% (still elevated,
+  risk of an upside print on energy/tariffs). Also live: **Fed Chair Warsh semi-annual testimony (Jul 14–15)** + ongoing US/Iran.
+- Tape mildly RISK-ON pre-open: QQQ $722.74 (+0.42%), **SMH $606.10 (+0.96%, semis firm on AI + strong China mfg)**, VRT $306.29 (+0.89%).
+  Energy flat (XLE $56.90, −0.09%), Healthcare soft (XLV $157.35, −0.59%, no fresh catalyst), Gold easing (GLD −0.4%), URA $41.34 soft.
+- Sector read: semis/broad-AI leading; energy consolidating after its run (oil demand cut by OPEC+/EIA, gasoline −9.7% m/m in June = downside oil risk, but XLE holding). Defensives (XLV) lagging on risk-on rotation.
+- VIX not on feed; treat as modestly elevated into the 8:30 PPI print. Iran "ceasefire" narrative recycled/stale — energy consolidation is the real signal.
+### Trade Ideas (cash-capped — logged for continuity; none actionable at $9.08 cash)
+1. **SMH — AI-complex (semis ETF), swing lane** — would complete the ≤2 AI floor (currently 1/2). Catalyst: semis firm (+0.96% pre-mkt) on AI demand + China mfg beat. Entry ~$606 fractional, stop −20% software. **BLOCKED: no cash** (already hold SMH; a top-up needs dry powder we don't have).
+2. **QQQ — AI-complex (broad Nasdaq-100), swing lane** — substitute for SMH (de-dup: hold at most one broad-AI; we hold SMH's semi tilt, QQQ would stack overlap). Not additive. **BLOCKED: no cash + overlap.**
+3. **Outside slot already filled (XLV)** — no rotation warranted; XLV soft but far above stop and thesis (defensive ballast) intact. No off-watchlist Tier-1 candidate pursued (no cash to act).
+### Risk Factors
+- 8:30 PPI can whipsaw the tape both ways in minutes; a hot print + rising yields would pressure semis (SMH) and defensives (XLV) alike — but our stops are structural and far away, so no pre-position action needed.
+- Energy consolidation: OPEC+/EIA demand cuts + falling gasoline = oil downside risk; XLE (+3.5% vs entry) is the book's leader but watch for a rollover — thesis still intact above the resting stop.
+- Zero dry powder = no flexibility to add or average; discipline is simply to hold and let stops work. Overtrading is the documented failure mode.
+### Decision
+**HOLD.** Pre-market does not arm orders, and with $9.08 cash no add is fundable anyway. Plan for market-open: HOLD all three legs (XLE, XLV, SMH) — all healthy, above stops, none at a ratchet; no re-peg needed. React to (do not pre-position for) the 8:30 PPI. Composition floor gap (1 more AI-complex leg) stays open until cash frees up via a trim/exit. Default to patience.
