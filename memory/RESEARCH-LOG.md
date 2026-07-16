@@ -1,5 +1,29 @@
 # Research Log
 
+## 2026-07-16 — Pre-market Research
+### Account
+- Total $499.18 / Equity $490.10 / Cash $9.08 / Buying power $9.08. Book 3/4.
+- Drawdown vs $500 start: **−0.16%** — kill-switch clear ($250 trip far off).
+- Cadence: wk of Jul 13 (wk #2) | opening trades **1/3** (2 slots left) — but cash $9.08 funds no new leg.
+- Held (live-reconciled): XLE 4 sh @ $54.97 (stop $43.98 resting 6a50fa5e ✓), XLV 1 sh @ $161.53 (stop $129.22 resting 6a50fa42 ✓), SMH $110 frac 0.182021 sh @ $604.33 (software stop $483.46). All resting stops confirmed.
+### Market Context
+- **Risk-OFF** pre-open. SPX 7,572 (Jul 15 close), NDX 29,503. VIX **16.2** (calm, slightly up). Econ: CPI (Jul 14) + PPI (Jul 15) both passed; no confirmed top-tier print today.
+- Tape (pre-mkt non-reg vs Jul 15 close): SMH $574.7 (**−2.7%**), VRT $294.0 (**−3.5%**), QTUM $145.3 (−1.8%), QQQ $711.6 (−0.9%) — **AI/semis rolling over hard**. XLV $160.0 (**+1.1%** firm), XLF $56.60 (flat). Energy soft: XLE $56.38 (−0.2%), VST −1.5%, CEG −1.2%, URA −0.9%. GLD −0.5%, UFO −1.5%.
+- Rotation read (research-confirmed): **OUT of AI semis → INTO healthcare/defensives.** SMH −8% wk ending Jul 7, broke below 50-DMA, AI profit-taking after +82% 1H run; XLV +7%/mo, breaking out. Favorable for XLV Outside leg; headwind for SMH swing.
+### Position status
+- XLE +2.6% vs entry — resting stop far below, energy consolidating. **Hold.**
+- XLV −1.0% vs entry but firm/breaking out today — strongest thesis (rotation target). **Hold.**
+- SMH −4.9% vs entry, far above software stop $483.46 — correction not structural break (profit-taking post-run, AI-capex intact). Not −20%, no thesis break. **Hold, watch.**
+### Trade Ideas (composition floor already met: AI 1 · Energy 1 · Outside 1; 4th slot open)
+1. **None actionable.** Cash $9.08 funds no new position (whole-share or fractional). No idea clears G4 (sizing/cash).
+2. WATCH — 2nd AI-complex leg (QTUM ~$147 / QQQ ~$712) for the 4th slot: DEFER. Adding AI into a −2.7% semis rollover = chasing weakness; and unaffordable regardless. Revisit only if semis stabilize AND cash frees.
+3. No Energy/Outside add: Energy floor met (1), Outside slot filled (XLV 1/1 — G5 blocks a 2nd).
+### Risk Factors
+- AI/semis correction could deepen (SMH below 50-DMA, DeepSeek-chip rumor, valuation profit-taking) — SMH lot is the book's soft spot but far from stop.
+- Cash-account: only $9.08 settled → zero new-buy capacity until a sell. Book is effectively locked to manage-only.
+### Decision
+**HOLD.** All 3 legs above stops, none at −20%, no thesis break. Rotation into healthcare supports XLV; SMH correction is orderly profit-taking, thesis intact. No fundable/clean new entry (cash $9.08, AI rolling over). Manage-only. Pre-market does not arm orders.
+
 ## 2026-07-13 — Pre-market Research
 ### Account
 - Equity $384.62 / Cash $119.08 / Buying power $119.08 / Total $503.70. Book 2/4.
