@@ -31,7 +31,7 @@ pre-market-planned AI-complex add to open the composition floor. Gate G1–G10 a
 
 **Book:** 3/4 | AI-complex 1/2 · Energy 1 · Outside 1/1 | dedup OK
 **Cadence:** wk of Jul 13 (wk #2) | opening trades 1/3
-Portfolio $501.07 | equity $491.99 | cash $9.08 (as of Jul 15 EOD). Kill-switch OK.
+Portfolio $501.99 | equity $492.92 | cash $9.08 (as of Jul 16 EOD). Kill-switch OK.
 
 ## Jul 16 — MIDDAY scan (no actions)
 Reconciled live vs book (3/4). All lots above stops, no ratchet trigger, no thesis break.
@@ -207,3 +207,23 @@ leader at +2.77% vs entry; XLV essentially flat (+0.03%) holding its defensive b
 No cuts (none ≤ −20%), no thesis breaks, no ratchet triggers (none at +15%/+20%), stops unchanged — XLE/XLV
 resting GTC (confirmed, 0 fills), SMH software $483.46. Cash $9.08 (~98% deployed), no add fundable. Kill-switch
 OK. Room for 1 more position + 2 opening trades this week; one more AI-complex leg would complete the floor at ≤2.
+
+### Jul 16 — EOD Snapshot (Day 6, Thursday)
+**Portfolio:** $501.99 | **Cash:** $9.08 (1.8%) | **Day P&L:** +$0.92 (+0.18%) | **Phase P&L:** +$1.99 (+0.40%)
+
+| Ticker | Bucket | Shares | Entry | Close | Day Chg | Unrealized P&L | Stop | Protection |
+| — | — | — | — | — | — | — | — | — |
+| XLE | Energy | 4 | $54.97 | $57.01 | +0.90% | +$8.16 (+3.71%) | $43.98 | resting 6a50fa5e |
+| XLV | Outside | 1 | $161.53 | $161.81 | +2.22% | +$0.28 (+0.17%) | $129.22 | resting 6a50fa42 |
+| SMH | AI-complex | 0.182021 | $604.33 | $568.78 | −3.72% | −$6.47 (−5.88%) | $483.46 | software (fractional) |
+
+**Book:** 3/4 | AI-complex 1/2 · Energy 1 · Outside 1/1 | dedup OK
+**Cadence:** wk of Jul 13 (wk #2) | opening trades 1/3
+**Notes:** Account +0.18% to $501.99 (+0.40% phase, above the $500 start). No trades today (wk #2 opening
+trades hold at 1/3). Risk-on rotation: XLV had its best day (+2.22%), flipping back green vs entry (+0.17%);
+XLE +0.90% and remains the clear book leader at +3.71% vs entry. Semis kept sliding — SMH −3.72% to $568.78,
+now −5.88% vs Tue's entry as the AI profit-taking pullback (below 50-DMA) extends; orderly correction, not a
+structural break, AI-capex thesis intact. No cuts (none ≤ −20%; SMH worst at −5.88%), no thesis breaks, no
+ratchet triggers (none at +15%/+20%). Stops unchanged — XLE/XLV resting GTC (both confirmed, re-peg last_txn
+Jul 16, 0 fills), SMH software $483.46. Cash $9.08 (~98% deployed), no add fundable. Kill-switch OK. Room for
+1 more position + 2 opening trades this week; one more AI-complex leg would complete the floor at ≤2.
