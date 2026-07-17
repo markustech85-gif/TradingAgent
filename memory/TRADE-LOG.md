@@ -14,6 +14,29 @@ Bucket engine + composition/de-dup/cadence/Tier-1 rules live in `memory/BUCKETS.
 - `Book: n/4 | AI-complex a/2 · Energy e · Outside o/1 | dedup OK` — composition vs the floor.
 - `Cadence: wk of YYYY-MM-DD (wk #k) | opening trades u/CAP` — CAP=4 in week 1, else 3 (BUY-to-open only).
 
+## Jul 17 — MARKET-OPEN: SMH cut — thesis-broken early exit (Rule 6, ~09:32 ET)
+Global chip rout accelerated into a 4th straight down session (Nikkei −4.5%, Kospi −6%; SMH
+opened −3.4% at $549.76 vs Jul 16 close $568.92). Research pre-authorized a market-open thesis
+reassessment on SMH (elevated watch). Structural break CONFIRMED: price $549 decisively below
+50-DMA $596.66 AND falling 20-DMA $614.30; lower lows on expanding down-volume (Jul 15 11.0M →
+Jul 16 12.4M, distribution). Swing thesis (AI-complex momentum) dead + sector rolling over
+(Rule 10). Exited before −20% ($483 software stop) per Rule 6.
+- SMH | BUCKET=AI-complex | SELL (close) | 0.182021 sh @ $548.4301 | proceeds $99.83 vs $110 cost
+  | realized −$10.17 (−9.24%) | sell ref_id 3f9c1a7e-6b24-4d58-9e0a-1c7d2f4b8a63 (order
+  6a5a2ece-ef54-4073-81e0-bd19f9770dbd, filled @ $548.4301, $0 fees). Fractional lot → no resting
+  stop to cancel.
+- No new buy: sell proceeds unsettled today (cash account — G4 settled-cash fails) AND today's
+  RESEARCH-LOG documents no catalyst for a new leg (G9). Manage-only. Cadence unchanged (SELL ≠ opening trade).
+- No action on XLE (+5.5% @ $57.97) / XLV (+0.1% @ $161.76): both above stops, neither at −20% or a +15% ratchet.
+
+**Open positions (live state — routines count these):**
+- XLE | bucket=Energy | qty=4 sh | entry=$54.97 | stop=$43.98 | protection=resting 6a50fa5e-f071-4338-97a1-1a0ea355ba89 | lane=swing | opened=2026-07-10
+- XLV | bucket=Outside | qty=1 sh | entry=$161.53 | stop=$129.22 | protection=resting 6a50fa42-d10b-4a94-8bd8-74beb5a96ad5 | lane=swing | opened=2026-07-10
+
+**Book:** 2/4 | AI-complex 0/2 · Energy 1 · Outside 1/1 | dedup OK · diversify floor met (2 non-AI legs)
+**Cadence:** wk of Jul 13 (wk #2) | opening trades 1/3
+Portfolio $502.57 | equity $493.49 | cash $9.08 pre-sell → ~$108.91 post-sell (unsettled) | Kill-switch OK.
+
 ## Jul 14 — MARKET-OPEN: SMH AI-complex leg opened (post-CPI, ~09:31 ET)
 CPI-day open: benign print → risk-on tape (SMH +3.4%, QQQ +1.0%, VRT +3.4%). Executed the
 pre-market-planned AI-complex add to open the composition floor. Gate G1–G10 all PASS
