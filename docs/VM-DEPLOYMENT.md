@@ -211,7 +211,11 @@ Test one immediately by running the runner by hand:
 ## 13. Monitoring
 
 - **Logs:** everything appends to `~/logs/<routine>-<date>.log`. Skim these the first week.
-- **Failure alerts:** the runner already messages Telegram on a non-zero exit.
+- **Failure alerts:** on a non-zero exit the runner messages Telegram with the exit code
+  and the last 20 log lines (the error / "max turns" / API message is almost always there),
+  so you can triage from your phone without SSHing in. The alert also reminds you that
+  whole-share resting stops keep protecting the book, but software (fractional) stops go
+  unchecked until the next successful scan.
 - **Heartbeat:** the daily-summary always sends — if a weekday passes with no EOD Telegram
   message, something's wrong. Consider a separate 5pm "did daily-summary run today?" check.
 - **Auth watch (only if you chose the OAuth-token path):** add a weekly job that runs a trivial
