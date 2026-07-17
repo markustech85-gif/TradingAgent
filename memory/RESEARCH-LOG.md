@@ -1,5 +1,30 @@
 # Research Log
 
+## 2026-07-17 — Pre-market Research
+### Account
+- Total **$502.40** / Equity $493.32 / Cash **$9.08** / Buying power $9.08. Book 3/4.
+- Drawdown vs $500 start: **+0.48%** — kill-switch clear ($250 trip far off).
+- Cadence: wk of Jul 13 (wk #2) | opening trades **1/3** (2 slots left) — but cash $9.08 funds no new leg.
+- Held (live-reconciled): XLE 4 sh @ $54.97 (stop $43.98 resting 6a50fa5e ✓), XLV 1 sh @ $161.53 (stop $129.22 resting 6a50fa42 ✓), SMH $110 frac 0.182021 sh @ $604.33 (software stop $483.46). Both resting stops confirmed GTC, 0 fills.
+### Market Context
+- **Risk-OFF, global chip rout.** Index futures down sharply: **ES −0.9%, NDX −1.7%, Dow −0.8%**. **VIX 16.73 (+6.8%)**. Asia ugly overnight: Nikkei −4.5%, Kospi −6% (SK Hynix/Samsung drag), Hang Seng −2.2%. Econ: Retail Sales "on tap" this week; no confirmed top-tier US print pre-open today. FOMC Jul 29.
+- Tape (pre-mkt non-reg vs Jul 16 close): **SMH $553 (−2.8%), QQQ $694.8 (−1.6%), VRT $282 (−4.1%)** — AI/semis selling off a 3rd straight session. **XLV $161.75 (flat/firm), XLE $57.73 (+1.2%)** — old-economy holding up.
+- Rotation read (research-confirmed): sustained **OUT of crowded AI semis → INTO energy/healthcare**. BofA calls long-semis "most crowded trade ever"; analysts flag chip complex as only sector in "bubble territory," possible meaningful top. Samsung mixed Q + cautious Broadcom FY27 guidance the fundamental triggers. SMH −7% single-session Tue = institutional de-risking, not a tactical dip. Favorable for our XLE/XLV legs; clear headwind for SMH.
+### Position status
+- XLE **+5.0%** vs entry (pre-mkt $57.73) — book leader, rotation beneficiary, stop far below. **Hold.**
+- XLV **+0.1%** vs entry (pre-mkt $161.75) — firm on defensive rotation, thesis intact. **Hold.**
+- SMH **−8.5%** vs entry (pre-mkt $553; lot ≈ $100.7 vs $110 cost) — still ~+14% above software stop $483.46, not −20%. But the AI-top / crowded-trade thesis is strengthening across 3 sessions. **Hold pre-mkt; ELEVATED WATCH into open** — if the rout accelerates and SMH breaks structurally, consider a thesis-broken early exit (Rule 6) before −20%.
+### Trade Ideas (composition floor met: AI 1 · Energy 1 · Outside 1; 4th slot open)
+1. **None actionable.** Cash $9.08 funds no new position (whole-share or fractional) — nothing clears G4 (sizing/cash). Book locked to manage-only until a sell frees cash.
+2. WATCH — 2nd AI-complex leg (QQQ ~$695 / QTUM) for the 4th slot: **DEFER.** Adding AI into an accelerating semis rout = chasing a falling knife; unaffordable regardless.
+3. No Energy/Outside add: Energy floor met (1), Outside slot filled (XLV 1/1 — G5 blocks a 2nd).
+### Risk Factors
+- Semis rout is now multi-session + global (Asia limit-down-ish); SMH is the book's soft spot. Cushion to stop is real (~+14%) but the thesis is eroding — watch for a structural break at open.
+- Cash-account: only $9.08 settled → zero new-buy capacity until a sell. Effectively manage-only.
+- Risk-off open could drag even defensives/energy intraday if the tape cascades; XLE/XLV stops are structural and far away.
+### Decision
+**HOLD** (pre-market does not arm orders). All 3 legs above stops, none at −20%, no confirmed thesis break yet. Rotation into energy/healthcare supports XLE/XLV. **SMH on elevated watch** — market-open scan to reassess for a thesis-broken exit if the chip rout accelerates. No fundable/clean new entry (cash $9.08). Manage-only.
+
 ## 2026-07-16 — Pre-market Research
 ### Account
 - Total $499.18 / Equity $490.10 / Cash $9.08 / Buying power $9.08. Book 3/4.
