@@ -14,6 +14,13 @@ Bucket engine + composition/de-dup/cadence/Tier-1 rules live in `memory/BUCKETS.
 - `Book: n/4 | AI-complex a/2 · Energy e · Outside o/1 | dedup OK` — composition vs the floor.
 - `Cadence: wk of YYYY-MM-DD (wk #k) | opening trades u/CAP` — CAP=4 in week 1, else 3 (BUY-to-open only).
 
+## Jul 20 — MIDDAY scan (no actions)
+Reconciled live vs book (2/4). Both lots above stops, no ratchet trigger, no thesis break. Risk-on/bounce tape.
+- XLE $58.18 (+5.84% vs entry; +0.87% day) — resting stop $43.98 (6a50fa5e, confirmed, 0 fills). Hold. Energy book leader, firm.
+- XLV $160.20 (−0.83% vs entry; −0.56% day) — resting stop $129.22 (6a50fa42, confirmed, 0 fills). Hold. Defensives soft on risk-on rotation; ballast thesis intact, far above stop.
+No cuts (none ≤ −20%), no thesis breaks, no stop re-pegs (none at +15%/+20%). No buy at midday (manage-only); AI-complex gap (0/2) stays open — re-entry on confirmation at a routine open, not a midday chase.
+Portfolio $501.82 | equity $392.91 | cash $108.91. Drawdown +0.36% vs $500. Kill-switch OK.
+
 ## Jul 17 — MARKET-OPEN: SMH cut — thesis-broken early exit (Rule 6, ~09:32 ET)
 Global chip rout accelerated into a 4th straight down session (Nikkei −4.5%, Kospi −6%; SMH
 opened −3.4% at $549.76 vs Jul 16 close $568.92). Research pre-authorized a market-open thesis
