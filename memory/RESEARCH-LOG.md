@@ -1,5 +1,30 @@
 # Research Log
 
+## 2026-07-20 — Pre-market Research
+### Account
+- Total **$499.91** / Equity $391.00 / Cash **$108.91** (SMH sell proceeds now SETTLED, T+1 from Fri Jul 17). Book **2/4**.
+- Drawdown vs $500 start: **−0.02%** (essentially flat) — kill-switch clear ($250 trip far off).
+- Cadence: **NEW week — wk of Jul 20 (wk #3) | opening trades 0/3** (resets from last week's 1/3; CAP 3).
+- Held (live-reconciled): XLE 4 sh @ $54.97 (pre-mkt $57.35 → **+4.3%**; stop $43.98 resting 6a50fa5e ✓), XLV 1 sh @ $161.53 (pre-mkt $161.60 → **+0.04%**; stop $129.22 resting 6a50fa42 ✓). Both resting stops confirmed GTC, 0 fills.
+- Composition: **AI-complex 0/2 (the open gap)** · Energy 1 · Outside 1/1 · dedup OK · diversify floor met (2 non-AI legs). Cash $108.91 funds ONE fractional AI leg (whole share of QQQ/SMH ≫ budget → fractional + software stop).
+- SMH cut Jul 17 (−9.24%, thesis-broken/structural break) = **1 fail in AI-complex** (bucket exits after 2). Re-entry allowed but on merit only.
+### Market Context (perplexity API 401 → native web-search fallback)
+- Tape **RISK-ON / bounce.** Index futures up: **ES +0.3%, NDX +0.6%, Dow +0.3%**. Semis rebounding off last week's rout (SMH −~9% on the week, 3rd weekly decline in 4). US-Iran strikes 9th straight day; oil choppy but diplomacy hopes eased tension midmorning.
+- Tape (pre-mkt non-reg vs Fri close): **SMH $570.3 (+2.5%), QQQ $702.3 (+1.0%), VRT $298.0 (+2.9%)** — AI/semis bouncing hard. **XLE $57.35 (−0.6%)** slightly soft, **XLV $161.60 (+0.3%)** firm. URA $38.97 (+0.6%), VST $156.75 (+0.85%), UFO $43.59 (flat).
+- **Heavy earnings week:** TSLA, GOOGL, INTC + major industrials/consumer. Investors want earnings to justify AI valuations after last week's rotation OUT of AI. **FOMC Jul 29** (next week). No top-tier US macro print pre-open today.
+- Technical read on AI re-entry: SMH pre-mkt $570 still **below both 50-DMA (~$596) and 20-DMA (~$600)**; Jul 17 was a hammer-reversal on 22M vol (capitulation) — today is a **day-2 bounce inside a still-broken downtrend**, not a confirmed reclaim. QQQ ($702, below ~$715 20-DMA) is the more resilient / less-broken broad-AI vehicle.
+### Trade Ideas (all AI-complex — the open floor gap; cash $108.91 → 1 fractional leg + software stop)
+1. **QQQ — AI-complex (broad Nasdaq-100), swing lane.** Preferred re-entry: broad, less broken than semis, no round-trip on the name we just cut. Catalyst: AI-complex bounce off oversold + tech futures +0.6%. Entry ~$702 (fractional ~$105), stop $561.6 (−20% SOFTWARE), target $770 (+9.7%). Whole share $702 ≫ $108 → **fractional + software stop**. De-dup: opens the single broad-AI slot (none held). **WATCH — want a 20-DMA reclaim / 2nd up-day hold before arming.**
+2. **SMH — AI-complex (semis ETF), swing lane.** Catalyst: semis bouncing +2.5% off Fri capitulation. Entry ~$570 (fractional ~$105), stop $456 (−20% software), target $650 (+14%). BUT price still below 50/20-DMA and we cut it 3 days ago on a structural break — **re-entry = chasing/round-trip; hold off** unless it reclaims the 20-DMA (~$600) with volume. Substitute for QQQ (hold at most one broad-AI).
+3. **VRT — AI-complex single (data-center power), swing lane.** Catalyst: AI-capex/power +2.9% pre-mkt; independent of the broad-AI slot. Entry ~$298 (fractional ~$105), stop $238.4 (−20% software), target $345 (+15.8%). Single-name vol; third choice — only if broad-AI setup is unappealing on the day.
+### Risk Factors
+- **Bounce-vs-reversal:** one day of green after a 3-week AI rout is not a trend reclaim; chasing day-2 of an oversold bounce into a heavy AI-earnings week (TSLA/GOOGL/INTC) + FOMC Jul 29 is the classic bull-trap. We already round-tripped SMH once — don't repeat it.
+- **Geopolitics:** 9th day of US-Iran strikes; an oil spike or headline can flip risk-on to risk-off intraday (helps XLE, hurts AI).
+- Only $108.91 cash → any AI add is a small fractional lot with a **software** stop (between-scan gap risk); 20% stop ≈ $21 max risk on a ~$105 lot.
+- Energy (XLE) and Outside (XLV) legs both healthy and above stops — no defensive action needed.
+### Decision
+**WATCH.** Pre-market does not arm orders. Plan for market-open: **HOLD** XLE + XLV (both above stops, neither at −20% or a +15% ratchet — no re-peg). AI-complex slot is the open gap and cadence has full room (0/3), but re-entry needs *confirmation*, not a day-2 bounce chase: only add ONE fractional AI leg (**QQQ** preferred — broad, less broken; SMH only on a 20-DMA reclaim) if the bounce holds into/after the open and the AI-earnings tape isn't rolling over. Default to patience — a hot bounce that fades = no add.
+
 ## 2026-07-17 — Pre-market Research
 ### Account
 - Total **$502.40** / Equity $493.32 / Cash **$9.08** / Buying power $9.08. Book 3/4.
