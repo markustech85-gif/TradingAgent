@@ -257,3 +257,25 @@ structural break, AI-capex thesis intact. No cuts (none ≤ −20%; SMH worst at
 ratchet triggers (none at +15%/+20%). Stops unchanged — XLE/XLV resting GTC (both confirmed, re-peg last_txn
 Jul 16, 0 fills), SMH software $483.46. Cash $9.08 (~98% deployed), no add fundable. Kill-switch OK. Room for
 1 more position + 2 opening trades this week; one more AI-complex leg would complete the floor at ≤2.
+
+### Jul 20 — EOD Snapshot (Day 8, Monday)
+**Portfolio:** $500.34 | **Cash:** $108.91 (21.8%) | **Day P&L:** −$1.65 (−0.33%) | **Phase P&L:** +$0.34 (+0.07%)
+
+| Ticker | Bucket | Shares | Entry | Close | Day Chg | Unrealized P&L | Stop | Protection |
+| — | — | — | — | — | — | — | — | — |
+| XLE | Energy | 4 | $54.97 | $57.95 | +0.47% | +$11.92 (+5.42%) | $43.98 | resting 6a50fa5e |
+| XLV | Outside | 1 | $161.53 | $159.30 | −1.11% | −$2.23 (−1.38%) | $129.22 | resting 6a50fa42 |
+
+**Book:** 2/4 | AI-complex 0/2 · Energy 1 · Outside 1/1 | dedup OK
+**Cadence:** wk of Jul 20 (wk #3) | opening trades 0/3
+**Notes:** Quiet risk-on Monday, account −$1.65 to $500.34 (still +0.07% phase, essentially flat vs the
+$500 start). Day P&L is measured vs the Jul 16 EOD snapshot ($501.99) — the Jul 17 (Fri) session was a
+market-open-only run (SMH thesis-broken cut, realized −$10.17) with no EOD snapshot, so the −0.33% spans
+Thu→Mon. Book now 2/4 after the SMH exit: XLE the clear leader at +5.42% vs entry (+0.47% day) as energy
+firms; XLV soft on the risk-on rotation, −1.38% vs entry (−1.11% day) but holding its defensive ballast
+role far above stop. No trades today (wk #3 opens 0/3 opening trades). No cuts (none ≤ −20%), no thesis
+breaks, no ratchet triggers (neither at +15%/+20%). Stops unchanged and re-pegged today — XLE resting
+$43.98 (6a50fa5e) / XLV resting $129.22 (6a50fa42), both confirmed GTC, 0 fills, last_txn Jul 20. Cash
+$108.91 (~21.8%) sits idle from the unsettled SMH proceeds; AI-complex gap (0/2) stays open — re-entry
+only on confirmation at a routine open, not a chase. Kill-switch OK. Room for 2 more positions + 3
+opening trades this week.
