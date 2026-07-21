@@ -300,3 +300,25 @@ $43.98 (6a50fa5e) / XLV resting $129.22 (6a50fa42), both confirmed GTC, 0 fills,
 $108.91 (~21.8%) sits idle from the unsettled SMH proceeds; AI-complex gap (0/2) stays open — re-entry
 only on confirmation at a routine open, not a chase. Kill-switch OK. Room for 2 more positions + 3
 opening trades this week.
+
+### Jul 21 — EOD Snapshot (Day 9, Tuesday)
+**Portfolio:** $503.62 | **Cash:** $108.91 (21.6%) | **Day P&L:** +$3.28 (+0.66%) | **Phase P&L:** +$3.62 (+0.72%)
+
+| Ticker | Bucket | Shares | Entry | Close | Day Chg | Unrealized P&L | Stop | Protection |
+| — | — | — | — | — | — | — | — | — |
+| XLE | Energy | 4 | $54.97 | $58.52 | +0.99% | +$14.18 (+6.45%) | $43.98 | resting 6a50fa5e |
+| XLV | Outside | 1 | $161.53 | $160.25 | +0.63% | −$1.28 (−0.79%) | $129.22 | resting 6a50fa42 |
+
+**Book:** 2/4 | AI-complex 0/2 · Energy 1 · Outside 1/1 | dedup OK
+**Cadence:** wk of Jul 20 (wk #3) | opening trades 0/3
+**Notes:** Risk-on Tuesday, account +$3.28 to $503.62 (+0.72% phase, back near session highs above the
+$500 start). No trades today (wk #3 opens hold at 0/3). XLE broke out to fresh highs vs entry — +0.99%
+day to $58.52, now +6.45% vs entry and firmly the book leader as energy extends. XLV firmed +0.63% on
+the day but still −0.79% vs entry, holding its defensive-ballast role far above stop. We gained +0.66%
+vs SPY's +0.83% — modestly behind the benchmark today, the drag being ~21.6% idle cash from the Jul 17
+SMH exit. No cuts (none ≤ −20%), no thesis breaks, no ratchet triggers (XLE +6.45%, not yet at +15%).
+Stops unchanged, both resting GTC confirmed (0 fills) — XLE $43.98 (6a50fa5e, ~25% below close) / XLV
+$129.22 (6a50fa42, ~19% below close). AI-complex gap (0/2) stays open by design: the QQQ/SMH 20-DMA
+reclaim that pre-conditions any AI re-entry was unmet at the open (bounce still under falling 20-DMAs
+into the GOOGL Jul 22 earnings gauntlet) — re-check next routine open, no chase. Kill-switch OK. Room
+for 2 more positions + 3 opening trades this week.
