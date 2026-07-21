@@ -29,14 +29,23 @@ STEP 4 — Append a dated entry to memory/RESEARCH-LOG.md: account snapshot; mar
          the BUCKETS.md §5 Tier-1 gate here: log the multi-day catalyst AND >=1 confirming Tier-1
          indicator (trend vs moving average / volume / sector momentum via get_equity_historicals);
          no confirmation -> drop the idea. Risk factors; decision (default HOLD).
-STEP 5 — Notification (ALWAYS send one concise Telegram, <= 8 lines):
-         bash scripts/notify.sh "PRE-MKT MMM DD
-         Acct: \$X (±X% vs \$500)  Kill-switch: OK|HIT
-         Tape: <risk-on/off, one line>
-         Ideas: <2-3 tickers w/ entry — or none>
-         Decision: <HOLD|WATCH|intent logged (Phase 1)>"
-         If urgent (held position already < -20% pre-market; thesis broke overnight; kill-switch
-         drawdown hit), make the FIRST line "⚠ URGENT: <reason>".
+STEP 5 — Notification (ALWAYS send one Telegram). Write for a non-expert reading on a phone:
+         clarity over brevity (<= 14 lines). Rules: expand every abbreviation (ES→S&P 500 futures,
+         NDX→Nasdaq futures, VIX→volatility index, DMA→day moving-average, semis→semiconductor
+         stocks); label every % as "since entry" or "today" so it's never ambiguous; end with a
+         plain-English "what this means for you" line; and add a short Terms footer glossing any
+         trader shorthand that still appears. Plan word = HOLD (do nothing today) | WATCH (ready to
+         act only if a trigger hits) | ACT (trading now). Use these section icons:
+         bash scripts/notify.sh "📅 PRE-MKT · <Weekday Mon DD>
+         💰 Account: \$X (±X% vs \$500 start) · 🛑 Safety-halt: OK|HIT (auto-stops new buys if account ≤ \$250)
+         📊 Market: <RISK-ON|RISK-OFF> — <plain tape in words, and what it implies for us>
+         📁 Holdings: <SYM (sector) ±X% since entry — safely above / near its stop-loss> …  (or 'none — all cash')
+         🎯 Ideas: <ticker ~\$entry — one plain clause on why> …  (or 'none today')
+         🧭 Plan: <HOLD|WATCH|ACT> — <one plain sentence>
+         👉 You: <do you need to do anything? usually 'nothing to do — I'll act at the open if it confirms'>
+         📖 Terms: <gloss any shorthand used, e.g. 'stop-loss = price where I auto-sell to cap the loss'>"
+         If urgent (a holding already < -20% pre-market; thesis broke overnight; safety-halt hit),
+         make the FIRST line "⚠ URGENT: <plain reason + what you should know>".
 STEP 6 — COMMIT + PUSH (mandatory):
   git add memory/RESEARCH-LOG.md && git commit -m "pre-market $DATE" && git push origin main
   On push failure: git pull --rebase origin main, then push. Never force-push.

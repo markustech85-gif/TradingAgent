@@ -44,13 +44,21 @@ STEP 6 — Record to memory/TRADE-LOG.md (TRADE-LOG Schema format):
          - an open-position row for the new lot (`SYM | bucket= | qty= | entry= | stop= |
            protection= | lane= | opened=`) so later scans can count composition + enforce the stop;
          - bump the `Cadence:` line's opening-trade count for this week (each fill = +1).
-STEP 7 — Notification (ALWAYS send one concise Telegram, <= 8 lines):
-         bash scripts/notify.sh "MKT-OPEN MMM DD
-         Acct: \$X  Kill-switch: OK|HIT
-         Trades: <tickers, shares, fills — or none placed>
-         Phase 1: <intended orders logged, if any — omit line if Phase 2>
-         Next: <one line>"
-         If the kill-switch triggered, make the FIRST line "⚠ KILL-SWITCH: no buys".
+STEP 7 — Notification (ALWAYS send one Telegram). Write for a non-expert on a phone: clarity over
+         brevity (<= 14 lines). Rules: always say plainly WHAT happened and WHY; expand jargon
+         (20-DMA→20-day average price, reclaim→close back above that average, bull-trap→a rally
+         likely to reverse); label every % as "since entry" or "today"; end with a "what this means
+         for you" line; add a Terms footer glossing any shorthand used. Use these section icons:
+         bash scripts/notify.sh "📈 MKT-OPEN · <Weekday Mon DD>
+         💰 Account: \$X · 🛑 Safety-halt: OK|HIT (auto-stops new buys if account ≤ \$250)
+         ⚡ Trades: <ticker, shares, fill \$ — or 'none' + one plain reason>
+         🧠 Why: <plain-English rationale for trading or standing pat>
+         📁 Holdings: <SYM ±X% since entry — above / near its stop-loss> …
+         🧭 Next: <one plain sentence: the condition that would make me trade>
+         👉 You: <'nothing to do' or a clear heads-up you should know>
+         📖 Terms: <gloss any shorthand used>"
+         If the safety-halt triggered, make the FIRST line "⚠ SAFETY-HALT HIT: no new buys — account ≤ \$250".
+         Phase 1 (orders denied): Trades line = 'none — intended orders logged, not live yet'.
 STEP 8 — COMMIT + PUSH if any trade executed:
   git add memory/TRADE-LOG.md && git commit -m "market-open $DATE" && git push origin main
   Skip commit if no trades fired. On push failure: rebase and retry.

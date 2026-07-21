@@ -24,12 +24,19 @@ STEP 4 — Ratchet winners. Eligibility: +20% or more -> stop 5% below current; 
 STEP 5 — Thesis check. If a thesis broke intraday, exit even if not yet -20%. Document in TRADE-LOG.
 STEP 6 — Optional: bash scripts/perplexity.sh for anything moving sharply with no obvious cause;
          append an afternoon addendum to RESEARCH-LOG.
-STEP 7 — Notification (ALWAYS send one concise Telegram, <= 8 lines):
-         bash scripts/notify.sh "MIDDAY MMM DD
-         Acct: \$X  Kill-switch: OK|HIT
-         Actions: <cuts / stop re-pegs — or none, all within tolerance>
-         Open: SYM ±X.X% (stop \$X.XX) ...
-         Next: <one line>"
+STEP 7 — Notification (ALWAYS send one Telegram). Write for a non-expert on a phone: clarity over
+         brevity (<= 14 lines). Rules: expand jargon (ratchet→raise the stop to lock in a gain,
+         re-peg→reset the resting stop order, lot→a holding); label every % as "since entry"; for
+         each stop show BOTH the \$ level AND how far below the current price it sits ("~X% below now")
+         so its meaning is clear; end with a "what this means for you" line; add a Terms footer for
+         any shorthand used. Use these section icons:
+         bash scripts/notify.sh "🕛 MIDDAY · <Weekday Mon DD>
+         💰 Account: \$X · 🛑 Safety-halt: OK|HIT (auto-stops new buys if account ≤ \$250)
+         ⚡ Actions: <stops cut / raised — or 'none, all holdings comfortably above their stops'>
+         📁 Holdings: <SYM ±X% since entry (stop \$X.XX, ~X% below now)> …
+         🧭 Next: <one plain sentence>
+         👉 You: <'nothing to do' or a clear heads-up>
+         📖 Terms: <gloss any shorthand used>"
 STEP 8 — COMMIT + PUSH if memory changed:
   git add memory/TRADE-LOG.md memory/RESEARCH-LOG.md && git commit -m "midday $DATE" && git push origin main
   Skip if no-op. On push failure: rebase and retry.
