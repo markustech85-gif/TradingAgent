@@ -14,6 +14,13 @@ Bucket engine + composition/de-dup/cadence/Tier-1 rules live in `memory/BUCKETS.
 - `Book: n/4 | AI-complex a/2 · Energy e · Outside o/1 | dedup OK` — composition vs the floor.
 - `Cadence: wk of YYYY-MM-DD (wk #k) | opening trades u/CAP` — CAP=4 in week 1, else 3 (BUY-to-open only).
 
+## Jul 21 — MIDDAY scan (no actions)
+Reconciled live vs book (2/4). Both lots above stops, no ratchet trigger, no thesis break. Risk-on tape.
+- XLE $58.31 (+6.08% vs entry; +0.64% day) — resting stop $43.98 (6a50fa5e, confirmed, 0 fills, last_txn Jul 21). Hold. Energy book leader, firm; new highs vs entry.
+- XLV $159.28 (−1.39% vs entry; +0.02% day) — resting stop $129.22 (6a50fa42, confirmed, 0 fills, last_txn Jul 21). Hold. Defensive ballast, flat on the day, far above stop.
+No cuts (none ≤ −20%), no thesis breaks, no stop re-pegs (none at +15%/+20%). No buy at midday (manage-only); AI-complex gap (0/2) stays open — re-entry on confirmation at a routine open (QQQ 20-DMA reclaim unmet at open), not a midday chase.
+Portfolio $501.36 | equity $392.45 | cash $108.91. Drawdown +0.27% vs $500. Kill-switch OK.
+
 ## Jul 21 — MARKET-OPEN scan (no actions — AI re-entry deferred, ~09:30 ET)
 Reconciled live vs book (2/4). Kill-switch OK ($499.15 » $250). Risk-on open (NDX-led), VIX cooling.
 AI-complex gap (0/2) stayed open by design: research pre-conditioned any AI add on a 20-DMA reclaim
