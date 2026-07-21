@@ -22,4 +22,8 @@ STEP 5 — Immediately protect (20% below fill): whole-share → resting stop_ma
 STEP 6 — Record to memory/TRADE-LOG.md (Schema): trade note + an open-position row (`SYM | bucket= |
          qty= | entry= | stop= | protection=<resting id | software $X> | lane= | opened=`); bump the
          `Cadence:` opening-trade count.
+STEP 7 — Notification (preview the production format): build and send the MKT-OPEN Telegram exactly
+         per the icon template in routines/market-open.md STEP 7 (💰/⚡/🧠/📁/🧭 sections + the plain
+         "👉 You:" action line + the "📖 Terms:" gloss footer). Send via bash scripts/notify.sh
+         (falls back to NOTIFICATIONS.md with no local Telegram creds).
 (No commit — local test. Review by hand.)
