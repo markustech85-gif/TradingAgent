@@ -8,5 +8,9 @@ STEP 3 — Compute Day P&L, Phase P&L vs $500, trades today/week, drawdown (kill
 STEP 4 — Append an EOD snapshot to memory/TRADE-LOG.md (Schema): portfolio, cash, day/phase P&L,
          position table [Ticker|Bucket|Shares|Entry|Close|Day Chg|Unrealized P&L|Stop|Protection],
          the `Book:` composition line + the `Cadence:` line, notes. Refresh the open-position rows.
-STEP 5 — Send ONE Telegram recap via bash scripts/notify.sh (<= 15 lines).
+STEP 5 — Send ONE Telegram recap (preview the production format): build and send the EOD Telegram
+         exactly per the icon template in routines/daily-summary.md STEP 5 (💰/🛑/⚡/📁/📊 vs-S&P/🧭
+         sections + the plain "👉 You:" action line + the "📖 Terms:" gloss footer). For the vs-S&P
+         line, get_equity_quotes for SPY to read the benchmark's day %. Send via bash scripts/notify.sh
+         (falls back to NOTIFICATIONS.md with no local Telegram creds).
 (No commit — local test. In production the daily-summary commit is mandatory.)

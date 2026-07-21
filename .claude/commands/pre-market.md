@@ -16,5 +16,8 @@ STEP 4 — Append a dated entry to memory/RESEARCH-LOG.md: account snapshot; mar
          target + R:R; whole-share-fit vs per-position budget (fractional if pricier). Off-watchlist
          Outside idea → apply BUCKETS.md §5 Tier-1 gate (multi-day catalyst + ≥1 confirming indicator
          via get_equity_historicals) or drop it. Risk; decision (default HOLD).
-STEP 5 — Notification only if urgent: bash scripts/notify.sh "<one line>".
+STEP 5 — Notification (preview the production format): build and send the PRE-MKT Telegram exactly
+         per the icon template in routines/pre-market.md STEP 5 (💰/📊/📁/🎯/🧭 sections + the plain
+         "👉 You:" action line + the "📖 Terms:" gloss footer). Send via bash scripts/notify.sh; with
+         no local Telegram creds it falls back to NOTIFICATIONS.md so you can eyeball the wording.
 (No commit — this is the local test command. Review the RESEARCH-LOG entry by hand.)

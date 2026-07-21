@@ -18,4 +18,8 @@ STEP 4 — Ratchet winners: +20% -> stop 5% below current; +15% -> stop 7% below
          within 3% of price.
 STEP 5 — Thesis check: exit broken theses even if not yet -20%. Document.
 STEP 6 — Optional research via bash scripts/perplexity.sh for sharp unexplained moves.
+STEP 7 — Notification (preview the production format): build and send the MIDDAY Telegram exactly
+         per the icon template in routines/midday.md STEP 7 (💰/⚡/📁/🧭 sections, each stop shown as
+         $level + ~% below now, + the plain "👉 You:" action line + the "📖 Terms:" gloss footer).
+         Send via bash scripts/notify.sh (falls back to NOTIFICATIONS.md with no local Telegram creds).
 (No commit — local test. Review by hand.)
