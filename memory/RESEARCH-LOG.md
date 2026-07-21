@@ -1,5 +1,28 @@
 # Research Log
 
+## 2026-07-21 — Pre-market Research
+### Account
+- Total **$498.89** / Equity $389.98 / Cash **$108.91**. Book **2/4**. Drawdown vs $500 start: **−0.22%** (flat) — kill-switch clear ($250 trip far off).
+- Held (live-reconciled): XLE 4 sh @ $54.97 (pre-mkt $57.95 → **+5.42%**; stop $43.98 resting 6a50fa5e ✓), XLV 1 sh @ $161.53 (pre-mkt $158.18 → **−2.07%**; stop $129.22 resting 6a50fa42 ✓). Both resting stops confirmed GTC, 0 fills, last_txn Jul 20.
+- Composition: **AI-complex 0/2 (the open gap)** · Energy 1 · Outside 1/1 · dedup OK · diversify floor met (2 non-AI legs). Cash $108.91 funds ONE fractional AI leg (whole share of QQQ/SMH/VRT ≫ budget → fractional + software stop).
+- Cadence: **wk of Jul 20 (wk #3) | opening trades 0/3** (CAP 3). Room for 2 more positions + 3 opening trades.
+- SMH cut Jul 17 (thesis-broken) = **1 fail in AI-complex** (bucket exits after 2). Re-entry allowed but on merit only.
+### Market Context (perplexity API 401 → native web-search fallback)
+- Tape **RISK-ON.** Index futures up: **ES +0.5%, NDX +1.3%, Dow +0.3%**. **VIX 17.58 (−5.74%)** — vol cooling. Semis staging a 3rd-day recovery. 10Y yield eased to ~4.52% on cooler inflation data.
+- Catalyst: reports of a pushed **10-day US-Iran ceasefire** eased oil in early trade (mild headwind for XLE); strikes now 10 straight nights. **Heavy earnings week** — ~15% of S&P reports (TSLA, GM, IBM today/this wk; **GOOGL Jul 22**). Investors want earnings to justify AI valuations. **FOMC Jul 29.** No top-tier US macro print pre-open today.
+- Tape (pre-mkt non-reg vs Mon close): **SMH $577.3 (+3.3%), QQQ $705.3 (+1.3%), VRT $301.5 (+3.4%)** — AI/semis bouncing hard. **XLE $57.95 (flat)** holding despite oil softness, **XLV $158.18 (−0.7%)**. URA $39.34 (+1.7%), UFO $43.55 (+1.2%).
+- Technical read on AI re-entry: 3rd up-day off Fri's semis capitulation. SMH $577 still **below 20/50-DMA (~$600/$596)** — not a confirmed reclaim yet; QQQ $705 nearing its ~$715 20-DMA, the more resilient / less-broken broad-AI vehicle.
+### Trade Ideas (all AI-complex — the open floor gap; cash $108.91 → 1 fractional leg + software stop)
+1. **QQQ — AI-complex (broad Nasdaq-100), swing lane.** Preferred re-entry: broad, less broken than semis, no round-trip on the name we cut. Catalyst: AI-complex bounce + NDX futures +1.3%, VIX cooling. Entry ~$705 (fractional ~$105), stop $564 (−20% SOFTWARE), target $775 (+9.9%), R:R ~1:2. Whole share $705 ≫ $108 → **fractional + software stop**. Opens the single broad-AI slot (none held). **WATCH — want 20-DMA reclaim / hold before arming.**
+2. **SMH — AI-complex (semis ETF), swing lane.** Catalyst: semis +3.3%, 3rd up-day. Entry ~$577 (fractional ~$105), stop $461.6 (−20% software), target $660 (+14.4%), R:R ~1:0.7 at entry (widen target). Still below 20/50-DMA + cut 4 days ago → **re-entry risks a round-trip; hold off** unless it reclaims ~$600 on volume. Substitute for QQQ (hold at most one broad-AI).
+3. **VRT — AI-complex single (data-center power), swing lane.** Catalyst: AI-capex/power +3.4% pre-mkt; independent of the broad-AI slot. Entry ~$301 (fractional ~$105), stop $240.8 (−20% software), target $350 (+16.3%). Single-name vol; third choice — only if broad-AI setup is unappealing on the day.
+### Risk Factors
+- 10-day ceasefire narrative could reverse (10 straight strike-nights) → oil/XLE whipsaw; XLE +5.42% vs entry and far above stop, so no action, just watch.
+- AI bounce is 3 days old but still **below key MAs** — a day-4 fade on a soft GOOGL/TSLA print is live. Don't chase a green pre-mkt tick into the heavy earnings gauntlet; add only on a confirmed hold at the open.
+- $108.91 cash → any add is a small fractional lot with a **software stop** (between-scan gap risk); 20% stop ≈ $21 max risk on a $105 lot.
+### Decision
+**WATCH.** Pre-market does not arm orders. Plan for market-open: HOLD XLE + XLV (both healthy, above stops, no ratchet, no re-peg needed). Consider adding **ONE** AI-complex fractional leg to open the composition floor — **QQQ preferred** (broad, less broken, no round-trip); SMH only on a confirmed ~$600 20-DMA reclaim. Add ONLY if the risk-on tape holds into/after the open and no AI-earnings shock; else no trade. Cadence has room (0/3). Default to patience.
+
 ## 2026-07-20 — Pre-market Research
 ### Account
 - Total **$499.91** / Equity $391.00 / Cash **$108.91** (SMH sell proceeds now SETTLED, T+1 from Fri Jul 17). Book **2/4**.
