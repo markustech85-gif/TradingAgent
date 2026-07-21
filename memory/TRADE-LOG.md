@@ -14,6 +14,20 @@ Bucket engine + composition/de-dup/cadence/Tier-1 rules live in `memory/BUCKETS.
 - `Book: n/4 | AI-complex a/2 · Energy e · Outside o/1 | dedup OK` — composition vs the floor.
 - `Cadence: wk of YYYY-MM-DD (wk #k) | opening trades u/CAP` — CAP=4 in week 1, else 3 (BUY-to-open only).
 
+## Jul 21 — MARKET-OPEN scan (no actions — AI re-entry deferred, ~09:30 ET)
+Reconciled live vs book (2/4). Kill-switch OK ($499.15 » $250). Risk-on open (NDX-led), VIX cooling.
+AI-complex gap (0/2) stayed open by design: research pre-conditioned any AI add on a 20-DMA reclaim
+— NOT met. QQQ $706.78 vs 20-DMA $716.12 (−1.3%, MA falling); SMH $581.27 vs 20-DMA $605.87 (−4.1%,
+MA falling). Day-4 bounce still under falling 20-DMAs into the earnings gauntlet (GOOGL Jul 22) =
+textbook bull-trap; would also round-trip the SMH cut. No arm (Rule 10/12, patience). QQQ swing thesis
+alive but entry trigger unconfirmed → re-check next routine open.
+- XLE $58.12 (+5.72% vs entry; +0.30% day) — resting stop $43.98 (6a50fa5e, held_for_sells=4 ✓). Hold. Book leader.
+- XLV $157.68 (−2.39% vs entry; −0.99% day) — resting stop $129.22 (6a50fa42, held_for_sells=1 ✓). Hold. Defensive ballast, soft on risk-on rotation, far above stop.
+No cuts (none ≤ −20%), no thesis breaks, no ratchets (none at +15%/+20%), no re-pegs, no buy. Cadence unchanged (no opening trade).
+Portfolio $499.15 | equity $390.24 | cash $108.91. Drawdown −0.17% vs $500. Kill-switch OK.
+**Book:** 2/4 | AI-complex 0/2 · Energy 1 · Outside 1/1 | dedup OK · diversify floor met (2 non-AI legs)
+**Cadence:** wk of Jul 20 (wk #3) | opening trades 0/3
+
 ## Jul 20 — MIDDAY scan (no actions)
 Reconciled live vs book (2/4). Both lots above stops, no ratchet trigger, no thesis break. Risk-on/bounce tape.
 - XLE $58.18 (+5.84% vs entry; +0.87% day) — resting stop $43.98 (6a50fa5e, confirmed, 0 fills). Hold. Energy book leader, firm.
