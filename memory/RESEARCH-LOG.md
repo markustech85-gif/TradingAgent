@@ -272,3 +272,29 @@ Cadence has room (0/3). Default to patience: a hot CPI or risk-off open = no add
 - Zero dry powder = no flexibility to add or average; discipline is simply to hold and let stops work. Overtrading is the documented failure mode.
 ### Decision
 **HOLD.** Pre-market does not arm orders, and with $9.08 cash no add is fundable anyway. Plan for market-open: HOLD all three legs (XLE, XLV, SMH) — all healthy, above stops, none at a ratchet; no re-peg needed. React to (do not pre-position for) the 8:30 PPI. Composition floor gap (1 more AI-complex leg) stays open until cash frees up via a trim/exit. Default to patience.
+
+## 2026-07-22 — Pre-market Research
+### Account
+- Total **$506.16** | Equity $397.25 | Cash/buying power **$108.91** | vs $500 start: **+1.23%** — kill-switch OK.
+- Book 2/4: XLE 4 sh @ $54.97 (Energy; pre-mkt ~$59.20 → **+7.7%**; resting stop $43.98 id 6a50fa5e) ·
+  XLV 1 sh @ $161.53 (Outside; pre-mkt ~$160.45 → **−0.67%**; resting stop $129.22 id 6a50fa42).
+- Composition: AI-complex **0/2** · Energy 1 · Outside 1/1 · dedup OK. Cadence wk of Jul 20 (wk #3) | opening trades **0/3**.
+- Both stops resting GTC, confirmed (zero fills). No position near a −20% cut or a +15%/+20% ratchet. Phase 2 LIVE.
+- Dry powder $108.91 (~21.5%) → one fractional add is fundable (≤$250 budget, ≤ settled cash).
+- **Perplexity 401 (key rejected) → native web-search fallback used.**
+### Market Context
+- Tape RISK-OFF-lean: index futures soft — Dow −0.1%, **S&P 500 −0.2%, Nasdaq-100 −0.6%** (tech heaviest). VIX **17.57 (+3%)** — calm but ticking up.
+- **Mega-cap earnings gauntlet AFTER today's close: GOOGL, TSLA, IBM, TXN, AT&T.** Dominant catalyst — react to the reaction, do NOT pre-position. Tariffs + rising oil also in focus.
+- Sector momentum: **Energy leads** (oil spiking; XLE strong, week +4.7%) — our leader. **Semis in a rout** (SOX ~−18% MTD, below 50-DMA) — AI profit-taking extends. **Healthcare (XLV) getting rotation capital** — our Outside slot benefits.
+- Pre-mkt AI-complex all red: SMH $570.70 (−2.3%), QQQ $703.10 (−0.83%), VRT $297.97 (−2.1%). Confirms no-chase on the AI gap.
+### Trade Ideas (AI-complex is the open gap; Outside slot filled by XLV — cash caps any add to ~$108 → fractional + software stop)
+1. **QQQ — AI-complex (broad Nasdaq-100), swing lane.** Would open the 0/2 AI floor. Catalyst: post-earnings AI stabilization IF tonight's GOOGL/TSLA prints hold. Entry ~$703 (fractional ~$105), stop ~$562 (−20% software), target ~$780 (+11%), R:R ~0.5 (20% structural stop). Whole share $703 > $108 cash → **fractional + software stop**. **NOT confirmed** — below 20/50-DMA; re-enter only on a post-earnings 20-DMA reclaim. WATCH.
+2. **SMH — AI-complex (semis ETF), swing lane.** Same gap. Catalyst: eventual semi bounce. Entry ~$571 (fractional ~$105), stop ~$457 (−20% software), target ~$660 (+16%). **BLOCKED by no confirmation** — 18% monthly rout below 50-DMA = falling knife; TXN reports tonight. Do not chase.
+3. **Energy add (e.g. VST/CEG) — SKIP.** Energy leg (en=1) already satisfies the floor and is extended after its run; a second energy leg concentrates risk and doesn't fill the AI gap. No add — XLE leadership noted, hold the single leg.
+### Risk Factors
+- Tonight's GOOGL/TSLA/TXN earnings can gap the whole tape (esp. semis/AI) at Thursday's open — a red reaction extends the semi rout; a green one is the only clean AI re-entry trigger. Either way: no pre-position.
+- Semis below 50-DMA with SOX −18% MTD — catching this knife before a confirmed reclaim is the documented failure mode. Discipline: wait.
+- Rising oil/tariffs cut both ways — supports XLE (leader, +7.7%) but a demand-scare reversal could roll energy over; thesis intact well above the $43.98 stop.
+- Only $108.91 cash → any add is a small fractional lot with a SOFTWARE stop (between-scan gap risk).
+### Decision
+**WATCH.** Pre-market does not arm orders. Plan for market-open: HOLD XLE + XLV — both healthy, above stops, none at a ratchet; no re-peg, no cut, no thesis break. AI-complex gap (0/2) stays open BY DESIGN: semis are routing below the 50-DMA and the mega-cap AI earnings gauntlet is tonight — re-entry (QQQ preferred) only on a confirmed post-earnings 20-DMA reclaim, never a chase. Cadence has room (0/3). Default to patience.
