@@ -329,3 +329,25 @@ $129.22 (6a50fa42, ~19% below close). AI-complex gap (0/2) stays open by design:
 reclaim that pre-conditions any AI re-entry was unmet at the open (bounce still under falling 20-DMAs
 into the GOOGL Jul 22 earnings gauntlet) — re-check next routine open, no chase. Kill-switch OK. Room
 for 2 more positions + 3 opening trades this week.
+
+### Jul 22 — EOD Snapshot (Day 10, Wednesday)
+**Portfolio:** $504.78 | **Cash:** $108.91 (21.6%) | **Day P&L:** +$1.16 (+0.23%) | **Phase P&L:** +$4.78 (+0.96%)
+
+| Ticker | Bucket | Shares | Entry | Close | Day Chg | Unrealized P&L | Stop | Protection |
+| — | — | — | — | — | — | — | — | — |
+| XLE | Energy | 4 | $54.97 | $59.19 | +1.17% | +$16.86 (+7.67%) | $43.98 | resting 6a50fa5e |
+| XLV | Outside | 1 | $161.53 | $159.38 | −0.54% | −$2.15 (−1.33%) | $129.22 | resting 6a50fa42 |
+
+**Book:** 2/4 | AI-complex 0/2 · Energy 1 · Outside 1/1 | dedup OK
+**Cadence:** wk of Jul 20 (wk #3) | opening trades 0/3
+**Notes:** Account +$1.16 to a fresh high of $504.78 (+0.96% phase, best close since the $500 start).
+No trades today (wk #3 opens hold at 0/3). XLE kept leading — +1.17% day to $59.19, now +7.67% vs entry
+and firmly the book leader as energy extends its breakout. XLV slipped −0.54% to $159.38, back to −1.33%
+vs entry, still holding its defensive-ballast role far above stop. We gained +0.23% vs SPY's −0.13% —
+ahead of the benchmark today, XLE's strength outrunning a flat-to-down broad tape. No cuts (none ≤ −20%),
+no thesis breaks, no ratchet triggers (XLE +7.67%, not yet at +15%). Stops unchanged, both resting GTC
+confirmed (0 fills, re-pegged today last_txn Jul 22) — XLE $43.98 (6a50fa5e, ~26% below close) / XLV
+$129.22 (6a50fa42, ~19% below close). AI-complex gap (0/2) stays open by design: mega-cap AI earnings
+land AMC tonight (GOOGL/TSLA/TXN) — the QQQ/SMH 20-DMA reclaim that pre-conditions any AI re-entry stays
+the trigger, re-check next routine open post-earnings, no chase. Cash $108.91 (~21.6%) idle by design
+into the event. Kill-switch OK. Room for 2 more positions + 3 opening trades this week.
