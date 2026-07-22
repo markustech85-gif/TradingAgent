@@ -14,6 +14,13 @@ Bucket engine + composition/de-dup/cadence/Tier-1 rules live in `memory/BUCKETS.
 - `Book: n/4 | AI-complex a/2 · Energy e · Outside o/1 | dedup OK` — composition vs the floor.
 - `Cadence: wk of YYYY-MM-DD (wk #k) | opening trades u/CAP` — CAP=4 in week 1, else 3 (BUY-to-open only).
 
+## Jul 22 — MIDDAY scan (no actions)
+Reconciled live vs book (2/4). Both lots above stops, no ratchet trigger, no thesis break. Risk-off-lean tape into tonight's mega-cap AI earnings (GOOGL/TSLA/TXN AMC).
+- XLE $59.08 (+7.48% vs entry; +0.99% day) — resting stop $43.98 (6a50fa5e, confirmed, 0 fills, last_txn Jul 22, ~25.6% below now). Hold. Book leader, oil firm, fresh highs vs entry.
+- XLV $160.33 (−0.74% vs entry; +0.05% day) — resting stop $129.22 (6a50fa42, confirmed, 0 fills, last_txn Jul 22, ~19.4% below now). Hold. Defensive ballast, flat on the day, far above stop.
+No cuts (none ≤ −20%), no thesis breaks, no stop re-pegs (XLE +7.48% not yet at +15%). No buy at midday (manage-only); AI-complex gap (0/2) stays open — re-entry only on a confirmed post-earnings 20-DMA reclaim at a routine open, not a midday chase into tonight's AI-earnings gauntlet.
+Portfolio $505.58 | equity $396.67 | cash $108.91. Drawdown +1.12% vs $500. Kill-switch OK.
+
 ## Jul 21 — MIDDAY scan (no actions)
 Reconciled live vs book (2/4). Both lots above stops, no ratchet trigger, no thesis break. Risk-on tape.
 - XLE $58.31 (+6.08% vs entry; +0.64% day) — resting stop $43.98 (6a50fa5e, confirmed, 0 fills, last_txn Jul 21). Hold. Energy book leader, firm; new highs vs entry.
