@@ -2,7 +2,7 @@
 
 Autonomous, cloud-scheduled **stocks & ETF** trading agent built on Claude Code.
 Broker: **Robinhood** (agentic MCP, account #604803171, cash, ~$500). Goal: beat the
-S&P 500 over a 30-day test. Research via Perplexity, alerts via Telegram,
+S&P 500 over a 30-day test. Research via the agent's native web search, alerts via Telegram,
 state + audit trail in git.
 
 > ⚠️ **Real money — LIVE.** Trading is armed (Phase 2, since 2026-07-09): `place_equity_order`
@@ -29,7 +29,7 @@ CLAUDE.md              Auto-loaded rulebook (every session)
 env.template           Copy to .env locally; never commit .env
 .claude/settings.json  Permission gates (order tools denied in Phase 1)
 .claude/commands/      Local /slash test versions (portfolio, per-routine)
-scripts/               perplexity.sh (research), notify.sh (Telegram notify; whatsapp.sh = shim)
+scripts/               notify.sh (Telegram notify; whatsapp.sh = shim); perplexity.sh (retired/optional)
 routines/              Production prompts + verify-readonly.md
 memory/                STRATEGY, TRADE-LOG, RESEARCH-LOG, PROJECT-CONTEXT (git = state)
 bin/run-routine.sh     Headless runner for the VM path
@@ -39,14 +39,15 @@ docs/                  HANDOFF.md (design blueprint), VM-DEPLOYMENT.md (always-o
 ## Two production paths
 
 - **Cloud routines** (this environment): schedule the four `routines/*.md` as triggers with
-  the Robinhood connector + Perplexity/Telegram env vars attached. Simplest to start.
+  the Robinhood connector + Telegram env vars attached (research uses native web search — no key). Simplest to start.
 - **Always-on VM**: run `bin/run-routine.sh` from cron on your own droplet. Robinhood OAuth is
   authenticated once and persists on disk. Full runbook in [`docs/VM-DEPLOYMENT.md`](docs/VM-DEPLOYMENT.md).
 
 ## Go-live order of operations
 
-1. **Secrets** — `cp env.template .env`, fill in Perplexity + Telegram (local), or set them as
-   routine/VM env vars. `.env` is gitignored. Robinhood is a connector, not an env var.
+1. **Secrets** — `cp env.template .env`, fill in Telegram (local), or set them as routine/VM env
+   vars. `.env` is gitignored. Robinhood is a connector, not an env var. Research needs no key
+   (native web search); a Perplexity key is optional and unused by the routines.
 2. **Local smoke test** — attach the Robinhood connector, run `/portfolio`, then `/pre-market`.
 3. **Read-only verification** — run `routines/verify-readonly.md` as a scheduled trigger and
    confirm it reaches Robinhood and sends a Telegram message — *in an unattended run*. This is the gate.

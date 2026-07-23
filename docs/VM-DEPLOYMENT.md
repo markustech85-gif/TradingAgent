@@ -122,11 +122,12 @@ cd ~/trading-agent
 git config user.email "vm@trading-agent"; git config user.name "trading-vm"
 ```
 
-## 8. Local `.env` (Perplexity + Telegram)
+## 8. Local `.env` (Telegram)
 
-On the VM you use local mode — the wrapper scripts read `.env`:
+On the VM you use local mode — `scripts/notify.sh` reads `.env`. Research runs on the agent's
+native web search, so no research key is required (the Perplexity wrapper is retired/optional):
 ```bash
-cp env.template .env && nano .env   # fill in Perplexity + Telegram values
+cp env.template .env && nano .env   # fill in Telegram values (Perplexity optional/unused)
 chmod 600 .env
 ```
 (`.env` is gitignored — never commit it.)

@@ -1,7 +1,8 @@
 #!/usr/bin/env bash
-# Research wrapper. All market research routes through Perplexity.
+# Research wrapper — RETIRED/OPTIONAL. Routines no longer call this; research runs on the agent's
+# native web search. Kept only as an optional helper — still works if PERPLEXITY_API_KEY is set.
 # Usage: bash scripts/perplexity.sh "<query>"
-# Exits 3 if PERPLEXITY_API_KEY is unset so the caller can fall back to web search.
+# Exits 3 if PERPLEXITY_API_KEY is unset (nothing depends on it).
 set -euo pipefail
 ROOT="$(cd "$(dirname "$0")/.." && pwd)"
 ENV_FILE="$ROOT/.env"

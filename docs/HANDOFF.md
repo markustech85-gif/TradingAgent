@@ -1,7 +1,7 @@
 # Trading Agent — Claude Code Build Handoff Packet
 
 A self-contained blueprint for building an autonomous, cloud-scheduled **stocks & ETF**
-trading agent on top of Claude Code, using **Robinhood (agentic MCP)**, **Perplexity**,
+trading agent on top of Claude Code, using **Robinhood (agentic MCP)**, **native web search**,
 **Telegram**, **GitHub**, and **Claude Code Routines**.
 
 Adapted from the "Opus 4.7 Trading Bot" blueprint (which used Alpaca + ClickUp) to this
@@ -53,7 +53,7 @@ the prompt before every order).
 | Function | This build uses | Replaces the guide's | Key difference |
 |---|---|---|---|
 | Trading | **Robinhood agentic MCP** (`Robhinhood` namespace) | Alpaca REST + `alpaca.sh` | Trading is an **MCP connector**; the agent calls MCP tools directly. **No trading wrapper script.** |
-| Research | **Perplexity** via `scripts/perplexity.sh` | Perplexity (same) | Unchanged; curl wrapper reading `PERPLEXITY_API_KEY`. |
+| Research | **Native web search** (agent's own tool) | Perplexity | Perplexity wrapper (`scripts/perplexity.sh`) retired/optional; no routine depends on it. |
 | Notifications | **Telegram** Bot API (`scripts/notify.sh`; `whatsapp.sh` = back-compat shim) | ClickUp + `clickup.sh` | New wrapper; same graceful-fallback pattern. |
 | Memory / state | **Git** (markdown on `main`) | Git (same) | Unchanged. |
 | Scheduling | **Claude Code Routines** | Claude Code cloud routines (same) | Unchanged. Min interval 1hr; runs may start a few min late; ~15 runs/day account cap. |
@@ -65,7 +65,7 @@ the prompt before every order).
 
 - Robinhood **agentic** account — you have this: **#604803171**, agentic-enabled, cash type, ~$500.
 - A **private GitHub repo** for this project.
-- A **Perplexity API key** (research). Optional: the agent falls back to native web search if unset.
+- **No research key needed** — research runs on the agent's native web search. (A Perplexity API key is optional and unused by the routines.)
 - A **Telegram bot** (fast to start): create one with **@BotFather** for a bot token, then get
   your numeric chat ID from `getUpdates` after messaging the bot once. See `docs/VM-DEPLOYMENT.md` §8.
 - **Claude Code** on a paid plan with **Routines** (research preview) enabled, plus the
@@ -82,7 +82,7 @@ trading-agent/
 ├── env.template              # Copy to .env locally; NEVER commit real .env
 ├── .gitignore                # Must exclude .env
 ├── scripts/
-│   ├── perplexity.sh         # Research wrapper (curl → Perplexity)
+│   ├── perplexity.sh         # RETIRED/optional research wrapper (routines use native web search)
 │   ├── notify.sh             # Notification wrapper (curl → Telegram Bot API)
 │   └── whatsapp.sh           # Back-compat shim → notify.sh
 │                             # (no trading script — Robinhood is an MCP connector)
@@ -166,11 +166,11 @@ Gate, Sell-Side rules, the entry checklist, the kill-switch, and the autonomy no
 
 ## 7. Wrapper scripts
 
-After creating both, run `chmod +x scripts/*.sh`. See `scripts/perplexity.sh` and
-`scripts/notify.sh` in the repo (`whatsapp.sh` is a thin shim that forwards to `notify.sh`).
-Both source a local `.env` if present, and both fail gracefully: perplexity exits 3 when
-`PERPLEXITY_API_KEY` is unset (caller falls back to web search); notify appends to
-`NOTIFICATIONS.md` when the Telegram vars are missing.
+Run `chmod +x scripts/*.sh`. The active wrapper is `scripts/notify.sh` (`whatsapp.sh` is a thin
+shim that forwards to it); it sources a local `.env` if present and appends to `NOTIFICATIONS.md`
+when the Telegram vars are missing. Research uses the agent's **native web search** — no wrapper.
+`scripts/perplexity.sh` is retired/optional: it still works if `PERPLEXITY_API_KEY` is set (exits
+3 otherwise), but no routine calls it.
 
 ---
 
@@ -201,8 +201,8 @@ See `memory/TRADE-LOG.md` (Day 0 baseline), `memory/RESEARCH-LOG.md` (template e
 
 See `routines/pre-market.md`, `routines/market-open.md`, `routines/midday.md`,
 `routines/daily-summary.md`, and the read-only `routines/verify-readonly.md`. Every prompt
-shares a header: an **environment-variable check** (Perplexity + Telegram only — Robinhood is a
-connector), a **Robinhood-reachability check**, a **no-`.env`** guardrail, and a **mandatory
+shares a header: an **environment-variable check** (Telegram only — research uses native web
+search; Robinhood is a connector), a **Robinhood-reachability check**, a **no-`.env`** guardrail, and a **mandatory
 commit-and-push** at the end. All times America/New_York, weekdays.
 
 - pre-market — cron `0 8 * * 1-5`
@@ -220,7 +220,7 @@ commit/push step, and add a read-only `portfolio.md`.
 1. Create a private GitHub repo; clone it; open in Claude Code.
 2. Build the structure in Section 4. Create scripts, prompts, CLAUDE.md, env.template, memory seeds.
 3. `chmod +x scripts/*.sh`. Add `.env` to `.gitignore`.
-4. Sign up for Perplexity (key) and create a Telegram bot (bot token + your chat ID).
+4. Create a Telegram bot (bot token + your chat ID). No research signup needed — research uses native web search.
 5. `cp env.template .env`, fill it in locally.
 6. Attach the **Robinhood connector** to your Claude Code session.
 7. **Local smoke test:** run `/portfolio` — you should see account 604803171, positions, orders
@@ -228,7 +228,7 @@ commit/push step, and add a read-only `portfolio.md`.
 8. Install the Claude GitHub App on the repo.
 9. **Do Section 13 (read-only routine verification) before enabling any trading routine.**
 10. Create the four routines (select the repo, attach the Robinhood connector, add the
-    Perplexity + Telegram env vars, enable pushing to `main`, set the cron + America/New_York,
+    Telegram env vars (no research key needed), enable pushing to `main`, set the cron + America/New_York,
     paste the matching prompt verbatim).
 11. "Run now" on pre-market first; watch the log; confirm the RESEARCH-LOG entry is committed + pushed.
 12. Seed TRADE-LOG.md with the Day 0 snapshot so Day 1's summary has a baseline.
@@ -263,7 +263,7 @@ routine runs in a fresh Anthropic-hosted container. **Before any routine can pla
 | "Repository not accessible" | Claude GitHub App not installed on the repo | Install it, grant access to just this repo |
 | Yesterday's trades missing today | Previous run didn't commit+push | Check `git log origin/main`; re-verify the commit step in the prompt |
 | Telegram message never arrives | A Telegram var missing / never messaged the bot | Script fell back to NOTIFICATIONS.md; add the vars, and message the bot once so it can reply |
-| Perplexity calls skipped | `PERPLEXITY_API_KEY` unset | Script exits 3; agent uses web search. Add the key or accept the fallback |
+| Research seems thin/stale | Native web search not enabled on the runner | Research runs on the agent's native web search — confirm it's enabled for the `claude` runner; briefs should carry current, specific numbers |
 | Order rejected: position cap | Name's whole-share cost exceeds the ≤50% ($250) budget | Buy fractional (dollar-sized) + software stop, or size down (per STRATEGY) |
 | Stop order rejected | Tried to rest a stop on a fractional lot | Expected — fractional lots use a software stop; whole-share lots get the resting `stop_market` (per STRATEGY) |
 | Duplicate buys after a retry | Didn't reconcile before buying | Ensure the prompt reads positions/orders first; reuse the `ref_id` on true retries |
