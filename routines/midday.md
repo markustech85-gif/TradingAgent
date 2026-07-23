@@ -22,8 +22,8 @@ STEP 4 — Ratchet winners. Eligibility: +20% or more -> stop 5% below current; 
          FRACTIONAL (software): update the recorded `protection=software $X` level in the row (no
          resting order). Never move a stop down; never within 3% of current price.
 STEP 5 — Thesis check. If a thesis broke intraday, exit even if not yet -20%. Document in TRADE-LOG.
-STEP 6 — Optional: bash scripts/perplexity.sh for anything moving sharply with no obvious cause;
-         append an afternoon addendum to RESEARCH-LOG.
+STEP 6 — Optional: use your NATIVE web search (real, current searches — never training memory)
+         for anything moving sharply with no obvious cause; append an afternoon addendum to RESEARCH-LOG.
 STEP 7 — Notification (ALWAYS send one Telegram). Write for a non-expert on a phone: clarity over
          brevity (<= 14 lines). Rules: expand jargon (ratchet→raise the stop to lock in a gain,
          re-peg→reset the resting stop order, lot→a holding); label every % as "since entry"; for

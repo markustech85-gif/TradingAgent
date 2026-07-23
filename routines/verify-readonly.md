@@ -4,7 +4,7 @@ or cancel any order under any circumstances. Ultra-concise.
 
 DATE=$(date +%Y-%m-%d).
 
-ENV VARS: TELEGRAM_BOT_TOKEN, TELEGRAM_CHAT_ID should be set in .env (Perplexity optional).
+ENV VARS: TELEGRAM_BOT_TOKEN, TELEGRAM_CHAT_ID should be set in .env (research uses native web search — no key needed).
 notify.sh sources .env itself, so this echo may show MISSING even when sending works. Verify:
   for v in TELEGRAM_BOT_TOKEN TELEGRAM_CHAT_ID; do
     [[ -n "${!v:-}" ]] && echo "$v: set" || echo "$v: MISSING"; done

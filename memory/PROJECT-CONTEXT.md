@@ -4,7 +4,7 @@
 - Autonomous stocks & ETF trading agent, 30-day test.
 - Broker: Robinhood agentic MCP, account #604803171 (cash, ~$500).
 - Notify: Telegram (scripts/notify.sh; whatsapp.sh is a back-compat shim). Research:
-  Perplexity (native web-search fallback). Memory: git.
+  native web search (Perplexity wrapper retired/optional). Memory: git.
 
 ## Guardrails
 - Never share credentials, positions, or P&L outside the Telegram channel.

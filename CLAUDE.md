@@ -53,10 +53,12 @@ Cloud/trigger runs are stateless fresh clones — changes vanish unless committe
 pushed. Memory commits go to `main` (authorized). Always finish a routine by
 committing and pushing per that routine's final step.
 
-## API wrappers
-scripts/perplexity.sh (research), scripts/notify.sh (notify via Telegram). Never curl
-these directly. scripts/whatsapp.sh is a back-compat shim that now forwards to notify.sh.
-If PERPLEXITY_API_KEY is unset, perplexity.sh exits 3 — fall back to native web search.
+## Research & API wrappers
+Research runs on your NATIVE web search — run real, current searches every routine; never quote a
+price, level, or headline from training memory. scripts/notify.sh (notify via Telegram) — never
+curl it directly; scripts/whatsapp.sh is a back-compat shim that now forwards to notify.sh.
+scripts/perplexity.sh is RETIRED/optional: it still works if PERPLEXITY_API_KEY is set, but no
+routine depends on it — do not call it.
 If TELEGRAM_BOT_TOKEN/TELEGRAM_CHAT_ID are unset, notify.sh logs to NOTIFICATIONS.md.
 
 ## Communication style

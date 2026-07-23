@@ -49,7 +49,8 @@ permanently (stocks & ETFs only, forever). **First live buy decision runs at the
 - **Notifications:** Telegram via `scripts/notify.sh` (`.env` on the VM). All four routines
   **always send a concise ≤8-line summary** (changed 2026-07-09; previously intraday runs were
   mostly silent).
-- **Research:** Perplexity via `scripts/perplexity.sh` (`.env`), native web-search fallback.
+- **Research:** the agent's **native web search** (primary, no key). The Perplexity wrapper
+  (`scripts/perplexity.sh`) is **retired/optional** — no routine calls it (changed 2026-07-23).
 
 ## Deployment checklist status (docs/VM-DEPLOYMENT.md)
 §3–§8 ✅ · §9 MCP auth ✅ · §10 read-only gate ✅ · §11 runner ✅ · §12 cron ✅ · **Phase 2 armed ✅**.
@@ -78,6 +79,16 @@ left denied (stocks & ETFs only, forever). First-run QQQ liquidation was done ma
 - **To DISARM (revert to read-only):** add those two equity order tools back to the `deny` list,
   commit to `main`, push, and `git pull origin main` on the VM. Kill-switch (≤ $250) already halts
   new buys automatically.
+
+## Changelog
+- **2026-07-23 — Retired the Perplexity research dependency.** All routine research now runs on
+  the agent's native web search (real, current searches every run — never training memory for
+  prices/levels/news). Updated: `routines/pre-market.md` (STEP 3 + env header), `routines/midday.md`
+  (STEP 6), `routines/verify-readonly.md`, the `.claude/commands/` mirrors, CLAUDE.md, README,
+  env.template, docs, PROJECT-CONTEXT. `scripts/perplexity.sh` left in place, marked
+  retired/optional (still works if `PERPLEXITY_API_KEY` is set; nothing depends on it).
+  **Requires:** native web search enabled on the cron `claude` runner. Verify the next pre-market
+  brief still reads with current, specific numbers. No trading-logic / gate / notification changes.
 
 ## Gotchas for the next session (read before changing anything)
 - **VM runs from `main`; the runner does not `git pull`.** Any change to routines/settings/scripts
