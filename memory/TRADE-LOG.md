@@ -358,3 +358,27 @@ $129.22 (6a50fa42, ~19% below close). AI-complex gap (0/2) stays open by design:
 land AMC tonight (GOOGL/TSLA/TXN) — the QQQ/SMH 20-DMA reclaim that pre-conditions any AI re-entry stays
 the trigger, re-check next routine open post-earnings, no chase. Cash $108.91 (~21.6%) idle by design
 into the event. Kill-switch OK. Room for 2 more positions + 3 opening trades this week.
+
+### Jul 23 — EOD Snapshot (Day 11, Thursday)
+**Portfolio:** $508.28 | **Cash:** $108.91 (21.4%) | **Day P&L:** +$3.50 (+0.69%) | **Phase P&L:** +$8.28 (+1.66%)
+
+| Ticker | Bucket | Shares | Entry | Close | Day Chg | Unrealized P&L | Stop | Protection |
+| — | — | — | — | — | — | — | — | — |
+| XLE | Energy | 4 | $54.97 | $59.40 | +0.33% | +$17.70 (+8.05%) | $43.98 | resting 6a50fa5e |
+| XLV | Outside | 1 | $161.53 | $161.41 | +1.24% | −$0.12 (−0.07%) | $129.22 | resting 6a50fa42 |
+
+**Book:** 2/4 | AI-complex 0/2 · Energy 1 · Outside 1/1 | dedup OK
+**Cadence:** wk of Jul 20 (wk #3) | opening trades 0/3
+**Notes:** Strong relative day — account +$3.50 to a fresh high of $508.28 (+1.66% phase, best close since
+the $500 start) while the broad tape sold off hard. SPY fell −1.23% on the mega-cap AI earnings reaction /
+risk-off unwind, yet our defensive-energy book rose: we gained +0.69% vs SPY −1.23%, ~1.9 pts AHEAD of the
+benchmark today — exactly the ballast the composition floor is built for. XLV was the standout, +1.24% on the
+day to $161.41 as defensive rotation capital bid up healthcare while risk assets sold; now essentially flat
+vs entry (−0.07%). XLE ground +0.33% to a fresh high of $59.40, firmly the book leader at +8.05% vs entry as
+energy extends on crude strength (Mideast supply premium, 6-wk highs). No trades today (wk #3 opens hold at
+0/3). No cuts (none ≤ −20%), no thesis breaks, no ratchet triggers (XLE +8.05%, not yet at +15%). Stops
+unchanged, both resting GTC confirmed (0 fills, re-pegged today last_txn Jul 23) — XLE $43.98 (6a50fa5e, ~26%
+below close) / XLV $129.22 (6a50fa42, ~20% below close). AI-complex gap (0/2) stays open by design: the
+QQQ/SMH 20-DMA reclaim that pre-conditions any AI re-entry remains unmet (both still under falling 20-DMAs;
+INTC reported AMC tonight) — re-check next routine open, no chase. Cash $108.91 (~21.4%) idle by design.
+Kill-switch OK. Room for 2 more positions + 3 opening trades this week.
