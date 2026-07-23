@@ -1,5 +1,45 @@
 # Research Log
 
+## 2026-07-23 — Pre-market Research
+### Account
+- Total **$509.62** | Equity $400.71 | Cash/buying power **$108.91** | vs $500 start: **+1.92%** — kill-switch OK ($250 trip far off).
+- Book 2/4: XLE 4 sh @ $54.97 (Energy; pre-mkt ~$60.21 → **+9.5%**; resting stop $43.98 id 6a50fa5e) ·
+  XLV 1 sh @ $161.53 (Outside; pre-mkt ~$159.87 → **−1.0%**; resting stop $129.22 id 6a50fa42).
+- Composition: AI-complex **0/2** · Energy 1 · Outside 1/1 · dedup OK. Cadence wk of Jul 20 (wk #3) | opening trades **0/3**.
+- Both stops resting GTC, confirmed (zero fills). No position near a −20% cut or a +15%/+20% ratchet. Phase 2 LIVE.
+- Dry powder $108.91 (~21.4%) → one fractional add is fundable (≤$250 budget, ≤ settled cash).
+- **Perplexity 401 (key rejected, again) → native web-search fallback used.**
+### Market Context
+- Tape RISK-OFF-lean: **Nasdaq-100 futures −0.39%, S&P 500 futures edge lower** on rising yields + energy jitters.
+  **VIX 17.75 (+6.7%)** — calm but climbing. **10-yr Treasury yield ~4.63% (2-month high)** = headwind for tech.
+- **Overnight earnings reaction:** GOOGL's heavier-than-expected AI capex initially spooked Nasdaq futures, which then
+  clawed back. **Intel (INTC) reports AMC tonight** — chip-demand read. React to it, don't pre-position.
+- Sector momentum: **Energy leads** — crude ~$88/bbl, fresh 6-week high (+1.5%) on Strait-of-Hormuz / Red Sea tanker
+  tensions + a US crude draw; XLE our leader extending (pre-mkt +1.7%). **Semis momentum fading** off record H1 run —
+  SMH pre-mkt ~$582 (−0.8%). **Healthcare (XLV)** flat, holding its defensive-ballast role.
+- Pre-mkt AI-complex soft: QQQ ~$700 (−0.7%), SMH ~$582 (−0.8%), VRT ~$302 (flat). Confirms no-chase on the AI gap.
+### Trade Ideas (AI-complex is the open gap; Outside slot filled by XLV; cash caps any add to ~$108 → fractional + software stop)
+1. **QQQ — AI-complex (broad Nasdaq-100), swing lane.** Would open the 0/2 AI floor. Catalyst: post-earnings AI
+   stabilization. Entry ~$700 fractional (~$105), stop ~$560 (−20% software), target ~$780 (+11%). **NOT confirmed —
+   price ~$700 < falling 20-DMA $714.25.** Re-enter only on a 20-DMA reclaim. WATCH.
+2. **SMH — AI-complex (semis ETF), swing lane.** Same gap. Catalyst: semi-supercycle thesis intact but near-term
+   momentum fading; INTC tonight. Entry ~$582 fractional, stop ~$466 (−20% software), target ~$680. **BLOCKED — price
+   $582 < falling 20-DMA $599.88; below trend into INTC earnings = falling knife.** Do not chase.
+3. **Energy add (VST/CEG/URA) — SKIP.** en=1 already meets the floor and XLE is extended (+9.5%); a 2nd energy leg
+   concentrates risk into an already-run sector and doesn't fill the AI gap. No add.
+### Risk Factors
+- Rising yields (10-yr 4.63%) + risk-off-lean tape pressure tech/AI at the open — reinforces waiting for a confirmed
+  QQQ/SMH 20-DMA reclaim before touching the AI slot. Catching the knife pre-confirmation is the documented failure mode.
+- Energy is the crowded winner: Mideast supply premium is real (crude 6-wk high) and supports XLE (+9.5%), but a
+  ceasefire headline or demand scare could roll it over fast — thesis intact well above the $43.98 stop; watch for rollover.
+- INTC AMC tonight can gap semis at Friday's open — a red print extends the momentum fade; no pre-position.
+- Only $108.91 cash → any add would be a small fractional lot on a SOFTWARE stop (between-scan gap risk).
+### Decision
+**WATCH.** Pre-market does not arm orders. Plan for market-open: HOLD XLE + XLV — both healthy, above stops, none at a
+ratchet (XLE +9.5%, not yet +15%); no re-peg, no cut, no thesis break. AI-complex gap (0/2) stays open BY DESIGN — both
+QQQ and SMH sit below falling 20-DMAs into a risk-off, rising-yield tape with INTC earnings tonight; re-entry only on a
+confirmed 20-DMA reclaim, never a chase. Cadence has room (0/3). Default to patience.
+
 ## 2026-07-21 — Pre-market Research
 ### Account
 - Total **$498.89** / Equity $389.98 / Cash **$108.91**. Book **2/4**. Drawdown vs $500 start: **−0.22%** (flat) — kill-switch clear ($250 trip far off).
