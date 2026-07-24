@@ -338,3 +338,28 @@ Cadence has room (0/3). Default to patience: a hot CPI or risk-off open = no add
 - Only $108.91 cash → any add is a small fractional lot with a SOFTWARE stop (between-scan gap risk).
 ### Decision
 **WATCH.** Pre-market does not arm orders. Plan for market-open: HOLD XLE + XLV — both healthy, above stops, none at a ratchet; no re-peg, no cut, no thesis break. AI-complex gap (0/2) stays open BY DESIGN: semis are routing below the 50-DMA and the mega-cap AI earnings gauntlet is tonight — re-entry (QQQ preferred) only on a confirmed post-earnings 20-DMA reclaim, never a chase. Cadence has room (0/3). Default to patience.
+
+## 2026-07-24 — Pre-market Research
+### Account
+- Total **$507.77** | Equity $398.86 | Cash/buying power **$108.91** | vs $500 start: **+1.55%** — kill-switch OK ($507.77 » $250).
+- Book 2/4: XLE 4 sh @ $54.97 (Energy; pre-mkt ~$59.22 → **+7.7%**; resting stop $43.98 id 6a50fa5e, ~26% below) ·
+  XLV 1 sh @ $161.53 (Outside; pre-mkt ~$161.98 → **+0.3%**; resting stop $129.22 id 6a50fa42, ~20% below).
+- Composition: AI-complex **0/2** · Energy 1 · Outside 1/1 · dedup OK · diversify floor met (2 non-AI legs). Cadence wk of Jul 20 (wk #3) | opening trades **0/3**.
+- Both stops resting GTC, confirmed (zero fills). No position near a −20% cut or a +15%/+20% ratchet. Phase 2 LIVE.
+- Dry powder $108.91 (~21.5%) → any add is a whole-share name ≤ ~$108 (cash-capped) or a small fractional lot.
+### Market Context
+- Tape RISK-ON-lean/stabilizing after Thursday's tech rout: futures modestly green — **Dow +0.4%, S&P 500 +0.2%, Nasdaq-100 +0.1%**. **VIX 18.87 (+0.9%)** — elevated but off the highs.
+- **Thursday's rout:** Alphabet **−7%**, Tesla **−14%** on ballooning AI-capex guidance; Mag-7 shed ~$800B. Nasdaq −2.15%, S&P −1.21%. New Trump tariffs took effect. Root worry = AI spending ROI + rising oil.
+- **INTC blowout AMC/pre-open:** revenue $16.13B (+25.4% y/y), EPS $0.42 vs $0.22 est, Data-Center/AI +59%; stock +6% pre-mkt. Note: INTC absorbed→SMH (de-dup) — not buyable individually.
+- Sector momentum: **Energy leads** — Brent near $100 / WTI ~$91, oil **+13% on the week** on Red Sea/Iran supply premium; XLE our book leader. **Defensives (XLV) firm** on rotation out of tech — our Outside slot benefits. **Semis/AI-complex still under falling 20-DMAs.**
+- AI re-entry trigger check (get_equity_technical_indicators, 20-DMA): **QQQ $693.45 vs 20-DMA 713.32 (−2.8%, MA falling)**; **SMH $581.79 vs 20-DMA 597.94 (−2.7%, MA falling)**. Reclaim **NOT met** — AI add stays deferred; capex-fear tape makes a chase a textbook bull-trap.
+### Trade Ideas (AI-complex is the open gap; Outside slot filled by XLV; cash caps any add to ≤ ~$108)
+1. **AI re-entry — QQQ or SMH (AI-complex, swing lane).** Would fill the 0/2 gap. Catalyst: eventual AI-complex 20-DMA reclaim. **Trigger UNMET** (both ~3% below falling 20-DMAs into an AI-capex scare). Entry only on a confirmed reclaim at a routine open, never a chase. **WATCH — deferred.**
+2. **URA ~$41 (Energy ETF, uranium), swing lane.** Nuclear/AI-power theme (datacenter power 41GW '26 → 66GW '27; Meta–CEG 1.1GW deal). Whole-share fits cash (2 sh ~$82 → resting stop). Stop ~$32.90 (−20%), target ~$57 (2:1). But it is a **2nd Energy leg** (en→2) after oil is +13%/2-mo-high extended — risk of chasing. Small, only on a constructive open, not a gap-up.
+3. **OKLO ~$44 (Energy single, SMR nuclear), swing lane.** Same AI-power theme; whole-share fits. Higher-beta pre-revenue name → skip unless URA/VST unavailable; prefer the diversified ETF (URA) if adding energy at all.
+### Risk Factors
+- AI-capex ROI scare is the dominant driver — a second red session in mega-cap tech could drag the whole tape (incl. our XLV ballast) even though our stops are structural and far away. No pre-position.
+- Oil is extended (+13% wk, 2-mo high) on a geopolitical premium that can unwind fast; XLE (+7.7%) is the leader but a supply-scare reversal would roll energy over. Adding a 2nd energy leg into that = chasing — favor patience.
+- $108.91 cash → any add is small and cash-capped; no flexibility to average. Overtrading is the documented failure mode.
+### Decision
+**HOLD.** Pre-market does not arm orders. Plan for market-open: HOLD XLE + XLV — both healthy, above stops, no ratchet (XLE +7.7% not yet +15%), no re-peg, no cut, no thesis break. AI-complex gap (0/2) stays open BY DESIGN — re-entry (QQQ preferred) only on a confirmed 20-DMA reclaim, not a chase into the capex-fear tape. A small nuclear/AI-power energy add (URA) is WATCH-only, not on an extended gap-up. Cadence has room (0/3). Default to patience.
