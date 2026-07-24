@@ -389,3 +389,25 @@ below close) / XLV $129.22 (6a50fa42, ~20% below close). AI-complex gap (0/2) st
 QQQ/SMH 20-DMA reclaim that pre-conditions any AI re-entry remains unmet (both still under falling 20-DMAs;
 INTC reported AMC tonight) — re-check next routine open, no chase. Cash $108.91 (~21.4%) idle by design.
 Kill-switch OK. Room for 2 more positions + 3 opening trades this week.
+
+### Jul 24 — EOD Snapshot (Day 12, Friday)
+**Portfolio:** $510.31 | **Cash:** $108.91 (21.3%) | **Day P&L:** +$2.03 (+0.40%) | **Phase P&L:** +$10.31 (+2.06%)
+
+| Ticker | Bucket | Shares | Entry | Close | Day Chg | Unrealized P&L | Stop | Protection |
+| — | — | — | — | — | — | — | — | — |
+| XLE | Energy | 4 | $54.97 | $59.61 | +0.38% | +$18.54 (+8.43%) | $43.98 | resting 6a50fa5e |
+| XLV | Outside | 1 | $161.53 | $162.56 | +0.69% | +$1.03 (+0.63%) | $129.22 | resting 6a50fa42 |
+
+**Book:** 2/4 | AI-complex 0/2 · Energy 1 · Outside 1/1 | dedup OK
+**Cadence:** wk of Jul 20 (wk #3) | opening trades 0/3
+**Notes:** Fresh high to close the week — account +$2.03 to $510.31 (+2.06% phase, best close since the
+$500 start). Both legs green on a quiet, risk-on-lean Friday tape and we beat the benchmark: we gained
++0.40% vs SPY's +0.09%, ~0.3 pts AHEAD today. XLE stayed the book leader, +0.38% day to $59.61 and now
++8.43% vs entry as energy extends on the oil supply premium (WTI firm). XLV firmed +0.69% to $162.56,
+flipping green vs entry (+0.63%) as defensive rotation capital keeps bidding healthcare. No trades today
+(wk #3 opens hold at 0/3). No cuts (none ≤ −20%), no thesis breaks, no ratchet triggers (XLE +8.43%, not
+yet at +15%). Stops unchanged, both resting GTC confirmed (0 fills, re-pegged today last_txn Jul 24) —
+XLE $43.98 (6a50fa5e, ~26% below close) / XLV $129.22 (6a50fa42, ~21% below close). AI-complex gap (0/2)
+stays open by design: the QQQ/SMH 20-DMA reclaim that pre-conditions any AI re-entry remains unmet (both
+still under falling 20-DMAs, ~3% below per today's reads) — re-check next routine open, no chase. Cash
+$108.91 (~21.3%) idle by design. Kill-switch OK. Room for 2 more positions + 3 opening trades this week.
