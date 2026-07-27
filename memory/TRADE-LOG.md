@@ -418,3 +418,27 @@ XLE $43.98 (6a50fa5e, ~26% below close) / XLV $129.22 (6a50fa42, ~21% below clos
 stays open by design: the QQQ/SMH 20-DMA reclaim that pre-conditions any AI re-entry remains unmet (both
 still under falling 20-DMAs, ~3% below per today's reads) — re-check next routine open, no chase. Cash
 $108.91 (~21.3%) idle by design. Kill-switch OK. Room for 2 more positions + 3 opening trades this week.
+
+### Jul 27 — EOD Snapshot (Day 13, Monday)
+**Portfolio:** $506.11 | **Cash:** $108.91 (21.5%) | **Day P&L:** −$4.20 (−0.82%) | **Phase P&L:** +$6.11 (+1.22%)
+
+| Ticker | Bucket | Shares | Entry | Close | Day Chg | Unrealized P&L | Stop | Protection |
+| — | — | — | — | — | — | — | — | — |
+| XLE | Energy | 4 | $54.97 | $58.38 | −2.08% | +$13.64 (+6.20%) | $43.98 | resting 6a50fa5e |
+| XLV | Outside | 1 | $161.53 | $163.43 | +0.53% | +$1.90 (+1.18%) | $129.22 | resting 6a50fa42 |
+
+**Book:** 2/4 | AI-complex 0/2 · Energy 1 · Outside 1/1 | dedup OK
+**Cadence:** wk of Jul 27 (wk #4) | opening trades 0/3
+**Notes:** First down day in a while — account −$4.20 to $506.11 (still +1.22% phase, above the $500 start),
+a single-driver pullback: XLE gave back −2.08% to $58.38 as the US-Iran ceasefire deflated the oil supply
+premium (crude off ~7-8% off recent highs). XLE is still the book leader at +6.20% vs entry and sits far
+above its stop, so this reads as a one-day oil-premium unwind, NOT a decisive sector rollover — no
+thesis-break trim, flagged WATCH. XLV was the ballast doing its job, +0.53% to $163.43 (+1.18% vs entry)
+as defensive rotation kept bidding healthcare. We fell −0.82% vs SPY's flat +0.01% — behind the benchmark
+today by ~0.8 pts, entirely XLE's ceasefire give-back. No trades (wk #4 opens 0/3). No cuts (none ≤ −20%),
+no thesis breaks, no ratchet triggers (XLE +6.20%, not yet at +15%). Stops unchanged, both resting GTC
+confirmed (0 fills, re-pegged today last_txn Jul 27) — XLE $43.98 (6a50fa5e, ~25% below close) / XLV
+$129.22 (6a50fa42, ~21% below close). AI-complex gap (0/2) stays open by design: the QQQ/SMH 20-DMA
+reclaim that pre-conditions any AI re-entry remains unmet, and re-entry waits for a routine open AFTER the
+FOMC (Jul 28-29) + mega-cap-earnings gauntlet (Wed/Thu) — no chase. Cash $108.91 (~21.5%) idle by design.
+Kill-switch OK. Room for 2 more positions + 3 opening trades this week.
