@@ -363,3 +363,29 @@ Cadence has room (0/3). Default to patience: a hot CPI or risk-off open = no add
 - $108.91 cash → any add is small and cash-capped; no flexibility to average. Overtrading is the documented failure mode.
 ### Decision
 **HOLD.** Pre-market does not arm orders. Plan for market-open: HOLD XLE + XLV — both healthy, above stops, no ratchet (XLE +7.7% not yet +15%), no re-peg, no cut, no thesis break. AI-complex gap (0/2) stays open BY DESIGN — re-entry (QQQ preferred) only on a confirmed 20-DMA reclaim, not a chase into the capex-fear tape. A small nuclear/AI-power energy add (URA) is WATCH-only, not on an extended gap-up. Cadence has room (0/3). Default to patience.
+
+## 2026-07-27 — Pre-market Research
+### Account
+- Total **$504.23** | Equity $395.32 (pre-mkt marks) | Cash/buying power **$108.91** | vs $500 start: **+0.85%** — kill-switch OK ($504 » $250).
+- Book 2/4: XLE 4 sh @ $54.97 (Energy; pre-mkt ~$58.08 → **+5.66%**; resting stop $43.98 id 6a50fa5e, ~24% below) ·
+  XLV 1 sh @ $161.53 (Outside; pre-mkt ~$163.00 → **+0.91%**; resting stop $129.22 id 6a50fa42, ~21% below).
+- Composition: AI-complex **0/2** · Energy 1 · Outside 1/1 · dedup OK · diversify floor met (2 non-AI legs). Cadence wk of Jul 27 (wk #4) | opening trades **0/3**.
+- Both stops resting GTC, confirmed (zero fills, re-pegged last_txn Jul 24). No position near a −20% cut or a +15%/+20% ratchet. Phase 2 LIVE.
+- Dry powder $108.91 (~21.6%) → any add is cash-capped (whole-share ≤ ~$108 or a small fractional lot).
+### Market Context
+- Tape **RISK-ON**: futures surge — **Dow +1.0%, S&P 500 +0.9%, Nasdaq-100 +1.4%** — into the busiest week of the quarter. **VIX 17.71 (−4.7%)** — calming.
+- **Weekend catalyst: US–Iran PAUSED strikes** → geopolitical supply premium unwinds. **Oil crashes −7–8%**: Brent ~$89.7 (−7.3%), WTI ~$83.5 (−6.5%), Brent back below $90. Pause is "fragile / vulnerable to sudden reversals."
+- **BIG week ahead:** **FOMC Jul 28–29** (decision Wed 2pm ET; consensus HOLD 3.50–3.75%, debated) + **June Core PCE**. **Mega-cap earnings AMC: MSFT + META Wed Jul 29, AAPL + AMZN Thu Jul 30** (also XOM/CVX/QCOM). AI-capex ROI is the market's key question.
+- Sector momentum: **Energy rolling over pre-mkt** — oil-premium catalyst reversing; XLE ~$58.08 (−2.6% today) but still book leader +5.66% vs entry. **AI-complex bouncing** (QQQ +1.4%, SMH +1.9% pre-mkt) on risk-on, but still under falling 20-DMAs. **Defensives (XLV) firm.**
+- AI re-entry trigger (SMA-20, daily): **QQQ $694 vs 20-DMA 711.71 (−2.5%, MA falling)**; **SMH $572 vs 20-DMA 594.15 (−3.7%, MA falling)**. Reclaim **NOT met** → AI add stays deferred; a pre-earnings/pre-FOMC chase is a textbook bull-trap.
+### Trade Ideas (AI-complex is the open gap; Outside=XLV, Energy=XLE both filled; cash caps any add to ≤ ~$108)
+1. **AI re-entry — QQQ or SMH (AI-complex, swing lane).** Would fill the 0/2 gap. Catalyst: 20-DMA reclaim on a durable AI-complex turn. **Trigger UNMET** (both 2.5–3.7% below falling 20-DMAs) and FOMC + 4 mega-cap prints land Wed/Thu — event risk is enormous. Entry only on a *confirmed* reclaim at a routine open, post-events, never a chase. **WATCH — deferred.**
+2. **No new Energy/Outside add.** Energy floor met by XLE (and oil is now falling — adding energy into a rolling-over catalyst = chasing the wrong way). Outside slot filled by XLV. No idea that improves composition today.
+3. **XLE = the watch item (manage, not add).** Oil-premium catalyst unwinding on the ceasefire; XLE −2.6% pre-mkt but still +5.66% vs entry and ~24% above stop. Not a confirmed thesis-break yet (one ceasefire-driven pullback, position green, pause fragile). Monitor at open: if energy breaks down hard / the sector rolls over decisively, consider a thesis-break trim; else HOLD. Stop unchanged (never lower).
+### Risk Factors
+- **XLE thesis softening:** the supply premium that drove energy's run is deflating with oil −7–8%. Position is still green and far above stop, but the catalyst is fading — watch for a decisive sector roll-over (thesis-break trigger), not just a one-day dip.
+- **Event gauntlet Wed/Thu:** FOMC (Wed) + MSFT/META (Wed AMC) + AAPL/AMZN (Thu AMC) + Core PCE. Any of these can whipsaw the whole tape — the AI-capex ROI verdict especially drives semis/QQQ. No pre-positioning into it.
+- Risk-on bounce in AI is *below* falling 20-DMAs — a relief rally into events, not a confirmed trend turn. Chasing it now is the documented failure mode.
+- $108.91 cash → any add is small, cash-capped, software-stopped. No flexibility to average.
+### Decision
+**HOLD.** Pre-market does not arm orders. Plan for market-open: HOLD XLE + XLV — both healthy, above stops, no ratchet (XLE +5.66% not yet +15%), no re-peg, no cut. **WATCH XLE** for a thesis-break if energy rolls over decisively on the oil unwind (still green today, not yet triggered). AI-complex gap (0/2) stays open BY DESIGN — re-entry (QQQ preferred) only on a confirmed 20-DMA reclaim *after* the FOMC + mega-cap-earnings gauntlet (Wed/Thu), never a chase into it. Cadence has room (wk #4, 0/3). Default to patience.
