@@ -14,6 +14,13 @@ Bucket engine + composition/de-dup/cadence/Tier-1 rules live in `memory/BUCKETS.
 - `Book: n/4 | AI-complex a/2 · Energy e · Outside o/1 | dedup OK` — composition vs the floor.
 - `Cadence: wk of YYYY-MM-DD (wk #k) | opening trades u/CAP` — CAP=4 in week 1, else 3 (BUY-to-open only).
 
+## Jul 27 — MIDDAY scan (no actions)
+Reconciled live vs book (2/4). Both lots above stops, no ratchet trigger, no thesis break. Risk-on tape (FOMC Jul 28-29 + mega-cap earnings Wed/Thu ahead); XLV green, XLE soft as the oil-premium catalyst unwinds on the US-Iran ceasefire.
+- XLE $58.90 (+7.15% vs entry; −1.21% day) — resting stop $43.98 (6a50fa5e, confirmed, 0 fills, last_txn Jul 27, ~25.3% below now). Hold. Book leader; oil crashed −7-8% on the ceasefire so the supply premium is deflating, but position still green and far above stop — one-day dip, NOT a decisive sector rollover, so no thesis-break trim yet. WATCH per pre-mkt.
+- XLV $163.88 (+1.45% vs entry; +0.81% day) — resting stop $129.22 (6a50fa42, confirmed, 0 fills, last_txn Jul 27, ~21.1% below now). Hold. Defensive ballast firming on rotation, green vs entry, far above stop.
+No cuts (none ≤ −20%), no thesis breaks, no stop re-pegs (XLE +7.15% not yet at +15%; both already re-pegged at open today, last_txn Jul 27). No buy at midday (manage-only); AI-complex gap (0/2) stays open — re-entry only on a confirmed QQQ/SMH 20-DMA reclaim at a routine open AFTER the FOMC + mega-cap-earnings gauntlet (both ~2.5-3.7% below falling 20-DMAs per pre-mkt), never a midday chase.
+Portfolio $508.39 | equity $399.48 | cash $108.91. Drawdown +1.68% vs $500. Kill-switch OK.
+
 ## Jul 24 — MIDDAY scan (no actions)
 Reconciled live vs book (2/4). Both lots above stops, no ratchet trigger, no thesis break. Risk-on-lean/stabilizing tape after Thursday's mega-cap AI-capex rout; both legs green on the day.
 - XLE $59.725 (+8.65% vs entry; +0.58% day) — resting stop $43.98 (6a50fa5e, confirmed, 0 fills, last_txn Jul 24, ~26.4% below now). Hold. Book leader, energy extending on oil supply premium (WTI ~$91, +13% wk).
