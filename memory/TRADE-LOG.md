@@ -449,3 +449,29 @@ $129.22 (6a50fa42, ~21% below close). AI-complex gap (0/2) stays open by design:
 reclaim that pre-conditions any AI re-entry remains unmet, and re-entry waits for a routine open AFTER the
 FOMC (Jul 28-29) + mega-cap-earnings gauntlet (Wed/Thu) — no chase. Cash $108.91 (~21.5%) idle by design.
 Kill-switch OK. Room for 2 more positions + 3 opening trades this week.
+
+### Jul 28 — EOD Snapshot (Day 14, Tuesday)
+**Portfolio:** $506.29 | **Cash:** $108.91 (21.5%) | **Day P&L:** +$0.18 (+0.04%) | **Phase P&L:** +$6.29 (+1.26%)
+
+| Ticker | Bucket | Shares | Entry | Close | Day Chg | Unrealized P&L | Stop | Protection |
+| — | — | — | — | — | — | — | — | — |
+| XLE | Energy | 4 | $54.97 | $57.55 | −1.39% | +$10.32 (+4.69%) | $43.98 | resting 6a50fa5e |
+| XLV | Outside | 1 | $161.53 | $167.29 | +2.38% | +$5.76 (+3.56%) | $129.22 | resting 6a50fa42 |
+
+**Book:** 2/4 | AI-complex 0/2 · Energy 1 · Outside 1/1 | dedup OK
+**Cadence:** wk of Jul 27 (wk #4) | opening trades 0/3
+**Notes:** Dead-flat day — account +$0.18 to $506.29 (+1.26% phase, above the $500 start) as the two legs
+offset almost exactly: XLV's strength cancelled XLE's give-back. FOMC day 1 (two-day meeting Jul 28-29,
+decision tomorrow); classic defensive-rotation tape into the event. XLV was the star, +2.38% to a fresh
+high of $167.29, now +3.56% vs entry as rotation capital bids healthcare — exactly the ballast the
+composition floor is built for. XLE slid −1.39% to $57.55 (3rd down day) as the US-Iran ceasefire keeps
+deflating the oil supply premium (crude soft); still the book co-leader at +4.69% vs entry and far above
+its stop, so this remains a one-day-at-a-time premium unwind, NOT a decisive sector rollover — no
+thesis-break trim, WATCH continues. We gained +0.04% vs SPY's +0.23% — slightly BEHIND the benchmark today
+by ~0.19 pts, XLE's drag offsetting XLV's lift on a modestly risk-on broad tape. No trades (wk #4 opens
+0/3). No cuts (none ≤ −20%), no thesis breaks, no ratchet triggers (XLE +4.69% / XLV +3.56%, neither at
++15%). Stops unchanged, both resting GTC confirmed (0 fills, re-pegged today last_txn Jul 28) — XLE $43.98
+(6a50fa5e, ~24% below close) / XLV $129.22 (6a50fa42, ~23% below close). AI-complex gap (0/2) stays open by
+design: the QQQ/SMH 20-DMA reclaim that pre-conditions any AI re-entry remains the trigger, and re-entry
+waits for a routine open AFTER the FOMC decision (tomorrow, Jul 29) — no chase. Cash $108.91 (~21.5%) idle
+by design into the event. Kill-switch OK. Room for 2 more positions + 3 opening trades this week.
