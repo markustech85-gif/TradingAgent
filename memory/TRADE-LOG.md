@@ -14,6 +14,13 @@ Bucket engine + composition/de-dup/cadence/Tier-1 rules live in `memory/BUCKETS.
 - `Book: n/4 | AI-complex a/2 · Energy e · Outside o/1 | dedup OK` — composition vs the floor.
 - `Cadence: wk of YYYY-MM-DD (wk #k) | opening trades u/CAP` — CAP=4 in week 1, else 3 (BUY-to-open only).
 
+## Jul 28 — MIDDAY scan (no actions)
+Reconciled live vs book (2/4). Both lots above stops, no ratchet trigger, no thesis break. FOMC day 1 (Jul 28-29); defensive-rotation tape — XLV strong, XLE soft on the continued oil-premium unwind.
+- XLE $57.47 (+4.55% vs entry; −1.53% day) — resting stop $43.98 (6a50fa5e, confirmed, 0 fills, last_txn Jul 28, ~23.5% below now). Hold. Book leader still green; ceasefire oil-premium unwind extends a 2nd day (crude soft) but position far above stop — one-day continuation, NOT a decisive sector rollover, so no thesis-break trim. WATCH.
+- XLV $167.02 (+3.40% vs entry; +2.22% day) — resting stop $129.22 (6a50fa42, confirmed, 0 fills, last_txn Jul 28, ~22.6% below now). Hold. Defensive ballast doing its job — best day-performer as rotation capital bids healthcare into the FOMC; fresh high vs entry.
+No cuts (none ≤ −20%), no thesis breaks, no stop re-pegs (XLE +4.55% not yet at +15%; both already re-pegged at open today, last_txn Jul 28). No buy at midday (manage-only); AI-complex gap (0/2) stays open — re-entry only on a confirmed QQQ/SMH 20-DMA reclaim at a routine open AFTER the FOMC (Jul 28-29) + mega-cap-earnings gauntlet, never a midday chase.
+Portfolio $505.83 | equity $396.92 | cash $108.91. Drawdown +1.17% vs $500. Kill-switch OK.
+
 ## Jul 27 — MIDDAY scan (no actions)
 Reconciled live vs book (2/4). Both lots above stops, no ratchet trigger, no thesis break. Risk-on tape (FOMC Jul 28-29 + mega-cap earnings Wed/Thu ahead); XLV green, XLE soft as the oil-premium catalyst unwinds on the US-Iran ceasefire.
 - XLE $58.90 (+7.15% vs entry; −1.21% day) — resting stop $43.98 (6a50fa5e, confirmed, 0 fills, last_txn Jul 27, ~25.3% below now). Hold. Book leader; oil crashed −7-8% on the ceasefire so the supply premium is deflating, but position still green and far above stop — one-day dip, NOT a decisive sector rollover, so no thesis-break trim yet. WATCH per pre-mkt.
