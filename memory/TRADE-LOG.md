@@ -482,3 +482,31 @@ by ~0.19 pts, XLE's drag offsetting XLV's lift on a modestly risk-on broad tape.
 design: the QQQ/SMH 20-DMA reclaim that pre-conditions any AI re-entry remains the trigger, and re-entry
 waits for a routine open AFTER the FOMC decision (tomorrow, Jul 29) — no chase. Cash $108.91 (~21.5%) idle
 by design into the event. Kill-switch OK. Room for 2 more positions + 3 opening trades this week.
+
+### Jul 29 — EOD Snapshot (Day 15, Wednesday)
+**Portfolio:** $509.35 | **Cash:** $108.91 (21.4%) | **Day P&L:** +$3.06 (+0.60%) | **Phase P&L:** +$9.35 (+1.87%)
+
+| Ticker | Bucket | Shares | Entry | Close | Day Chg | Unrealized P&L | Stop | Protection |
+| — | — | — | — | — | — | — | — | — |
+| XLE | Energy | 4 | $54.97 | $58.65 | +1.87% | +$14.70 (+6.68%) | $43.98 | resting 6a50fa5e |
+| XLV | Outside | 1 | $161.53 | $166.25 | −0.60% | +$4.72 (+2.92%) | $129.22 | resting 6a50fa42 |
+
+**Book:** 2/4 | AI-complex 0/2 · Energy 1 · Outside 1/1 | dedup OK
+**Cadence:** wk of Jul 27 (wk #4) | opening trades 0/3
+**Notes:** Strong relative day on the FOMC — account +$3.06 to $509.35 (+1.87% phase, above the $500 start)
+while the broad tape sold off hard. The Fed delivered a hawkish HOLD (rates unchanged, 3 dissents voting to
+hike — Hammack/Kashkari/Logan); the bond market read it as the Fed falling behind on inflation and yields
+spiked (10-yr +7bp above 4.67%, 30-yr +10bp above 5.2%, highest since 2007), sinking equities: SPY −1.52%,
+Dow −2.19% (worst day since Apr 2025), Nasdaq −1.74%. Our defensive-energy book rose against that: we gained
++0.60% vs SPY −1.52%, ~2.1 pts AHEAD of the benchmark today — exactly the ballast the composition floor is
+built for. XLE was the driver, +1.87% to $58.65, back to book leader at +6.68% vs entry, as the Iran
+ballistic-missile strike on US bases (overnight) re-armed the Strait-of-Hormuz oil-supply premium (Brent/WTI
+snapped their 3-day slide). XLV eased −0.60% to $166.25 off yesterday's high, still +2.92% vs entry, holding
+its defensive-ballast role far above stop. No trades (wk #4 opens 0/3). No cuts (none ≤ −20%), no thesis
+breaks, no ratchet triggers (XLE +6.68% / XLV +2.92%, neither at +15%). Stops unchanged, both resting GTC
+confirmed (0 fills, re-pegged at open today last_txn Jul 29) — XLE $43.98 (6a50fa5e, ~25% below close) /
+XLV $129.22 (6a50fa42, ~22% below close). AI-complex gap (0/2) stays open by design: with the FOMC now past
+but the reaction risk-OFF (yields spiking, QQQ/SMH sold with the tape), the QQQ/SMH 20-DMA reclaim that
+pre-conditions any AI re-entry is further from being met — re-check next routine open, no chase into a
+yield-shock tape. Cash $108.91 (~21.4%) idle by design. Kill-switch OK. Room for 2 more positions + 3 opening
+trades this week.
