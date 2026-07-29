@@ -14,6 +14,13 @@ Bucket engine + composition/de-dup/cadence/Tier-1 rules live in `memory/BUCKETS.
 - `Book: n/4 | AI-complex a/2 · Energy e · Outside o/1 | dedup OK` — composition vs the floor.
 - `Cadence: wk of YYYY-MM-DD (wk #k) | opening trades u/CAP` — CAP=4 in week 1, else 3 (BUY-to-open only).
 
+## Jul 29 — MIDDAY scan (no actions)
+Reconciled live vs book (2/4). Both lots above stops, no ratchet trigger, no thesis break. FOMC decision 2pm ET TODAY (Warsh) + MSFT/META AMC tonight; risk-on-lean tape, XLE bid on the overnight Iran-attack oil surge.
+- XLE $59.02 (+7.37% vs entry; +2.52% day) — resting stop $43.98 (6a50fa5e, confirmed, 0 fills, last_txn Jul 29, ~25.5% below now). Hold. Book leader firming; the Iran ballistic-missile strike on US bases snapped the 3-day oil slide (Brent +3.5%, WTI +3.3%) — REFRESHES the oil-supply-premium thesis (Strait-of-Hormuz risk back). Manage, don't add at the spike.
+- XLV $167.94 (+3.97% vs entry; +0.41% day) — resting stop $129.22 (6a50fa42, confirmed, 0 fills, last_txn Jul 29, ~23.1% below now). Hold. Defensive ballast at fresh high vs entry; healthcare confirmed sector leader (rotation into FOMC).
+No cuts (none ≤ −20%), no thesis breaks, no stop re-pegs (XLE +7.37% not yet at +15%; both already re-pegged at open today, last_txn Jul 29). No buy at midday (manage-only); AI-complex gap (0/2) stays open — re-entry only on a confirmed QQQ/SMH 20-DMA reclaim at a routine open AFTER the FOMC (2pm) + MSFT/META prints (AMC tonight), never a midday chase into the event.
+Portfolio $512.93 | equity $404.02 | cash $108.91. Drawdown +2.59% vs $500. Kill-switch OK.
+
 ## Jul 28 — MIDDAY scan (no actions)
 Reconciled live vs book (2/4). Both lots above stops, no ratchet trigger, no thesis break. FOMC day 1 (Jul 28-29); defensive-rotation tape — XLV strong, XLE soft on the continued oil-premium unwind.
 - XLE $57.47 (+4.55% vs entry; −1.53% day) — resting stop $43.98 (6a50fa5e, confirmed, 0 fills, last_txn Jul 28, ~23.5% below now). Hold. Book leader still green; ceasefire oil-premium unwind extends a 2nd day (crude soft) but position far above stop — one-day continuation, NOT a decisive sector rollover, so no thesis-break trim. WATCH.
