@@ -1,5 +1,32 @@
 # Research Log
 
+## 2026-07-29 — Pre-market Research
+### Account
+- Total **$510.83** | Equity $401.92 | Cash/buying power **$108.91** | vs $500 start: **+2.17%** — kill-switch OK ($510 » $250).
+- Book 2/4: XLE 4 sh @ $54.97 (Energy; pre-mkt ~$58.58 → **+6.57%**; resting stop $43.98 id 6a50fa5e, ~25% below) ·
+  XLV 1 sh @ $161.53 (Outside; pre-mkt ~$167.60 → **+3.76%**; resting stop $129.22 id 6a50fa42, ~23% below).
+- Composition: AI-complex **0/2** · Energy 1 · Outside 1/1 · dedup OK · diversify floor met (2 non-AI legs). Cadence wk of Jul 27 (wk #4) | opening trades **0/3**.
+- Both stops resting GTC, confirmed (zero fills, re-pegged last_txn Jul 28). No position near a −20% cut or a +15%/+20% ratchet. Phase 2 LIVE.
+- Dry powder $108.91 (~21.3%) → any add is cash-capped (whole-share ≤ ~$108 or a small fractional lot + software stop).
+### Market Context
+- Tape **RISK-ON-lean / mixed**: S&P 500 futures **+0.2%**, Nasdaq-100 futures **+0.3%**; **Dow −0.2%** (energy-led rotation as oil jumps). **VIX 18.35 (+0.8%)** — steady. Fed decision at 2pm ET is the pivot.
+- **OVERNIGHT DRIVER — Iran attacked US bases:** IRGC launched ballistic missiles at US forces in the Mideast (largely repelled); **oil surged, snapping a 3-day slide — Brent +3.5% ~$87, WTI +3.3% ~$81.91.** This *reverses* the US–Iran ceasefire unwind that had been deflating energy → **REFRESHES the XLE oil-supply-premium thesis** (Strait of Hormuz risk back in play).
+- **FOMC decision TODAY, Wed Jul 29, 2pm ET** (Chair Kevin Warsh) — CME FedWatch ~**70% HOLD** at 3.50–3.75%. Presser is the whipsaw risk.
+- **Mega-cap AI-capex gauntlet lands AMC tonight: MSFT + META** (also VRT, QCOM, ARM, LRCX, GD, PG, SBUX). **AAPL + AMZN Thu Jul 30.** The market's single question: does AI capex justify itself. This is the dominant AI-complex catalyst — and the reason any AI re-entry stays deferred until after it clears.
+- **XLV (our Outside leg) — defensive rotation confirmed:** healthcare flipped to sector leader, +5.28% trailing 20-day and crossed above its 20-day ratio-MA vs SPY (relative-strength + benchmark outperformance). Ballast working as designed.
+- AI re-entry trigger (SMA-20, daily): **QQQ ~$677.60 vs 20-DMA ~711 (−4.7%, MA falling)**; **SMH ~$528.91 vs 20-DMA ~591 (−10.5%, MA falling)**. Reclaim **NOT met** — and MSFT/META print tonight. A pre-print chase below a falling 20-DMA is a textbook bull-trap.
+### Trade Ideas (AI-complex is the open gap; Energy=XLE + Outside=XLV both filled; cash caps any add to ≤ ~$108)
+1. **AI re-entry — QQQ (AI-complex broad Nasdaq-100, swing lane).** Would fill the 0/2 gap. Catalyst: durable 20-DMA reclaim on a confirmed AI turn. **Trigger UNMET** (−4.7% below a falling 20-DMA) and MSFT/META land AMC tonight + FOMC at 2pm — event risk is enormous. Entry only on a *confirmed* reclaim at a routine open, AFTER tonight's prints, never a chase. Whole share $678 > $108 cash → would be fractional + software stop. **WATCH — deferred.**
+2. **No new Energy/Outside add.** Energy floor already met by XLE (and stacking energy into a one-day geopolitical oil spike = chasing a spike). Outside slot filled by XLV. No idea improves composition today.
+3. **XLE = manage, not add (thesis re-strengthened).** The oil-premium catalyst that had been fading is back on the Iran attack; XLE ~+6.57% vs entry, ~25% above stop. HOLD; ratchet not triggered (+15% not reached). Watch only for a decisive reversal if the geopolitical premium unwinds again.
+### Risk Factors
+- **Event gauntlet TODAY/tonight:** FOMC 2pm (Warsh presser) + MSFT/META AMC. Either can whipsaw the whole tape — the AI-capex verdict especially drives semis/QQQ. No pre-positioning into it.
+- **Oil spike is geopolitical, not structural:** Iran headlines can reverse fast (as the ceasefire showed). XLE is green and far above stop, so this is a tailwind to ride, not a reason to add at a spike.
+- Risk-on AI bounce is still *below* falling 20-DMAs — a pre-print relief move, not a confirmed trend turn. Chasing it now is the documented failure mode.
+- $108.91 cash → any add is small, cash-capped, software-stopped. Overtrading is the documented failure mode.
+### Decision
+**HOLD.** Pre-market does not arm orders. Plan for market-open: HOLD XLE + XLV — both healthy, above stops, no ratchet (XLE +6.57% not yet +15%), no re-peg, no cut, no thesis break. **XLE thesis re-strengthened** by the Iran attack / oil surge (WATCH flips constructive; manage, don't add at the spike). AI-complex gap (0/2) stays open BY DESIGN — re-entry (QQQ preferred) only on a confirmed 20-DMA reclaim *after* the FOMC + MSFT/META prints, never a chase into it. Cadence has room (wk #4, 0/3). Default to patience.
+
 ## 2026-07-23 — Pre-market Research
 ### Account
 - Total **$509.62** | Equity $400.71 | Cash/buying power **$108.91** | vs $500 start: **+1.92%** — kill-switch OK ($250 trip far off).
