@@ -14,6 +14,13 @@ Bucket engine + composition/de-dup/cadence/Tier-1 rules live in `memory/BUCKETS.
 - `Book: n/4 | AI-complex a/2 · Energy e · Outside o/1 | dedup OK` — composition vs the floor.
 - `Cadence: wk of YYYY-MM-DD (wk #k) | opening trades u/CAP` — CAP=4 in week 1, else 3 (BUY-to-open only).
 
+## Jul 30 — MIDDAY scan (no actions)
+Reconciled live vs book (2/4). Both lots above stops, no ratchet trigger, no thesis break. Risk-on-lean/rebound tape but XLV soft as defensives give back; PCE (June) + Q2 GDP at the open, AAPL/AMZN AMC tonight.
+- XLE $58.34 (+6.13% vs entry; −0.53% day) — resting stop $43.98 (6a50fa5e, confirmed, 0 fills, last_txn Jul 30 12:20, ~24.6% below now). Hold. Book leader; oil-supply premium intact (oil +30% MTD on Iran escalation, Brent ~$92/WTI ~$85). Manage, don't add at strength.
+- XLV $163.12 (+0.98% vs entry; −1.88% day) — resting stop $129.22 (6a50fa42, confirmed, 0 fills, last_txn Jul 30 12:21, ~20.8% below now). Hold. Defensive ballast easing off yesterday's high on the risk-on-lean rotation, still green vs entry, far above stop.
+No cuts (none ≤ −20%), no thesis breaks, no stop re-pegs (XLE +6.13% not yet at +15%; both already re-pegged at open today, last_txn Jul 30). No buy at midday (manage-only); AI-complex gap (0/2) stays open — re-entry only on a confirmed QQQ/SMH 20-DMA reclaim at a routine open AFTER AAPL/AMZN prints (AMC tonight), never a midday chase into an inflation-print/earnings tape.
+Portfolio $505.39 | equity $396.48 | cash $108.91. Drawdown +1.08% vs $500. Kill-switch OK.
+
 ## Jul 29 — MIDDAY scan (no actions)
 Reconciled live vs book (2/4). Both lots above stops, no ratchet trigger, no thesis break. FOMC decision 2pm ET TODAY (Warsh) + MSFT/META AMC tonight; risk-on-lean tape, XLE bid on the overnight Iran-attack oil surge.
 - XLE $59.02 (+7.37% vs entry; +2.52% day) — resting stop $43.98 (6a50fa5e, confirmed, 0 fills, last_txn Jul 29, ~25.5% below now). Hold. Book leader firming; the Iran ballistic-missile strike on US bases snapped the 3-day oil slide (Brent +3.5%, WTI +3.3%) — REFRESHES the oil-supply-premium thesis (Strait-of-Hormuz risk back). Manage, don't add at the spike.
