@@ -517,3 +517,27 @@ but the reaction risk-OFF (yields spiking, QQQ/SMH sold with the tape), the QQQ/
 pre-conditions any AI re-entry is further from being met — re-check next routine open, no chase into a
 yield-shock tape. Cash $108.91 (~21.4%) idle by design. Kill-switch OK. Room for 2 more positions + 3 opening
 trades this week.
+
+### Jul 30 — EOD Snapshot (Day 16, Thursday)
+**Portfolio:** $507.87 | **Cash:** $108.91 (21.4%) | **Day P&L:** −$1.48 (−0.29%) | **Phase P&L:** +$7.87 (+1.57%)
+
+| Ticker | Bucket | Shares | Entry | Close | Day Chg | Unrealized P&L | Stop | Protection |
+| — | — | — | — | — | — | — | — | — |
+| XLE | Energy | 4 | $54.97 | $58.95 | +0.51% | +$15.92 (+7.24%) | $43.98 | resting 6a50fa5e |
+| XLV | Outside | 1 | $161.53 | $163.48 | −1.66% | +$1.95 (+1.21%) | $129.22 | resting 6a50fa42 |
+
+**Book:** 2/4 | AI-complex 0/2 · Energy 1 · Outside 1/1 | dedup OK
+**Cadence:** wk of Jul 27 (wk #4) | opening trades 0/3
+**Notes:** Modest down day against a strong risk-on rebound — account −$1.48 to $507.87 (+1.57% phase, still
+above the $500 start). The tape flipped: SPY roared back +1.68% (recovering most of yesterday's FOMC/yield-shock
+selloff) as PCE (June) + Q2 GDP printed benign and money rotated back into risk. Our defensive-energy book
+lagged that snap-back — the mirror image of yesterday's outperformance: we fell −0.29% vs SPY +1.68%, ~1.97 pts
+BEHIND the benchmark today. XLV was the drag, −1.66% to $163.48 (still +1.21% vs entry) as defensive/healthcare
+rotation unwound on the risk-on flip. XLE held up, +0.51% to $58.95 (book leader at +7.24% vs entry) — the
+oil-supply premium stays intact (oil +~30% MTD on Iran escalation, Brent ~$92/WTI ~$85) even as broad risk
+rebounded. No trades (wk #4 opens 0/3). No cuts (none ≤ −20%), no thesis breaks, no ratchet triggers (XLE +7.24%
+/ XLV +1.21%, neither at +15%). Stops unchanged, both resting GTC confirmed (0 fills, re-pegged at open today
+last_txn Jul 30) — XLE $43.98 (6a50fa5e, ~25% below close) / XLV $129.22 (6a50fa42, ~21% below close). AI-complex
+gap (0/2) stays open by design: re-entry waits for a confirmed QQQ/SMH 20-DMA reclaim at a routine open AFTER
+tonight's AAPL/AMZN prints (AMC) — no chase into an earnings/risk-on tape. Cash $108.91 (~21.4%) idle by design.
+Kill-switch OK. Room for 2 more positions + 3 opening trades this week.
