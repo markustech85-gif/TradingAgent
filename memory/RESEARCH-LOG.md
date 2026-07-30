@@ -1,5 +1,33 @@
 # Research Log
 
+## 2026-07-30 — Pre-market Research
+### Account
+- Total **$506.70** | Equity $397.79 | Cash/buying power **$108.91** | vs $500 start: **+1.34%** — kill-switch OK ($506 » $250).
+- Book 2/4: XLE 4 sh @ $54.97 (Energy; pre-mkt ~$58.32 → **+6.09%**; resting stop $43.98 id 6a50fa5e, ~25% below) ·
+  XLV 1 sh @ $161.53 (Outside; pre-mkt ~$164.51 → **+1.84%**; resting stop $129.22 id 6a50fa42, ~21% below).
+- Composition: AI-complex **0/2** · Energy 1 · Outside 1/1 · dedup OK · diversify floor met (2 non-AI legs). Cadence wk of Jul 27 (wk #4) | opening trades **0/3**.
+- Both stops resting GTC, confirmed (zero fills, re-pegged last_txn Jul 29). No position near a −20% cut or a +15%/+20% ratchet. Phase 2 LIVE.
+- Dry powder $108.91 (~21.5%) → any add is cash-capped (whole-share ≤ ~$108 or a small fractional lot + software stop).
+### Market Context
+- Tape **RISK-ON-lean / rebound**: S&P 500 futures **+0.4%**, Nasdaq-100 futures **+0.7%** (bouncing after NDX entered *correction* Wed on the chip rout), Dow **+0.2%**. **VIX 19.18 (−7.2%)** — cooling off the FOMC spike.
+- **Bond rout continues (the overhang):** hawkish-HOLD FOMC aftermath — **30-yr Treasury yield ~5.24%, a multidecade high**; the long-end revolt is the ceiling on any tech bounce.
+- **Econ calendar TODAY, Thu Jul 30:** **PCE inflation (June)** — the Fed's preferred gauge — plus **Q2 GDP** and continuing jobless claims. Inflation-read risk into the open.
+- **AI-capex verdict split (MSFT/META reported AMC Jul 29):** **MSFT +8.3% pre-mkt** (Azure beat, rev $90.0B +18% YoY — capex is paying off); **META −9%** (weak outlook, FCF −91%, raised 2026 capex to $130–145B — costs eating the bottom line). Net: AI-capex works *if* it monetizes. **VRT +4.6% pre-mkt** (data-center power rides the MSFT capex read).
+- **AAPL + AMZN report AMC TONIGHT (Jul 30)** — the last mega-cap gauntlet leg. Another reason AI re-entry stays deferred until it clears.
+- **Energy:** oil up **+30% this month** on the Iran escalation; **Brent +1.5% ~$92, WTI +0.9% ~$85** today (Iran threatens response to fresh US strikes; Strait-of-Hormuz premium intact). XLE thesis firmly intact; pre-mkt slightly red (−0.6%) after the run.
+- AI re-entry trigger (SMA-20, daily): **QQQ ~$671 vs 20-DMA $704.33 (−4.7%, MA falling)**; **SMH ~$518 vs 20-DMA $578.30 (−10.3%, MA falling)**. Reclaim **NOT met** — NDX in correction, AAPL/AMZN tonight. A pre-print chase below a falling 20-DMA is a textbook bull-trap.
+### Trade Ideas (AI-complex is the open gap; Energy=XLE + Outside=XLV both filled; cash caps any add to ≤ ~$108)
+1. **AI re-entry — QQQ (AI-complex broad Nasdaq-100, swing lane).** Would fill the 0/2 gap. Catalyst: durable 20-DMA reclaim on a confirmed AI turn. **Trigger UNMET** (−4.7% below a falling 20-DMA; NDX in correction) and AAPL/AMZN land AMC tonight. Entry only on a *confirmed* reclaim at a routine open AFTER tonight's prints, never a chase. Whole share $671 > $108 cash → would be fractional + software stop. **WATCH — deferred.**
+2. **No new Energy/Outside add.** Energy floor met by XLE (and chasing a +30%-MTD oil spike = chasing strength); Outside slot filled by XLV. No idea improves composition today.
+3. **XLE / XLV = manage, not add.** XLE ~+6.09% vs entry, ~25% above stop, oil-premium thesis intact; XLV ~+1.84% vs entry, defensive ballast working. HOLD both; neither at +15% ratchet or −20% cut, no thesis break.
+### Risk Factors
+- **Event stack:** PCE (June) + Q2 GDP at the open, AAPL/AMZN AMC tonight — either can whipsaw the tape. No pre-positioning into it.
+- **Bond rout is the real risk:** 30-yr ~5.24% multidecade high pressures long-duration tech; a QQQ bounce below a falling 20-DMA amid a yield shock is a relief move, not a trend turn.
+- Oil spike is geopolitical (Iran) — can reverse fast; XLE is a tailwind to ride, not a reason to add at strength.
+- $108.91 cash → any add is small, cash-capped, software-stopped. Overtrading is the documented failure mode.
+### Decision
+**HOLD.** Pre-market does not arm orders. Plan for market-open: HOLD XLE + XLV — both healthy, above stops, no ratchet (XLE +6.09% not yet +15%), no re-peg needed pre-open, no cut, no thesis break. AI-complex gap (0/2) stays open BY DESIGN — QQQ re-entry only on a confirmed 20-DMA reclaim *after* AAPL/AMZN tonight, never a chase into a correction/yield-shock tape. Cadence has room (wk #4, 0/3). Default to patience.
+
 ## 2026-07-29 — Pre-market Research
 ### Account
 - Total **$510.83** | Equity $401.92 | Cash/buying power **$108.91** | vs $500 start: **+2.17%** — kill-switch OK ($510 » $250).
