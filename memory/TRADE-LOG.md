@@ -548,3 +548,28 @@ last_txn Jul 30) — XLE $43.98 (6a50fa5e, ~25% below close) / XLV $129.22 (6a50
 gap (0/2) stays open by design: re-entry waits for a confirmed QQQ/SMH 20-DMA reclaim at a routine open AFTER
 tonight's AAPL/AMZN prints (AMC) — no chase into an earnings/risk-on tape. Cash $108.91 (~21.4%) idle by design.
 Kill-switch OK. Room for 2 more positions + 3 opening trades this week.
+
+### Jul 31 — EOD Snapshot (Day 17, Friday)
+**Portfolio:** $510.08 | **Cash:** $108.91 (21.4%) | **Day P&L:** +$2.21 (+0.43%) | **Phase P&L:** +$10.08 (+2.02%)
+
+| Ticker | Bucket | Shares | Entry | Close | Day Chg | Unrealized P&L | Stop | Protection |
+| — | — | — | — | — | — | — | — | — |
+| XLE | Energy | 4 | $54.97 | $59.54 | +0.98% | +$18.26 (+8.30%) | $43.98 | resting 6a50fa5e |
+| XLV | Outside | 1 | $161.53 | $162.56 | −0.59% | +$1.03 (+0.63%) | $129.22 | resting 6a50fa42 |
+
+**Book:** 2/4 | AI-complex 0/2 · Energy 1 · Outside 1/1 | dedup OK
+**Cadence:** wk of Jul 27 (wk #4) | opening trades 0/3
+**Notes:** Quiet green day, fresh phase high — account +$2.21 to $510.08 (+2.02% phase, best close since the
+$500 start). Broad tape stayed risk-ON: SPY +0.69% to a record as the mega-cap earnings gauntlet cleared
+(AMZN +10% on a blowout AWS +37%; AAPL −7% on soft Services/China, but the index shrugged it off). We rode
+XLE's lift while XLV eased with the risk-on rotation out of defensives: we gained +0.43% vs SPY +0.69% — ~0.26
+pts BEHIND the benchmark today, the mild cost of holding defensive/energy ballast on a tech-led up day. XLE was
+the driver, +0.98% to $59.54, extending its book-leader run to +8.30% vs entry as the oil-supply premium stays
+intact (WTI ~$84/Brent ~$89, ~+20% MTD on the Iran escalation) despite a fragile ceasefire. XLV slipped −0.59%
+to $162.56, still +0.63% vs entry and far above its stop, holding its defensive-ballast role. No trades (wk #4
+opens 0/3). No cuts (none ≤ −20%), no thesis breaks, no ratchet triggers (XLE +8.30% / XLV +0.63%, neither at
++15%). Stops unchanged, both resting GTC confirmed (0 fills, re-pegged at open today, last_txn Jul 31) — XLE
+$43.98 (6a50fa5e, ~26% below close) / XLV $129.22 (6a50fa42, ~21% below close). AI-complex gap (0/2) stays open
+by design: with QQQ/SMH still under falling 20-DMAs (today's AMZN pop is a one-day relief move, not a trend
+turn), re-entry waits for a confirmed daily-close 20-DMA reclaim at a routine open — no chase. Cash $108.91
+(~21.4%) idle by design. Kill-switch OK. Room for 2 more positions + 3 opening trades this week.
