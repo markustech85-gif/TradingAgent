@@ -14,6 +14,13 @@ Bucket engine + composition/de-dup/cadence/Tier-1 rules live in `memory/BUCKETS.
 - `Book: n/4 | AI-complex a/2 · Energy e · Outside o/1 | dedup OK` — composition vs the floor.
 - `Cadence: wk of YYYY-MM-DD (wk #k) | opening trades u/CAP` — CAP=4 in week 1, else 3 (BUY-to-open only).
 
+## Jul 31 — MIDDAY scan (no actions)
+Reconciled live vs book (2/4). Both lots above stops, no ratchet trigger, no thesis break. Risk-ON tech-led tape (AMZN +10% on AWS +37% beat; AAPL −7% on soft Services/China) — mega-cap gauntlet cleared; both our legs softly red on the day as risk-on rotation nicks defensives/energy but both green vs entry.
+- XLE $58.865 (+7.09% vs entry; −0.16% day) — resting stop $43.98 (6a50fa5e, confirmed, 0 fills, last_txn Jul 31 12:27, ~25.3% below now). Hold. Book leader; oil-supply premium intact (WTI ~$84/Brent ~$89, ~+20% MTD on Iran), ceasefire-fragile — manage, don't add at strength.
+- XLV $162.73 (+0.74% vs entry; −0.48% day) — resting stop $129.22 (6a50fa42, confirmed, 0 fills, last_txn Jul 31 12:24, ~20.6% below now). Hold. Defensive ballast easing on the risk-on flip, still green vs entry, far above stop.
+No cuts (none ≤ −20%), no thesis breaks, no stop re-pegs (XLE +7.09% not yet at +15%; both already re-pegged at open today, last_txn Jul 31). No buy at midday (manage-only); AI-complex gap (0/2) stays open — re-entry only on a confirmed QQQ/SMH daily-close 20-DMA reclaim at a routine open (both still under falling 20-DMAs; today's AMZN-driven gap is a one-day relief pop, not a trend turn), never a midday chase.
+Portfolio $507.10 | equity $398.19 | cash $108.91. Drawdown +1.42% vs $500. Kill-switch OK.
+
 ## Jul 30 — MIDDAY scan (no actions)
 Reconciled live vs book (2/4). Both lots above stops, no ratchet trigger, no thesis break. Risk-on-lean/rebound tape but XLV soft as defensives give back; PCE (June) + Q2 GDP at the open, AAPL/AMZN AMC tonight.
 - XLE $58.34 (+6.13% vs entry; −0.53% day) — resting stop $43.98 (6a50fa5e, confirmed, 0 fills, last_txn Jul 30 12:20, ~24.6% below now). Hold. Book leader; oil-supply premium intact (oil +30% MTD on Iran escalation, Brent ~$92/WTI ~$85). Manage, don't add at strength.
