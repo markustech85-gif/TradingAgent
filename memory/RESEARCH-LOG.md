@@ -1,5 +1,30 @@
 # Research Log
 
+## 2026-07-31 — Pre-market Research
+### Account
+- Total **$507.65** | Equity $398.74 (pre-mkt marks) | Cash/buying power **$108.91** | vs $500 start: **+1.53%** — kill-switch OK ($508 » $250).
+- Book 2/4: XLE 4 sh @ $54.97 (Energy; pre-mkt ~$59.06 → **+7.44%**; resting stop $43.98 id 6a50fa5e, ~25% below) ·
+  XLV 1 sh @ $161.53 (Outside; pre-mkt ~$162.50 → **+0.60%**; resting stop $129.22 id 6a50fa42, ~20% below).
+- Composition: AI-complex **0/2** · Energy 1 · Outside 1/1 · dedup OK · diversify floor met (2 non-AI legs). Cadence wk of Jul 27 (wk #4) | opening trades **0/3**.
+- Both stops resting GTC, confirmed (zero fills, re-pegged last_txn Jul 30). No position near a −20% cut or a +15%/+20% ratchet. Phase 2 LIVE.
+- Dry powder $108.91 (~21.5%) → any add is cash-capped (whole-share ≤ ~$108 or a small fractional lot + software stop).
+### Market Context
+- Tape **RISK-ON (tech-led)**: futures rise on Amazon's blowout — **Nasdaq-100 +1.2%, Dow +0.6%, S&P 500 +0.5%**. Follows yesterday's big rebound (S&P +1.66%, Nasdaq +2.78%). Month-end.
+- **Mega-cap gauntlet CLEARED (AAPL/AMZN reported AMC Jul 30):** **AMZN +10% pre-mkt** — Q2 rev $200.6B (fastest growth in 18 quarters), **AWS +37% to $42.2B** (beat), proprietary-chip business expanding → the AI-capex-monetizes verdict. **AAPL −7% pre-mkt** — EPS $2.02 beat (+29% YoY) but **Services + China revenue light**. Split reaction, but AWS beat is the tape driver. KOSPI **+14%** overnight (chip names roar back, trading halted).
+- **Energy:** oil holding its monthly surge — **WTI ~$84, Brent ~$89** (biggest monthly gain since March, ~+20% MTD on the Iran conflict). Ceasefire fragile / reversible. XLE thesis intact; pre-mkt flat (~$59.06 vs $58.96 close), still book leader.
+- AI re-entry trigger (SMA-20, daily): **QQQ ~$691 vs 20-DMA $702.25 (−1.5%, MA falling)**; **SMH ~$555 vs 20-DMA $574.22 (−3.4%, MA falling)**. Reclaim **STILL NOT met** — both under falling 20-DMAs despite the pop. The AMZN-driven gap-up below a falling 20-DMA is a one-day relief rally, not a confirmed trend turn. Watch for a *daily close* back above the 20-DMA before any add.
+### Trade Ideas (AI-complex is the open gap; Energy=XLE + Outside=XLV both filled; cash caps any add to ≤ ~$108)
+1. **AI re-entry — QQQ (AI-complex broad Nasdaq-100, swing lane).** Fills the 0/2 gap. Catalyst: durable 20-DMA reclaim on a confirmed AI turn (now backed by the AWS AI-capex beat). **Trigger UNMET** — QQQ still −1.5% below a falling 20-DMA; today's gap is a single-session earnings pop, not a confirmed reclaim. Entry only on a *confirmed daily close* back above the 20-DMA at a routine open, never a same-day chase into a gap-up. Whole share $691 > $108 cash → would be fractional + software stop. Entry ~$691 · stop ~$553 (20% below) · **WATCH — deferred.**
+2. **No new Energy/Outside add.** Energy floor met by XLE (oil surge intact but ceasefire-fragile — no chase into a reversible catalyst). Outside slot filled by XLV. No idea improves composition today.
+3. **XLV = the only soft leg (manage, not add).** Slipped −1.66% Wed on the risk-on rotation out of defensives, only +0.60% vs entry pre-mkt, but far above its $129.22 stop and thesis (defensive ballast) unbroken — HOLD, watch that risk-on rotation doesn't erode it toward a thesis-break.
+### Risk Factors
+- **AI bounce is below a falling 20-DMA** — an earnings-driven relief rally, not a confirmed trend turn. Chasing the gap-up today (the documented failure mode) risks buying the top of a one-day pop. Wait for the daily close above the 20-DMA.
+- **AAPL −7%** is a mega-cap drag that could cap the broad tape even as AWS lifts semis; the reaction is bifurcated, not uniformly risk-on.
+- **Energy ceasefire-fragile:** oil's +20% MTD rests on the Iran conflict staying hot. A durable ceasefire would unwind the premium fast — watch XLE for a decisive sector rollover (thesis-break), though it's green and far above stop today.
+- $108.91 cash → any add is small, cash-capped, software-stopped. No flexibility to average.
+### Decision
+**HOLD.** Pre-market does not arm orders. Plan for market-open: HOLD XLE + XLV — both healthy, above stops, no ratchet (XLE +7.44% not yet +15%), no re-peg, no cut, no thesis break. AI-complex gap (0/2) stays open BY DESIGN — re-entry (QQQ preferred, now supported by the AWS AI-capex beat) only on a **confirmed daily close above the 20-DMA**, never a same-day chase into today's earnings gap-up. Cadence has room (wk #4, 0/3). Default to patience.
+
 ## 2026-07-30 — Pre-market Research
 ### Account
 - Total **$506.70** | Equity $397.79 | Cash/buying power **$108.91** | vs $500 start: **+1.34%** — kill-switch OK ($506 » $250).
