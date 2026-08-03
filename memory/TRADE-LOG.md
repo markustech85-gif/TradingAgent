@@ -14,6 +14,13 @@ Bucket engine + composition/de-dup/cadence/Tier-1 rules live in `memory/BUCKETS.
 - `Book: n/4 | AI-complex a/2 · Energy e · Outside o/1 | dedup OK` — composition vs the floor.
 - `Cadence: wk of YYYY-MM-DD (wk #k) | opening trades u/CAP` — CAP=4 in week 1, else 3 (BUY-to-open only).
 
+## Aug 03 — MIDDAY scan (no actions)
+Reconciled live vs book (2/4). Both lots above stops, no ratchet trigger, no thesis break. Risk-on-lean start to August; oil pulling back on renewed diplomacy (two-sided), semis soft into AMD earnings this wk.
+- XLE $59.135 (+7.58% vs entry; −0.70% day) — resting stop $43.98 (6a50fa5e, confirmed, 0 fills, last_txn Aug 3 12:28, ~25.6% below now). Hold. Book leader; oil-supply premium intact but choppy/headline-driven (WTI ~$78–85). Manage, don't add at strength.
+- XLV $162.08 (+0.34% vs entry; −0.29% day) — resting stop $129.22 (6a50fa42, confirmed, 0 fills, last_txn Aug 3 12:25, ~20.3% below now). Hold. Defensive ballast, near-flat vs entry, far above stop.
+No cuts (none ≤ −20%), no thesis breaks, no stop re-pegs (XLE +7.58% not yet at +15%; both already re-pegged at open today, last_txn Aug 3). No buy at midday (manage-only); AI-complex gap (0/2) stays open — re-entry only on a confirmed QQQ/SMH daily-close 20-DMA reclaim at a routine open (QQQ $697.58 still under falling 20-DMA ~$701; SMH $542 weak into AMD), never a midday chase into an earnings-heavy/NFP week.
+Portfolio $507.53 | equity $398.62 | cash $108.91. Drawdown +1.51% vs $500. Kill-switch OK.
+
 ## Jul 31 — MIDDAY scan (no actions)
 Reconciled live vs book (2/4). Both lots above stops, no ratchet trigger, no thesis break. Risk-ON tech-led tape (AMZN +10% on AWS +37% beat; AAPL −7% on soft Services/China) — mega-cap gauntlet cleared; both our legs softly red on the day as risk-on rotation nicks defensives/energy but both green vs entry.
 - XLE $58.865 (+7.09% vs entry; −0.16% day) — resting stop $43.98 (6a50fa5e, confirmed, 0 fills, last_txn Jul 31 12:27, ~25.3% below now). Hold. Book leader; oil-supply premium intact (WTI ~$84/Brent ~$89, ~+20% MTD on Iran), ceasefire-fragile — manage, don't add at strength.
