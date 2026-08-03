@@ -1,5 +1,30 @@
 # Research Log
 
+## 2026-08-03 — Pre-market Research
+### Account
+- Total **$508.10** | Equity $399.19 (pre-mkt marks) | Cash/buying power **$108.91** | vs $500 start: **+1.62%** — kill-switch OK ($508 » $250).
+- Book 2/4: XLE 4 sh @ $54.97 (Energy; pre-mkt ~$58.91 → **+7.16%**; resting stop $43.98 id 6a50fa5e, ~25% below) ·
+  XLV 1 sh @ $161.53 (Outside; pre-mkt ~$163.56 → **+1.26%**; resting stop $129.22 id 6a50fa42, ~21% below).
+- Composition: AI-complex **0/2** · Energy 1 · Outside 1/1 · dedup OK · diversify floor met (2 non-AI legs). Cadence **new week: wk of Aug 3 (wk #5)** | opening trades **0/3** (CAP 3).
+- Both stops resting GTC, confirmed (zero fills, last_txn Jul 31). No position near a −20% cut or a +15%/+20% ratchet. Phase 2 LIVE.
+- Dry powder $108.91 (~21.4%) → any add is cash-capped (whole-share ≤ ~$108 or a small fractional lot + software stop).
+### Market Context
+- Tape **RISK-ON**: futures higher to open August — **Dow +1.0%, S&P 500 +0.6%, Nasdaq-100 +0.3%**. **VIX 15.98 (≈flat)** — calm, near cycle lows. Weekend de-escalation headlines (Trump called off an Iran strike per Yahoo) eased oil & lifted risk; note conflicting supply-scare reports (Iran tanker claim) — geopolitics two-sided.
+- **Big week ahead:** **July jobs report (NFP) Fri Aug 7** (consensus ~+85k vs +57k June) — the key macro print into Aug 12 CPI + Sept FOMC. **JOLTS Tue; ISM Manufacturing.** Earnings: **PLTR (AMC Mon), AMD (this wk), SanDisk** — AI-capex read-throughs for semis.
+- **Energy:** oil pulling back modestly pre-mkt on renewed diplomacy — **WTI ~$78–85, Brent ~$88**. XLE ~$58.91 (−1.1% today) but still book leader **+7.16%** vs entry; supply premium intact but choppy/two-sided. Adding a 2nd energy leg here = chasing an extended, headline-driven move.
+- AI re-entry trigger (SMA-20, daily): **QQQ ~$688 vs 20-DMA ≈$701 (−1.9%, MA still falling)**; **SMH ~$530 vs 20-DMA ≈$572 (−7.3%, MA falling; −2% pre-mkt)**. Reclaim **NOT met** — QQQ is closest it's been but still under a falling 20-DMA; semis actively weak into AMD earnings. Need a *daily close* above the 20-DMA before any AI add — no chase into PLTR/AMD prints + Fri jobs.
+### Trade Ideas (AI-complex 0/2 is the open gap; Energy=XLE + Outside=XLV filled; cash caps any add ≤ ~$108)
+1. **QQQ ~$688 (AI-complex broad Nasdaq-100, swing lane).** Fills the 0/2 gap. Catalyst: durable 20-DMA reclaim on a confirmed AI-complex turn. **Trigger UNMET** (−1.9% below a falling 20-DMA; PLTR/AMD earnings + Fri NFP as event risk). Whole share $688 > $108 cash → would be fractional + software stop. Stop 20% below fill; target ≥2:1. **WATCH — deferred, entry only on a confirmed daily close above the 20-DMA at a routine open.**
+2. **SMH ~$530 (AI-complex semis, swing lane).** Same gap. **BLOCKED** — ~7% below a falling 20-DMA, −2% pre-mkt into AMD earnings = falling knife. Do not chase.
+3. **URA ~$39.7 (Energy ETF, uranium; 2nd energy leg, swing lane).** Nuclear/AI-power theme; whole-share fits (2 sh ~$79 → resting stop, stop ~$31.8, target ~$57). But it's a **2nd Energy leg (en→2)** into an extended, two-sided oil tape — adds correlation, doesn't fix the AI gap. **WATCH only — not today.**
+### Risk Factors
+- **Event-heavy week:** PLTR (Mon AMC) + AMD earnings + Fri jobs can whipsaw the tape and especially semis/QQQ — no pre-positioning into it. Our stops are structural and far away.
+- **Oil two-sided:** diplomacy easing the premium vs fresh tanker/Hormuz scare — XLE (+7.16%) is extended and headline-driven; a decisive sector rollover is the thesis-break trigger to watch (not triggered; position green, ~25% above stop).
+- **AI bounce below a falling 20-DMA** = relief, not a confirmed turn. Chasing it (or a 2nd energy leg) into a calm-VIX, earnings-heavy week is the documented overtrading failure mode.
+- $108.91 cash → any add is small, cash-capped, software-stopped. No flexibility to average.
+### Decision
+**HOLD.** Pre-market does not arm orders. Plan for market-open: HOLD XLE + XLV — both healthy, above stops, no ratchet (XLE +7.16% / XLV +1.26%, neither at +15%), no re-peg, no cut, no thesis break. AI-complex gap (0/2) stays open BY DESIGN — re-entry (QQQ preferred) only on a confirmed daily-close 20-DMA reclaim at a routine open, never a chase into the PLTR/AMD/NFP week. A 2nd energy leg (URA) is WATCH-only. Cadence fresh (wk #5, 0/3). Default to patience.
+
 ## 2026-07-31 — Pre-market Research
 ### Account
 - Total **$507.65** | Equity $398.74 (pre-mkt marks) | Cash/buying power **$108.91** | vs $500 start: **+1.53%** — kill-switch OK ($508 » $250).
