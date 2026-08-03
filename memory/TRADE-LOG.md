@@ -580,3 +580,29 @@ $43.98 (6a50fa5e, ~26% below close) / XLV $129.22 (6a50fa42, ~21% below close). 
 by design: with QQQ/SMH still under falling 20-DMAs (today's AMZN pop is a one-day relief move, not a trend
 turn), re-entry waits for a confirmed daily-close 20-DMA reclaim at a routine open — no chase. Cash $108.91
 (~21.4%) idle by design. Kill-switch OK. Room for 2 more positions + 3 opening trades this week.
+
+### Aug 03 — EOD Snapshot (Day 18, Monday)
+**Portfolio:** $506.27 | **Cash:** $108.91 (21.5%) | **Day P&L:** −$3.81 (−0.75%) | **Phase P&L:** +$6.27 (+1.25%)
+
+| Ticker | Bucket | Shares | Entry | Close | Day Chg | Unrealized P&L | Stop | Protection |
+| — | — | — | — | — | — | — | — | — |
+| XLE | Energy | 4 | $54.97 | $58.79 | −1.28% | +$15.28 (+6.95%) | $43.98 | resting 6a50fa5e |
+| XLV | Outside | 1 | $161.53 | $162.25 | −0.18% | +$0.72 (+0.45%) | $129.22 | resting 6a50fa42 |
+
+**Book:** 2/4 | AI-complex 0/2 · Energy 1 · Outside 1/1 | dedup OK
+**Cadence:** wk of Aug 03 (wk #5) | opening trades 0/3
+**Notes:** Down day against a strong risk-on tape — account −$3.81 to $506.27 (+1.25% phase, still above the
+$500 start). The broad market ripped: SPY +1.42% to a fresh record ($757.63 vs $747.03) as August opened
+risk-ON — soft-landing optimism, cooling rate-cut bets and continued mega-cap AI strength pulled money into
+growth. Our defensive-energy book was the mirror image: we fell −0.75% vs SPY +1.42%, ~2.2 pts BEHIND the
+benchmark today — the expected cost of holding defensive ballast on a tech-led up day (the same composition
+that put us ~2 pts AHEAD on the FOMC selloff). XLE was the drag, −1.28% to $58.79 (still book leader at +6.95%
+vs entry) as oil pulled back on renewed two-sided diplomacy softening the Strait-of-Hormuz supply premium
+(WTI chopping ~$78–85, headline-driven). XLV eased −0.18% to $162.25 (+0.45% vs entry) as defensive/healthcare
+lagged the risk-on rotation, holding far above stop. No trades (new week, wk #5 opens 0/3). No cuts (none ≤
+−20%), no thesis breaks, no ratchet triggers (XLE +6.95% / XLV +0.45%, neither at +15%). Stops unchanged, both
+resting GTC confirmed (0 fills, re-pegged at open today, last_txn Aug 3) — XLE $43.98 (6a50fa5e, ~25% below
+close) / XLV $129.22 (6a50fa42, ~20% below close). AI-complex gap (0/2) stays open by design: QQQ/SMH still
+under falling 20-DMAs (QQQ ~$698 vs 20-DMA ~$701; SMH soft into AMD earnings this week), so re-entry waits for
+a confirmed daily-close 20-DMA reclaim at a routine open — no chase into an earnings-heavy/NFP week. Cash
+$108.91 (~21.5%) idle by design. Kill-switch OK. Room for 2 more positions + 3 opening trades this week.
