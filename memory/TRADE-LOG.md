@@ -22,6 +22,14 @@ Reconciled live vs book (2/4 → 3/4). Account $501.66 | equity $392.75 | cash $
 - Book: 3/4 | AI-complex 1/2 · Energy 1 · Outside 1/1 | dedup OK. Post-buy cash ~$8.91.
 - Cadence: wk of 2026-08-03 (wk #5) | opening trades 1/3 (CAP 3).
 
+## Aug 04 — MIDDAY scan (no actions)
+Reconciled live vs book (3/4). All lots above stops, no ratchet trigger, no thesis break. Risk-on tape holding — QQQ (today's new AI-complex leg) leading; Nasdaq firm, energy softer/two-sided into AMD AMC + Fri NFP.
+- QQQ $718.96 (+1.28% vs entry; +2.70% day) — software stop $567.88 (fractional — no resting order, ~21.0% below now). Hold. New AI-complex leg working; held above the reclaimed 20-DMA (~$700) into the pop. Far above stop, not −20%, no thesis break.
+- XLE $58.30 (+6.06% vs entry; −0.83% day) — resting stop $43.98 (6a50fa5e, confirmed, 0 fills, last_txn Aug 4 12:24, ~24.6% below now). Hold. Book leader; oil-supply premium intact but choppy/headline-driven (WTI ~$81). Manage, don't add at strength.
+- XLV $161.77 (+0.15% vs entry; −0.29% day) — resting stop $129.22 (6a50fa42, confirmed, 0 fills, last_txn Aug 4 12:26, ~20.1% below now). Hold. Defensive ballast, near-flat vs entry, far above stop.
+No cuts (none ≤ −20%), no thesis breaks, no stop re-pegs (QQQ +1.28% not near +15%; XLE +6.06% not yet at +15%; both resting stops already re-pegged at open today, last_txn Aug 4). No buy at midday (manage-only; cash $8.91, ~98% deployed post-QQQ-buy). Book 3/4 — AI-complex now 1/2 after the QQQ open; SMH slot stays a WATCH (no chase into AMD tonight).
+Portfolio $505.16 | equity $496.25 | cash $8.91. Drawdown +1.03% vs $500. Kill-switch OK.
+
 ## Aug 03 — MIDDAY scan (no actions)
 Reconciled live vs book (2/4). Both lots above stops, no ratchet trigger, no thesis break. Risk-on-lean start to August; oil pulling back on renewed diplomacy (two-sided), semis soft into AMD earnings this wk.
 - XLE $59.135 (+7.58% vs entry; −0.70% day) — resting stop $43.98 (6a50fa5e, confirmed, 0 fills, last_txn Aug 3 12:28, ~25.6% below now). Hold. Book leader; oil-supply premium intact but choppy/headline-driven (WTI ~$78–85). Manage, don't add at strength.
