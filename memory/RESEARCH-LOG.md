@@ -1,5 +1,31 @@
 # Research Log
 
+## 2026-08-04 — Pre-market Research
+### Account
+- Total **$503.43** | Equity $394.52 | Cash/buying power **$108.91** | vs $500 start: **+0.69%** — kill-switch OK ($503 » $250).
+- Book 2/4: XLE 4 sh @ $54.97 (Energy; mark $58.79 → **+6.95%**; pre-mkt $58.08 → +5.66%; resting stop $43.98 id 6a50fa5e, ~25% below) ·
+  XLV 1 sh @ $161.53 (Outside; mark $162.25 → **+0.45%**; resting stop $129.22 id 6a50fa42, ~20% below).
+- Composition: AI-complex **0/2** · Energy 1 · Outside 1/1 · dedup OK · diversify floor met (2 non-AI legs). Cadence **wk of Aug 3 (wk #5)** | opening trades **0/3** (CAP 3).
+- Both stops resting GTC, confirmed (zero fills, last_txn Aug 3). No position near a −20% cut or a +15%/+20% ratchet. Phase 2 LIVE.
+- Dry powder $108.91 (~21.6%) → any add is cash-capped (whole-share ≤ ~$108 or a small fractional lot + software stop).
+### Market Context
+- Tape **RISK-ON**: Dow closed at a **record** Monday; futures higher — **Nasdaq-100 +0.7–0.9%, Dow +0.8%, S&P 500 +0.3%**. **VIX ~15.8 (−1.3%)** — calm, near cycle lows.
+- **AI momentum inflection:** **PLTR +16–17% pre-mkt** on a blowout Q2 (rev $1.94B +93% YoY, US-commercial +149%); **CAT +9%** (record rev >$20B, AI-buildout industrial). Broad AI-capex tape strengthening. **AMD + SpaceX + LCID report AMC tonight** — semis event risk into the close.
+- **AI re-entry trigger (SMA-20, daily): NOW MET for QQQ.** **QQQ closed Aug 3 at $700.07 vs 20-DMA $699.88 → first daily close ABOVE the falling-but-flattening 20-DMA** (699.88 vs 701.02 prior). Pre-mkt QQQ ~$708 (+1.1%) confirms. **SMH still ~4% BELOW its falling 20-DMA** ($545.46 vs $568.69) → semis NOT triggered; no chase into AMD tonight.
+- **Energy:** oil bounced after Mon's drop — **WTI ~$81, Brent ~$84** (US-Iran / Strait-of-Hormuz supply premium intact; Brent ~+16% MoM). XLE thesis intact, still book leader **+6.95%**; two-sided/headline-driven — no chase, no 2nd energy leg.
+- **Healthcare/XLV:** defensive ballast; sector firm, LLY (obesity franchise) the sector's key catalyst. Held-ticker news benign; hold.
+- **Macro week:** **JOLTS Tue; ISM Services; July jobs (NFP) Fri Aug 7** (~+85k, unemp 4.3%). Big print — a hot number (>100k) could pressure risk. No pre-positioning into it.
+### Trade Ideas (AI-complex 0/2 is the open gap; Energy=XLE + Outside=XLV filled; cash caps any add ≤ ~$108)
+1. **QQQ ~$708 (AI-complex broad Nasdaq-100, swing lane).** Fills the 0/2 gap. Catalyst: **the deferred 20-DMA-reclaim trigger is now met** (Aug 3 daily close $700.07 > 20-DMA $699.88), backed by the PLTR/CAT AI-capex beats + risk-on record tape. Whole share $708 > $108 cash → **fractional ~$100 lot + software stop @ ~$566 (20% below fill)**, target ≥2:1. **WATCH → ACT at market-open** only if QQQ holds above its 20-DMA (~$700) at the open (not fading the pre-mkt pop); mind AMD AMC + Fri NFP. Post-fill book: ai 1/2 · en 1 · out 1 — improves composition, passes gate.
+2. **SMH ~$545 (AI-complex semis, swing lane).** Same gap. **BLOCKED** — ~4% below a falling 20-DMA, AMD earnings AMC tonight = event/knife risk. Do not chase.
+3. **No 2nd Energy / no Outside change.** XLE covers Energy (extended, two-sided oil — no add); XLV holds the Outside slot. Nothing improves composition beyond the QQQ add.
+### Risk Factors
+- **Reclaim is thin + event-heavy:** QQQ cleared the 20-DMA by just $0.19 (0.03%) and the MA is still declining; AMD AMC tonight + Fri NFP can whipsaw semis/QQQ. A small fractional starter (not a full lot) is the disciplined size.
+- **Oil two-sided:** XLE (+6.95%) extended and headline-driven; a decisive sector rollover is the thesis-break trigger (not triggered; ~25% above stop).
+- **Cash-capped:** $108.91 → any add is small, software-stopped, no room to average.
+### Decision
+**HOLD at pre-market (does not arm orders); WATCH QQQ into the open.** Plan for market-open: HOLD XLE + XLV (both healthy, above stops, no ratchet — XLE +6.95% / XLV +0.45%, neither at +15% — no re-peg, no cut, no thesis break). The **AI-complex 0/2 gap is now actionable**: the QQQ 20-DMA reclaim confirmed on Aug 3's close — **ACT on a small fractional QQQ lot (~$100, software stop) at market-open IF QQQ holds above its 20-DMA**, else stand down. No SMH chase, no 2nd energy leg. Cadence has room (wk #5, 0/3). Patience on everything but the confirmed QQQ trigger.
+
 ## 2026-08-03 — Pre-market Research
 ### Account
 - Total **$508.10** | Equity $399.19 (pre-mkt marks) | Cash/buying power **$108.91** | vs $500 start: **+1.62%** — kill-switch OK ($508 » $250).
