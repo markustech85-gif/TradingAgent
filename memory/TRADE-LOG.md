@@ -14,6 +14,14 @@ Bucket engine + composition/de-dup/cadence/Tier-1 rules live in `memory/BUCKETS.
 - `Book: n/4 | AI-complex a/2 · Energy e · Outside o/1 | dedup OK` — composition vs the floor.
 - `Cadence: wk of YYYY-MM-DD (wk #k) | opening trades u/CAP` — CAP=4 in week 1, else 3 (BUY-to-open only).
 
+## Aug 04 — MARKET-OPEN (BUY QQQ — AI-complex re-entry)
+Reconciled live vs book (2/4 → 3/4). Account $501.66 | equity $392.75 | cash $108.91 (pre-buy). Kill-switch OK (+0.33% vs $500). Both existing stops confirmed resting GTC (XLE $43.98 id 6a50fa5e; XLV $129.22 id 6a50fa42; 0 fills). Neither at +15% — no re-peg, no cut, no thesis break (XLE $57.77 +5.09% / XLV $161.57 +0.02% vs entry).
+- **BOUGHT QQQ | BUCKET=AI-complex | side=buy | $100.00 (0.140875 sh) | entry=$709.8459 | stop(software)=$567.88 (20% below) | PROTECTION=software $567.88 (fractional — no resting stop possible) | lane=swing | thesis: deferred 20-DMA-reclaim trigger CONFIRMED — QQQ Aug 3 daily close $700.07 > 20-DMA $699.88, live $708–710 holding above at open (not fading the pop), backed by PLTR/CAT AI-capex beats + risk-on record tape; fills the AI-complex 0/2 gap. target ≥$780 (≥2:1 R:R vs $567.88 stop). buy ref_id=7f3e9a12-4b6c-4d8e-9f10-2a3b4c5d6e7f (order 6a71e9ad, filled 09:31 ET).**
+- Gate: G1–G10 all PASS. B′={XLE,XLV,QQQ}: count 3≤4 · cadence 0+1≤3 · cost $100≤$250 & ≤$108.91 cash · ai 1/2 · out 1/1 · non-AI legs 2 · broad-AI slot was empty (de-dup OK) · catalyst logged today · not off-list. Whole share $710 > budget → fractional + software stop.
+- QQQ | bucket=AI-complex | qty=$100 frac (0.140875 sh) | entry=$709.8459 | stop=$567.88 | protection=software $567.88 | lane=swing | opened=2026-08-04
+- Book: 3/4 | AI-complex 1/2 · Energy 1 · Outside 1/1 | dedup OK. Post-buy cash ~$8.91.
+- Cadence: wk of 2026-08-03 (wk #5) | opening trades 1/3 (CAP 3).
+
 ## Aug 03 — MIDDAY scan (no actions)
 Reconciled live vs book (2/4). Both lots above stops, no ratchet trigger, no thesis break. Risk-on-lean start to August; oil pulling back on renewed diplomacy (two-sided), semis soft into AMD earnings this wk.
 - XLE $59.135 (+7.58% vs entry; −0.70% day) — resting stop $43.98 (6a50fa5e, confirmed, 0 fills, last_txn Aug 3 12:28, ~25.6% below now). Hold. Book leader; oil-supply premium intact but choppy/headline-driven (WTI ~$78–85). Manage, don't add at strength.
