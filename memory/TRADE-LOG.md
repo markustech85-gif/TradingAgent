@@ -622,3 +622,31 @@ close) / XLV $129.22 (6a50fa42, ~20% below close). AI-complex gap (0/2) stays op
 under falling 20-DMAs (QQQ ~$698 vs 20-DMA ~$701; SMH soft into AMD earnings this week), so re-entry waits for
 a confirmed daily-close 20-DMA reclaim at a routine open — no chase into an earnings-heavy/NFP week. Cash
 $108.91 (~21.5%) idle by design. Kill-switch OK. Room for 2 more positions + 3 opening trades this week.
+
+### Aug 04 — EOD Snapshot (Day 19, Tuesday)
+**Portfolio:** $506.73 | **Cash:** $8.91 (1.8%) | **Day P&L:** +$0.46 (+0.09%) | **Phase P&L:** +$6.73 (+1.35%)
+
+| Ticker | Bucket | Shares | Entry | Close | Day Chg | Unrealized P&L | Stop | Protection |
+| — | — | — | — | — | — | — | — | — |
+| QQQ | AI-complex | 0.140875 | $709.85 | $723.68 | +1.95%* | +$1.95 (+1.95%) | $567.88 | software (fractional) |
+| XLE | Energy | 4 | $54.97 | $58.52 | −0.46% | +$14.20 (+6.46%) | $43.98 | resting 6a50fa5e |
+| XLV | Outside | 1 | $161.53 | $162.09 | −0.09% | +$0.56 (+0.35%) | $129.22 | resting 6a50fa42 |
+
+**Book:** 3/4 | AI-complex 1/2 · Energy 1 · Outside 1/1 | dedup OK
+**Cadence:** wk of Aug 03 (wk #5) | opening trades 1/3
+**Notes:** Deployed the idle cash and re-opened the AI-complex leg — account +$0.46 to $506.73 (+1.35% phase,
+above the $500 start). At the open the deferred 20-DMA-reclaim trigger finally confirmed (QQQ Aug 3 daily close
+$700.07 > 20-DMA $699.88, holding above at the open), so we BOUGHT $100 of QQQ (0.140875 sh @ $709.85) — a
+fractional lot with a software −20% stop at $567.88 (no resting order possible on a fraction; sold at the scan
+if breached). That fills the AI-complex 0/2 gap (now 1/2) and takes the book to 3/4 (opening trade 1/3 for wk
+#5); cash drops to $8.91 (~1.8%), ~98% deployed. The buy was well-timed: QQQ ran to $723.68 (+1.95% vs our
+entry) on a risk-ON record tape (broad AI-capex strength) — the new leg is our day's driver. The trade-off is
+we underperformed the tape today: we gained +0.09% vs SPY +1.80% (SPY to a fresh record $771.28), ~1.7 pts
+BEHIND the benchmark — our defensive/energy ballast (XLE, XLV) sat out the rip. XLE eased −0.46% to $58.52
+(still book leader +6.46% vs entry) as the oil-supply premium stays choppy/two-sided (WTI ~$81); XLV near-flat
+−0.09% to $162.09 (+0.35% vs entry), holding its ballast role far above stop. No cuts (none ≤ −20%), no thesis
+breaks, no ratchet triggers (QQQ +1.95% / XLE +6.46% / XLV +0.35%, none at +15%). Both resting stops confirmed
+GTC (0 fills, re-pegged at open today, last_txn Aug 4) — XLE $43.98 (6a50fa5e, ~24.8% below close) / XLV
+$129.22 (6a50fa42, ~20.3% below close); QQQ software $567.88 (~21.5% below close). AI-complex now 1/2 — SMH slot
+stays a WATCH, no chase into AMD (AMC tonight) or Fri NFP. Kill-switch OK. Room for 1 more position + 2 opening
+trades this week. *QQQ Day Chg is vs today's $709.85 entry (opened intraday), not a prior close.
