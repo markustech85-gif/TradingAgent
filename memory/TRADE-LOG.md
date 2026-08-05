@@ -14,6 +14,14 @@ Bucket engine + composition/de-dup/cadence/Tier-1 rules live in `memory/BUCKETS.
 - `Book: n/4 | AI-complex a/2 · Energy e · Outside o/1 | dedup OK` — composition vs the floor.
 - `Cadence: wk of YYYY-MM-DD (wk #k) | opening trades u/CAP` — CAP=4 in week 1, else 3 (BUY-to-open only).
 
+## Aug 05 — MIDDAY scan (no actions)
+Reconciled live vs book (3/4). All lots above stops, no ratchet trigger, no thesis break. Risk-on/digesting tape — S&P & Dow at records Mon/Tue, QQQ holding just under record; energy softer on the Strait-of-Hormuz reopening-deal headline (crude −2%).
+- QQQ $720.68 (+1.53% vs entry; −0.44% day) — software stop $567.88 (fractional — no resting order, ~21.2% below now). Hold. AI-complex leg holding above the reclaimed 20-DMA (~$700). Far above stop, not −20%, no thesis break.
+- XLE $57.48 (+4.57% vs entry; −1.78% day) — resting stop $43.98 (6a50fa5e, confirmed, 0 fills, last_txn Aug 5 12:24, ~23.5% below now). Hold. Book leader softening on the Hormuz-deal oil headwind (pre-mkt-flagged two-sided risk) — one-day dip, NOT a decisive sector rollover, still far above stop. WATCH the thesis-break trigger (confirmed deal + sustained crude rollover); not hit.
+- XLV $163.21 (+1.04% vs entry; +0.68% day) — resting stop $129.22 (6a50fa42, confirmed, 0 fills, last_txn Aug 5 12:21, ~20.8% below now). Hold. Defensive ballast firm, best day-performer, above entry, far above stop.
+No cuts (none ≤ −20%), no thesis breaks, no stop re-pegs (QQQ +1.53% / XLE +4.57% / XLV +1.04% — none near +15%; both resting stops already re-pegged at open today, last_txn Aug 5). No buy at midday (manage-only; cash $8.91, ~98% deployed). Book 3/4 — AI-complex 1/2; the 4th slot (QTUM-only, SMH de-dup-blocked) stays a WATCH, blocked by cash not choice.
+Portfolio $503.57 | equity $494.66 | cash $8.91. Drawdown +0.71% vs $500. Kill-switch OK.
+
 ## Aug 04 — MARKET-OPEN (BUY QQQ — AI-complex re-entry)
 Reconciled live vs book (2/4 → 3/4). Account $501.66 | equity $392.75 | cash $108.91 (pre-buy). Kill-switch OK (+0.33% vs $500). Both existing stops confirmed resting GTC (XLE $43.98 id 6a50fa5e; XLV $129.22 id 6a50fa42; 0 fills). Neither at +15% — no re-peg, no cut, no thesis break (XLE $57.77 +5.09% / XLV $161.57 +0.02% vs entry).
 - **BOUGHT QQQ | BUCKET=AI-complex | side=buy | $100.00 (0.140875 sh) | entry=$709.8459 | stop(software)=$567.88 (20% below) | PROTECTION=software $567.88 (fractional — no resting stop possible) | lane=swing | thesis: deferred 20-DMA-reclaim trigger CONFIRMED — QQQ Aug 3 daily close $700.07 > 20-DMA $699.88, live $708–710 holding above at open (not fading the pop), backed by PLTR/CAT AI-capex beats + risk-on record tape; fills the AI-complex 0/2 gap. target ≥$780 (≥2:1 R:R vs $567.88 stop). buy ref_id=7f3e9a12-4b6c-4d8e-9f10-2a3b4c5d6e7f (order 6a71e9ad, filled 09:31 ET).**
