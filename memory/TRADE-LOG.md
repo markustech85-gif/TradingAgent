@@ -658,3 +658,30 @@ GTC (0 fills, re-pegged at open today, last_txn Aug 4) — XLE $43.98 (6a50fa5e,
 $129.22 (6a50fa42, ~20.3% below close); QQQ software $567.88 (~21.5% below close). AI-complex now 1/2 — SMH slot
 stays a WATCH, no chase into AMD (AMC tonight) or Fri NFP. Kill-switch OK. Room for 1 more position + 2 opening
 trades this week. *QQQ Day Chg is vs today's $709.85 entry (opened intraday), not a prior close.
+
+### Aug 05 — EOD Snapshot (Day 20, Wednesday)
+**Portfolio:** $503.11 | **Cash:** $8.91 (1.8%) | **Day P&L:** −$3.62 (−0.71%) | **Phase P&L:** +$3.11 (+0.62%)
+
+| Ticker | Bucket | Shares | Entry | Close | Day Chg | Unrealized P&L | Stop | Protection |
+| — | — | — | — | — | — | — | — | — |
+| QQQ | AI-complex | 0.140875 | $709.85 | $717.28 | −0.91% | +$1.05 (+1.05%) | $567.88 | software (fractional) |
+| XLE | Energy | 4 | $54.97 | $57.29 | −2.10% | +$9.28 (+4.22%) | $43.98 | resting 6a50fa5e |
+| XLV | Outside | 1 | $161.53 | $164.16 | +1.27% | +$2.63 (+1.63%) | $129.22 | resting 6a50fa42 |
+
+**Book:** 3/4 | AI-complex 1/2 · Energy 1 · Outside 1/1 | dedup OK
+**Cadence:** wk of Aug 03 (wk #5) | opening trades 1/3
+**Notes:** Modest down day, gave back most of the phase gain but held above the $500 start — account −$3.62 to
+$503.11 (+0.62% phase). The broad tape drifted lower off record highs: SPY −0.21% to $769.74 (from Tuesday's
+record $771.33) as August's risk-on run paused. We underperformed slightly: −0.71% vs SPY −0.21%, ~0.5 pts
+BEHIND the benchmark today — a narrow gap, driven by energy weakness rather than our AI leg. XLE was the drag,
+−2.10% to $57.29 (still book leader at +4.22% vs entry) as the Strait-of-Hormuz reopening-deal headline kept
+crude soft (WTI ~$79, two-sided as flagged) — a one-day dip on the diplomacy headwind, NOT a decisive sector
+rollover, and still far above stop. QQQ eased −0.91% to $717.28 (+1.05% vs entry) but held above its reclaimed
+20-DMA (~$700), the AI-complex leg intact. XLV was the lone green, +1.27% to $164.16 (+1.63% vs entry, best
+day-performer) — defensive ballast doing its job on a soft tape. No trades today (wk #5 opens stay 1/3, from
+Tuesday's QQQ buy). No cuts (none ≤ −20%), no thesis breaks, no ratchet triggers (QQQ +1.05% / XLE +4.22% /
+XLV +1.63%, none at +15%). Both resting stops confirmed GTC (0 fills, last_txn Aug 5) — XLE $43.98 (6a50fa5e,
+~23.2% below close) / XLV $129.22 (6a50fa42, ~21.3% below close); QQQ software $567.88 (~20.8% below close).
+AI-complex 1/2 — the 4th slot (QTUM-only, SMH de-dup-blocked) stays a WATCH, blocked by cash (~98% deployed,
+$8.91 idle) not by choice. Kill-switch OK (well above the $250 halt). Room for 1 more position + 2 opening
+trades this week if cash frees up.
