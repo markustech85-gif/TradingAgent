@@ -1,6 +1,30 @@
 # Research Log
 
-## 2026-08-04 — Pre-market Research
+## 2026-08-05 — Pre-market Research
+### Account
+- Total **$509.03** | Equity $500.12 | Cash/buying power **$8.91** | vs $500 start: **+1.81%** — kill-switch OK ($509 » $250).
+- Book 3/4: QQQ $100 frac (0.140875 sh) @ $709.85 (AI-complex; pre-mkt ~$724.83 → **+2.11%**; software stop $567.88, ~21.7% below) ·
+  XLE 4 sh @ $54.97 (Energy; pre-mkt ~$58.63 → **+6.66%**; resting stop $43.98 id 6a50fa5e, ~25% below) ·
+  XLV 1 sh @ $161.53 (Outside; pre-mkt ~$163.49 → **+1.21%**; resting stop $129.22 id 6a50fa42, ~21% below).
+- Composition: AI-complex **1/2** · Energy 1 · Outside 1/1 · dedup OK · diversify floor met (2 non-AI legs). Cadence **wk of Aug 3 (wk #5)** | opening trades **1/3** (CAP 3).
+- Both resting stops confirmed GTC (zero fills, last_txn Aug 4). QQQ software stop enforced at scan. No position near a −20% cut or a +15%/+20% ratchet. Phase 2 LIVE.
+- Dry powder **$8.91 (~1.8%)** → book ~98% deployed; **no room for any new buy** (any add < $9 is not worth a lot). Manage-only by cash.
+### Market Context
+- Tape **RISK-ON but steadying/digesting**: S&P 500 & Dow closed at record highs Mon/Tue; futures modest — **S&P 500 +0.3%, Dow +0.2%, Nasdaq-100 ~flat**. **VIX ~16.65 (+0.9%)** — still calm/low.
+- **AI:** AMD + SpaceX reported AMC last night; tape absorbing tech earnings — QQQ holding just under record ($723.85 close), pre-mkt ~$724.8. AI-capex momentum intact (PLTR/CAT beats earlier this week).
+- **Energy headwind (mild):** Trump/Bessent say a **Strait-of-Hormuz reopening deal could come as soon as today**; Qatar signaled US-Iran progress → **crude −2%**. XLE still book leader **+6.66%**, but the supply-premium thesis is the two-sided risk — a confirmed Hormuz deal + sustained oil rollover would be the thesis-break trigger to watch. Not triggered; ~25% above stop.
+- **Healthcare/XLV:** **LLY reports pre-open today** (obesity franchise — sector's key catalyst; NVO also reports). Defensive ballast, near-flat vs entry, benign held-ticker news. Hold.
+- **Today's earnings:** AM — LLY, DIS, UBER, SHOP, NVO; AMC — WDC, SNDK, EBAY, AXON, MELI. **Macro:** July jobs (NFP) **Fri Aug 7** the big print; no pre-positioning into it.
+### Trade Ideas (book 3/4 · AI 1/2 is the only open composition slot · cash $8.91 blocks all buys)
+1. **No actionable buy — cash-capped.** Book is ~98% deployed ($8.91 free). Every candidate fails Buy-Side Gate G4 (cost > settled cash). The 4th slot stays open by cash, not by choice.
+2. **QTUM (AI-complex quantum, ~$X) — the ONLY gate-legal filler for the 4th slot** (quantum dedup-group ≠ broad-AI, so it may accompany QQQ; SMH is BLOCKED by de-dup as QQQ's broad-AI substitute). But no cash → **WATCH only, not actionable** until proceeds free up.
+3. **No 2nd Energy / no Outside change.** XLE covers Energy (extended, and now facing a Hormuz-deal headwind — do NOT add); XLV holds Outside; QQQ holds AI-complex 1/2. Nothing improves composition given zero dry powder.
+### Risk Factors
+- **Cash $8.91 → zero flexibility:** cannot add, cannot average, cannot open the 4th slot. Any management is exit-only until a position is trimmed/stopped.
+- **Hormuz-deal risk to XLE:** a same-day deal + crude follow-through could roll energy over; XLE is extended (+6.66%). Watch for a decisive sector rollover as the thesis-break trigger (not triggered; far above stop).
+- **Event/earnings tape:** LLY (XLV catalyst) pre-open + NFP Fri can whipsaw; stops are structural and far away. No pre-positioning.
+### Decision
+**HOLD — no trades (cash-capped at $8.91; ~98% deployed).** HOLD QQQ (+2.11%), XLE (+6.66%), XLV (+1.21%) — all above stops, none at a +15% ratchet or −20% cut, no thesis break. Confirm both resting stops still resting at market-open; QQQ software stop enforced at each scan. Watch XLE for a Hormuz-deal-driven oil rollover (thesis-break trigger, not yet hit) and XLV around today's LLY print. AI-complex 4th slot (QTUM only, SMH de-dup-blocked) stays a WATCH until cash frees up. Patience — a zero-trade day is the right answer here.
 ### Account
 - Total **$503.43** | Equity $394.52 | Cash/buying power **$108.91** | vs $500 start: **+0.69%** — kill-switch OK ($503 » $250).
 - Book 2/4: XLE 4 sh @ $54.97 (Energy; mark $58.79 → **+6.95%**; pre-mkt $58.08 → +5.66%; resting stop $43.98 id 6a50fa5e, ~25% below) ·
