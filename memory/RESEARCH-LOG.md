@@ -1,5 +1,31 @@
 # Research Log
 
+## 2026-08-06 — Pre-market Research
+### Account
+- Total **$506.39** | Equity $497.48 | Cash/buying power **$8.91** | vs $500 start: **+1.28%** — kill-switch OK ($506 » $250).
+- Book 3/4: QQQ $100 frac (0.140875 sh) @ $709.85 (AI-complex; pre-mkt ~$713.52 → **+0.52%**; software stop $567.88, ~20.5% below) ·
+  XLE 4 sh @ $54.97 (Energy; pre-mkt ~$57.83 → **+5.20%**; resting stop $43.98 id 6a50fa5e, ~24% below) ·
+  XLV 1 sh @ $161.53 (Outside; pre-mkt ~$165.60 → **+2.52%**; resting stop $129.22 id 6a50fa42, ~22% below).
+- Composition: AI-complex **1/2** · Energy 1 · Outside 1/1 · dedup OK · diversify floor met (2 non-AI legs). Cadence wk of Aug 3 (wk #5) | opening trades **1/3**.
+- Both resting stops confirmed GTC (zero fills, last_txn Aug 5). No position near a −20% cut or a +15%/+20% ratchet. Phase 2 LIVE.
+- Dry powder **$8.91 (~1.8%)** → NO buying power for any new position. Effectively manage-only regardless of setups.
+### Market Context
+- Tape **MIXED / risk-on-lean**: Dow futures +0.2% (record high), S&P 500 futures +0.1%, **Nasdaq-100 futures −0.6%** (tech soft). **VIX ~15.96** — calm.
+- **AI-capex scrutiny is the dominant theme:** punishing reactions for AMD / SanDisk / Western Digital on capital-intensity/valuation fears; **NVDA +3%** yest on SpaceX exclusive-chip deal (SpaceX lockup expires today — possible pressure). Semis two-sided.
+- **Oil headwind: imminent Strait-of-Hormuz deal** → supply premium unwinding (same driver flagged Aug 5). XLE pre-mkt firm (~$57.83, +0.9%) but the catalyst is fading.
+- Fresh labor-market data today; Dow at a record but lacks a fresh breakout catalyst. Defensives (XLV) firm — Outside slot benefiting.
+- Bucket scan: SMH $570.49 (de-dup-blocked by QQQ) · QTUM $149.70 · VST $142.26 · CEG $277 (gapping) · URA $42.98 · UFO $46.00 (wide spread) · GLD $391 · XLF $58.32 · XLI $186.9. No add is fundable at $8.91 cash.
+### Trade Ideas (book meets floor at 3/4; ONLY open slot is the 4th position — and cash $8.91 blocks every buy)
+1. **QTUM ~$150 (AI-complex, quantum, swing lane)** — the only watchlist add that fits composition (2nd AI-complex, not de-dup-blocked; SMH is blocked by QQQ's broad-AI slot). Whole share $150 < $250 budget → would be whole-share + resting stop. **BLOCKED by cash ($8.91 « $150).** WATCH only — no catalyst compelling enough to justify raising cash by trimming a green leg.
+2. **No Energy/Outside add.** Energy floor met by XLE (and oil is rolling over on the Hormuz deal — adding into a fading catalyst = wrong-way). Outside slot filled by XLV. Neither improves composition.
+3. **XLE = watch item (manage, not add).** Hormuz-deal oil unwind continues to pressure the energy thesis; XLE still green (+5.20%) and ~24% above stop = premium give-back, not a confirmed sector rollover. Monitor at open for a decisive breakdown (thesis-break trigger); else HOLD, stop unchanged (never lower).
+### Risk Factors
+- **AI-capex ROI verdict** is whipsawing semis/tech (AMD/WDC hammered); QQQ is our AI leg — a second leg down could pressure it, though it sits well above its 20-DMA (~$700) and far above the $567.88 software stop.
+- **XLE thesis fading** on the Hormuz supply-premium unwind — green today, not a confirmed break, but the watch item.
+- **Zero dry powder ($8.91)** → no ability to add, average, or rotate without first selling a green position. Overtrading/forcing is the documented failure mode — default to patience.
+### Decision
+**HOLD.** Pre-market does not arm orders. Plan for market-open: HOLD all three — QQQ (+0.52%), XLE (+5.20%), XLV (+2.52%) all green, above stops, none near +15% ratchet or −20% cut, no thesis break. **WATCH XLE** for a decisive energy rollover on the oil unwind (not yet triggered). 4th slot (QTUM would fit) stays open by cash constraint, not choice. Cadence has room (wk #5, 1/3) but is moot at $8.91 cash. Default to patience.
+
 ## 2026-08-05 — Pre-market Research
 ### Account
 - Total **$509.03** | Equity $500.12 | Cash/buying power **$8.91** | vs $500 start: **+1.81%** — kill-switch OK ($509 » $250).
