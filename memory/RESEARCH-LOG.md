@@ -26,6 +26,11 @@
 ### Decision
 **HOLD.** Pre-market does not arm orders. Plan for market-open: HOLD all three — QQQ (+0.52%), XLE (+5.20%), XLV (+2.52%) all green, above stops, none near +15% ratchet or −20% cut, no thesis break. **WATCH XLE** for a decisive energy rollover on the oil unwind (not yet triggered). 4th slot (QTUM would fit) stays open by cash constraint, not choice. Cadence has room (wk #5, 1/3) but is moot at $8.91 cash. Default to patience.
 
+### 2026-08-06 — Midday addendum
+- Reconciled live 3/4, all green above stops. QQQ $714.91 (+0.71%), XLE $58.265 (+5.99%), XLV $163.51 (+1.23%). No cut/ratchet/thesis-break. Manage-only (cash $8.91). Account $506.20, kill-switch OK.
+- **XLE WATCH resolved (for now):** the pre-mkt Hormuz-deal oil-unwind concern did NOT materialize into a rollover — XLE firmed +1.67% intraday and stayed book leader; oil supply premium holding. Thesis intact, no trim. Continue to monitor for a decisive breakdown.
+- No anomalous movers requiring fresh research; tape orderly (tech soft / energy firm rotation). No new buyable setup (cash-capped at $8.91).
+
 ## 2026-08-05 — Pre-market Research
 ### Account
 - Total **$509.03** | Equity $500.12 | Cash/buying power **$8.91** | vs $500 start: **+1.81%** — kill-switch OK ($509 » $250).

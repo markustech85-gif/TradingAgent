@@ -14,6 +14,14 @@ Bucket engine + composition/de-dup/cadence/Tier-1 rules live in `memory/BUCKETS.
 - `Book: n/4 | AI-complex a/2 · Energy e · Outside o/1 | dedup OK` — composition vs the floor.
 - `Cadence: wk of YYYY-MM-DD (wk #k) | opening trades u/CAP` — CAP=4 in week 1, else 3 (BUY-to-open only).
 
+## Aug 06 — MIDDAY scan (no actions)
+Reconciled live vs book (3/4). All lots above stops, no ratchet trigger, no thesis break. Risk-on-lean tape digesting off records; energy firming intraday as the Hormuz-deal oil unwind pauses (XLE best day-performer), tech soft (NDX futures were −0.6% pre-mkt) but QQQ green.
+- QQQ $714.91 (+0.71% vs entry; −0.33% day) — software stop $567.88 (fractional — no resting order, ~20.6% below now). Hold. AI-complex leg holding above the reclaimed 20-DMA (~$700). Far above stop, not −20%, no thesis break despite ongoing AI-capex ROI scrutiny (AMD/WDC hit).
+- XLE $58.265 (+5.99% vs entry; +1.67% day) — resting stop $43.98 (6a50fa5e, confirmed, 0 fills, last_txn Aug 6 12:29, ~24.5% below now). Hold. Book leader firming — the WATCH item (Hormuz supply-premium unwind) is NOT triggering; oil premium holding, XLE up on the day, far above stop. No thesis-break trim.
+- XLV $163.51 (+1.23% vs entry; −0.40% day) — resting stop $129.22 (6a50fa42, confirmed, 0 fills, last_txn Aug 6 12:24, ~21.0% below now). Hold. Defensive ballast near-flat on the day, green vs entry, far above stop.
+No cuts (none ≤ −20%), no thesis breaks, no stop re-pegs (QQQ +0.71% / XLE +5.99% / XLV +1.23% — none near +15%; both resting stops already re-pegged at open today, last_txn Aug 6). No buy at midday (manage-only; cash $8.91, ~98% deployed). Book 3/4 — AI-complex 1/2; the 4th slot (QTUM-only, SMH de-dup-blocked) stays a WATCH, blocked by cash not choice.
+Portfolio $506.20 | equity $497.29 | cash $8.91. Drawdown +1.24% vs $500. Kill-switch OK.
+
 ## Aug 05 — MIDDAY scan (no actions)
 Reconciled live vs book (3/4). All lots above stops, no ratchet trigger, no thesis break. Risk-on/digesting tape — S&P & Dow at records Mon/Tue, QQQ holding just under record; energy softer on the Strait-of-Hormuz reopening-deal headline (crude −2%).
 - QQQ $720.68 (+1.53% vs entry; −0.44% day) — software stop $567.88 (fractional — no resting order, ~21.2% below now). Hold. AI-complex leg holding above the reclaimed 20-DMA (~$700). Far above stop, not −20%, no thesis break.
