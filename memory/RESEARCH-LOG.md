@@ -1,5 +1,30 @@
 # Research Log
 
+## 2026-08-07 — Pre-market Research
+### Account
+- Total **$506.09** | Equity $497.18 | Cash/buying power **$8.91** | vs $500 start: **+1.22%** — kill-switch OK ($506 » $250).
+- Book 3/4: QQQ $100 frac (0.140875 sh) @ $709.85 (AI-complex; pre-mkt ~$717.67 → **+1.10%**; software stop $567.88, ~20.9% below) ·
+  XLE 4 sh @ $54.97 (Energy; pre-mkt ~$57.95 → **+5.42%**; resting stop $43.98 id 6a50fa5e, ~24.1% below) ·
+  XLV 1 sh @ $161.53 (Outside; pre-mkt ~$164.29 → **+1.71%**; resting stop $129.22 id 6a50fa42, ~21.4% below).
+- Composition: AI-complex **1/2** · Energy 1 · Outside 1/1 · dedup OK · diversify floor met (2 non-AI legs). Cadence wk of Aug 3 (wk #5) | opening trades **1/3**.
+- Both resting stops confirmed GTC (zero fills, last_txn Aug 6). No position near a −20% cut or a +15%/+20% ratchet. Phase 2 LIVE.
+- Dry powder **$8.91 (~1.8%)** → NO buying power for any new position. Effectively manage-only regardless of setups.
+### Market Context
+- Tape **MIXED / risk-on-lean into the jobs number**: S&P 500 futures ~+0.1%, Nasdaq-100 futures roughly flat after Thursday's pullback (S&P −0.2%, Nasdaq-100 −0.4%, Dow −464 to end its win streak). **VIX below 16** — calm.
+- **TODAY'S CATALYST — July jobs report (nonfarm payrolls) at 8:30 am ET.** Consensus **+83k jobs** (vs June +57k), unemployment holding **4.2%**. This is the week's biggest data point; it sets Fed-cut odds into the Sept 15–16 meeting. Soft print → firmer rate-hold/cut-lean, likely risk-on; hot print → rate scare. No positioning ahead of it.
+- **Energy re-firming:** Strait-of-Hormuz tensions FLARED BACK OVERNIGHT (Iran struck "hostile targets" near Qeshm Island) — the supply premium the Aug-6 note flagged as "fading" is re-building. Brent ~$82–83, WTI ~$78. XLE pre-mkt ~flat (~$57.95) but the thesis is firmer, not softer, this morning.
+- Sector: tech two-sided on AI-capex ROI scrutiny; defensives (XLV) firm. Bucket scan (all cash-blocked at $8.91): SMH $577 (de-dup-blocked by QQQ) · QTUM $149 · VRT $282 · VST $138 · CEG $263 · OKLO $44 · URA $44 · UFO $46 (wide spread).
+### Trade Ideas (book meets floor at 3/4; ONLY open slot is the 4th position — cash $8.91 blocks every buy)
+1. **QTUM ~$149 (AI-complex, quantum, swing lane)** — the only watchlist add that fits composition (2nd AI-complex; not de-dup-blocked since SMH is blocked by QQQ's broad-AI slot, and QTUM is its own quantum group). Whole share $149 < $250 budget → would be whole-share + resting stop. **BLOCKED by cash ($8.91 « $149).** WATCH only — no catalyst worth trimming a green leg to fund.
+2. **No Energy/Outside add.** Energy floor met by XLE (and with Hormuz tensions re-firming, energy is doing its job — no reason to stack). Outside slot filled by XLV. Neither improves composition.
+3. **XLE = HOLD (thesis re-strengthening).** The Aug-6 "fading oil premium" watch has flipped: Hormuz strikes overnight re-build the supply premium. XLE still green (+5.42%) and ~24% above stop. No trim, no add, stop unchanged (never lower).
+### Risk Factors
+- **Jobs-report whipsaw:** an 8:30 surprise (hot or cold) can swing the whole tape and our QQQ leg in either direction. QQQ sits well above its 20-DMA (~$700) and far above the $567.88 software stop — structurally safe — but expect a gap. No pre-positioning.
+- **AI-capex ROI scrutiny** keeps semis/tech two-sided; QQQ is our AI leg. A down-day is survivable (structural stop far away), but no chase into strength either.
+- **Zero dry powder ($8.91)** → no ability to add, average, or rotate without first selling a green position. Overtrading/forcing is the documented failure mode — default to patience.
+### Decision
+**HOLD.** Pre-market does not arm orders. Plan for market-open (post-8:30 jobs print): HOLD all three — QQQ (+1.10%), XLE (+5.42%), XLV (+1.71%) all green, above stops, none near a +15% ratchet or −20% cut, no thesis break. Energy thesis firmer on Hormuz. 4th slot (QTUM would fit) stays open by cash constraint, not choice. Cadence has room (wk #5, 1/3) but is moot at $8.91 cash. Default to patience; let the jobs number resolve before any market-open action.
+
 ## 2026-08-06 — Pre-market Research
 ### Account
 - Total **$506.39** | Equity $497.48 | Cash/buying power **$8.91** | vs $500 start: **+1.28%** — kill-switch OK ($506 » $250).
