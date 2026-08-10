@@ -1,5 +1,31 @@
 # Research Log
 
+## 2026-08-10 — Pre-market Research
+### Account
+- Total **$507.95** | Equity $499.04 | Cash/buying power **$8.91** | vs $500 start: **+1.59%** — kill-switch OK ($508 » $250).
+- Book 3/4: QQQ $100 frac (0.140875 sh) @ $709.85 (AI-complex; pre-mkt ~$723.93 → **+1.98%**; software stop $567.88, ~21.6% below) ·
+  XLE 4 sh @ $54.97 (Energy; pre-mkt ~$57.95 → **+5.42%**; resting stop $43.98 id 6a50fa5e, ~24.1% below) ·
+  XLV 1 sh @ $161.53 (Outside; pre-mkt ~$165.26 → **+2.31%**; resting stop $129.22 id 6a50fa42, ~21.8% below).
+- Composition: AI-complex **1/2** · Energy 1 · Outside 1/1 · dedup OK · diversify floor met (2 non-AI legs). **NEW week** — Cadence wk of Aug 10 (wk #6) | opening trades **0/3**.
+- Both resting stops confirmed GTC (zero fills, last_txn Aug 7 — QQQ software-only). No position near a −20% cut or a +15%/+20% ratchet. Phase 2 LIVE.
+- Dry powder **$8.91 (~1.8%)** → NO buying power for any new position. Effectively manage-only regardless of setups.
+### Market Context
+- Tape **RISK-ON-lean**: S&P 500 futures ~+0.1–0.6%, Nasdaq-100 futures **+0.25%**, Dow ~flat, after Friday's record close (SPY $773.20, strongest week since April). **VIX ~15.3** — calm, well off the ~18.9 of last week.
+- **Fed read post-jobs:** Friday's soft July payrolls (**−23k jobs**, weak wages) cut the odds of a 25bp **Sept HIKE** to **~44%** (from ~67% a week ago). 10-yr Treasury ~**4.60%**. Softer-hiring / lower-yield backdrop = mild risk-on. (Note: this Fed is in a hiking-bias regime; softer data is the bullish surprise.)
+- **Week's catalysts:** **July CPI — Wed Aug 12, 8:30am ET** (the week's main event) · **PPI Thu Aug 13** · retail sales + prelim Michigan sentiment Fri. **AMAT earnings Thu AMC** = a semis-capex read for the AI-complex.
+- **Energy tailwind today:** oil **+1.4%** — Brent **$84.70**, WTI **$79.31** — on **Strait-of-Hormuz reopening uncertainty** (Iran sets conditions / denies direct US talks; Houthi Red Sea threats persist; only 8–15 vessels/day transiting vs ~130 pre-conflict). Brent ~**+16%** vs pre-war. XLE pre-mkt firm (~$57.95, +0.8%) — supply-premium thesis intact, not fading.
+- Sector: **tech + energy leading** premarket; defensives (XLV) firm. Bucket scan (ALL cash-blocked at $8.91): SMH $586 (de-dup by QQQ) · QTUM $154 · VST $141 · OKLO $48 · URA $45 · UFO $48 · GLD $397.
+### Trade Ideas (book meets floor at 3/4; ONLY open slot is the 4th position — cash $8.91 blocks every buy)
+1. **QTUM ~$154 (AI-complex, quantum, swing lane)** — the only watchlist add that fits composition (2nd AI-complex slot; not de-dup-blocked, since SMH is blocked by QQQ's broad-AI slot and QTUM is its own quantum group). Whole share $154 < $250 budget → would be whole-share + resting stop. **BLOCKED by cash ($8.91 « $154).** WATCH only.
+2. **URA ~$45 (Energy, uranium, swing lane)** — nuclear/AI-power theme + today's oil/Hormuz tailwind; would be a 2nd Energy leg (en→2, floor still met). Whole share fits budget → whole-share + resting stop. **BLOCKED by cash.** WATCH only — and stacking energy into a geopolitical-premium spike is chase-risk anyway.
+3. **No Outside add** — slot filled by XLV (exactly 1). Nothing on the list improves composition.
+### Risk Factors
+- **CPI Wed Aug 12 is the week's whipsaw event** — a hot July inflation print would revive Sept-hike fear and can swing the whole tape (incl. QQQ). No pre-positioning; let it print.
+- **Oil premium is geopolitical (Hormuz)** — it can unwind fast on a deal headline. XLE is our +5.42% leader but a reversal rolls energy over; no stacking a 2nd energy leg into a spike.
+- **Zero dry powder ($8.91)** → no ability to add, average, or rotate without first selling a green position. Overtrading/forcing is the documented failure mode — default to patience.
+### Decision
+**HOLD.** Pre-market does not arm orders. Plan for market-open: HOLD all three — QQQ (+1.98%), XLE (+5.42%), XLV (+2.31%) all green, above stops, none near a +15% ratchet or −20% cut, no thesis break. Energy thesis firm on Hormuz; AI leg near record highs. 4th slot (QTUM would fit) stays open by cash constraint, not choice. New week (wk #6), cadence 0/3 but moot at $8.91 cash. Default to patience into Wednesday's CPI.
+
 ## 2026-08-07 — Pre-market Research
 ### Account
 - Total **$506.09** | Equity $497.18 | Cash/buying power **$8.91** | vs $500 start: **+1.22%** — kill-switch OK ($506 » $250).
