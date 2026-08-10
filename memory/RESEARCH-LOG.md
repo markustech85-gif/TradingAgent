@@ -26,6 +26,11 @@
 ### Decision
 **HOLD.** Pre-market does not arm orders. Plan for market-open: HOLD all three — QQQ (+1.98%), XLE (+5.42%), XLV (+2.31%) all green, above stops, none near a +15% ratchet or −20% cut, no thesis break. Energy thesis firm on Hormuz; AI leg near record highs. 4th slot (QTUM would fit) stays open by cash constraint, not choice. New week (wk #6), cadence 0/3 but moot at $8.91 cash. Default to patience into Wednesday's CPI.
 
+### 2026-08-10 — Midday addendum
+- Reconciled live 3/4, all green above stops. QQQ $723.38 (+1.91%), XLE $59.43 (+8.11%), XLV $167.36 (+3.61%). No cut/ratchet/thesis-break. Manage-only (cash $8.91). Account $515.90 (+3.18% vs $500), kill-switch OK.
+- **XLE ripping +3.36% intraday** to fresh highs vs entry — Strait-of-Hormuz supply premium re-building (Iran conditions/denials, Houthi Red Sea threats, ~8–15 vessels/day vs ~130 pre-conflict), oil +1.4%. Energy thesis firm/strengthening, NOT fading. No trim, no add (cash-blocked + no chase into a geopolitical spike).
+- No anomalous movers requiring fresh research; orderly risk-on tape. No new buyable setup (cash-capped at $8.91). Default to patience into Wed Aug 12 CPI (the week's whipsaw event).
+
 ## 2026-08-07 — Pre-market Research
 ### Account
 - Total **$506.09** | Equity $497.18 | Cash/buying power **$8.91** | vs $500 start: **+1.22%** — kill-switch OK ($506 » $250).
