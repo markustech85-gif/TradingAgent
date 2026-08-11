@@ -27,6 +27,11 @@
 ### Decision
 **HOLD.** Pre-market does not arm orders. Plan for market-open: HOLD all three — QQQ +1.86%, XLE +9.17%, XLV +4.11%, all healthy and far above stops; no ratchet (none at +15%), no re-peg down (never lower a stop), no cut (none ≤ −20%), no thesis break (XLE thesis strengthening on Iran/oil). Re-peg XLE/XLV resting stops UP at the open only if they've risen materially (never within 3% of price, never down). AI-complex slot-2 (QTUM) and any energy add stay WATCH — blocked by cash, not by choice, and low-conviction into a CPI print + semis wobble. Cadence has room (0/3) but no cash. Default to patience; let CPI pass.
 
+### 2026-08-11 — Midday addendum
+- Reconciled live 3/4, all green above stops. QQQ $719.20 (+1.32%), XLE $60.97 (+10.92%), XLV $168.14 (+4.09%). No cut/ratchet/thesis-break. Manage-only (cash $8.91). Account $522.37 (+4.47% vs $500), kill-switch OK.
+- **XLE ripping +1.31% intraday** to fresh highs vs entry — US–Iran standoff hardening, Strait-of-Hormuz supply premium re-building, oil surging (Brent ~$92). Energy thesis firm/strengthening, NOT fading. No trim, no add (cash-blocked + no chase into a geopolitical spike). +10.92% is the book's nearest-to-ratchet leg but not yet +15%.
+- No anomalous movers requiring fresh research; orderly risk-on-lean tape. No new buyable setup (cash-capped at $8.91). Default to patience into Wed Aug 12 CPI (the week's whipsaw event) — no pre-positioning.
+
 ## 2026-08-10 — Pre-market Research
 ### Account
 - Total **$507.95** | Equity $499.04 | Cash/buying power **$8.91** | vs $500 start: **+1.59%** — kill-switch OK ($508 » $250).

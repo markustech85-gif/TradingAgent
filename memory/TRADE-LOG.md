@@ -14,6 +14,14 @@ Bucket engine + composition/de-dup/cadence/Tier-1 rules live in `memory/BUCKETS.
 - `Book: n/4 | AI-complex a/2 · Energy e · Outside o/1 | dedup OK` — composition vs the floor.
 - `Cadence: wk of YYYY-MM-DD (wk #k) | opening trades u/CAP` — CAP=4 in week 1, else 3 (BUY-to-open only).
 
+## Aug 11 — MIDDAY scan (no actions)
+Reconciled live vs book (3/4). All lots above stops, no ratchet trigger, no thesis break. RISK-ON-lean tape into tomorrow's July CPI — energy leading (Iran/Hormuz supply premium hardening, oil spiking), QQQ flat holding its 20-DMA, healthcare firm. XLE ripping to fresh highs vs entry.
+- QQQ $719.20 (+1.32% vs entry; −0.23% day) — software stop $567.88 (fractional — no resting order, ~21.0% below now). Hold. AI-complex leg holding above the reclaimed 20-DMA (~$700) into CPI despite premarket semis/memory-pricing wobble. Far above stop, not −20%, no thesis break.
+- XLE $60.97 (+10.92% vs entry; +1.31% day) — resting stop $43.98 (6a50fa5e, confirmed, 0 fills, last_txn Aug 11 12:26, ~27.9% below now). Hold. Book leader ripping to fresh highs vs entry — US–Iran standoff hardening, Strait-of-Hormuz supply premium re-building, oil surging (Brent ~$92). Thesis firm/strengthening, not fading. Manage, don't add at strength (cash-blocked + no chase into a geopolitical spike). Nearest to a ratchet (+10.92%) but not yet +15%.
+- XLV $168.14 (+4.09% vs entry; −0.18% day) — resting stop $129.22 (6a50fa42, confirmed, 0 fills, last_txn Aug 11 12:26, ~23.1% below now). Hold. Defensive ballast firm near highs vs entry, far above stop.
+No cuts (none ≤ −20%), no thesis breaks, no stop re-pegs (QQQ +1.32% / XLE +10.92% / XLV +4.09% — none at +15%; both resting stops already re-pegged at open today, last_txn Aug 11). No buy at midday (manage-only; cash $8.91, ~98% deployed). Book 3/4 — AI-complex 1/2; the 4th slot (QTUM-only, SMH de-dup-blocked) stays a WATCH, blocked by cash not choice. CPI Wed Aug 12 the week's whipsaw event — default to patience.
+Portfolio $522.37 | equity $513.46 | cash $8.91. Drawdown +4.47% vs $500. Kill-switch OK.
+
 ## Aug 10 — MIDDAY scan (no actions)
 Reconciled live vs book (3/4). All lots above stops, no ratchet trigger, no thesis break. RISK-ON tape — energy leading hard (Hormuz supply premium re-building), healthcare firm, QQQ flat near record. All three legs green on the day.
 - QQQ $723.38 (+1.91% vs entry; +0.05% day) — software stop $567.88 (fractional — no resting order, ~21.5% below now). Hold. AI-complex leg holding near record highs above the reclaimed 20-DMA (~$700). Far above stop, not −20%, no thesis break.
