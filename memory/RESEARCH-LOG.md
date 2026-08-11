@@ -1,5 +1,32 @@
 # Research Log
 
+## 2026-08-11 — Pre-market Research
+### Account
+- Total **$518.88** | Equity $509.97 | Cash/buying power **$8.91** | vs $500 start: **+3.78%** — kill-switch OK ($519 » $250).
+- Book 3/4: QQQ $100 frac (0.140875 sh) @ $709.85 (AI-complex; pre-mkt ~$723.04 → **+1.86%**; software stop $567.88, ~21.4% below) ·
+  XLE 4 sh @ $54.97 (Energy; pre-mkt ~$60.01 → **+9.17%**; resting stop $43.98 id 6a50fa5e, ~26.7% below) ·
+  XLV 1 sh @ $161.53 (Outside; pre-mkt ~$168.17 → **+4.11%**; resting stop $129.22 id 6a50fa42, ~23.2% below).
+- Composition: AI-complex **1/2** · Energy 1 · Outside 1/1 · dedup OK · diversify floor met (2 non-AI legs). Cadence wk of Aug 10 (wk #6) | opening trades **0/3**.
+- Both resting stops confirmed GTC (zero fills, last_txn Aug 10). No position near a −20% cut or a +15%/+20% ratchet (XLE +9.17% is closest, not yet +15%). Phase 2 LIVE.
+- Dry powder **$8.91 (~1.7%)** → NO buying power for any new position. Effectively manage-only regardless of setups.
+### Market Context
+- Tape **NEUTRAL / wait-and-see**: S&P 500 futures, Nasdaq-100 futures and Dow futures roughly **flat** ahead of tomorrow's CPI, after a lower Monday. **VIX ~15.5** — calm/low, no stress.
+- **Main event Wed Aug 12, 8:30am ET — July CPI.** Last print (June) cooled to 3.5% y/y headline / 2.6% core; but a mid-2026 oil shock is a fresh upside risk to this reading. This is the week's whipsaw event — no pre-positioning into it.
+- **Energy tailwind strengthening:** US–Iran standoff **hardening** (both sides entrenched, doubts on a Strait-of-Hormuz deal) → supply premium re-building. Oil **surging** — Brent ~**$92.5** (+~$5 d/d), WTI ~**$80–81**. Energy is today's leadership sector; XLE our book engine — thesis clearly intact, NOT fading.
+- **AI-complex under pressure:** chipmakers soft premarket — Micron down on memory-pricing fears + SK Hynix contagion + a broad "AI-valuation rethink" across semis (some rebound attempts, e.g. MKS on AI-packaging demand). QQQ held above its reclaimed 20-DMA (~$700) into CPI. Semis cautious — no add-conviction.
+- Bucket scan (ALL cash-blocked at $8.91): SMH $575 (de-dup by QQQ) · QTUM $152 · VST $144 · CEG $272 · OKLO $44.7 · URA $45 · SPY $774.
+### Trade Ideas (book meets floor at 3/4; ONLY open slot is the 4th position — cash $8.91 blocks every buy)
+1. **QTUM ~$152 (AI-complex, quantum, swing lane)** — the only watchlist add that fits composition (2nd AI-complex slot; not de-dup-blocked — SMH is blocked by QQQ's broad-AI slot, QTUM is its own quantum group). Whole share $152 < $250 → would be whole-share + resting stop. **BLOCKED by cash ($8.91 « $152).** WATCH only — and semis' AI-valuation rethink argues against chasing an AI add now anyway.
+2. **URA ~$45 (Energy, uranium, swing lane)** — nuclear/AI-power theme + today's oil/Hormuz tailwind; would be a 2nd Energy leg (en→2, floor still met). Whole share fits budget. **BLOCKED by cash.** WATCH only — and stacking energy into a geopolitical-premium spike (Brent already +~$25 y/y) is chase-risk.
+3. **No Outside rotation needed** — slot filled by XLV (+4.11%, defensive ballast firm). No composition-improving buy is both available and affordable today.
+### Risk Factors
+- **CPI tomorrow (Wed):** an upside surprise (oil-shock feed-through) could jolt yields and hit rate-sensitive tech/QQQ; a cool print rallies risk. Either way it's a whipsaw — our stops are structural and far away, no pre-position.
+- **Energy is extended:** XLE +9.17% vs entry and oil is spiking on a geopolitical premium that can unwind fast on any Iran de-escalation headline. Position far above stop; watch for a decisive reversal (thesis-break), not a one-day dip.
+- **Semis/AI wobble:** memory-pricing + AI-valuation fears could pressure the whole tape (incl. QQQ) even though QQQ held its 20-DMA. No action — QQQ leg intact, stop far below.
+- **$8.91 cash** → zero flexibility; effectively manage-only. Overtrading is the documented failure mode — patience is the edge.
+### Decision
+**HOLD.** Pre-market does not arm orders. Plan for market-open: HOLD all three — QQQ +1.86%, XLE +9.17%, XLV +4.11%, all healthy and far above stops; no ratchet (none at +15%), no re-peg down (never lower a stop), no cut (none ≤ −20%), no thesis break (XLE thesis strengthening on Iran/oil). Re-peg XLE/XLV resting stops UP at the open only if they've risen materially (never within 3% of price, never down). AI-complex slot-2 (QTUM) and any energy add stay WATCH — blocked by cash, not by choice, and low-conviction into a CPI print + semis wobble. Cadence has room (0/3) but no cash. Default to patience; let CPI pass.
+
 ## 2026-08-10 — Pre-market Research
 ### Account
 - Total **$507.95** | Equity $499.04 | Cash/buying power **$8.91** | vs $500 start: **+1.59%** — kill-switch OK ($508 » $250).
