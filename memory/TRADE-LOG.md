@@ -837,3 +837,31 @@ re-pegged at open today, last_txn Aug 11 12:26) — XLE $43.98 (6a50fa5e, ~27.8%
 (QTUM-only, SMH de-dup-blocked) stays a WATCH, blocked by cash (~98% deployed, $8.91 idle) not by choice.
 Kill-switch OK (well above the $250 halt). Room for 1 more position + 3 opening trades this week if cash frees up.
 CPI Wed Aug 12 (tomorrow) is the week's whipsaw event — default to patience.
+
+### Aug 12 — EOD Snapshot (Day 25, Wednesday)
+**Portfolio:** $523.33 | **Cash:** $8.91 (1.7%) | **Day P&L:** +$1.25 (+0.24%) | **Phase P&L:** +$23.33 (+4.67%)
+
+| Ticker | Bucket | Shares | Entry | Close | Day Chg | Unrealized P&L | Stop | Protection |
+| — | — | — | — | — | — | — | — | — |
+| QQQ | AI-complex | 0.140875 | $709.85 | $723.66 | +0.73% | +$1.95 (+1.95%) | $567.88 | software (fractional) |
+| XLE | Energy | 4 | $54.97 | $61.02 | +0.15% | +$24.20 (+11.01%) | $43.98 | resting 6a50fa5e |
+| XLV | Outside | 1 | $161.53 | $168.43 | +0.25% | +$6.90 (+4.27%) | $129.22 | resting 6a50fa42 |
+
+**Book:** 3/4 | AI-complex 1/2 · Energy 1 · Outside 1/1 | dedup OK
+**Cadence:** wk of Aug 10 (wk #6) | opening trades 0/3
+**Notes:** Quiet green day on CPI day, fresh phase high — account +$1.25 to $523.33 (+4.67% phase, new phase
+high, well above the $500 start). July CPI (8:30am) landed benign/in-line — headline +0.1% m/m (3.4% y/y),
+core +0.2% (2.5% y/y), both cooled 0.1pp — a calm risk-on tape with no whipsaw. We essentially MATCHED the
+benchmark: +0.24% vs SPY +0.26% (SPY firmed to $772.54 from $770.56 on the cool print), ~0.02 pts behind —
+dead even, in line with the S&P today. All three legs green vs entry and modestly green on the day. QQQ led,
++0.73% to $723.66 (+1.95% vs entry) as benign CPI removed near-term rate-hike urgency and AI-complex tech
+firmed above the reclaimed 20-DMA (~$700) — leg intact. XLE inched +0.15% to $61.02 (book leader, +11.01% vs
+entry, fresh high) as the US–Iran/Strait-of-Hormuz supply premium kept hardening; the WATCH thesis-break
+trigger (confirmed deal + sustained crude rollover) is decisively NOT hit. XLV added +0.25% to $168.43 (+4.27%
+vs entry, quiet defensive ballast near its high). No trades today (wk #6 opens stay 0/3). No cuts (none ≤
+−20%), no thesis breaks, no ratchet triggers (XLE +11.01% / XLV +4.27% / QQQ +1.95%, none at +15% — XLE
+nearest but not there). Both resting stops confirmed GTC (0 fills, re-pegged at open today, last_txn Aug 12
+12:21) — XLE $43.98 (6a50fa5e, ~27.9% below close) / XLV $129.22 (6a50fa42, ~23.3% below close); QQQ software
+$567.88 (~21.5% below close). AI-complex 1/2 — the 4th slot (QTUM-only, SMH de-dup-blocked) stays a WATCH,
+blocked by cash (~98% deployed, $8.91 idle) not by choice. Kill-switch OK (well above the $250 halt). Room for
+1 more position + 3 opening trades this week if cash frees up. CPI now behind us — PPI Thu Aug 13 next.
