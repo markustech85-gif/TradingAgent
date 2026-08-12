@@ -689,3 +689,31 @@ Cadence has room (0/3). Default to patience: a hot CPI or risk-off open = no add
 - $108.91 cash → any add is small, cash-capped, software-stopped. Overtrading is the documented failure mode.
 ### Decision
 **HOLD.** Pre-market does not arm orders. Plan for market-open: HOLD XLE + XLV — both healthy, above stops, no ratchet (XLE +6.4% not yet +15%), no re-peg, no cut, no thesis break. **WATCH XLE** for a thesis-break only if energy rolls over decisively on the oil unwind (green today, not triggered). AI-complex gap (0/2) stays open BY DESIGN — re-entry (QQQ preferred) only on a confirmed 20-DMA reclaim *after* the FOMC + mega-cap-earnings gauntlet, never a chase into a routing semi tape. Cadence has room (wk #4, 0/3). Default to patience.
+
+## 2026-08-12 — Pre-market Research
+### Account
+- Total **$521.06** | Equity $512.15 | Cash/buying power **$8.91** | vs $500 start: **+4.21%** — kill-switch OK ($521 » $250).
+- Book 3/4: QQQ $100 frac (0.140875 sh) @ $709.85 (AI-complex; pre-mkt ~$723.42 → **+1.91%**; software stop $567.88, ~21.5% below) ·
+  XLE 4 sh @ $54.97 (Energy; pre-mkt ~$60.74 → **+10.49%**; resting stop $43.98 id 6a50fa5e, ~27.6% below) ·
+  XLV 1 sh @ $161.53 (Outside; pre-mkt ~$167.29 → **+3.57%**; resting stop $129.22 id 6a50fa42, ~22.8% below).
+- Composition: AI-complex **1/2** · Energy 1 · Outside 1/1 · dedup OK · diversify floor met (2 non-AI legs). Cadence wk of Aug 10 (wk #6) | opening trades **0/3**.
+- Both resting stops confirmed GTC (zero fills, last_txn Aug 11 12:26). No position near a −20% cut or a +15%/+20% ratchet (XLE +10.49% is closest, not yet +15%). Phase 2 LIVE.
+- Dry powder **$8.91 (~1.7%)** → NO buying power for any new position. Effectively manage-only regardless of setups.
+### Market Context
+- Tape **RISK-ON (cautious holding pattern)**: S&P 500 futures **+0.2%**, Nasdaq-100 futures **+0.6%**, Dow futures flat — into the 8:30am CPI print. **VIX ~15.4** — very low/calm, no stress.
+- **Main event today Wed Aug 12, 8:30am ET — July CPI.** Consensus: headline **+0.1% m/m / 3.4% y/y** (cooling from June's 3.5%), core **+0.2% m/m / ~2.5% y/y**. Upside surprise → revives Sep hike risk (Fed chair Warsh open to a hike if hot; Sep hike odds ~36%); downside → fuels 50bp-cut bets. THE whipsaw event — no pre-positioning into it.
+- **Tech earnings support:** CoreWeave **+18%** (narrowed loss, met revenue), Super Micro **+9%** (beat) → semis firm premarket: SMH ~$583 (**+1.7%**), VRT ~$292 (**+3.6%**), QTUM ~$155 (+1.3%). AI-complex bid returning, but a pre-CPI relief bounce, not a confirmed re-trend.
+- **Energy premium intact, oil softening intraday:** Brent ~**$88.6** (−0.3%), WTI ~**$82.9** (−0.4%) — reversing earlier gains after fresh Red Sea / Gulf of Oman vessel attacks. Hormuz crisis persists (US SPR below 300M bbl, lowest since 1983). XLE −0.3% premkt but still book leader +10.49% vs entry — thesis intact, not fading.
+- **Healthcare (XLV):** defensive ballast; analysts consensus Moderate Buy, viewed undervalued. XLV −0.4% premkt, quiet. Slot filled, healthy.
+- Bucket scan (ALL cash-blocked at $8.91): QQQ $723 (held) · SMH $583 (de-dup by QQQ) · QTUM $155 · VRT $292 · UFO $48 · XLE $60.7 (held) · XLV $167 (held).
+### Trade Ideas (book meets floor at 3/4; ONLY open slot is the 4th position — cash $8.91 blocks every buy)
+1. **QTUM ~$155 (AI-complex, quantum, swing lane)** — the only watchlist add that fits composition (2nd AI-complex slot; not de-dup-blocked — SMH is blocked by QQQ's broad-AI slot, QTUM is its own quantum group). Whole share $155 < $250 → would be whole-share + resting stop. **BLOCKED by cash ($8.91 « $155).** WATCH only. Semis bid is a pre-CPI relief bounce; chasing an AI add into the print is textbook whipsaw-risk anyway.
+2. **VRT ~$292 (AI-complex, data-center power, swing lane)** — same 2nd AI-complex slot; rides AI-capex, +3.6% premkt on the CoreWeave/SMCI beats. Whole share $292 > $250 budget → would be fractional + software stop. **BLOCKED by cash.** WATCH only.
+3. **No Outside/Energy add** — both slots filled (XLV, XLE), composition floor already met; no idea improves the book today. The Outside slot is occupied, so no Tier-1 off-list candidate is in play.
+### Risk Factors
+- **CPI whipsaw (8:30am):** a hot print reprices Sep-hike odds and can gap the whole tape lower (hits QQQ hardest; XLV/XLE more insulated). Our stops are structural and ~22–28% away — no action, but expect volatility.
+- **Oil premium give-back:** intraday crude softening even as the Hormuz risk persists — XLE is premium give-back, not a decisive rollover (position +10.49%, ~28% above stop). Watch for a hard sector breakdown as a thesis-break trigger; else HOLD, stop unchanged (never lower).
+- **AI bounce is pre-event, below-conviction:** semis firm on CoreWeave/SMCI, but into CPI — a relief bounce, not a confirmed AI re-trend. No chase.
+- **$8.91 cash** → zero flexibility; manage-only regardless of setups. No add can be funded.
+### Decision
+**HOLD.** Pre-market does not arm orders. Plan for market-open: HOLD QQQ + XLE + XLV — all healthy, above stops, none near a −20% cut, no +15%/+20% ratchet (XLE +10.49% closest). Re-peg nothing down; confirm both resting stops still GTC at the open. **WATCH XLE** for a thesis-break only on a decisive energy rollover (green today, not triggered). 4th slot (2nd AI-complex: QTUM/VRT) stays a WATCH — blocked by $8.91 cash, and a pre-CPI AI chase is the documented failure mode. Cadence has room (wk #6, 0/3) but no cash to use it. Default to patience through the CPI print.
