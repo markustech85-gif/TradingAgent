@@ -1,5 +1,10 @@
 # Research Log
 
+### 2026-08-12 — Midday addendum
+- Reconciled live 3/4, all green above stops. QQQ $723.285 (+1.89%), XLE $60.845 (+10.69%), XLV $168.48 (+4.30%). No cut/ratchet/thesis-break. Manage-only (cash $8.91). Account $522.65 (+4.53% vs $500), kill-switch OK.
+- **July CPI (8:30am) came in benign/in-line** — headline +0.1% m/m (3.4% y/y), core +0.2% (2.5% y/y), both −0.1pp vs June, all matching consensus. Futures rose, Treasury yields fell across the board; the "no need to hike rates" narrative (post soft-jobs) held. The week's whipsaw event passed without a shock — tape stayed calm risk-on.
+- No anomalous movers requiring fresh research; orderly tape. XLE holds book leadership (+10.69%, Hormuz supply premium firm) but flat on the day — no trim, no add (cash-blocked). No new buyable setup (cash-capped at $8.91). PPI Thu Aug 13 next data point; default to patience.
+
 ## 2026-08-11 — Pre-market Research
 ### Account
 - Total **$518.88** | Equity $509.97 | Cash/buying power **$8.91** | vs $500 start: **+3.78%** — kill-switch OK ($519 » $250).
