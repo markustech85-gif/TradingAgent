@@ -14,6 +14,14 @@ Bucket engine + composition/de-dup/cadence/Tier-1 rules live in `memory/BUCKETS.
 - `Book: n/4 | AI-complex a/2 · Energy e · Outside o/1 | dedup OK` — composition vs the floor.
 - `Cadence: wk of YYYY-MM-DD (wk #k) | opening trades u/CAP` — CAP=4 in week 1, else 3 (BUY-to-open only).
 
+## Aug 13 — MIDDAY scan (no actions)
+Reconciled live vs book (3/4). All lots above stops, no ratchet trigger, no thesis break. Calm risk-on tape the morning after benign July CPI; July PPI (Thu Aug 13) the next data point. All three legs green vs entry, ~flat on the day.
+- QQQ $730.215 (+2.87% vs entry; +0.90% day) — software stop $567.88 (fractional — no resting order, ~22.2% below now). Hold. AI-complex leg at fresh highs vs entry, firm above the reclaimed 20-DMA (~$700); benign CPI removed near-term rate-hike urgency. Far above stop, not −20%, no thesis break.
+- XLE $60.995 (+10.96% vs entry; −0.06% day) — resting stop $43.98 (6a50fa5e, confirmed, 0 fills, last_txn Aug 13 12:22, ~27.9% below now). Hold. Book leader near fresh highs vs entry — US–Iran standoff hardening, Strait-of-Hormuz supply premium firm. Thesis firm, not fading. Nearest to a ratchet (+10.96%) but not yet +15%. Manage, don't add at strength.
+- XLV $168.71 (+4.45% vs entry; +0.16% day) — resting stop $129.22 (6a50fa42, confirmed, 0 fills, last_txn Aug 13 12:21, ~23.4% below now). Hold. Defensive ballast firm at highs vs entry, far above stop.
+No cuts (none ≤ −20%), no thesis breaks, no stop re-pegs (QQQ +2.87% / XLE +10.96% / XLV +4.45% — none at +15%; both resting stops already re-pegged at open today, last_txn Aug 13). No buy at midday (manage-only; cash $8.91, ~98% deployed). Book 3/4 — AI-complex 1/2; the 4th slot (QTUM-only, SMH de-dup-blocked) stays a WATCH, blocked by cash not choice. PPI Thu Aug 13 the next data point; default to patience.
+Portfolio $524.47 | equity $515.56 | cash $8.91. Drawdown +4.89% vs $500. Kill-switch OK.
+
 ## Aug 12 — MIDDAY scan (no actions)
 Reconciled live vs book (3/4). All lots above stops, no ratchet trigger, no thesis break. July CPI (8:30am) landed benign/in-line — headline +0.1% m/m (3.4% y/y), core +0.2% (2.5% y/y), both cooled 0.1pp; futures rose, yields fell → calm risk-on tape. All three legs green vs entry, ~flat on the day.
 - QQQ $723.285 (+1.89% vs entry; +0.67% day) — software stop $567.88 (fractional — no resting order, ~21.5% below now). Hold. AI-complex leg firm above the reclaimed 20-DMA (~$700); benign CPI removes near-term rate-hike urgency. Far above stop, not −20%, no thesis break.
