@@ -873,3 +873,34 @@ nearest but not there). Both resting stops confirmed GTC (0 fills, re-pegged at 
 $567.88 (~21.5% below close). AI-complex 1/2 — the 4th slot (QTUM-only, SMH de-dup-blocked) stays a WATCH,
 blocked by cash (~98% deployed, $8.91 idle) not by choice. Kill-switch OK (well above the $250 halt). Room for
 1 more position + 3 opening trades this week if cash frees up. CPI now behind us — PPI Thu Aug 13 next.
+
+### Aug 13 — EOD Snapshot (Day 26, Thursday)
+**Portfolio:** $525.06 | **Cash:** $8.91 (1.7%) | **Day P&L:** +$1.73 (+0.33%) | **Phase P&L:** +$25.06 (+5.01%)
+
+| Ticker | Bucket | Shares | Entry | Close | Day Chg | Unrealized P&L | Stop | Protection |
+| — | — | — | — | — | — | — | — | — |
+| QQQ | AI-complex | 0.140875 | $709.85 | $732.06 | +1.16% | +$3.13 (+3.13%) | $567.88 | software (fractional) |
+| XLE | Energy | 4 | $54.97 | $61.04 | +0.02% | +$24.28 (+11.04%) | $43.98 | resting 6a50fa5e |
+| XLV | Outside | 1 | $161.53 | $168.38 | −0.04% | +$6.85 (+4.24%) | $129.22 | resting 6a50fa42 |
+
+**Book:** 3/4 | AI-complex 1/2 · Energy 1 · Outside 1/1 | dedup OK
+**Cadence:** wk of Aug 10 (wk #6) | opening trades 0/3
+**Notes:** Quiet green day, fresh phase high — account +$1.73 to $525.06 (+5.01% phase, new phase high, well
+above the $500 start; first time over +5%). July PPI (8:30am) landed cool — headline flat m/m (vs +0.2% est),
+core +0.2% (vs +0.3% est) — reinforcing Wed's benign CPI and paring September rate-hike odds; a risk-on tape
+with no whipsaw. SPY set a fresh closing record 7,798.99, the ETF +0.68% to $777.77 (from $772.49), Nasdaq
++0.81% led by semis/memory (Micron +5%). We UNDERPERFORMED: +0.33% vs SPY +0.68%, ~0.35 pts BEHIND the
+benchmark — our only real contributor was the small QQQ fractional lot; the two whole-share legs (XLE, XLV)
+sat flat, so we captured little of the record push. QQQ was the star, +1.16% to $732.06 (+3.13% vs entry, fresh
+high, book's best % gainer) as cool PPI + AI-hardware leadership lifted the complex well above the reclaimed
+20-DMA (~$700) — leg intact. XLE was flat, +0.02% to $61.04 (book $-leader, +11.04% vs entry, holding its
+high) as crude steadied and the US–Iran/Strait-of-Hormuz supply premium held; the WATCH thesis-break trigger
+(confirmed deal + sustained crude rollover) is decisively NOT hit. XLV eased −0.04% to $168.38 (+4.24% vs
+entry, quiet defensive ballast near its high). No trades today (wk #6 opens stay 0/3). No cuts (none ≤ −20%),
+no thesis breaks, no ratchet triggers (XLE +11.04% / XLV +4.24% / QQQ +3.13%, none at +15% — XLE nearest but
+not there). Both resting stops confirmed GTC (0 fills, re-pegged at open today, last_txn Aug 13 — XLE 12:22,
+XLV 12:21) — XLE $43.98 (6a50fa5e, ~28.0% below close) / XLV $129.22 (6a50fa42, ~23.3% below close); QQQ
+software $567.88 (~22.4% below close). AI-complex 1/2 — the 4th slot (QTUM-only, SMH de-dup-blocked) stays a
+WATCH, blocked by cash (~98% deployed, $8.91 idle) not by choice. Kill-switch OK (well above the $250 halt).
+Room for 1 more position + 3 opening trades this week if cash frees up. PPI now behind us; quiet data into
+week's end.
