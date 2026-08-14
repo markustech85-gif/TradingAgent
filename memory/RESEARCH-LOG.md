@@ -1,5 +1,32 @@
 # Research Log
 
+## 2026-08-14 — Pre-market Research
+### Account
+- Total **$525.55** | Equity $516.64 (pre-mkt marks) | Cash/buying power **$8.91** | vs $500 start: **+5.11%** — kill-switch OK ($525 » $250).
+- Book 3/4: QQQ $100 frac (0.140875 sh) @ $709.85 (AI-complex; pre-mkt ~$733.99 → **+3.40%**; software stop $567.88, ~22.6% below) ·
+  XLE 4 sh @ $54.97 (Energy; pre-mkt ~$61.24 → **+11.40%**; resting stop $43.98 id 6a50fa5e, ~28.2% below) ·
+  XLV 1 sh @ $161.53 (Outside; pre-mkt ~$168.28 → **+4.18%**; resting stop $129.22 id 6a50fa42, ~23.2% below).
+- Composition: AI-complex **1/2** · Energy 1 · Outside 1/1 · dedup OK · diversify floor met (2 non-AI legs). Cadence wk of Aug 10 (wk #6) | opening trades **0/3**.
+- Both resting stops confirmed GTC (zero fills, last_txn Aug 13 — XLE 12:22, XLV 12:21). No position near a −20% cut or a +15%/+20% ratchet (XLE +11.40% is closest, not yet +15%). Phase 2 LIVE.
+- Dry powder **$8.91 (~1.7%)** → NO buying power for any new position. Effectively manage-only regardless of setups.
+### Market Context
+- Tape **RISK-ON (consolidating record highs)**: S&P 500 futures ~flat, Nasdaq-100 futures **+0.2%**, Dow futures **−0.1%** — the morning after SPY set a fresh closing record ($777.88, S&P 500 index >7,800 first time). **VIX ~14.56** — very low/calm, no stress.
+- **Data today Fri Aug 14: July Retail Sales 8:30am ET** (consensus **+0.3% m/m** headline, +0.2% ex-auto) + **UMich Consumer Sentiment (prelim Aug) 10am** (consensus **54.1**, down from 55.2 — soft). Follows this week's benign CPI (Wed) + cool PPI (Thu) that pared Sep rate-hike odds. A hot retail print could revive hike chatter; a soft one extends disinflation. Lower-tier than CPI/PPI but a possible intraday whipsaw. Next macro focus: Jackson Hole (Fed chair keynote Aug 28).
+- **AI-complex firm at highs:** QQQ pre-mkt $733.99 (+0.26%), holds well above reclaimed 20-DMA (~$700); semis strong (SMH $590, Micron-led memory bid Thu). VRT $289.6 (+0.9%), QTUM $158.4 (~flat). Complex intact — our QQQ leg is the book's best % gainer (+3.40%).
+- **Energy premium intact but softening:** Brent ~**$87** (+0.1%), WTI ~**$81.3** (+0.02%) — investors in wait-and-see mode on Hormuz diplomacy; crude still flows (US says ~9M bbl/d transiting) but vessels remain exposed. Bearish cross-currents: **IEA cut demand outlook**, OPEC cut 2026 demand-growth forecast (4th straight cut), US crude inventories **+17.4M bbl**. XLE pre-mkt $61.24 (+0.30%), still book $-leader +11.40% vs entry. Thesis-break trigger (confirmed Hormuz reopening + sustained crude rollover) **NOT hit** — premium give-back, not a decisive breakdown.
+- **Healthcare (XLV):** quiet defensive ballast, pre-mkt $168.28 (~flat), near its high. Slot filled, healthy.
+- Bucket scan (ALL cash-blocked at $8.91): QQQ $734 (held) · SMH $590 (de-dup by QQQ) · QTUM $158 · VRT $290 · UFO $48.5 (wide bid/ask 48–53, illiquid) · URA $45.3 · XLE $61.2 (held) · XLV $168 (held) · GLD $401 · XLF $58.2 · XLI $185.8.
+### Trade Ideas (book meets floor at 3/4; ONLY open slot is the 4th position — cash $8.91 blocks every buy)
+1. **QTUM ~$158 (AI-complex, quantum, swing lane)** — the one watchlist add that fits composition (2nd AI-complex slot; not de-dup-blocked — SMH is blocked by QQQ's broad-AI slot, QTUM is its own quantum group). Whole share $158 < $250 → would be whole-share + resting stop @ ~$127. **BLOCKED by cash ($8.91 « $158).** WATCH only.
+2. **VRT ~$290 (AI-complex, data-center power, swing lane)** — same 2nd AI-complex slot; rides AI-capex, +0.9% pre-mkt. Whole share $290 > $250 budget → would be fractional + software stop. **BLOCKED by cash.** WATCH only.
+3. **No Outside/Energy add** — both slots filled (XLV, XLE), composition floor already met; no idea improves the book today. Outside slot occupied → no Tier-1 off-list candidate in play.
+### Risk Factors
+- **Retail-sales / sentiment whipsaw:** a hot retail print reprices Sep-hike odds and can pressure QQQ; XLE/XLV more insulated. Stops are structural, ~23–28% away — no action, but expect intraday noise. Soft UMich sentiment (54.1 exp) is a known soft spot, largely priced.
+- **Oil premium give-back:** bearish demand cross-currents (IEA/OPEC cuts, +17.4M bbl inventory build) building against the Hormuz supply premium — XLE is give-back, not a decisive rollover (position +11.40%, ~28% above stop). Watch for a hard sector breakdown as a thesis-break trigger; else HOLD, stop unchanged (never lower).
+- **$8.91 cash** → zero flexibility; manage-only regardless of setups. No add can be funded.
+### Decision
+**HOLD.** Pre-market does not arm orders. Plan for market-open: HOLD QQQ + XLE + XLV — all healthy, above stops, none near a −20% cut, no +15%/+20% ratchet (XLE +11.40% closest). Re-peg nothing down; confirm both resting stops still GTC at the open. **WATCH XLE** for a thesis-break only on a confirmed Hormuz reopening + decisive crude/energy rollover (green today, not triggered). 4th slot (2nd AI-complex: QTUM/VRT) stays a WATCH — blocked by $8.91 cash. Cadence has room (wk #6, 0/3) but no cash to use it. Default to patience through the retail-sales print.
+
 ### 2026-08-13 — Midday addendum
 - Reconciled live 3/4, all green above stops. QQQ $730.215 (+2.87%), XLE $60.995 (+10.96%), XLV $168.71 (+4.45%). No cut/ratchet/thesis-break. Manage-only (cash $8.91). Account $524.47 (+4.89% vs $500), kill-switch OK — new account high.
 - Calm risk-on tape the morning after benign July CPI; no anomalous movers requiring fresh research. QQQ pushed to fresh highs vs entry (+0.90% day). XLE holds book leadership (+10.96%, Hormuz supply premium firm) but ~flat on the day — no trim, no add (cash-blocked). No new buyable setup (cash-capped at $8.91). July PPI (Thu Aug 13) the next data point; default to patience.
