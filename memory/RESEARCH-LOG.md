@@ -27,6 +27,10 @@
 ### Decision
 **HOLD.** Pre-market does not arm orders. Plan for market-open: HOLD QQQ + XLE + XLV — all healthy, above stops, none near a −20% cut, no +15%/+20% ratchet (XLE +11.40% closest). Re-peg nothing down; confirm both resting stops still GTC at the open. **WATCH XLE** for a thesis-break only on a confirmed Hormuz reopening + decisive crude/energy rollover (green today, not triggered). 4th slot (2nd AI-complex: QTUM/VRT) stays a WATCH — blocked by $8.91 cash. Cadence has room (wk #6, 0/3) but no cash to use it. Default to patience through the retail-sales print.
 
+### 2026-08-17 — Midday addendum
+- Reconciled live 3/4, all above stops. QQQ $733.46 (+3.33%), XLE $62.245 (+13.23%), XLV $167.33 (+3.59%). No cut/ratchet/thesis-break. Manage-only (cash $8.91). Account $528.54 (+5.71% vs $500), kill-switch OK — new account high.
+- Calm risk-on tape; no anomalous movers needing fresh research. XLE led intraday (+0.54% day) to fresh highs vs entry — Hormuz supply premium firm through IEA/OPEC demand-cut cross-currents; thesis intact, +13.23% (book's nearest-to-ratchet leg, not yet +15%). QQQ firm at record-area highs (+0.33% day); XLV ~flat. No new buyable setup (cash-capped at $8.91). Next macro focus: Jackson Hole (Aug 28); default to patience.
+
 ### 2026-08-14 — Midday addendum
 - Reconciled live 3/4, all above stops. QQQ $729.39 (+2.75%), XLE $61.975 (+12.74%), XLV $167.38 (+3.62%). No cut/ratchet/thesis-break. Manage-only (cash $8.91). Account $526.94 (+5.39% vs $500), kill-switch OK — new account high.
 - Calm risk-on tape after this morning's July retail sales; no anomalous movers needing fresh research. XLE led intraday (+1.50% day) to fresh highs vs entry — Hormuz supply premium firm, holding through the IEA/OPEC demand-cut cross-currents; thesis intact, +12.74% (book's nearest-to-ratchet leg, not yet +15%). QQQ/XLV mildly red on the day, both green vs entry. No new buyable setup (cash-capped at $8.91). Next macro focus: Jackson Hole (Aug 28); default to patience.
