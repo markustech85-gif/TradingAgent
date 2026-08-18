@@ -14,6 +14,14 @@ Bucket engine + composition/de-dup/cadence/Tier-1 rules live in `memory/BUCKETS.
 - `Book: n/4 | AI-complex a/2 · Energy e · Outside o/1 | dedup OK` — composition vs the floor.
 - `Cadence: wk of YYYY-MM-DD (wk #k) | opening trades u/CAP` — CAP=4 in week 1, else 3 (BUY-to-open only).
 
+## Aug 18 — MIDDAY scan (no actions)
+Reconciled live vs book (3/4). All lots above stops, no ratchet action, no thesis break. Semis-led risk-off-lean tape (QQQ red on the day on AI-capex-peak/memory-cost fears) but energy firm — XLE at fresh highs vs entry, Hormuz supply premium intact; XLV defensive ballast green, best day-performer.
+- QQQ $718.87 (+1.27% vs entry; −1.51% day) — software stop $567.88 (fractional — no resting order, ~21.0% below now). Hold. AI-complex leg red intraday on semis weakness but holding well above the reclaimed 20-DMA (~$700); far above stop, not −20%, no thesis break.
+- XLE $63.485 (+15.49% vs entry; +1.45% day) — resting stop $59.05 (6a845eae, confirmed, 0 fills, ~7.0% below now). Hold. Book leader at fresh highs vs entry — Strait-of-Hormuz supply premium firm (Brent ~$91). At the +15% ratchet tier but the 7% trail is ALREADY in place (re-pegged at open); 7% below $63.485 = $59.04 < current $59.05 → no move (never down; within 3% noise). Not yet +20% ($65.96). Thesis firm.
+- XLV $169.805 (+5.12% vs entry; +1.65% day) — resting stop $129.22 (6a50fa42, confirmed, 0 fills, ~23.9% below now). Hold. Defensive ballast at fresh highs vs entry, best day-performer, far above stop.
+No cuts (none ≤ −20%), no thesis breaks, no stop re-pegs (QQQ +1.27% / XLE +15.49% already on its 7% trail / XLV +5.12% — none needing action). No buy at midday (manage-only; cash $8.91, ~98% deployed). Book 3/4 — AI-complex 1/2; the 4th slot (QTUM-only, SMH de-dup-blocked) stays a WATCH, blocked by cash not choice. Next macro focus: FOMC minutes Wed Aug 20, Jackson Hole (Fed chair keynote Aug 28); default to patience.
+Portfolio $533.89 | equity $524.98 | cash $8.91. Drawdown +6.78% vs $500 (new high). Kill-switch OK.
+
 ## Aug 18 — MARKET-OPEN (XLE +15% RATCHET — stop re-pegged to 7% trail; no buys)
 Reconciled live vs book (3/4). Account $532.61 | equity $523.70 | cash $8.91. Kill-switch OK (+6.52% vs $500, new phase high). No buys — cash $8.91, ~98% deployed (manage-only). Cadence unchanged (a stop re-peg is not an opening trade).
 - **XLE hit the +15% ratchet.** XLE $63.49 (+15.50% vs entry $54.97; +1.45% day) crossed the STRATEGY rule-7 +15% threshold → ratchet resting stop from a structural level to a **7% trail**. Cancelled old stop $43.98 (6a50fa5e, cancelled 13:31Z, 0 fills) → placed new **stop_market GTC $59.05** (7.0% below $63.49; well above old, ~6.9% below live $63.56 so outside the 3% floor). New **PROTECTION=resting 6a845eae-bad4-4979-a896-8a6385ceb4de** (confirmed resting, 0 fills). Thesis firm — Strait-of-Hormuz supply premium holding; no thesis-break.
