@@ -1,5 +1,33 @@
 # Research Log
 
+## 2026-08-18 — Pre-market Research
+### Account
+- Total **~$530.4** | Equity ~$521.5 (pre-mkt marks) | Cash/buying power **$8.91** | vs $500 start: **+6.1%** — kill-switch OK ($530 » $250).
+- Book 3/4: QQQ $100 frac (0.140875 sh) @ $709.85 (AI-complex; pre-mkt ~$721.70 → **+1.67%**; software stop $567.88, ~21.3% below) ·
+  XLE 4 sh @ $54.97 (Energy; pre-mkt ~$63.00 → **+14.61%**; resting stop $43.98 id 6a50fa5e, ~30.2% below) ·
+  XLV 1 sh @ $161.53 (Outside; pre-mkt ~$167.80 → **+3.88%**; resting stop $129.22 id 6a50fa42, ~23.0% below).
+- Composition: AI-complex **1/2** · Energy 1 · Outside 1/1 · dedup OK · diversify floor met (2 non-AI legs). Cadence wk of Aug 17 (wk #7) | opening trades **0/3**.
+- Both resting stops confirmed GTC (zero fills, last_txn Aug 17 12:25). No position near a −20% cut or a +15%/+20% ratchet (**XLE +14.61%** is closest — nearly at the +15% ratchet, watch at the open). Phase 2 LIVE.
+- Dry powder **$8.91 (~1.7%)** → NO buying power for any new position. Effectively manage-only regardless of setups.
+### Market Context
+- Tape **RISK-OFF-lean**: S&P 500 futures **−0.4%**, Nasdaq-100 futures **−1.0%**, Dow futures −0.16%, Russell −0.24%. **VIX ~15.19 (+6.6%)** — up but still low/no-stress. Polymarket ~27% odds of a higher open. Drivers: escalating **US-Iran / Strait-of-Hormuz** tensions (Trump vows more pressure on Iran, "bomb Oman" threat; tanker attacks slowed Hormuz traffic to ~0 vessels over the weekend) + rich AI valuations vs firm bond yields.
+- **Data/events this week (data-light lead-in to Jackson Hole):** retail-earnings wave — **Home Depot Tue Aug 18**, Target/Lowe's midweek, **Walmart Thu** (the consumer read of the season); **FOMC (July) minutes Wed Aug 20**; **Jackson Hole Aug 27–29, Warsh keynote Fri Aug 28** (his first as Fed chair). No top-tier macro print today.
+- **AI-complex UNDER PRESSURE (the tape's weak spot):** pre-mkt semis selling off on memory-cost + "AI-capex peaking" fears — SMH ~$576 (**−3.0%**), QTUM ~$154.8 (−2.2%), VRT ~$282 (−3.6%). QQQ pre-mkt ~$721.70 (**−1.1% today**), still holding above its reclaimed 20-DMA (~$700) and +1.67% vs entry. Our single AI leg (QQQ, broad) is the cushion vs a semis-single.
+- **Energy premium FIRM (book's engine):** Brent **~$91**, WTI **~$85** (crude +2.6% Mon) on the Hormuz standoff + slowed tanker transits + Trump signalling no rush to a deal. XLE pre-mkt ~$63.00 (**+0.7% today**), fresh highs vs entry, book leader **+14.61%**. Thesis firm/strengthening — no give-back today.
+- **Healthcare (XLV):** quiet defensive ballast, pre-mkt ~$167.80 (~flat/+0.45%), near highs. Slot filled, healthy — the right leg to hold on a risk-off day.
+- Bucket scan (ALL cash-blocked at $8.91): QQQ $722 (held) · SMH $576 (de-dup by QQQ; -3%) · QTUM $155 · VRT $282 · UFO $47.6 (wide/illiquid) · URA $44.7 · VST $144 · CEG $276 · OKLO $42.8 · SMR $8.9 · XLE $63 (held) · XLV $167.8 (held) · GLD $403 · XLF $57.7 · XLI $185.7.
+### Trade Ideas (book meets floor at 3/4; ONLY open slot is the 4th position — cash $8.91 blocks every buy)
+1. **QTUM ~$155 (AI-complex, quantum, swing lane)** — the one watchlist add that fits composition (2nd AI-complex slot; not de-dup-blocked — SMH is blocked by QQQ's broad-AI slot, QTUM is its own quantum group). Whole share $155 < $250 → whole-share + resting stop @ ~$124. Catalyst weak/negative today (semis −2 to −3% pre-mkt, AI-capex-peak fear) → not a buy even with cash. **BLOCKED by cash ($8.91 « $155) + weak sector.** WATCH only.
+2. **VST ~$144 / CEG ~$276 (Energy, AI-power/nuclear singles, swing lane)** — Energy is the day's momentum leader (Hormuz premium firm). Independent of XLE (no de-dup collision); a 2nd Energy leg would keep the floor (ai1/en2/out1). Whole share fits (VST) / fractional (CEG). **BLOCKED by cash.** WATCH only — but the strongest thematic add if powder existed.
+3. **No Outside add** — slot filled (XLV), no Tier-1 off-list candidate in play; XLV is the correct defensive Outside leg on a risk-off tape.
+### Risk Factors
+- **AI/semis drawdown deepening:** memory-cost + capex-peak narrative pressuring QQQ (−1.1% pre-mkt). QQQ stop is structural (~21% away, software) — no action, but expect intraday red. A decisive break of the 20-DMA (~$700) would be the watch-line, far from today's ~$722.
+- **Hormuz two-way risk:** the same tension powering XLE (+14.61%) is geopolitical — a sudden de-escalation/Hormuz reopening would give back the oil premium fast. Not today's tape (crude firm, transits slowed); thesis-break trigger NOT hit. Stop unchanged (never lower).
+- **Retail-earnings whipsaw:** Home Depot (today) / Walmart (Thu) can swing the consumer/rate narrative and the broad tape; our ETFs are diversified, insulated vs a single name.
+- **$8.91 cash** → zero flexibility; manage-only regardless of setups. No add can be funded.
+### Decision
+**HOLD.** Pre-market does not arm orders. Plan for market-open: HOLD QQQ + XLE + XLV — all healthy, above stops, none near a −20% cut. **At the open, check XLE for the +15% ratchet** — pre-mkt +14.61% is a hair below the +15% trigger; if it holds ≥ +15% intraday, re-peg XLE's resting stop UP to a 7% trail (never within 3% of price, never down). Confirm both resting stops still GTC at the open. **WATCH XLE** for a thesis-break only on a confirmed Hormuz reopening + decisive crude rollover (firm/green today — not triggered). 4th slot (QTUM 2nd-AI, or a VST/CEG 2nd-Energy leg) stays a WATCH — blocked by $8.91 cash; semis weakness makes the AI add unattractive regardless. Cadence has room (wk #7, 0/3) but no cash to use it. Default to patience through today's risk-off, semis-led tape.
+
 ## 2026-08-14 — Pre-market Research
 ### Account
 - Total **$525.55** | Equity $516.64 (pre-mkt marks) | Cash/buying power **$8.91** | vs $500 start: **+5.11%** — kill-switch OK ($525 » $250).
