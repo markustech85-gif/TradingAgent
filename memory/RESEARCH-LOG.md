@@ -1,5 +1,33 @@
 # Research Log
 
+## 2026-08-19 — Pre-market Research (Day 30 — final test day)
+### Account
+- Total **$538.23** | Equity $529.32 (pre-mkt marks) | Cash/buying power **$8.91** | vs $500 start: **+7.65%** — kill-switch OK ($538 » $250).
+- Book 3/4: QQQ $100 frac (0.140875 sh) @ $709.85 (AI-complex; pre-mkt ~$716.36 → **+0.92%**; software stop $567.88, ~20.9% below) ·
+  XLE 4 sh @ $54.97 (Energy; pre-mkt ~$63.98 → **+16.39%**; resting stop $59.05 id 6a845eae, ~7.7% below) ·
+  XLV 1 sh @ $161.53 (Outside; pre-mkt ~$172.48 → **+6.78%**; resting stop $129.22 id 6a50fa42, ~25.1% below).
+- Composition: AI-complex **1/2** · Energy 1 · Outside 1/1 · dedup OK · diversify floor met (2 non-AI legs). Cadence **wk of Aug 17 (wk #7)** | opening trades **0/3**.
+- Both resting stops confirmed GTC (zero fills, state=confirmed — XLE last_txn Aug 18 13:31 at the ratcheted $59.05, XLV Aug 18 12:25). **XLE already ratcheted to a 7% trail ($59.05) on Aug 18** at the +15% cross. No position near a −20% cut; **XLE +16.39% is nearing the +20% tier** ($65.96 → 5% trail) — watch at the open. Phase 2 LIVE.
+- Dry powder **$8.91 (~1.7%)** → NO buying power for any new position. Effectively manage-only regardless of setups.
+### Market Context
+- Tape **RISK-OFF-lean**: S&P 500 futures **~−0.18%**, Nasdaq-100 futures **~−0.37%**, Dow futures −0.11%, Russell −0.19% (some feeds flat/slightly green — mixed, cautious). **VIX ~15.8** (closed 15.84 Aug 18, +4.3%; still low but ticking up from the 14.2 2026-low). Drivers: **Korea KOSPI −5%+** (sell-side sidecar) led an Asia sell-off; semis soft again; **Brent >$91** on the Iran/Hormuz standoff after Trump ruled out talks.
+- **Main event today: July FOMC minutes @ 2pm ET.** July vote was 9–3 hawkish; Sep-hike odds have since fallen to **~31%**. Warsh's shift on forward guidance makes the minutes higher-stakes than usual. Also pre-open retail earnings: **Target & Lowe's** (LOW rev ~$26.1B est, +9% y/y; TGT ~90% implied beat odds). Calendar after: July PCE Aug 26, **Jackson Hole Aug 27–29 (Warsh keynote Aug 27)**, FOMC Sep 15–16 (fresh SEP).
+- **Energy premium FIRM/HARDENING (book's engine):** Brent climbing toward **$92**, 4th straight up session; Trump says no US-Iran talks, naval blockade stays, Hormuz transits near a standstill (~3 vessels/day vs ~130 pre-war), 8 tanker attacks this month. XLE pre-mkt ~$63.98 (~flat today, +0.47% vs $63.68 close), book leader **+16.39%** vs entry. Thesis strengthening — no give-back; thesis-break trigger (confirmed deal + crude rollover) decisively NOT hit.
+- **AI-complex soft (tape's weak spot):** semis under pressure again on Asia/KOSPI + memory-cost fears. QQQ pre-mkt ~$716.36 (~flat/−0.16% today, +0.92% vs entry), holding well above its reclaimed 20-DMA (~$700). Single broad AI leg (QQQ) is the cushion vs a semis-single. SMH ~$568 (de-dup by QQQ), QTUM ~$152, VRT ~$272.
+- **Healthcare (XLV):** defensive ballast bid pre-mkt ~$172.48 (+1.6% today), fresh highs, +6.78% vs entry — the right leg on a risk-off day.
+- Bucket scan (ALL cash-blocked at $8.91): QQQ $716 (held) · SMH $568 (de-dup by QQQ) · QTUM $152 · VRT $272 · UFO $47.2 (wide/illiquid) · URA $43.6 · VST $140.5 · CEG $267 · XLE $64 (held) · XLV $172.5 (held) · SPY $767.4.
+### Trade Ideas (book meets floor at 3/4; ONLY open slot is the 4th position — cash $8.91 blocks every buy)
+1. **QTUM ~$152 (AI-complex, quantum, swing lane)** — the one watchlist add that fits composition (2nd AI-complex slot; not de-dup-blocked — SMH is blocked by QQQ's broad-AI slot, QTUM is its own quantum group). Whole share $152 < $250 → whole-share + resting stop @ ~$122. Catalyst weak today (semis soft on Asia/KOSPI); chasing an AI add into the FOMC minutes is textbook whipsaw. **BLOCKED by cash ($8.91 « $152) + weak sector.** WATCH only.
+2. **VST ~$140.5 / CEG ~$267 (Energy, AI-power/nuclear singles, swing lane)** — Energy is the momentum leader (Hormuz premium hardening). Independent of XLE (no de-dup collision); a 2nd Energy leg keeps the floor (ai1/en2/out1). VST whole-share fits ($140<$250 → resting stop); CEG fractional + software. **BLOCKED by cash.** WATCH only — strongest thematic add if powder existed.
+3. **No Outside add** — slot filled (XLV), no Tier-1 off-list candidate in play; XLV is the correct defensive Outside leg on a risk-off tape.
+### Risk Factors
+- **FOMC-minutes whipsaw (2pm ET):** a hawkish read (3 dissents, guidance debate) can reprice Sep-hike odds and gap the tape — QQQ most sensitive, XLE/XLV insulated. Stops structural/ratcheted — no pre-positioning.
+- **Hormuz two-way risk:** the tension powering XLE (+16.39%) is geopolitical — a sudden de-escalation/reopening would give back the oil premium fast. Not today's tape (crude firm, transits near zero, Trump ruled out talks). Thesis-break NOT hit; XLE stop stays at the ratcheted $59.05 (never lower).
+- **AI/semis soft on Asia:** KOSPI −5% + memory-cost fears pressure semis; QQQ ~flat pre-mkt, far above its 20-DMA (~$700) and software stop (~21% away) — no action.
+- **$8.91 cash** → zero flexibility; manage-only regardless of setups. No add can be funded.
+### Decision
+**HOLD.** Pre-market does not arm orders. Plan for market-open: HOLD QQQ + XLE + XLV — all healthy, above stops, none near a −20% cut. **At the open, check XLE for the +20% tier** — pre-mkt +16.39%; if it trades ≥ +20% ($65.96), re-peg XLE's resting stop UP to a 5% trail (never within 3% of price, never down). Confirm both resting stops still GTC. **WATCH XLE** for a thesis-break only on a confirmed Hormuz reopening + decisive crude rollover (firm/green today — not triggered). 4th slot (QTUM 2nd-AI, or a VST/CEG 2nd-Energy leg) stays a WATCH — blocked by $8.91 cash; semis softness makes the AI add unattractive anyway. Cadence has room (wk #7, 0/3) but no cash. Default to patience into the 2pm FOMC minutes — Day 30, the final test day, opens ~+7.65% vs the $500 start.
+
 ## 2026-08-18 — Pre-market Research
 ### Account
 - Total **~$530.4** | Equity ~$521.5 (pre-mkt marks) | Cash/buying power **$8.91** | vs $500 start: **+6.1%** — kill-switch OK ($530 » $250).
