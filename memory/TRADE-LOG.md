@@ -14,6 +14,18 @@ Bucket engine + composition/de-dup/cadence/Tier-1 rules live in `memory/BUCKETS.
 - `Book: n/4 | AI-complex a/2 · Energy e · Outside o/1 | dedup OK` — composition vs the floor.
 - `Cadence: wk of YYYY-MM-DD (wk #k) | opening trades u/CAP` — CAP=4 in week 1, else 3 (BUY-to-open only).
 
+## Aug 19 — MARKET-OPEN (XLE 7% trail re-pegged UP; no buys)
+Reconciled live vs book (3/4). Account $539.09 | equity $530.18 | cash $8.91. Kill-switch OK (+7.82% vs $500, new phase high). No buys — cash $8.91, ~98% deployed (manage-only). Cadence unchanged (a stop re-peg is not an opening trade). Day 30 — final test day; opened ~+7.82%.
+- **XLE 7% trail ratcheted UP.** XLE $63.94 (+16.32% vs entry $54.97; +0.41% day) made a new high above the Aug-18 peg reference ($63.49); still below the +20% tier ($65.96 → 5% trail), so trail stays 7%. Re-pegged the resting stop UP: cancelled old $59.05 (6a845eae, cancelled 13:31Z, 0 fills) → placed new **stop_market GTC $59.46** (7.0% below $63.94; ~7.0% below live, clears the 3% floor of $62.02). New **PROTECTION=resting 6a85b048-4f85-4ae4-95bd-796c4a342881** (confirmed resting, 0 fills). Thesis firm — Strait-of-Hormuz supply premium hardening (Brent ~$92, no US-Iran talks). No thesis-break.
+- QQQ $719.355 (+1.34% vs entry; +0.26% day) — software stop $567.88 (fractional — no resting order, ~21.1% below now). Hold. AI-complex leg above the reclaimed 20-DMA (~$700); semis soft on Asia/KOSPI but QQQ green. Far above stop, not −20%, no thesis break.
+- XLV $173.065 (+7.14% vs entry; +1.96% day) — resting stop $129.22 (6a50fa42, confirmed, 0 fills, last_txn Aug 19 12:27, ~25.3% below now). Hold. Defensive ballast at fresh highs vs entry, best day-performer on the risk-off-lean tape. Not at +15% — no re-peg. Far above stop.
+No cuts (none ≤ −20%). QQQ +1.34% / XLV +7.14% — neither at +15%, no re-peg. Only action = XLE 7% trail re-peg above. Book 3/4 — AI-complex 1/2; the 4th slot (QTUM-only, SMH de-dup-blocked) stays a WATCH, blocked by cash not choice. Next event: July FOMC minutes 2pm ET today; Jackson Hole Aug 27–29.
+- QQQ | bucket=AI-complex | qty=$100 frac (0.140875 sh) | entry=$709.8459 | stop=$567.88 | protection=software $567.88 | lane=swing | opened=2026-08-04
+- XLE | bucket=Energy | qty=4 sh | entry=$54.97 | stop=$59.46 | protection=resting 6a85b048-4f85-4ae4-95bd-796c4a342881 | lane=swing | opened=2026-07-10
+- XLV | bucket=Outside | qty=1 sh | entry=$161.53 | stop=$129.22 | protection=resting 6a50fa42-d10b-4a94-8bd8-74beb5a96ad5 | lane=swing | opened=2026-07-10
+- Book: 3/4 | AI-complex 1/2 · Energy 1 · Outside 1/1 | dedup OK.
+- Cadence: wk of 2026-08-17 (wk #7) | opening trades 0/3 (CAP 3).
+
 ## Aug 18 — MIDDAY scan (no actions)
 Reconciled live vs book (3/4). All lots above stops, no ratchet action, no thesis break. Semis-led risk-off-lean tape (QQQ red on the day on AI-capex-peak/memory-cost fears) but energy firm — XLE at fresh highs vs entry, Hormuz supply premium intact; XLV defensive ballast green, best day-performer.
 - QQQ $718.87 (+1.27% vs entry; −1.51% day) — software stop $567.88 (fractional — no resting order, ~21.0% below now). Hold. AI-complex leg red intraday on semis weakness but holding well above the reclaimed 20-DMA (~$700); far above stop, not −20%, no thesis break.
