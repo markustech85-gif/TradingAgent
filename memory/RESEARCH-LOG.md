@@ -29,6 +29,11 @@
 ### Decision
 **HOLD.** Pre-market does not arm orders. Plan for market-open: HOLD QQQ + XLE + XLV — all healthy, above stops, none near a −20% cut. **XLE +16.9%** is between the +15%/+20% ratchet tiers — at the open, re-peg the 7% trail UP on a fresh high (never down), confirm both resting stops still GTC. **WATCH XLE** thesis-break only on a confirmed Hormuz reopening + decisive crude rollover (crude is rising — not triggered). 4th slot (2nd AI-complex: QTUM/VRT) stays a WATCH — blocked by $8.91 cash; poor timing anyway with tech soft. Cadence has room (wk #7, 0/3) but no cash. Default to patience into Jackson Hole.
 
+### 2026-08-20 — Midday addendum
+- Reconciled live 3/4, all above stops. QQQ $711.345 (+0.21%; −0.66% day), XLE $64.44 (+17.23%; +1.35% day), XLV $174.86 (+8.25%; −0.47% day). Manage-only (cash $8.91). Account $541.76 (+8.35% vs $500), kill-switch OK — new account high.
+- **Action: XLE 7% trail re-pegged UP** on a fresh intraday high ($64.44 > open ref $64.30): cancelled $59.80 (6a8701b0) → placed stop_market GTC **$59.93** (new id 6a8724ed, confirmed resting). Still below the +20% tier ($65.96 → 5% trail), so trail stays 7%. Energy thesis firm/hardening — Strait-of-Hormuz premium (Brent ~$93), no confirmed deal; thesis-break not remotely hit.
+- No cut/thesis-break. QQQ mildly red on rising long yields but green vs entry, far above its structural software stop; XLV easing off Wednesday's high, sector-rotation bid intact. No anomalous movers needing fresh research; orderly tape. No new buyable setup (cash-capped at $8.91). Next event: Jackson Hole Aug 27–29 (Warsh keynote); default to patience.
+
 ## 2026-08-19 — Pre-market Research (Day 30 — final test day)
 ### Account
 - Total **$538.23** | Equity $529.32 (pre-mkt marks) | Cash/buying power **$8.91** | vs $500 start: **+7.65%** — kill-switch OK ($538 » $250).
