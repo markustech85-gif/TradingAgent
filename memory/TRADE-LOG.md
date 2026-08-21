@@ -14,6 +14,18 @@ Bucket engine + composition/de-dup/cadence/Tier-1 rules live in `memory/BUCKETS.
 - `Book: n/4 | AI-complex a/2 · Energy e · Outside o/1 | dedup OK` — composition vs the floor.
 - `Cadence: wk of YYYY-MM-DD (wk #k) | opening trades u/CAP` — CAP=4 in week 1, else 3 (BUY-to-open only).
 
+## Aug 21 — MARKET-OPEN (no actions — manage-only, cash-blocked)
+Reconciled live vs book (3/4). Account $537.84 | equity $528.94 | cash $8.91. Kill-switch OK (+7.57% vs $500). No buys — cash/BP $8.91, ~98% deployed (every candidate fails gate G4: cost > settled cash). Manage-only. Cadence unchanged (no opening trade). Post-test Day 32 (Friday).
+- **XLE — no re-peg.** XLE $64.01 (+16.45% vs entry $54.97; +0.41% day) sits between the +15% (7% trail, already in place at $59.93) and +20% ($65.96 → 5% trail) tiers. No fresh high vs the prior peg ref ($64.44); 7% below live = $59.53 < current stop $59.93 → hold (never move a stop down). **PROTECTION=resting 6a8724ed-4798-4829-b739-6a29454731b8** confirmed GTC, 0 fills (last_txn Aug 21 12:29). Thesis firm — Strait-of-Hormuz supply premium hardening (Brent ~$93, no confirmed deal). No thesis-break.
+- QQQ $714.58 (+0.67% vs entry; +0.51% day) — software stop $567.88 (fractional — no resting order, ~20.5% below now). Hold. AI-complex leg rebounding with Nasdaq above the reclaimed 20-DMA (~$700); far above stop, not −20%, no thesis break.
+- XLV $172.17 (+6.59% vs entry; −0.13% day) — resting stop $129.22 (6a50fa42, confirmed, 0 fills, last_txn Aug 21 12:21, ~25.0% below now). Hold. Defensive ballast near highs vs entry; sector-rotation bid intact. Not at +15% — no re-peg. Far above stop.
+- No cuts (none ≤ −20%). QQQ +0.67% / XLE +16.45% (already on its 7% trail) / XLV +6.59% — none needing a re-peg. Book 3/4 — AI-complex 1/2; the 4th slot (QTUM-only, SMH de-dup-blocked) stays a WATCH, blocked by cash not choice. Next event: Jackson Hole Aug 27–29 (Warsh keynote); default to patience.
+- QQQ | bucket=AI-complex | qty=$100 frac (0.140875 sh) | entry=$709.8459 | stop=$567.88 | protection=software $567.88 | lane=swing | opened=2026-08-04
+- XLE | bucket=Energy | qty=4 sh | entry=$54.97 | stop=$59.93 | protection=resting 6a8724ed-4798-4829-b739-6a29454731b8 | lane=swing | opened=2026-07-10
+- XLV | bucket=Outside | qty=1 sh | entry=$161.53 | stop=$129.22 | protection=resting 6a50fa42-d10b-4a94-8bd8-74beb5a96ad5 | lane=swing | opened=2026-07-10
+- Book: 3/4 | AI-complex 1/2 · Energy 1 · Outside 1/1 | dedup OK.
+- Cadence: wk of 2026-08-17 (wk #7) | opening trades 0/3 (CAP 3).
+
 ## Aug 20 — MIDDAY scan (XLE 7% trail re-pegged UP on a fresh high; no buys)
 Reconciled live vs book (3/4). All lots above stops, no cut, no thesis break. Calm/mixed tape — XLE the book engine at fresh highs vs entry (Hormuz supply premium hardening, Brent ~$93), QQQ mildly red on the day but green vs entry, XLV easing off Wednesday's high yet well above entry. Post-test Day 31.
 - **XLE 7% trail ratcheted UP.** XLE $64.44 (+17.23% vs entry $54.97; +1.35% day) printed a fresh intraday high above the market-open peg reference ($64.30); still below the +20% tier ($65.96 → 5% trail), so trail stays 7%. Re-pegged the resting stop UP: cancelled old $59.80 (6a8701b0, cancelled 16:01Z, 0 fills) → placed new **stop_market GTC $59.93** (7% below $64.44; ~7.0% below live, clears the 3% floor of ~$62.51). New **PROTECTION=resting 6a8724ed-4798-4829-b739-6a29454731b8** (confirmed resting, 0 fills). Thesis firm — Strait-of-Hormuz premium hardening, no confirmed deal. No thesis-break.
