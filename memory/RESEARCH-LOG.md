@@ -1,5 +1,9 @@
 # Research Log
 
+### 2026-08-21 — Midday addendum
+- Reconciled live 3/4, all above stops. QQQ $714.596 (+0.67%; +0.52% day), XLE $63.775 (+16.02%; +0.04% day), XLV $175.27 (+8.51%; +1.67% day). No cut/ratchet/thesis-break. Manage-only (cash $8.91). Account $539.94 (+7.99% vs $500), kill-switch OK.
+- Calm/mixed risk-on tape; no anomalous movers needing fresh research. XLV led intraday to fresh highs vs entry (defensive/sector-rotation bid); XLE eased slightly off yesterday's high but holds book leadership — Hormuz supply premium firm (Brent ~$93, no confirmed deal); thesis intact, +16.02% (on its 7% trail, not a fresh high → no re-peg). QQQ green vs entry, far above its structural software stop. No new buyable setup (cash-capped at $8.91). Next event: Jackson Hole Aug 27–29 (Warsh keynote); default to patience.
+
 ## 2026-08-21 — Pre-market Research (post-test Day 32, Friday)
 ### Account
 - Total **$536.48** | Equity $527.57 (pre-mkt marks) | Cash/buying power **$8.91** | vs $500 start: **+7.30%** — kill-switch OK ($536 » $250).
