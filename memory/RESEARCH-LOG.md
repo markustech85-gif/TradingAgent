@@ -1,5 +1,33 @@
 # Research Log
 
+## 2026-08-21 — Pre-market Research (post-test Day 32, Friday)
+### Account
+- Total **$536.48** | Equity $527.57 (pre-mkt marks) | Cash/buying power **$8.91** | vs $500 start: **+7.30%** — kill-switch OK ($536 » $250).
+- Book 3/4: QQQ $100 frac (0.140875 sh) @ $709.85 (AI-complex; pre-mkt ~$715.88 → **+0.85%**; software stop $567.88, ~20.7% below) ·
+  XLE 4 sh @ $54.97 (Energy; pre-mkt ~$63.61 → **+15.72%**; resting stop $59.93 id 6a8724ed, 7% trail, ~5.8% below) ·
+  XLV 1 sh @ $161.53 (Outside; pre-mkt ~$172.26 → **+6.64%**; resting stop $129.22 id 6a50fa42, ~25% below).
+- Composition: AI-complex **1/2** · Energy 1 · Outside 1/1 · dedup OK · diversify floor met (2 non-AI legs). Cadence wk of Aug 17 (wk #7) | opening trades **0/3**.
+- Both resting stops confirmed GTC (state=confirmed, zero fills: XLE 6a8724ed $59.93, XLV 6a50fa42 $129.22). QQQ software $567.88. No position near a −20% cut. XLE +15.72% holds the +15% ratchet tier (7% trail in place); +20% tier is $65.96 → 5% trail (not hit). Phase 2 LIVE.
+- Dry powder **$8.91 (~1.7%)** → NO buying power for any new position. Effectively manage-only regardless of setups.
+### Market Context
+- Tape **RISK-ON (cautious)**: S&P 500 futures **+0.3%**, Dow futures **+0.3%**, Nasdaq-100 futures **+0.5%** — a bounce after a down week. **VIX ~16.0** (+7.5%, low but ticking up). Weekly losses driven by a Treasury bond sell-off (long yields higher) that pressured capital-intensive AI/tech (Nvidia et al); market awaiting details on Trump's "economic warfare" package vs Iran.
+- **Macro calendar:** data-light Friday, no major print. Next real catalyst = **Jackson Hole symposium Aug 27–29**, new Fed Chair **Warsh's debut keynote Fri Aug 28** — lands 19 days before the Sep 16 FOMC. Default patience into it.
+- **Energy — premium HARDENING (tailwind for XLE):** Brent toward **~$93** (+>4% on the week), WTI ~$86–87 (highest since late July) after Trump announced sweeping economic measures to isolate Iran; Iran says Hormuz stays closed until the US lifts its naval blockade — **no deal, stalemate intact**. Structural supply premium firm. XLE book leader +15.72%. Thesis-break trigger (confirmed reopening + sustained crude rollover) **decisively NOT hit** (crude rising, not rolling over).
+- **AI-complex:** QQQ pre-mkt ~$715.88 (+0.85% vs entry) rebounding with Nasdaq futures, above reclaimed 20-DMA (~$700); SMH ~$569.7 (+1.2%). Bond-yield pressure is the risk but leg intact, far above software stop.
+- **Healthcare (XLV):** quiet defensive ballast, pre-mkt ~$172.26 (+6.64% vs entry), near highs. Slot filled, healthy.
+- Bucket scan (ALL cash-blocked at $8.91): QQQ $716 (held) · SMH $570 (de-dup by QQQ) · QTUM $149 · VRT $265 · UFO $46 (illiquid, wide bid/ask 45.65–46.80) · XLE $63.6 (held) · XLV $172 (held) · URA $44 · VST $141 · CEG $273 · OKLO $42 · SMR $9.
+### Trade Ideas (book meets floor at 3/4; ONLY open slot is the 4th position — cash $8.91 blocks every buy)
+1. **QTUM ~$149 (AI-complex, quantum, swing lane)** — the one watchlist add that fits composition (2nd AI-complex slot; not de-dup-blocked — SMH blocked by QQQ's broad-AI slot, QTUM is its own quantum group). Catalyst: AI/quantum momentum. Whole share $149 < $250 → would be whole-share + resting stop @ ~$119 (20% below); target ~$179 (2:1 R:R). **BLOCKED by cash ($8.91 « $149).** WATCH only.
+2. **VRT ~$265 (AI-complex, data-center power, swing lane)** — same 2nd AI-complex slot; rides AI-capex. Whole share $265 > $250 budget → fractional + software stop @ ~$212. **BLOCKED by cash.** WATCH only.
+3. **No Outside/Energy add** — both slots filled (XLV, XLE), composition floor already met; no idea improves the book. Outside slot occupied → no Tier-1 off-list candidate in play.
+### Risk Factors
+- **Bond-yield/AI-tech pressure:** long yields higher on the week hit QQQ hardest; XLE/XLV insulated. Stops structural (~21% QQQ) / trailing (XLE 7%) — no action, expect volatility.
+- **Jackson Hole (next week):** Warsh's debut keynote can reprice cut odds and swing the whole tape — QQQ most sensitive. No pre-positioning.
+- **Oil premium give-back risk:** thesis-break requires a confirmed Hormuz reopening + sustained crude rollover — currently crude is RISING (opposite), premium hardening. Not hit; XLE HOLD, stop unchanged (never lower).
+- **$8.91 cash** → zero flexibility; manage-only regardless of setups.
+### Decision
+**HOLD.** Pre-market does not arm orders. Plan for market-open: HOLD QQQ + XLE + XLV — all healthy, above stops, none near a −20% cut. Confirm both resting stops still GTC at the open; XLE +15.72% sits in the +15% (7% trail) tier — re-peg the 7% trail UP only on a fresh high (never down, never within 3%); +20% tier ($65.96 → 5% trail) not hit. **WATCH XLE** thesis-break only on a confirmed Hormuz reopening + decisive crude rollover (NOT triggered — crude rising). 4th slot (2nd AI-complex: QTUM/VRT) stays a WATCH — blocked by $8.91 cash. Cadence has room (wk #7, 0/3) but no cash to use it. Default to patience into Jackson Hole.
+
 ## 2026-08-20 — Pre-market Research (post-test Day 31, Thursday)
 ### Account
 - Total **$540.89** | Equity $531.98 (pre-mkt marks) | Cash/buying power **$8.91** | vs $500 start: **+8.18%** — kill-switch OK ($541 » $250). New phase high.
