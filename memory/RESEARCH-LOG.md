@@ -1,5 +1,30 @@
 # Research Log
 
+## 2026-08-24 — MARKET-OPEN (inline research; no pre-mkt entry existed) — HOLD, manage-only
+### Account
+- Total **$536.31** | Equity $527.40 | Cash/BP **$8.91** | vs $500 start: **+7.26%** — kill-switch OK ($536 » $250).
+- Book 3/4: QQQ $100 frac (0.140875 sh) @ $709.85 (AI-complex; live $708.03 → **−0.26%**; day −0.76%; software stop $567.88, ~19.8% below) ·
+  XLE 4 sh @ $54.97 (Energy; live $63.38 → **+15.30%**; day −0.41%; resting stop $59.93 id 6a8724ed, 7% trail, ~5.4% below) ·
+  XLV 1 sh @ $161.53 (Outside; live $174.04 → **+7.75%**; day −0.33%; resting stop $129.22 id 6a50fa42, ~25.8% below).
+- Composition: AI-complex **1/2** · Energy 1 · Outside 1/1 · dedup OK · diversify floor met (2 non-AI legs). **NEW week** — Cadence wk of 2026-08-24 (wk #8) | opening trades **0/3** (CAP 3).
+- Both resting stops confirmed GTC (0 fills, last_txn Aug 24 12:28). QQQ software $567.88. No position near a −20% cut. **XLE +15.30% holds the +15% (7% trail) tier**; not a fresh high vs peg ref $64.44, +20% tier ($65.96 → 5% trail) NOT hit, 7% below live = $58.94 < current stop → no re-peg. Phase 2 LIVE.
+- Dry powder **$8.91 (~1.7%)** → NO buying power for any new position. Manage-only regardless of setups.
+### Market Context
+- Tape **RISK-OFF-lean**: S&P 500 futures ~−0.1%, Nasdaq-100 futures ~−0.35%, Dow ~flat into a data-heavy week. S&P slipped ~−0.18% to ~7,661. Prediction market ~45% odds of a higher open (bearish). Drivers: **Nvidia earnings** (Wed) + **Jackson Hole Aug 27–29, Warsh keynote Fri Aug 28** + Middle-East "economic warfare" (Trump's Iran sanctions "economic D-Day", Bessent detailing measures) + **US-Canada tariff talks broke down**.
+- **Energy — premium HARDENING (tailwind for XLE):** Brent **~$94** (highest area of the run), rising on the Iran-isolation package + Russian-refinery disruptions (Ukrainian strikes); US military says >660M bbl moved through Hormuz since May (crude still flows) but no deal — stalemate intact. XLE book leader +15.30%; thesis-break trigger (confirmed reopening + sustained crude rollover) **decisively NOT hit** (crude rising).
+- **AI-complex:** QQQ live $708.03 (−0.26% vs entry; −0.76% day), soft on rising long yields + caution into Nvidia earnings, still above the reclaimed 20-DMA (~$700) and far above its software stop. SMH de-dup-blocked by QQQ.
+- **Healthcare (XLV):** defensive ballast $174.04 (+7.75% vs entry), near highs; slot filled, healthy — right leg on a risk-off tape.
+### Trade Ideas (book meets floor at 3/4; ONLY open slot is the 4th position — cash $8.91 blocks every buy)
+1. **QTUM ~$149 (AI-complex, quantum, swing)** — fits the 2nd AI-complex slot (not de-dup-blocked; QTUM its own quantum group). Whole share < $250 → resting stop. **BLOCKED by cash ($8.91 « $149).** WATCH; chasing AI into Nvidia earnings + rising yields is poor timing anyway.
+2. **VST/CEG (Energy singles) or VRT (AI-power)** — thematically strongest into the energy bid, independent of XLE. **BLOCKED by cash.** WATCH only.
+3. **No Outside/Energy add** — both slots filled (XLV, XLE); floor already met; no idea improves the book.
+### Risk Factors
+- **Nvidia earnings (Wed) + Jackson Hole (Fri):** Warsh's keynote can reprice cut odds and swing the tape — QQQ most sensitive. No pre-positioning.
+- **Oil premium give-back risk:** thesis-break needs a confirmed Hormuz reopening + sustained crude rollover — currently crude RISING (opposite). Not hit; XLE HOLD, stop unchanged (never lower).
+- **$8.91 cash** → zero flexibility; manage-only regardless of setups.
+### Decision
+**HOLD QQQ + XLE + XLV.** No buys (cash-blocked, every candidate fails G4). No cuts (none ≤ −20%), no thesis breaks, no stop re-pegs (XLE +15.30% already on its 7% trail, not a fresh high; +20% tier not hit; QQQ −0.26% / XLV +7.75% nowhere near +15%). Both resting stops confirmed GTC. 4th slot (2nd AI-complex QTUM / a 2nd-Energy leg) stays a WATCH — blocked by $8.91 cash, not choice. New week (wk #8, 0/3) but no cash to use it. Default to patience into Nvidia earnings + Jackson Hole.
+
 ### 2026-08-21 — Midday addendum
 - Reconciled live 3/4, all above stops. QQQ $714.596 (+0.67%; +0.52% day), XLE $63.775 (+16.02%; +0.04% day), XLV $175.27 (+8.51%; +1.67% day). No cut/ratchet/thesis-break. Manage-only (cash $8.91). Account $539.94 (+7.99% vs $500), kill-switch OK.
 - Calm/mixed risk-on tape; no anomalous movers needing fresh research. XLV led intraday to fresh highs vs entry (defensive/sector-rotation bid); XLE eased slightly off yesterday's high but holds book leadership — Hormuz supply premium firm (Brent ~$93, no confirmed deal); thesis intact, +16.02% (on its 7% trail, not a fresh high → no re-peg). QQQ green vs entry, far above its structural software stop. No new buyable setup (cash-capped at $8.91). Next event: Jackson Hole Aug 27–29 (Warsh keynote); default to patience.

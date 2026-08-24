@@ -14,6 +14,18 @@ Bucket engine + composition/de-dup/cadence/Tier-1 rules live in `memory/BUCKETS.
 - `Book: n/4 | AI-complex a/2 · Energy e · Outside o/1 | dedup OK` — composition vs the floor.
 - `Cadence: wk of YYYY-MM-DD (wk #k) | opening trades u/CAP` — CAP=4 in week 1, else 3 (BUY-to-open only).
 
+## Aug 24 — MARKET-OPEN (no actions — manage-only, cash-blocked; new week)
+Reconciled live vs book (3/4). Account $536.31 | equity $527.40 | cash $8.91. Kill-switch OK (+7.26% vs $500). No buys — cash/BP $8.91, ~98% deployed (every candidate fails gate G4: cost > settled cash). Manage-only. NEW week — Cadence reset to wk of Aug 24 (wk #8), 0/3. No today's pre-mkt research existed → ran inline (see RESEARCH-LOG 2026-08-24). Risk-off-lean tape into Nvidia earnings (Wed) + Jackson Hole (Warsh keynote Fri Aug 28); US-Canada tariff talks broke down.
+- **XLE — no re-peg.** XLE $63.38 (+15.30% vs entry $54.97; −0.41% day) sits in the +15% (7% trail, already at $59.93) tier. Not a fresh high vs prior peg ref $64.44; 7% below live = $58.94 < current stop $59.93 → hold (never move a stop down). +20% tier ($65.96 → 5% trail) NOT hit. **PROTECTION=resting 6a8724ed-4798-4829-b739-6a29454731b8** confirmed GTC, 0 fills (last_txn Aug 24 12:28). Thesis firm/hardening — Brent ~$94 rising, Hormuz premium hardening (Iran-isolation package), no confirmed deal. No thesis-break.
+- QQQ $708.03 (−0.26% vs entry; −0.76% day) — software stop $567.88 (fractional — no resting order, ~19.8% below now). Hold. AI-complex leg soft on rising yields + caution into Nvidia earnings, still above the reclaimed 20-DMA (~$700); far above stop, not −20%, no thesis break.
+- XLV $174.04 (+7.75% vs entry; −0.33% day) — resting stop $129.22 (6a50fa42, confirmed, 0 fills, last_txn Aug 24 12:28, ~25.8% below now). Hold. Defensive ballast near highs vs entry; sector-rotation bid intact. Not at +15% — no re-peg. Far above stop.
+- No cuts (none ≤ −20%). QQQ −0.26% / XLE +15.30% (already on its 7% trail) / XLV +7.75% — none needing a re-peg. Book 3/4 — AI-complex 1/2; the 4th slot (QTUM 2nd-AI or a 2nd-Energy leg) stays a WATCH, blocked by cash not choice. Next events: Nvidia earnings Wed, Jackson Hole Aug 27–29 (Warsh keynote Fri); default to patience.
+- QQQ | bucket=AI-complex | qty=$100 frac (0.140875 sh) | entry=$709.8459 | stop=$567.88 | protection=software $567.88 | lane=swing | opened=2026-08-04
+- XLE | bucket=Energy | qty=4 sh | entry=$54.97 | stop=$59.93 | protection=resting 6a8724ed-4798-4829-b739-6a29454731b8 | lane=swing | opened=2026-07-10
+- XLV | bucket=Outside | qty=1 sh | entry=$161.53 | stop=$129.22 | protection=resting 6a50fa42-d10b-4a94-8bd8-74beb5a96ad5 | lane=swing | opened=2026-07-10
+- Book: 3/4 | AI-complex 1/2 · Energy 1 · Outside 1/1 | dedup OK.
+- Cadence: wk of 2026-08-24 (wk #8) | opening trades 0/3 (CAP 3).
+
 ## Aug 21 — MIDDAY scan (no actions)
 Reconciled live vs book (3/4). All lots above stops, no ratchet trigger, no thesis break. Calm/mixed risk-on tape — energy easing off yesterday's high but XLE still book leader vs entry (Hormuz supply premium firm, no deal), QQQ green vs entry, XLV ripping to fresh highs vs entry. Post-test Day 32 (Friday).
 - QQQ $714.596 (+0.67% vs entry; +0.52% day) — software stop $567.88 (fractional — no resting order, ~20.5% below now). Hold. AI-complex leg above the reclaimed 20-DMA (~$700); far above stop, not −20%, no thesis break.
