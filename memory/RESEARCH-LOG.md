@@ -937,3 +937,32 @@ Cadence has room (0/3). Default to patience: a hot CPI or risk-off open = no add
 - **$8.91 cash** → zero flexibility; manage-only regardless of setups. No add can be funded.
 ### Decision
 **HOLD.** Pre-market does not arm orders. Plan for market-open: HOLD QQQ + XLE + XLV — all healthy, above stops, none near a −20% cut, no +15%/+20% ratchet (XLE +12.30% closest). Re-peg nothing down; confirm both resting stops still GTC at the open. **WATCH XLE** for a thesis-break only on a confirmed Hormuz reopening + decisive crude/energy rollover (not triggered). 4th slot (2nd AI-complex: QTUM/VRT) stays a WATCH — blocked by $8.91 cash. Cadence reset to 0/3 for wk #7 but no cash to use it. Default to patience into the FOMC minutes and Jackson Hole.
+
+## 2026-08-24 — Pre-market Research
+### Account
+- Total **$537.22** | Equity $528.31 (Fri close marks) | Cash/buying power **$8.91** | vs $500 start: **+7.44%** — kill-switch OK ($537 » $250).
+- Book 3/4: QQQ $100 frac (0.140875 sh) @ $709.85 (AI-complex; pre-mkt ~$709.78 → **−0.01%**, ~flat vs entry; software stop $567.88, ~20.0% below) ·
+  XLE 4 sh @ $54.97 (Energy; pre-mkt ~$63.34 → **+15.22%**; resting stop $59.93 id 6a8724ed, ~5.4% below) ·
+  XLV 1 sh @ $161.53 (Outside; pre-mkt ~$174.97 → **+8.32%**; resting stop $129.22 id 6a50fa42, ~26.2% below).
+- Composition: AI-complex **1/2** · Energy 1 · Outside 1/1 · dedup OK · diversify floor met (2 non-AI legs). Cadence **wk of Aug 24 (wk #8)** | opening trades **0/3** (fresh calendar-week reset).
+- Both resting stops confirmed GTC (zero fills, state=confirmed, last_txn Aug 21). XLE sits above the +15% tier (7% trail in place at $59.93); no position near a −20% cut or the +20% tier ($65.96 → 5% trail). Phase 2 LIVE.
+- Dry powder **$8.91 (~1.7%)** → NO buying power for any new position. Effectively manage-only regardless of setups.
+### Market Context
+- Tape **RISK-OFF (mild/mixed)**: Nasdaq futures **~−0.4%**, S&P 500 futures **~−0.1%** (some feeds mildly green) after last week's weekly declines. **VIX ~15.8** (range 15.08–15.88) — still low/calm. **10-yr Treasury ~4.74%, near a 20-month high** — the key headwind, pressures growth/tech (QQQ most exposed).
+- **Rate path turned hawkish:** money markets now nearly fully price a **December 25bp HIKE** (the Sep-cut narrative is gone). Rising long yields are the tape's dominant driver into a data-heavy week.
+- **Huge week ahead:** **Nvidia earnings Wed Aug 26 (after close)** — the AI bellwether, direct QQQ read-through; **Jackson Hole Aug 27–29, Fed Chair Warsh keynote Thu Aug 28 10:00am ET** (his debut; guidance uncertain); plus PMI data. Two binary tape-movers — no pre-positioning.
+- **Energy — sanctions escalation, oil profit-taking:** Treasury Sec. **Bessent unveils the "toughest-ever" Iran sanctions today** ("economic D-Day"). Oil dipped on profit-booking ahead of the details — **WTI ~$85.65 (−1.6%), Brent ~$93.09 (−1.4%)** — after crude gained **>5% last week** on the breakdown of US-Iran peace efforts. Escalation (not a deal) keeps the Strait-of-Hormuz structural supply premium firm; XLE book leader +15.22% vs entry. Thesis-break trigger (confirmed reopening/deal + sustained crude rollover) **NOT hit** — today's dip is give-back into a sanctions catalyst, not a rollover.
+- **AI-complex:** QQQ pre-mkt ~$709.78 (~flat vs entry) hovering just above the reclaimed 20-DMA (~$700); SMH ~$554, QTUM ~$148, VRT ~$256 — all softer pre-mkt on the yield backup and Nvidia-earnings caution. Leg intact but no momentum to chase.
+- **Healthcare (XLV):** quiet defensive ballast, pre-mkt ~$174.97 (+0.2%, +8.32% vs entry) near highs. Slot filled, healthy.
+- Bucket scan (ALL cash-blocked at $8.91): QQQ $710 (held) · SMH $554 (de-dup by QQQ) · QTUM $148 · VRT $256 · UFO ~$46 (illiquid, bid/ask 45.5–49.96) · XLE $63.3 (held) · XLV $175 (held).
+### Trade Ideas (book meets floor at 3/4; ONLY open slot is the 4th position — cash $8.91 blocks every buy)
+1. **QTUM ~$148 (AI-complex, quantum, swing lane)** — the one watchlist add that fits composition (2nd AI-complex slot; not de-dup-blocked — QTUM is its own quantum group, SMH is blocked by QQQ's broad-AI slot). Whole share $148 < $250 → would be whole-share + resting stop @ ~$118. **BLOCKED by cash ($8.91 « $148).** WATCH only — and chasing a 2nd AI leg into rising yields + Nvidia earnings + Jackson Hole is textbook whipsaw risk anyway.
+2. **VRT ~$256 (AI-complex, data-center power, swing lane)** — same 2nd AI-complex slot; rides AI-capex. Whole share $256 > $250 budget → would be fractional + software stop. **BLOCKED by cash.** WATCH only.
+3. **No Outside/Energy add** — both slots filled (XLV, XLE), composition floor already met; no idea improves the book today. Outside slot occupied → no Tier-1 off-list candidate in play.
+### Risk Factors
+- **Rising long yields (~4.74%, 20-mo high) + hawkish Dec-hike repricing:** direct headwind for QQQ; XLV/XLE more insulated. QQQ now ~flat vs entry (gave back its gains) but ~20% above its software stop — no action, expect volatility.
+- **Event cluster Wed–Fri:** Nvidia earnings (Aug 26 AMC) can gap the whole Nasdaq; Warsh's Jackson Hole debut (Aug 28) can reprice the rate path either way. Binary, whipsaw-prone — do not pre-position.
+- **Oil sanctions two-way risk:** Bessent's Iran package today could firm crude further (bullish XLE) OR, if it signals a path to reopening flows, trigger a give-back. Position +15.22%, only ~5.4% above its 7% trail stop — a decisive crude/energy rollover is the thesis-break trigger to watch; not hit today.
+- **$8.91 cash** → zero flexibility; manage-only regardless of setups. No add can be funded.
+### Decision
+**HOLD.** Pre-market does not arm orders. Plan for market-open: HOLD QQQ + XLE + XLV — all above stops, none near a −20% cut. XLE +15.22% is in the +15% tier (7% trail $59.93 in place); re-peg UP only on a fresh XLE high vs the peg ref (~$64.44) — not below the +20% tier ($65.96) yet. Confirm both resting stops still GTC at the open; re-peg nothing down. **WATCH XLE** for a thesis-break only on a confirmed US-Iran reopening/deal + decisive crude rollover (today's dip is profit-taking into sanctions — not triggered). 4th slot (2nd AI-complex: QTUM/VRT) stays a WATCH — blocked by $8.91 cash, and event-heavy week argues against chasing anyway. Cadence 0/3 for wk #8 but no cash to use it. Default to patience into Nvidia earnings + Jackson Hole.
