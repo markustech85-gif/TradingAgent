@@ -1,5 +1,31 @@
 # Research Log
 
+## 2026-08-25 — Pre-market Research (Tuesday) — HOLD, manage-only
+### Account
+- Total **$533.81** | Equity $524.90 | Cash/BP **$8.91** | vs $500 start: **+6.76%** — kill-switch OK ($534 » $250).
+- Book 3/4 (pre-mkt marks ~8am ET): QQQ $100 frac (0.140875 sh) @ $709.85 (AI-complex; pre-mkt ~$713.05 → **+0.45%**; software stop $567.88, ~20.3% below) ·
+  XLE 4 sh @ $54.97 (Energy; pre-mkt ~$62.41 → **+13.53%**; day ~−1.1%; resting stop $59.93 id 6a8724ed, 7% trail, ~3.8% below) ·
+  XLV 1 sh @ $161.53 (Outside; pre-mkt ~$174.81 → **+8.22%**; resting stop $129.22 id 6a50fa42, ~26% below).
+- Composition: AI-complex **1/2** · Energy 1 · Outside 1/1 · dedup OK · diversify floor met (2 non-AI legs). Cadence wk of Aug 24 (wk #8) | opening trades **0/3** (CAP 3).
+- Both resting stops confirmed GTC (0 fills, last_txn Aug 24 12:28: XLE $59.93, XLV $129.22). QQQ software $567.88. No position near a −20% cut. **XLE eased to +13.53% — now BELOW the +15% (7% trail) tier**; stop stays $59.93 (never lower; 7% below live = $58.04 < current). Phase 2 LIVE.
+- Dry powder **$8.91 (~1.7%)** → NO buying power for any new position. Manage-only regardless of setups.
+### Market Context
+- Tape **RISK-ON (cautious)**: S&P 500 futures +0.1–0.3%, Nasdaq-100 futures +0.5–0.7% (recovering Monday's chip-led selloff), Dow ~flat. **VIX ~15.85** (+4.8%, low). Polymarket ~68% odds of a higher open. Twin catalysts loom: **Nvidia earnings Wed eve Aug 26** (Street ~$91B rev, +95% y/y; guide is the swing factor) + **Jackson Hole Aug 27–29, Warsh's first keynote as Fed Chair Fri Aug 28** (theme: financial innovation/payments) — biggest earnings + biggest Fed event land ~36h apart.
+- **Today's data:** CB Consumer Confidence 10am ET (Michigan sentiment already soft — fell to 51 early Aug). Can nudge the tape midday.
+- **Energy — premium EASING (mild headwind for XLE):** Brent **~$92.4** (+0.3% today but fell >2% Monday); WTI ~$85.4. US "Operation Economic Outcast" sanctions on Iran rolled out Mon (China not exempt) — supply premium intact but crude off its ~$94 highs; Iran's president signaled wanting the war to end soon; ~16M bbl/night still crossing Hormuz. CBA flags downside toward $70s if Hormuz flows even modestly recover. XLE +13.53% vs entry — one-week give-back, NOT a confirmed reopening/rollover → thesis-break trigger **not hit**; WATCH.
+- **AI-complex:** QQQ pre-mkt ~$713 (+0.45% vs entry), bouncing with Nasdaq futures into Nvidia; above reclaimed 20-DMA (~$700), far above software stop. SMH de-dup-blocked by QQQ.
+- **Healthcare (XLV):** defensive ballast ~$174.81 (+8.22% vs entry), near highs; slot filled, healthy — good ballast into a two-catalyst week.
+### Trade Ideas (book meets floor at 3/4; ONLY open slot is the 4th position — cash $8.91 blocks every buy)
+1. **QTUM ~$149 (AI-complex, quantum, swing)** — fits the 2nd AI-complex slot (own quantum group; not de-dup-blocked). Whole share < $250 → resting stop. **BLOCKED by cash ($8.91 « $149).** WATCH; chasing AI the day before Nvidia earnings is poor timing anyway.
+2. **VST/CEG (Energy singles) or VRT (AI-power)** — thematically independent of XLE. **BLOCKED by cash.** WATCH only.
+3. **No Outside/Energy add** — both slots filled (XLV, XLE); floor already met; no idea improves the book. Outside slot occupied → no Tier-1 off-list candidate in play.
+### Risk Factors
+- **Nvidia earnings (Wed eve) + Warsh Jackson Hole (Fri):** either can swing the tape hard; QQQ most sensitive. No pre-positioning (no cash, and holding through a binary is the plan).
+- **Oil give-back risk:** crude eased off highs; thesis-break needs a CONFIRMED Hormuz reopening + sustained rollover — not yet (sanctions intact, one-week dip). XLE HOLD, stop unchanged (never lower). If XLE loses the +15% tier and rolls further, watch for a decisive break.
+- **$8.91 cash** → zero flexibility; manage-only regardless of setups.
+### Decision
+**HOLD QQQ + XLE + XLV.** Pre-market does not arm orders. At the open: confirm both resting stops still GTC; XLE now +13.53% (below the +15% tier) → NO re-peg (never lower the stop). No cuts (none ≤ −20%), no thesis breaks. 4th slot (2nd AI-complex QTUM / a 2nd-Energy leg) stays a WATCH — blocked by $8.91 cash, not choice. Default to patience into Nvidia earnings (Wed) + Jackson Hole/Warsh (Fri).
+
 ## 2026-08-24 — MARKET-OPEN (inline research; no pre-mkt entry existed) — HOLD, manage-only
 ### Account
 - Total **$536.31** | Equity $527.40 | Cash/BP **$8.91** | vs $500 start: **+7.26%** — kill-switch OK ($536 » $250).
