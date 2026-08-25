@@ -14,6 +14,14 @@ Bucket engine + composition/de-dup/cadence/Tier-1 rules live in `memory/BUCKETS.
 - `Book: n/4 | AI-complex a/2 · Energy e · Outside o/1 | dedup OK` — composition vs the floor.
 - `Cadence: wk of YYYY-MM-DD (wk #k) | opening trades u/CAP` — CAP=4 in week 1, else 3 (BUY-to-open only).
 
+## Aug 25 — MIDDAY scan (no actions)
+Reconciled live vs book (3/4). All lots above stops, no cut, no ratchet trigger, no thesis break. Cautious-risk-on tape holding into the twin catalysts — Nvidia earnings Wed eve + Jackson Hole (Warsh keynote Fri Aug 28); energy easing off its highs (Brent ~$92, premium intact but off ~$94), QQQ firming with Nasdaq, XLV defensive ballast at fresh highs vs entry.
+- QQQ $710.47 (+0.09% vs entry; +0.59% day) — software stop $567.88 (fractional — no resting order, ~20.1% below now). Hold. AI-complex leg above the reclaimed 20-DMA (~$700), firming into Nvidia earnings; far above stop, not −20%, no thesis break.
+- XLE $62.62 (+13.93% vs entry; −0.78% day) — resting stop $59.93 (6a8724ed, confirmed, 0 fills, last_txn Aug 25 12:21, ~4.3% below now). Hold. Eased BELOW the +15% tier ($63.22) from the pre-mkt ~+13.5%; 7% trail already at $59.93, 7% below live = $58.24 < current stop → no move (never lower; clears 3% floor). Thesis firm — Brent ~$92 (Iran-isolation sanctions intact, Russian-refinery disruptions), no Hormuz deal; one-week give-back off ~$94, NOT a decisive rollover.
+- XLV $175.36 (+8.56% vs entry; +0.38% day) — resting stop $129.22 (6a50fa42, confirmed, 0 fills, last_txn Aug 25 12:23, ~26.3% below now). Hold. Defensive ballast at fresh highs vs entry; sector-rotation bid intact — the right leg into a two-catalyst week. Not at +15% — no re-peg. Far above stop.
+No cuts (none ≤ −20%), no thesis breaks, no stop re-pegs (QQQ +0.09% / XLE +13.93% below +15% / XLV +8.56% — none needing action). No buy at midday (manage-only; cash $8.91, ~98% deployed). Book 3/4 — AI-complex 1/2; the 4th slot (2nd-AI QTUM or a 2nd-Energy leg) stays a WATCH, blocked by cash not choice. Next events: Nvidia earnings Wed eve, Jackson Hole Aug 27–29 (Warsh keynote Fri); default to patience.
+Portfolio $534.86 | equity $525.95 | cash $8.91. Drawdown +6.97% vs $500. Kill-switch OK.
+
 ## Aug 24 — MIDDAY scan (no actions)
 Reconciled live vs book (3/4). All lots above stops, no cut, no ratchet trigger, no thesis break. Risk-off-lean tape into Nvidia earnings (Wed) + Jackson Hole (Warsh keynote Fri Aug 28); energy easing off its highs (Brent ~$94.12, −$0.54 d/d — premium still firm), QQQ soft on rising yields/Nvidia caution, XLV defensive ballast ~flat near highs.
 - QQQ $708.0099 (−0.26% vs entry; −0.76% day) — software stop $567.88 (fractional — no resting order, ~19.8% below now). Hold. AI-complex leg soft into Nvidia earnings but above the reclaimed 20-DMA (~$700); far above stop, not −20%, no thesis break.

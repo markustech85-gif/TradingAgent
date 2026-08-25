@@ -26,6 +26,10 @@
 ### Decision
 **HOLD QQQ + XLE + XLV.** Pre-market does not arm orders. At the open: confirm both resting stops still GTC; XLE now +13.53% (below the +15% tier) → NO re-peg (never lower the stop). No cuts (none ≤ −20%), no thesis breaks. 4th slot (2nd AI-complex QTUM / a 2nd-Energy leg) stays a WATCH — blocked by $8.91 cash, not choice. Default to patience into Nvidia earnings (Wed) + Jackson Hole/Warsh (Fri).
 
+### 2026-08-25 — Midday addendum
+- Reconciled live 3/4, all above stops. QQQ $710.47 (+0.09%; +0.59% day), XLE $62.62 (+13.93%; −0.78% day), XLV $175.36 (+8.56%; +0.38% day). No cut/ratchet/thesis-break. Manage-only (cash $8.91). Account $534.86 (+6.97% vs $500), kill-switch OK.
+- Cautious-risk-on tape into Nvidia earnings (Wed eve) + Jackson Hole (Warsh keynote Fri Aug 28). XLE eased −0.78% intraday, holding below the +15% tier — but crude firm: Brent ~$92, premium intact off the ~$94 highs (Iran-isolation sanctions, Russian-refinery/Ukrainian-strike disruptions; no Hormuz deal). One-week give-back, NOT a decisive rollover → thesis intact; stop stays $59.93 (7% trail, never lower). QQQ firming with Nasdaq above 20-DMA (~$700), far above software stop; XLV at fresh highs vs entry, defensive-rotation bid intact. No anomalous movers needing deeper research. No new buyable setup (cash-capped at $8.91). Default to patience into Nvidia earnings + Jackson Hole.
+
 ## 2026-08-24 — MARKET-OPEN (inline research; no pre-mkt entry existed) — HOLD, manage-only
 ### Account
 - Total **$536.31** | Equity $527.40 | Cash/BP **$8.91** | vs $500 start: **+7.26%** — kill-switch OK ($536 » $250).
