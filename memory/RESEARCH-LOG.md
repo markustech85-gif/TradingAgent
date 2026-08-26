@@ -1,5 +1,30 @@
 # Research Log
 
+## 2026-08-26 — MARKET-OPEN (inline research; no pre-mkt entry existed) — HOLD, manage-only; XLE thesis eroding
+### Account
+- Total **$528.95** | Equity $520.04 | Cash/BP **$8.91** | vs $500 start: **+5.79%** — kill-switch OK ($529 » $250).
+- Book 3/4 (live ~9:31 ET): QQQ $100 frac (0.140875 sh) @ $709.85 (AI-complex; live $709.12 → **−0.10%**; day −0.23%; software stop $567.88, ~19.9% below) ·
+  XLE 4 sh @ $54.97 (Energy; live $61.45 → **+11.79%**; day −0.98%; resting stop $59.93 id 6a8724ed, ~2.5% below) ·
+  XLV 1 sh @ $161.53 (Outside; live $174.37 → **+7.95%**; day −0.52%; resting stop $129.22 id 6a50fa42, ~25.9% below).
+- Composition: AI-complex **1/2** · Energy 1 · Outside 1/1 · dedup OK · diversify floor met (2 non-AI legs). Cadence wk of Aug 24 (wk #8) | opening trades **0/3** (CAP 3).
+- Both resting stops confirmed GTC (0 fills, last_txn Aug 26 ~12:21/12:24). QQQ software $567.88. No position near a −20% cut, none at +15% → no ratchet. Phase 2 LIVE.
+- Dry powder **$8.91 (~1.7%)** → NO buying power for any new position. Manage-only regardless of setups.
+### Market Context
+- Tape **cautious/risk-off-lean into Nvidia**: S&P 500 futures −0.1%, Nasdaq-100 futures −0.4%, Dow ~flat. **Core PCE (July) +3.3% y/y, in-line/unchanged** (removes an upside inflation surprise). Twin binaries now imminent: **Nvidia earnings TONIGHT (Wed eve)** — data-center demand/margins/fiscal-Q3 guide is the index-level swing — and **Jackson Hole Aug 27–29, Warsh's keynote Fri Aug 28**.
+- **Energy — premium DEFLATING (adverse for XLE; sharpest thesis erosion yet):** Brent **−3.0% to ~$85.91**, WTI **−3.1% to ~$79.80**. Two thesis-specific drivers: (1) **Iran & Oman discussing a joint TEMPORARY Hormuz shipping route** — a precursor to a permanent arrangement (a concrete step toward reopening); (2) **US sanctions on Iran came in SOFTER than expected** — no secondary sanctions on trading partners → premium deflating. This is now a **multi-week crude rollover ($94 peak → ~$86)**, not a one-day dip. XLE +11.79% vs entry (down from ~+16% peak). Thesis-break trigger (confirmed reopening + sustained rollover): rollover is now clearly sustained; reopening is **in discussion, NOT confirmed** → trigger not decisively hit, but closest it has ever been.
+- **AI-complex:** QQQ live $709.12 (−0.10% vs entry), ~flat, holding above the reclaimed 20-DMA (~$700) into Nvidia; far above software stop. SMH de-dup-blocked by QQQ.
+- **Healthcare (XLV):** defensive ballast $174.37 (+7.95% vs entry), near highs; slot filled, healthy — right leg into a two-binary week.
+### Trade Ideas (book meets floor at 3/4; ONLY open slot is the 4th; cash $8.91 blocks every buy)
+1. **QTUM ~$149 (AI-complex, quantum, swing)** — fits the 2nd AI-complex slot (own group; not de-dup-blocked). **BLOCKED by cash ($8.91 « $149).** WATCH; chasing AI hours before Nvidia earnings is poor timing anyway.
+2. **VST/CEG/VRT (AI-power) or a 2nd-Energy leg** — **BLOCKED by cash.** WATCH only; energy premium deflating argues against adding energy regardless.
+3. **No Outside/Energy add** — both slots filled; floor already met; no idea improves the book.
+### Risk Factors
+- **XLE thesis erosion:** Iran-Oman Hormuz route + soft sanctions + multi-week crude rollover. If the temporary route is CONFIRMED (or XLE loses $59.93), exit. Resting stop $59.93 (2.5% below live) caps the outcome at ~+9% — can't tighten (inside 3% floor), never lower it.
+- **Nvidia earnings TONIGHT + Warsh Jackson Hole (Fri):** either can swing the tape hard; QQQ most sensitive. No pre-positioning (no cash; holding through the binary is the plan).
+- **$8.91 cash** → zero flexibility; manage-only regardless of setups.
+### Decision
+**HOLD QQQ + XLE + XLV — high-alert on XLE.** No buys (cash-blocked, every candidate fails G4). No cuts (none ≤ −20%), no ratchets (none at +15%), no re-pegs (XLE stop already 2.5% below, inside 3% floor; never lower). XLE thesis is fraying but not decisively broken (Hormuz reopening only *in discussion*); the resting stop $59.93 is the active exit and caps downside at ~+9% — give-back vs cutting now (~+11.8%) is ~$7, so the tight stop plus upside optionality (Iran talks have collapsed before) favors holding one more session over a pre-emptive dump. Default to patience into Nvidia (tonight) + Jackson Hole (Fri); a confirmed Iran-Oman/Hormuz route or a break of $59.93 = XLE exit.
+
 ## 2026-08-25 — Pre-market Research (Tuesday) — HOLD, manage-only
 ### Account
 - Total **$533.81** | Equity $524.90 | Cash/BP **$8.91** | vs $500 start: **+6.76%** — kill-switch OK ($534 » $250).
