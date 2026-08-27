@@ -1,5 +1,30 @@
 # Research Log
 
+## 2026-08-27 — MARKET-OPEN (inline research; no pre-mkt entry existed) — HOLD, manage-only; XLE highest-alert (Iran-Oman deal reached)
+### Account
+- Total **$530.40** | Equity $521.49 | Cash/BP **$8.91** | vs $500 start: **+6.08%** — kill-switch OK ($530 » $250).
+- Book 3/4 (live ~9:31 ET): QQQ $100 frac (0.140875 sh) @ $709.85 (AI-complex; live $717.56 → **+1.09%**; day +0.87%; software stop $567.88, ~20.9% below) ·
+  XLE 4 sh @ $54.97 (Energy; live $62.162 → **+13.08%**; day −0.43%; resting stop $59.93 id 6a8724ed, ~3.6% below) ·
+  XLV 1 sh @ $161.53 (Outside; live $171.60 → **+6.23%**; day −1.12%; resting stop $129.22 id 6a50fa42, ~24.7% below).
+- Composition: AI-complex **1/2** · Energy 1 · Outside 1/1 · dedup OK · diversify floor met (2 non-AI legs). Cadence wk of Aug 24 (wk #8) | opening trades **0/3** (CAP 3).
+- Both resting stops confirmed GTC (0 fills, last_txn Aug 27 XLE 12:21 / XLV 12:24). QQQ software $567.88. No position near a −20% cut, none at +15% → no ratchet. Phase 2 LIVE.
+- Dry powder **$8.91 (~1.7%)** → NO buying power for any new position. Manage-only regardless of setups.
+### Market Context
+- Tape **RISK-ON**: **Nvidia beat + strong FY2028 AI-demand guide** (NVDA +4-6% pre-mkt), also Salesforce/CrowdStrike beats → S&P 500 futures **+0.4%**, Nasdaq-100 futures **+0.9%** (building on Wed gains). The index-level binary cleared bullishly — AI-capex-peak fear eased. Next: **Jackson Hole Aug 27–29, Warsh keynote Fri Aug 28** still ahead.
+- **Energy — thesis eroding hard (sharpest yet, but reopening still NOT confirmed):** Brent slipping toward **~$87** (4th straight down session), WTI **~$81** (−1.06% d/d). Thesis-specific drivers: (1) **Iran & Oman REACHED an agreement** over each country's share of Hormuz waters + related revenue — a concrete de-escalation milestone (upgraded from "in discussion") — **BUT Tehran cautioned full reopening requires MORE than the Oman deal** (explicitly decoupled); (2) Trump says **10M bbl passed Hormuz Tuesday + mines cleared** (flows recovering); (3) **softer-than-feared US sanctions** (no secondary sanctions). Multi-week crude rollover ($94→$87) is decisively sustained. Thesis-break trigger (**confirmed reopening + sustained rollover**): rollover CONFIRMED; reopening **agreed on waters but NOT declared** by Tehran → not strictly hit, but the closest ever. XLE +13.08% (down from ~+17% peak).
+- **AI-complex:** QQQ live $717.56 (+1.09% vs entry; +0.87% day), leading on the Nvidia-driven risk-on tape, above the reclaimed 20-DMA (~$700), far above software stop. SMH de-dup-blocked by QQQ.
+- **Healthcare (XLV):** defensive ballast $171.60 (+6.23% vs entry; −1.12% day), easing as money rotates OUT of defensives INTO tech post-Nvidia; slot filled, well above stop.
+### Trade Ideas (book meets floor at 3/4; ONLY open slot is the 4th; cash $8.91 blocks every buy)
+1. **QTUM ~$150 (AI-complex, quantum, swing)** — fits the 2nd AI-complex slot (own group; not de-dup-blocked). **BLOCKED by cash ($8.91 « $150).** WATCH.
+2. **VST/CEG/VRT (AI-power) or a 2nd-Energy leg** — **BLOCKED by cash**, and energy erosion argues against adding energy. WATCH only.
+3. **No Outside/Energy add** — both slots filled; floor already met; no idea improves the book.
+### Risk Factors
+- **XLE thesis erosion (highest alert):** Iran-Oman agreement reached + recovering flows (10M bbl) + soft sanctions + 4-session crude rollover. Reopening NOT yet declared (Tehran decoupled it). Resting stop $59.93 (~3.6% below live) is the active exit and caps the outcome at ~+9%; can't tighten further usefully (never lower). A **declared reopening** or a break of $59.93 = exit.
+- **Jackson Hole / Warsh keynote (Fri Aug 28):** can swing the tape; QQQ most sensitive. No pre-positioning (no cash).
+- **$8.91 cash** → zero flexibility; manage-only regardless of setups.
+### Decision
+**HOLD QQQ + XLE + XLV — highest-alert on XLE.** No buys (cash-blocked, every candidate fails G4). No cuts (none ≤ −20%), no ratchets (none at +15%), no re-pegs (XLE stop $59.93 ~3.6% below, down day, 7% below live = $57.81 < current stop; QQQ +1.09% / XLV +6.23% nowhere near +15%). XLE thesis is fraying to its worst read yet — Iran-Oman agreement REACHED + flows recovering — but the reopening my trigger requires is explicitly NOT yet declared by Tehran (talks/deals have collapsed before), and the resting stop $59.93 mechanically caps downside at ~+9% (give-back vs cutting now at +13.08% is ~$9 on the lot). The HYBRID stop is designed for exactly this: hold a fraying-but-not-dead thesis with capped risk + upside optionality. Default to patience into Jackson Hole; a **declared Hormuz reopening** or a break of $59.93 = immediate XLE exit.
+
 ## 2026-08-26 — MARKET-OPEN (inline research; no pre-mkt entry existed) — HOLD, manage-only; XLE thesis eroding
 ### Account
 - Total **$528.95** | Equity $520.04 | Cash/BP **$8.91** | vs $500 start: **+5.79%** — kill-switch OK ($529 » $250).
