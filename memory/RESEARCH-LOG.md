@@ -1,5 +1,30 @@
 # Research Log
 
+## 2026-08-28 — PRE-MARKET — HOLD, manage-only; XLE thesis FIRMED overnight (oil bounced, reopening still refused); Warsh keynote 10am ET is the day's binary
+### Account
+- Total **$532.10** | Equity $523.19 | Cash/BP **$8.91** | vs $500 start: **+6.42%** — kill-switch OK ($532 » $250).
+- Book 3/4 (pre-open ~8:01 ET): QQQ $100 frac (0.140875 sh) @ $709.85 (AI-complex; pre-mkt $719.12 → **+1.31%** vs entry; −0.28% day; software stop $567.88, ~21% below) ·
+  XLE 4 sh @ $54.97 (Energy; $62.29 close / $62.43 pre-mkt → **+13.32%** vs entry; flat day; resting stop $59.93 id 6a8724ed, ~3.8% below) ·
+  XLV 1 sh @ $161.53 (Outside; $171.58 close / $172.17 pre-mkt → **+6.22%** vs entry; +0.34% day; resting stop $129.22 id 6a50fa42, ~24.7% below).
+- Composition: AI-complex **1/2** · Energy 1 · Outside 1/1 · dedup OK · diversify floor met (2 non-AI legs). Cadence wk of Aug 24 (wk #8) | opening trades **0/3** (CAP 3).
+- Both resting stops confirmed GTC (0 fills, last_txn Aug 27 XLE 12:21 / XLV 12:24). QQQ software $567.88. No position near a −20% cut, none at +15% → no ratchet. Phase 2 LIVE.
+- Dry powder **$8.91 (~1.7%)** → NO buying power for any new position. Manage-only regardless of setups.
+### Market Context
+- Tape **RISK-ON but consolidating/pausing** after the Nvidia-driven melt-up: Nasdaq-100 futures ~**−0.1%** as AI enthusiasm cools, **Marvell −7%** post-earnings dragging semis; VIX **~17** (calm). The big binary today is **Jackson Hole — Chair Warsh's keynote 10:00am ET** (his first as Chair). Market prices **~1-in-3** odds of a Sept hike; if Warsh matches expectations moves are small, a surprise → **1–3%** swings across assets (QQQ most sensitive). No pre-open earnings of note in our book.
+- **Energy — thesis FIRMED overnight (favorable for XLE):** Brent bounced **~+2%** back toward ~$90 as fresh attacks on Gulf shipping dented reopening hopes. Iran–Oman have broad agreement on inbound/outbound routes BUT **Tehran explicitly decouples the Oman talks from reopening** and insists the strait stays **closed** until US conditions (reparations, sanctions relief) are met. Thesis-break trigger (**declared reopening + sustained rollover**): reopening NOT declared (hardened), and the multi-week rollover reversed higher overnight → trigger clearly NOT hit; the read is the best in a week. XLE +13.32% vs entry, ~flat pre-mkt.
+- **AI-complex:** QQQ pre-mkt $719.12 (+1.31% vs entry), holding gains above the reclaimed 20-DMA (~$700), far above software stop. SMH de-dup-blocked by QQQ.
+- **Healthcare (XLV):** $172.17 (+6.22% vs entry), defensive ballast steady; slot filled, well above stop.
+### Trade Ideas (book meets floor at 3/4; ONLY open slot is the 4th; cash $8.91 blocks every buy)
+1. **QTUM ~$150 (AI-complex, quantum, swing)** — fills the 2nd AI-complex slot (own dedup-group; not blocked by QQQ). **BLOCKED by cash ($8.91 « $150).** WATCH.
+2. **VST/CEG/VRT (AI-power) or a 2nd-Energy leg** — **BLOCKED by cash**; XLE thesis re-firming makes a 2nd-Energy leg more attractive than last week, but no cash. WATCH.
+3. **No Outside/Energy add** — both slots filled; floor met; no idea improves the book without fresh cash.
+### Risk Factors
+- **Jackson Hole / Warsh keynote (10am ET):** the day's swing risk; a hawkish surprise (Sept-hike signal) hits QQQ most. No cash to pre-position or hedge.
+- **XLE (high-alert but improving):** oil bounced + reopening refused = thesis firmer, but stay disciplined — a **declared reopening** or a break of $59.93 (resting stop, ~3.8% below) = immediate exit. Stop caps the outcome at ~+9%.
+- **$8.91 cash** → zero flexibility; manage-only regardless of setups.
+### Decision
+**HOLD QQQ + XLE + XLV.** No buys (cash-blocked, every candidate fails G4). No cuts (none ≤ −20%), no ratchets (none at +15%), no re-pegs (XLE +13.32% below +15% tier $63.22; 7% below live = $57.93 < current stop $59.93 → never lower; QQQ +1.31% / XLV +6.22% nowhere near +15%). XLE thesis is at its healthiest in a week — oil bounced ~2% and Tehran hardened its no-reopening stance overnight. Default to patience into Warsh's 10am keynote; a **declared Hormuz reopening** or a break of $59.93 = immediate XLE exit.
+
 ## 2026-08-27 — MARKET-OPEN (inline research; no pre-mkt entry existed) — HOLD, manage-only; XLE highest-alert (Iran-Oman deal reached)
 ### Account
 - Total **$530.40** | Equity $521.49 | Cash/BP **$8.91** | vs $500 start: **+6.08%** — kill-switch OK ($530 » $250).
