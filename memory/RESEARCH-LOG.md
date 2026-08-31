@@ -28,6 +28,11 @@
 ### Decision
 **HOLD.** Pre-market does not arm orders. Plan for market-open: HOLD QQQ + XLE + XLV — all above stops, none near a −20% cut. Confirm both resting stops still GTC at the open; re-peg nothing down (XLE's 7% trail computes below $59.93 → hold). **XLE thesis re-armed** on the Hormuz strike (crude >$90) — NOT a thesis break, the opposite. 4th slot (QTUM/VRT) stays a WATCH — blocked by $8.91 cash. Cadence 0/3 for wk #9 but no cash to use it. Default to patience into JOLTS (Tue) and the Aug jobs report (Fri).
 
+### 2026-08-31 — Midday addendum
+- Reconciled live 3/4, all above stops. QQQ $713.85 (+0.56%; −0.36% day), XLE $63.28 (+15.12%; +0.96% day), XLV $170.40 (+5.49%; −0.44% day). No cut/ratchet/thesis-break. Manage-only (cash $8.91). Account $532.98 (+6.60% vs $500), kill-switch OK. Both resting stops confirmed GTC (0 fills, last_txn today — XLE 12:27, XLV 12:22).
+- **XLE back at the +15% tier but no re-peg.** +15.12% ≥ +15% ($63.22), but the 7% trail computes to $58.85 (7% below $63.28) < the current $59.93 stop → hold $59.93 (never lower; already on its 7% trail). +20% tier ($65.96) not hit. Thesis RE-ARMED on the weekend Hormuz strike — Brent held >$90, XLE firmed +0.96% intraday, reopening still refused → thesis-break trigger (declared reopening + sustained rollover) is the opposite of hit. A declared reopening or a break of $59.93 = exit.
+- QQQ consolidating post-Nvidia above the reclaimed 20-DMA (~$700), far above its software stop; XLV steady defensive ballast, well above stop. No anomalous movers needing deeper research; orderly month-end tape. No new buyable setup (cash-capped at $8.91). Default to patience into jobs week — JOLTS Tue Sep 1, ISM Services Wed Sep 3, Aug Jobs Report Fri Sep 4.
+
 ## 2026-08-28 — PRE-MARKET — HOLD, manage-only; XLE thesis FIRMED overnight (oil bounced, reopening still refused); Warsh keynote 10am ET is the day's binary
 ### Account
 - Total **$532.10** | Equity $523.19 | Cash/BP **$8.91** | vs $500 start: **+6.42%** — kill-switch OK ($532 » $250).
