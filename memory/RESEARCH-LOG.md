@@ -1,5 +1,33 @@
 # Research Log
 
+## 2026-08-31 — PRE-MARKET — HOLD, manage-only; XLE thesis re-ARMED overnight (US struck Iran near Hormuz, Brent >$90, XLE +15.9% pre-mkt); risk-off-lean into jobs week
+### Account
+- Total **$534.80** | Equity $525.89 | Cash/BP **$8.91** | vs $500 start: **+6.96%** — kill-switch OK ($535 » $250).
+- Book 3/4: QQQ $100 frac (0.140875 sh) @ $709.85 (AI-complex; pre-mkt ~$714.96 → **+0.72%** vs entry; software stop $567.88, ~20.6% below) ·
+  XLE 4 sh @ $54.97 (Energy; pre-mkt ~$63.70 → **+15.88%**; resting stop $59.93 id 6a8724ed, ~6.0% below) ·
+  XLV 1 sh @ $161.53 (Outside; pre-mkt ~$170.37 → **+5.47%**; resting stop $129.22 id 6a50fa42, ~24.2% below).
+- Composition: AI-complex **1/2** · Energy 1 · Outside 1/1 · dedup OK · diversify floor met (2 non-AI legs). Cadence **wk of Aug 31 (wk #9)** | opening trades **0/3** (new calendar week — CAP resets to 3).
+- Both resting stops confirmed GTC (zero fills, state=confirmed, last_txn Aug 28 — XLE 12:24, XLV 12:27). Phase 2 LIVE.
+- Dry powder **$8.91 (~1.7%)** → NO buying power for any new position. Effectively manage-only regardless of setups.
+### Market Context
+- Tape **RISK-OFF-lean** — energy up, equities soft on Mideast escalation: S&P 500 futures **−0.2%**, Nasdaq-100 futures **−0.1%**, Dow **−0.1%**. **VIX ~17.3** (up, cautious). SPY −0.17%, QQQ −0.12% pre-mkt. Month-end: Aug closes with S&P ~+3% / Nasdaq ~+4% — first up month since May. ([CNBC](https://www.cnbc.com/2026/08/30/stock-market-today-live-updates.html), [Bloomberg](https://www.bloomberg.com/news/articles/2026-08-30/stock-market-today-dow-s-p-live-updates))
+- **Energy — thesis re-ARMED overnight:** Brent climbed **above $90** (~$90.7, **+2.9%** on the day) after the **US military struck Iranian rocket launchers preparing to deploy mines into the Strait of Hormuz** — the first such attack in over a month. XLE gapped to ~$63.70 pre-mkt (**+15.88%** vs entry, back to fresh book-leader highs). The thesis-break trigger (declared Hormuz reopening + sustained crude rollover) is **decisively NOT hit — the opposite**: military escalation, reopening still refused, crude spiking. ([TradingEconomics](https://tradingeconomics.com/commodity/brent-crude-oil), [OilPrice](https://oilprice.com/))
+- **Econ calendar — jobs week:** JOLTS Tue Sep 1 · ISM Services Wed Sep 3 · **Aug Jobs Report Fri Sep 4** (the week's big tape-mover; sets the Fed's Sept path). No same-day econ print today. ([FedRateCalc](https://fedratecalc.com/us-economic-calendar/september-2026/))
+- **AI-complex:** QQQ pre-mkt ~$714.96 (+0.72% vs entry, above the reclaimed 20-DMA ~$700) consolidating post-Nvidia; SMH ~$554 (de-dup by QQQ), QTUM ~$148, VRT ~$257 — leg intact, no cash to add.
+- **Healthcare (XLV):** quiet defensive ballast, pre-mkt ~$170.37 (+5.47% vs entry). Slot filled, healthy.
+- Bucket scan (ALL cash-blocked at $8.91): QQQ $715 (held) · SMH $554 (de-dup by QQQ) · QTUM $148 · VRT $257 · UFO ~$44 (illiquid, bid/ask 43.98–47.60) · XLE $63.7 (held) · XLV $170 (held) · URA $45.6 · VST $137 · CEG $277.
+### Trade Ideas (book meets floor at 3/4; ONLY open slot is the 4th position — cash $8.91 blocks every buy)
+1. **QTUM ~$148 (AI-complex, quantum, swing lane)** — the one watchlist add that fits composition (2nd AI-complex slot; own quantum group, not de-dup-blocked). Whole share $148 < $250 → whole-share + resting stop @ ~$118. **BLOCKED by cash ($8.91 « $148).** WATCH only.
+2. **VRT ~$257 (AI-complex, data-center power, swing lane)** — same 2nd AI slot; rides AI-capex. Whole share $257 > $250 budget → fractional + software stop. **BLOCKED by cash.** WATCH only.
+3. **No Outside/Energy add** — both slots filled (XLV, XLE), composition floor already met; no idea improves the book. Outside slot occupied → no Tier-1 off-list candidate in play.
+### Risk Factors
+- **Mideast escalation:** US-Iran fire near Hormuz is a two-way risk — bullish for XLE (crude spiking), risk-off for equities/QQQ. A sudden de-escalation could fade the oil pop, but the thesis-break trigger stays NOT hit (reopening refused, no crude rollover).
+- **Jobs week whipsaw:** JOLTS Tue → ISM Wed → **Jobs Fri** can each reprice the rate path; QQQ most sensitive, XLV/XLE more insulated. No same-day print today.
+- **XLE at the +15% ratchet tier:** pre-mkt +15.88% crosses the +15% tier ($63.22). At market-open, if it sustains ≥+15% on a live regular-hours print, the 7% trail computes to ~$59.24 — **below** the current $59.93 stop, so **hold $59.93** (never lower a stop). No re-peg action; just confirm at the open.
+- **$8.91 cash** → zero flexibility; manage-only regardless of setups. No add can be funded.
+### Decision
+**HOLD.** Pre-market does not arm orders. Plan for market-open: HOLD QQQ + XLE + XLV — all above stops, none near a −20% cut. Confirm both resting stops still GTC at the open; re-peg nothing down (XLE's 7% trail computes below $59.93 → hold). **XLE thesis re-armed** on the Hormuz strike (crude >$90) — NOT a thesis break, the opposite. 4th slot (QTUM/VRT) stays a WATCH — blocked by $8.91 cash. Cadence 0/3 for wk #9 but no cash to use it. Default to patience into JOLTS (Tue) and the Aug jobs report (Fri).
+
 ## 2026-08-28 — PRE-MARKET — HOLD, manage-only; XLE thesis FIRMED overnight (oil bounced, reopening still refused); Warsh keynote 10am ET is the day's binary
 ### Account
 - Total **$532.10** | Equity $523.19 | Cash/BP **$8.91** | vs $500 start: **+6.42%** — kill-switch OK ($532 » $250).
