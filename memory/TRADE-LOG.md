@@ -14,6 +14,19 @@ Bucket engine + composition/de-dup/cadence/Tier-1 rules live in `memory/BUCKETS.
 - `Book: n/4 | AI-complex a/2 · Energy e · Outside o/1 | dedup OK` — composition vs the floor.
 - `Cadence: wk of YYYY-MM-DD (wk #k) | opening trades u/CAP` — CAP=4 in week 1, else 3 (BUY-to-open only).
 
+## Sep 2 — MIDDAY scan (XLE 7% trail re-pegged UP on a fresh high; no buys — cash-blocked)
+Reconciled live vs book (3/4). All lots above stops, no cut, no thesis break. RISK-OFF (oil-up) tape — US-Iran Hormuz escalation (fresh US strikes, Brent ~$94–95) lifting energy while rising yields/inflation fear pressure tech into jobs week; ADP today, ISM Services Wed, Aug jobs Fri Sep 4 the binary. Energy + Healthcare are the two momentum-leading sectors; QQQ the laggard.
+- **XLE 7% trail ratcheted UP.** XLE $65.015 (+18.27% vs entry $54.97; +0.38% day) printed a fresh high above the prior peg ref $64.90; still below the +20% tier ($65.96 → 5% trail), so trail stays 7%. Re-pegged the resting stop UP: cancelled old $60.36 (6a96d3b1, cancel accepted 16:01Z, 0 fills) → placed new **stop_market GTC $60.46** (7% below $65.015; ~7.0% below live, clears the 3% floor ~$63.06). New **PROTECTION=resting 6a98486d-b232-47fe-97e2-d96f313c177c** (confirmed resting, 0 fills). Thesis DECISIVELY intact — Hormuz escalation (fresh US strikes, Brent ~$95), 17M bbl still transited Monday, reopening refused → thesis-break trigger (declared reopening + sustained rollover) is the OPPOSITE of hit. A declared reopening or a break of $60.46 = exit.
+- QQQ $709.20 (−0.09% vs entry; +0.22% day) — software stop $567.88 (fractional — no resting order, ~19.9% below now). Hold. AI-complex leg ~flat/back at entry as tech sells on the yields-up tape, holding near the reclaimed 20-DMA (~$700); far above stop, not −20%, no thesis break.
+- XLV $172.94 (+7.06% vs entry; +0.74% day) — resting stop $129.22 (6a50fa42, confirmed, 0 fills, last_txn Sep 2 12:29, ~25.3% below now). Hold. Defensive ballast firm on the risk-off tape + healthcare-rotation tailwind; well above stop. Not at +15% — no re-peg.
+No cuts (none ≤ −20%), no thesis breaks. QQQ −0.09% / XLV +7.06% — neither at +15%, no re-peg. Only action = XLE 7% trail re-peg UP ($60.36 → $60.46). No buy at midday (manage-only; cash $8.91, ~98% deployed). Book 3/4 — AI-complex 1/2; the 4th slot (2nd-AI QTUM/VRT or a 2nd-Energy leg) stays a WATCH, blocked by cash not choice. Next: Aug jobs Fri Sep 4; default to patience.
+Portfolio $541.82 | equity $532.91 | cash $8.91. Drawdown +8.36% vs $500 (new phase high). Kill-switch OK.
+- QQQ | bucket=AI-complex | qty=$100 frac (0.140875 sh) | entry=$709.8459 | stop=$567.88 | protection=software $567.88 | lane=swing | opened=2026-08-04
+- XLE | bucket=Energy | qty=4 sh | entry=$54.97 | stop=$60.46 | protection=resting 6a98486d-b232-47fe-97e2-d96f313c177c | lane=swing | opened=2026-07-10
+- XLV | bucket=Outside | qty=1 sh | entry=$161.53 | stop=$129.22 | protection=resting 6a50fa42-d10b-4a94-8bd8-74beb5a96ad5 | lane=swing | opened=2026-07-10
+- Book: 3/4 | AI-complex 1/2 · Energy 1 · Outside 1/1 | dedup OK.
+- Cadence: wk of 2026-08-31 (wk #9) | opening trades 0/3 (CAP 3).
+
 ## Sep 1 — MIDDAY scan (no actions — manage-only; XLE thesis intact, +16.76% on its 7% trail, no fresh high → no re-peg)
 Reconciled live vs book (3/4). All lots above stops, no cut, no ratchet action, no thesis break. RISK-OFF-lean tape — Nasdaq soft (QQQ −0.69% day) on the rate-hike scare + September seasonality; energy firm on the Hormuz escalation (two tankers hit overnight, Brent >$90). JOLTS/ISM 10am digested; Aug jobs Fri Sep 4 the week's binary.
 - QQQ $711.81 (+0.28% vs entry; −0.69% day) — software stop $567.88 (fractional — no resting order, ~20.2% below now). Hold. AI-complex leg giving back with Nasdaq on the rate-hike scare but holding near the reclaimed 20-DMA (~$700); far above stop, not −20%, no thesis break.
