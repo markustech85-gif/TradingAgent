@@ -14,6 +14,18 @@ Bucket engine + composition/de-dup/cadence/Tier-1 rules live in `memory/BUCKETS.
 - `Book: n/4 | AI-complex a/2 · Energy e · Outside o/1 | dedup OK` — composition vs the floor.
 - `Cadence: wk of YYYY-MM-DD (wk #k) | opening trades u/CAP` — CAP=4 in week 1, else 3 (BUY-to-open only).
 
+## Sep 4 — MARKET-OPEN (no actions — manage-only, cash-blocked; XLE +16.88% on its 7% trail, no fresh high → no re-peg; jobs report 8:30am digested)
+Reconciled live vs book (3/4). Account $538.70 | equity $529.79 | cash $8.91. Kill-switch OK (+7.74% vs $500). No buys — cash/BP $8.91, ~98% deployed (every candidate fails gate G4: cost > settled cash). Manage-only. Cadence unchanged (no opening trade). Today's pre-mkt research exists (RESEARCH-LOG 2026-09-04). Tape firm post-jobs — QQQ back near recent highs on Thursday's Waller-hold relief rip; XLE eased −0.57% intraday as Thursday's risk-on rotation trimmed energy, thesis intact (Brent ~$95, Hormuz disruption seen past year-end, no declared reopening).
+- QQQ $718.95 (+1.28% vs entry; +0.18% day) — software stop $567.88 (fractional — no resting order, ~21.0% below now). Hold. AI-complex leg firm near recent highs above the reclaimed 20-DMA (~$700); far above stop, not −20%, no thesis break.
+- XLE $64.25 (+16.88% vs entry; −0.57% day) — resting stop $60.65 (6a9976d9, confirmed, 0 fills, last_txn Sep 4 12:26, ~5.6% below now). Hold. In the +15% tier (7% trail $60.65 in place) but NOT a fresh high vs the peg ref $65.2145; 7% below live = $59.75 < current stop $60.65 → no re-peg (never lower). +20% tier ($65.964 → 5% trail) NOT hit. Thesis intact — Hormuz escalation (Brent ~$95, Mitsui sees disruption past year-end), no declared reopening → thesis-break trigger (declared reopening + sustained crude rollover) NOT hit. A declared reopening or a break of $60.65 = exit.
+- XLV $171.64 (+6.26% vs entry; −0.94% day) — resting stop $129.22 (6a50fa42, confirmed, 0 fills, last_txn Sep 4 12:22, ~24.7% below now). Hold. Defensive ballast steady on the healthcare-rotation bid; well above stop. Not at +15% — no re-peg.
+- No cuts (none ≤ −20%). QQQ +1.28% / XLE +16.88% (7% trail below current stop, not a fresh high) / XLV +6.26% — none needing a re-peg. Book 3/4 — AI-complex 1/2; the 4th slot (2nd-AI QTUM/VRT or a 2nd-Energy leg) stays a WATCH, blocked by $8.91 cash not choice. Next: default to patience post-jobs.
+- QQQ | bucket=AI-complex | qty=$100 frac (0.140875 sh) | entry=$709.8459 | stop=$567.88 | protection=software $567.88 | lane=swing | opened=2026-08-04
+- XLE | bucket=Energy | qty=4 sh | entry=$54.97 | stop=$60.65 | protection=resting 6a9976d9-97c1-4fe5-a9b3-b99adf4a5801 | lane=swing | opened=2026-07-10
+- XLV | bucket=Outside | qty=1 sh | entry=$161.53 | stop=$129.22 | protection=resting 6a50fa42-d10b-4a94-8bd8-74beb5a96ad5 | lane=swing | opened=2026-07-10
+- Book: 3/4 | AI-complex 1/2 · Energy 1 · Outside 1/1 | dedup OK.
+- Cadence: wk of 2026-08-31 (wk #9) | opening trades 0/3 (CAP 3).
+
 ## Sep 3 — MIDDAY scan (no actions — manage-only; XLE +18.56% on its 7% trail but not a fresh high → no re-peg; thesis intact)
 Reconciled live vs book (3/4). All lots above stops, no cut, no ratchet action, no thesis break. NEUTRAL/soft tape into jobless-claims + ISM Services today, Aug jobs Fri Sep 4 the binary; AVGO light Q4 guide a semis drag digested — QQQ actually firm (+1.20% day) reclaiming above entry. XLE flat, XLV flat. Both resting stops confirmed GTC (0 fills).
 - QQQ $717.74 (+1.11% vs entry; +1.20% day) — software stop $567.88 (fractional — no resting order, ~20.9% below now). Hold. AI-complex leg firm back above entry, shrugging the AVGO-guide drag, above the reclaimed 20-DMA (~$700); far above stop, not −20%, no thesis break.
