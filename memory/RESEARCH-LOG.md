@@ -28,6 +28,11 @@
 ### Decision
 **HOLD.** Pre-market does not arm orders. Plan for market-open: HOLD QQQ + XLE + XLV — all above stops, none near a −20% cut. Confirm both resting stops still GTC at the open; re-peg nothing down. **XLE +16.81%** is in the +15% tier (7% trail $60.65 in place); re-peg UP only on a fresh XLE high vs the peg ref (~$65.21) — the +20% tier ($65.96 → 5% trail) is NOT hit and 7% below pre-mkt ($59.72) < current stop $60.65, so hold $60.65. **WATCH XLE** for a thesis-break ONLY on a declared Hormuz reopening + decisive crude rollover (today is escalation + Brent ~$95 → thesis intact, NOT triggered). QQQ leg strong on the tech rip, far above software stop. 4th slot (QTUM/VRT) stays a WATCH — blocked by $8.91 cash, and the jobs print argues against chasing anyway. Cadence 0/3 for wk #9 but no cash to use it. Default to patience into the 8:30am Aug jobs report.
 
+### 2026-09-04 — Midday addendum
+- Reconciled live 3/4, all above stops. QQQ $717.66 (+1.10%; ~flat day), XLE $64.17 (+16.74%; −0.70% day), XLV $171.87 (+6.40%; −0.80% day). No cut/ratchet/thesis-break. Manage-only (cash $8.91). Account $538.56 (+7.71% vs $500), kill-switch OK. Both resting stops confirmed GTC (0 fills — XLE 6a9976d9 last_txn 12:26, XLV 6a50fa42 last_txn 12:22).
+- **XLE in the +15% tier but no re-peg.** +16.74% ≥ +15%, but $64.17 is NOT a fresh high vs the peg ref $65.2145, and 7% below live = $59.68 < current stop $60.65 → hold $60.65 (never lower; already on its 7% trail). +20% tier ($65.964 → 5% trail) not hit. Thesis intact — Hormuz escalation (Brent ~$95, Mitsui sees disruption past year-end), no declared reopening → thesis-break trigger (declared reopening + sustained rollover) NOT hit. A declared reopening or a break of $60.65 = exit.
+- Post-jobs tape: QQQ firm near recent highs (Thursday's Waller-hold relief holding), while XLE −0.70% and XLV −0.80% eased intraday as risk-on rotation trimmed the two leaders — orderly, no anomalous mover needing deeper research (moves are the known post-jobs rotation + Hormuz oil). No new buyable setup (cash-capped at $8.91). Default to patience into the weekend.
+
 ## 2026-09-03 — Pre-market Research
 ### Account
 - Total **$543.88** | Equity $534.97 | Cash/buying power **$8.91** | vs $500 start: **+8.78%** — kill-switch OK ($544 » $250).
