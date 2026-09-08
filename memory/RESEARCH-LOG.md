@@ -1,5 +1,33 @@
 # Research Log
 
+## 2026-09-08 — MARKET-OPEN — HOLD, manage-only (cash $8.91). First session post-Labor-Day: mildly risk-off, oil-up. XLE thesis re-armed (Brent ~$100, US struck 3 Iranian tankers). XLV −2.2% on healthcare softness → firm WATCH. CPI Fri 9/11 the week's binary.
+### Account (live reconcile 9:30 ET)
+- Total **$538.08** | Equity $529.17 | Cash/buying power **$8.91** | vs $500 start: **+7.62%** — kill-switch OK ($538 » $250).
+- Book 3/4: QQQ $101 frac (0.140875 sh) @ $709.85 (AI-complex; live $721.79 → **+1.68%** vs entry, +0.39% day; software stop $567.88, ~21.3% below) ·
+  XLE 4 sh @ $54.97 (Energy; live $64.975 → **+18.20%**, +1.43% day; resting stop **$60.65** id 6a9976d9, ~6.6% below) ·
+  XLV 1 sh @ $161.53 (Outside; live $167.73 → **+3.84%**, **−2.17% day**; resting stop $129.22 id 6a50fa42, ~23.0% below).
+- Composition: AI-complex **1/2** · Energy 1 · Outside 1/1 · dedup OK · diversify floor met (2 non-AI legs). Cadence **wk of Sep 7 (wk #10)** | opening trades **0/3**.
+- Both resting stops verified LIVE/GTC via get_equity_orders(state=confirmed): XLE 6a9976d9 $60.65 (0 fills, last_txn Sep 8 12:26) · XLV 6a50fa42 $129.22 (0 fills, last_txn Sep 8 12:28). No position near a −20% cut. Phase 2 LIVE.
+- Dry powder **$8.91 (~1.7%)** → NO buying power for any new position. Manage-only regardless of setups.
+### Market Context
+- **First session post-Labor-Day — mildly risk-off, oil-up.** S&P 500 ~**−0.15%** to ~7,707; megacap tech led the losers (AAPL −2.55%, GOOGL −2.10%, MSFT −2.05%) on rising oil + inflation jitters into the CPI print. Futures had slipped pre-open on the oil spike. ([Bloomberg](https://www.bloomberg.com/news/articles/2026-09-07/stock-market-today-dow-s-p-live-updates), [Yahoo](https://finance.yahoo.com/markets/live/stock-market-today-tuesday-september-8-dow-sp-500-nasdaq-080440338.html))
+- **Week ahead — CPI is THE binary:** PPI Thu 9/10 (pre-open); **CPI Fri 9/11 (pre-open) = the week's single biggest tape-mover** into the Sep 15–16 FOMC (hike odds ~58% after the hot Aug jobs print). FOMC quiet period through Thu 9/17. No pre-positioning.
+- **Energy (XLE thesis RE-ARMED, decisively intact):** Brent ~**$99.85** at 9am ET (+9.3% last week) — the **US struck 3 Iranian oil tankers over the weekend (destroyed 1)** in retaliation for missile attacks on US Navy warships, and is maintaining a naval blockade limiting Iranian exports. No declared Hormuz reopening → the thesis-break trigger (declared reopening + sustained crude rollover) is the OPPOSITE of the tape → thesis intact. XLE +1.43% today to $64.975 (book leader, +18.20% vs entry). ([Fortune](https://fortune.com/article/price-of-oil-09-08-2026/), [OilPrice](https://oilprice.com/futures/brent/))
+- **AI-complex (QQQ):** live $721.79 (+1.68% vs entry, +0.39% day) firm despite megacap-tech weakness — leg intact, far above the reclaimed 20-DMA (~$700) and its software stop. Most rate-sensitive leg into CPI.
+- **Healthcare (XLV) — firm WATCH:** −2.17% today to $167.73 (+3.84% vs entry) on sector-wide healthcare softness; no single adverse catalyst surfaced, but XLV's short-term momentum turned negative Sep 4 and the defensive-rotation bid is fading in a growth-led tape (XLV ~−7% YTD vs SPY +). Still comfortably green vs entry and far above its stop → NOT a thesis break, but a firmer WATCH: a decisive breakdown / sustained defensive-rotation reversal would argue for rotating the Outside slot. ([Yahoo/247WallSt](https://finance.yahoo.com/sectors/healthcare/articles/healthcare-defensive-promise-crumbles-xlv-112330789.html))
+- Bucket scan (ALL cash-blocked at $8.91): QQQ (held) · SMH (de-dup by QQQ) · QTUM · VRT · UFO illiquid · XLE (held) · XLV (held) · URA · VST · CEG.
+### Trade Ideas (book meets floor at 3/4; only the 4th slot is open — cash $8.91 blocks every buy)
+1. **QTUM / VRT (AI-complex, 2nd slot, swing lane)** — the watchlist adds that fit composition. **BLOCKED by cash ($8.91).** WATCH only — chasing a 2nd AI leg into a hawkish CPI setup is textbook whipsaw risk.
+2. **No Outside/Energy add** — both slots filled; composition floor already met. If XLV's WATCH escalates to a thesis-break, the Outside slot would rotate (still cash-blocked to redeploy).
+### Risk Factors
+- **CPI Fri 9/11 is a two-way binary into the FOMC** (hike odds ~58%). A hot CPI hardens hike odds and pressures QQQ (most rate-sensitive); XLE/XLV more insulated. No pre-positioning.
+- **XLV defensive-rotation fade** — the Outside leg's momentum has turned; −2.2% today. Still green + far above stop, but the firmest WATCH in the book.
+- **XLE two-way geopolitical risk** — Hormuz escalation (Brent ~$100) is the tailwind now; the thesis-break trigger is a *declared reopening + sustained crude rollover* (not hit). Resting stop $60.65 sits ~6.6% below; never lower it.
+- **$8.91 cash** → zero flexibility; manage-only.
+### Decision
+**HOLD QQQ + XLE + XLV** — all above stops, none near a −20% cut, no thesis break. Both resting stops confirmed LIVE/GTC; re-peg nothing down. **XLE +18.20%** is in the +15% tier (7% trail $60.65 in place, peg ref $65.2145) — $64.975 is NOT a fresh high vs the peg ref, +20% tier ($65.96 → 5% trail) NOT hit, and 7% below live ($60.43) < current stop $60.65 → **hold $60.65** (never lower). QQQ +1.68% / XLV +3.84% — neither at +15%, no re-peg. **WATCH XLV** for a defensive-rotation thesis-break (decisive breakdown); **WATCH XLE** for a declared Hormuz reopening + crude rollover (today: escalation, Brent ~$100 → intact). 4th slot (QTUM/VRT) stays a WATCH — blocked by cash. Cadence 0/3 wk #10. Default to patience into PPI (Thu) and the CPI binary (Fri).
+
+
 ## 2026-09-07 — PRE-MARKET — ⚠ MARKET CLOSED (Labor Day). HOLD, manage-only; no session today. Fri jobs-hot risk-off; XLE thesis re-armed on renewed US-Iran/Hormuz (Brent ~$97). CPI Fri 9/11 is the week's binary.
 ### Account (marks = Fri Sep 4 closes; no trading today)
 - Total **$537.57** | Equity $528.66 | Cash/buying power **$8.91** | vs $500 start: **+7.51%** — kill-switch OK ($538 » $250).
