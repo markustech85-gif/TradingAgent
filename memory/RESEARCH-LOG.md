@@ -1,5 +1,7 @@
 # Research Log
 
+## 2026-09-14 — MIDDAY addendum — XLE thesis RE-ARMED, watch item CLEARED green. The flagged GCC-Iran Hormuz de-escalation did NOT materialize: talks (Salalah/Oman, Sep 14) POSTPONED — Saudi Arabia raised concerns, Bahrain won't participate; a vessel was struck in the Strait Sep 13; Brent rallied toward ~$108 (4-mo high) after Saudi Arabia shut a major crude pipeline post-drone-attack. Diplomats: a US-Iran deal is needed to fully reopen — none exists. → NO declared reopening; thesis-break trigger is the OPPOSITE of hit. Tape: QQQ ~flat/−0.71% day (rate-sensitive, softest into FOMC), XLE flat (−0.06% day, already priced), XLV +1.52% day (defensive bid). No cuts/ratchets/breaks; manage-only, cash-blocked. Sources: Rigzone (Gulf states mull Hormuz talks, Sep 11), CNBC (vessel struck in Hormuz, Sep 13).
+
 ## 2026-09-14 — PRE-MARKET — HOLD, manage-only into FOMC week (decision Wed 9/16). Risk-OFF Monday: futures lower on surging oil + sagging AI; rate-HIKE odds jumped to ~80-87% post-hot-CPI/jobs. VIX futures ~19 (up from ~15.8). XLE thesis intact but watch a possible GCC-Iran Hormuz de-escalation (talks Mon). Cash $8.91 blocks every add.
 ### Account (live pre-mkt marks, ~8:01am ET)
 - Total **~$538.73** | Equity ~$529.82 | Cash/buying power **$8.91** | vs $500 start: **+7.75%** — kill-switch OK ($539 » $250).
