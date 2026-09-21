@@ -14,6 +14,21 @@ Bucket engine + composition/de-dup/cadence/Tier-1 rules live in `memory/BUCKETS.
 - `Book: n/4 | AI-complex a/2 · Energy e · Outside o/1 | dedup OK` — composition vs the floor.
 - `Cadence: wk of YYYY-MM-DD (wk #k) | opening trades u/CAP` — CAP=4 in week 1, else 3 (BUY-to-open only).
 
+## Sep 21 — MIDDAY scan (XLE STOPPED OUT — 5% trailing stop FILLED at $62.70, +14.06% winner locked; energy thesis finally broke: crude 3rd straight down day <$100, Hormuz throughput at 6-mo high)
+Reconciled live vs book. XLE resting stop 6aa2b117 FILLED today at $62.70 (4 sh, ~10:12 ET / 14:12:26 UTC) — the 5% trail did its job, exiting a +14% winner right as the energy thesis broke. Two forces hit XLE at once: it went EX-DIVIDEND today (adjusted prior close $63.93 vs Fri settled close $64.31) AND crude rolled over decisively (Brent/WTI 3rd straight down session; WTI ~$97.6, −2.7% day; US CENTCOM reports Hormuz shipments at a 6-mo high, Saudi moving ~2.8M bpd through the strait vs ~0.7M in Aug and selling ~60M bbl from Ras Tanura outside it) → the thesis-break trigger (effective reopening + SUSTAINED crude rollover) is now MET — the opposite of the tape that carried the trade for two months. Clean, disciplined, rule-driven exit. Otherwise a big risk-on tape: SPY +1.16% to $770.56, QQQ ripping intraday.
+- XLE | BUCKET=Energy | SELL (close — resting stop trigger) | 4 sh @ $62.70 | proceeds $250.80 vs $219.88 cost | realized **+$30.92 (+14.06%)** | order 6aa2b117-17aa-4a40-8645-a55b9b288149 (filled @ $62.70, stop trigger, $0 fees, last_txn 2026-09-21 14:12:26 UTC). Whole-share resting stop → already filled, nothing to cancel. Energy bucket: WINNING exit — NOT a fail (0 consecutive fails; the 2-fails-per-bucket exit rule does not trigger).
+- QQQ $737.03 (+3.83% vs entry) — software stop $567.88 (fractional — no resting order, ~22.9% below now). Hold. AI-complex leg at a fresh high, riding the risk-on tech bid well above the reclaimed 20-DMA (~$700); not −20%, no thesis break, not at +15% (no re-peg).
+- XLV $168.74 (+4.46% vs entry) — resting stop $129.22 (6a50fa42, confirmed, 0 fills, last_txn 2026-09-21 12:27, ~23.4% below now). Hold. Defensive ballast at a fresh high; not −20%, no thesis break, not at +15% (no re-peg).
+- No new buy: XLE sale proceeds unsettled today (cash account — G4 settled-cash fails; settled buying power still $8.91) AND midday is manage-only. Energy leg (now 0) to be rebuilt at a routine open once cash settles + a catalyst is logged. Cadence unchanged (SELL ≠ opening trade).
+
+**Open positions (live state — routines count these):**
+- QQQ | bucket=AI-complex | qty=$101 frac (0.140875 sh) | entry=$709.85 | stop=$567.88 | protection=software $567.88 | lane=swing | opened=2026-08-04
+- XLV | bucket=Outside | qty=1 sh | entry=$161.53 | stop=$129.22 | protection=resting 6a50fa42-d10b-4a94-8bd8-74beb5a96ad5 | lane=swing | opened=2026-07-10
+
+**Book:** 2/4 | AI-complex 1/2 · Energy 0 · Outside 1/1 | dedup OK · diversify floor met (Outside is the non-AI leg)
+**Cadence:** wk of Sep 21 (wk #12) | opening trades 0/3
+Portfolio $532.28 | equity $272.57 | cash $259.71 (~$250.80 unsettled from XLE sale; settled buying power $8.91) | Kill-switch OK (» $250).
+
 ## Sep 16 — MIDDAY scan (no actions — manage-only, cash-blocked; scan is PRE-decision — FOMC 2pm ET still ahead; XLE −2.20% day on oil slipping but +17.30% on its 5% trail, not a fresh high → no re-peg; thesis intact — Hormuz still shut, no reopening)
 Reconciled live vs book (3/4). All lots above stops, no cut, no ratchet action, no thesis break. Scan ran ~12pm ET — the FOMC decision (Wed 9/16 2pm + dot plot + presser, ~92-93% priced for a +25bp HIKE to 3.75-4.00%) is STILL AHEAD, so no pre-positioning of any kind. Tape into the print: QQQ firm (+0.87% day, rate-sensitive leg bid on the mild risk-on), XLE the book engine SOFT (−2.20% day) as Brent slipped ~1% off its 4-mo high toward ~$104-105, XLV firm (+0.66% day, defensive ballast). Both resting stops confirmed GTC (0 fills, last_txn Sep 16).
 - QQQ $710.61 (+0.11% vs entry; +0.87% day) — software stop $567.88 (fractional — no resting order, ~20.1% below now). Hold. AI-complex leg a hair above entry, holding near the reclaimed 20-day average (~$700); far above stop, not −20%, no thesis break. Most rate-sensitive leg into the 2pm decision with the 10Y ~5%.

@@ -1,5 +1,12 @@
 # Research Log
 
+## 2026-09-21 — MIDDAY addendum — XLE STOPPED OUT (+14.06% winner), energy thesis broke
+- **XLE 5% trailing stop 6aa2b117 FILLED at $62.70** today ~10:12 ET (4 sh, +$30.92 / +14.06% realized). Two catalysts hit at once: XLE went **ex-dividend** (adjusted prior close $63.93 vs Fri $64.31) AND crude rolled over decisively — WTI ~$97.6 (−2.7% day), **3rd straight down session below $100**.
+- **Thesis-break trigger now MET** (effective Hormuz reopening + sustained crude rollover): US CENTCOM says Hormuz shipments at a 6-month high; satellite data shows Saudi moving ~2.8M bpd through the strait (vs ~0.7M in Aug) and selling ~60M bbl from Ras Tanura *outside* the strait; market now expects the Saudi E-W pipeline outage to bite far less than feared. The 2-month supply-fear premium that carried the trade is unwinding — exiting on the trail was correct.
+- Book now **2/4**: QQQ (AI-complex, $737.03, +3.83%) · XLV (Outside, $168.74, +4.46%). Energy leg = 0. Diversify floor still met (XLV non-AI leg). Tape strongly risk-on: SPY +1.16% to $770.56, QQQ +2.27% intraday.
+- **No redeploy today**: XLE proceeds unsettled (cash account; settled buying power $8.91), midday is manage-only. Rebuild the Energy leg at a routine open once cash settles + a fresh catalyst is logged — with oil now rolling over, XLE re-entry is NOT the automatic choice; reassess (URA/nuclear-power singles vs oil&gas) at pre-market.
+- Sources: [TradingEconomics — Crude Oil](https://tradingeconomics.com/commodity/crude-oil) · [EIA STEO](https://www.eia.gov/outlooks/steo/) · [Al Jazeera — Hormuz/oil](https://www.aljazeera.com/economy/2026/8/12/oil-prices-rise-as-attacks-dent-hopes-for-strait-of-hormuz-reopening)
+
 ## 2026-09-16 — PRE-MARKET — HOLD, manage-only. **FOMC DECISION TODAY (Wed 9/16, 2pm ET)** — ~92-93% priced +25bp HIKE to 3.75-4.00% (first hike since 2023); a hike is largely in, the risk is the dot-plot/statement. Modest risk-on into the print (S&P 500 futures +0.1%); 10Y ~5%; Brent ~$108→$104-105 (slipping ~1%) but Hormuz still shut → XLE thesis intact. Cash $8.91 blocks every add.
 ### Account (live pre-mkt marks)
 - Total **$538.14** | Equity $529.23 | Cash/buying power **$8.91** | vs $500 start: **+7.63%** — kill-switch OK ($538 » $250).
