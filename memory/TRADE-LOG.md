@@ -14,6 +14,24 @@ Bucket engine + composition/de-dup/cadence/Tier-1 rules live in `memory/BUCKETS.
 - `Book: n/4 | AI-complex a/2 · Energy e · Outside o/1 | dedup OK` — composition vs the floor.
 - `Cadence: wk of YYYY-MM-DD (wk #k) | opening trades u/CAP` — CAP=4 in week 1, else 3 (BUY-to-open only).
 
+## Oct 2 — MARKET-OPEN (4th slot FILLED — bought $110 QTUM frac, 2nd AI-complex leg; book now 4/4 at full target floor ai2/en1/out1)
+Reconciled live vs book (3/4 → 4/4). Clean risk-on up-open armed the QTUM WATCH from today's research: QQQ gapped +1.20% to a fresh high ($750.90), QTUM +1.96% ($156.25), VST +2.12% (reclaimed entry) — tech/semis confirming, yields not spiking (QQQ at highs confirms the 10Y easing off its 20-yr high per pre-mkt). Settled cash $121.11; a whole QTUM share (~$156) > cash → fractional + software stop.
+- QTUM | BUCKET=AI-complex (quantum dedup-group; NOT blocked by QQQ broad-AI) | BUY **$110.00 frac (0.704676 sh)** @ **$156.0999** (market, filled 13:31:27 UTC, $0 fees) | buy ref_id b3e9a1c7-5d42-4f8a-9c21-7e0f6a4b2d13, order 6abfb22f-6535-435a-b6d6-167e4855764a | lane=SWING | stop **$124.88** (20% below fill) | PROTECTION=**software $124.88** (fractional — NO resting order; sell at the scan if price ≤ $124.88) | thesis: AI/semis momentum + yield-relief backdrop (10Y backing off the 20-yr high eases the rate headwind on rate-sensitive tech); diversified quantum-compute ETF, own dedup-group so it stacks cleanly on QQQ | target ~$195 (R:R ~2:1 on ~$31 risk / ~$39 reward). Gate G1–G10 all PASS (post-fill {QQQ,XLV,VST,QTUM}: ai2/en1/out1 = full target floor, dedup OK, cadence 0→1/3).
+- QQQ $750.90 (+5.78% vs entry; +1.20% day, fresh high) — software stop $567.88 (fractional, ~24.4% below now). Hold; AI-complex intact, not −20%, not at +15% (no re-peg).
+- XLV $166.05 (+2.80% vs entry; −0.09% day) — resting stop $129.22 (6a50fa42, confirmed GTC, 0 fills, last_txn Oct 2) ~22.0% below now. Hold; defensive ballast, not −20%, not at +15% (no re-peg).
+- VST $142.72 (+1.40% vs entry; +2.12% day — reclaimed entry) — resting stop $112.60 (6ab2836c, confirmed GTC, 0 fills, last_txn Oct 2) ~21.1% below now. Hold; AI-power thesis intact & crude-decoupled, not −20%, not at +15% (no re-peg).
+No cuts (none ≤ −20%), no thesis breaks, no re-pegs (best gain QQQ +5.78%, far from +15% tier). Book now 4/4 — full target floor. Kill-switch OK (» $250; +7.15% vs $500).
+
+**Open positions (live state — routines count these):**
+- QQQ | bucket=AI-complex | qty=$101 frac (0.140875 sh) | entry=$709.85 | stop=$567.88 | protection=software $567.88 | lane=swing | opened=2026-08-04
+- QTUM | bucket=AI-complex | qty=$110 frac (0.704676 sh) | entry=$156.0999 | stop=$124.88 | protection=software $124.88 | lane=swing | opened=2026-10-02
+- XLV | bucket=Outside | qty=1 sh | entry=$161.53 | stop=$129.22 | protection=resting 6a50fa42-d10b-4a94-8bd8-74beb5a96ad5 | lane=swing | opened=2026-07-10
+- VST | bucket=Energy | qty=1 sh | entry=$140.7557 | stop=$112.60 | protection=resting 6ab2836c-b3f6-40b2-984a-09f4b4d96c45 | lane=swing | opened=2026-09-22
+
+**Book:** 4/4 | AI-complex 2/2 · Energy 1 · Outside 1/1 | dedup OK · full target floor met
+**Cadence:** wk of Sep 28 (wk #13) | opening trades 1/3
+Portfolio ~$535.73 | cash ~$11.11 (settled) after the QTUM buy | Kill-switch OK (» $250).
+
 ## Sep 22 — MIDDAY scan (no actions — manage-only, cash-blocked; all 3 legs modestly green, far above stops; new VST leg +0.80% day-1, thesis intact)
 Reconciled live vs book (3/4). All lots above stops, no cut, no ratchet, no thesis break. Scan ran into the close on a quiet, ~flat tape (SPY $773.15, −0.05% vs $773.50 prior close) — a calm session after Mon's big risk-on rip. We inched up ~+$2.50 (+0.47%) to $535.62 vs the Sep 21 EOD $533.12, edging out a flat SPY. Both resting stops confirmed GTC (0 fills): VST 6ab2836c $112.60 (last_txn 2026-09-22 13:32), XLV 6a50fa42 $129.22 (last_txn 2026-09-22 12:29).
 - QQQ $744.55 (+4.89% vs entry; +0.42% day, fresh high for the lot) — software stop $567.88 (fractional — no resting order, ~23.7% below now). Hold. AI-complex leg riding the post-Fed tech bid well above the reclaimed 20-DMA (~$700); not −20%, no thesis break, not at +15% (no re-peg).
