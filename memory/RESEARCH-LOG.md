@@ -2093,3 +2093,27 @@ Cadence has room (0/3). Default to patience: a hot CPI or risk-off open = no add
 - **QTUM wide pre-mkt spread** ($151.60/$155.00): thin early liquidity; no action needed (software stop ~19% below), watch for a clean reclaim of $156.10.
 ### Decision
 **WATCH → plan to ACT at market-open.** Pre-market does not arm orders. Market-open plan: (1) **RE-PLACE XLV resting stop_market GTC @ $129.22** (currently missing — priority 1); (2) **rebuild the Energy leg** — buy **VST ~1 share (~$159)** if it holds ≥ ~$156 at open (whole-share + resting stop @ ~$127), restoring en≥1 and the full 4/4 floor; URA is the rate-insensitive fallback; (3) HOLD QQQ/QTUM/XLV — all above stops, none near −20%, none at the +15% tier (no re-peg). Cadence 0/3 wk #14 — full room for the one Energy opening trade. Kill-switch OK (+10.20%). Default to disciplined re-entry on confirmation, not into pre-mkt noise.
+
+## 2026-10-12 — PRE-MARKET — HOLD, manage-only. **Book FULL 4/4, fully deployed, $8 cash — no slot, no capacity. Composition floor MET (AI 2 · Energy 1 · Outside 1 · dedup OK).** Columbus Day — US EQUITIES OPEN, bond market closed. Futures mixed/flat: S&P 500 futures ~+0.1%, Nasdaq-100 futures ~flat/−0.1%, Dow +53pts (+0.1%); VIX calm (~15). S&P sits at record-high area; data-storage + chipmakers leading, and gold/silver hit all-time highs (miners rallying). Big week ahead: **CPI Wed 8:30a, PPI + Retail Sales Thu 8:30a**, plus bank earnings season kicks off (JPMorgan/Goldman/Citi/Wells/BofA/Morgan Stanley) — Wed CPI is the main event risk. ([Barchart via search](https://www.barchart.com), [qz week-ahead](https://qz.com/stock-futures-mixed-bank-earnings-inflation-data-101226), [Kiplinger calendar](https://www.kiplinger.com/investing/economy/this-weeks-economic-calendar), [VST/DOE](https://www.tikr.com/blog/vistra-stock-rallies-energy-department-nuclear-investment))
+### Account (live pre-mkt marks, ~8am ET)
+- Total **$555.10** | Equity $547.10 | Cash/buying power **$8.00** (settled) | vs $500 start: **+11.02%** — kill-switch OK ($555.10 » $250).
+- Book **4/4** (pre-mkt last trades):
+  - QQQ 0.140875 sh @ $709.85 (AI-complex; ~$750.04 → **+5.66%** vs entry; software stop $567.88, ~24.3% below) ·
+  - QTUM 0.704676 sh @ $156.10 (AI-complex; ~$151.74 → **−2.79%** vs entry; software stop $124.88, ~17.7% below) ·
+  - XLV 1 sh @ $161.53 (Outside; ~$171.50 → **+6.17%** vs entry; resting stop $129.22 `6ac8ecab` GTC confirmed, ~24.6% below) ·
+  - VST 1 sh @ $159.59 (Energy; ~$163.01 → **+2.14%** vs entry; resting stop $127.67 `6ac8ecbb` GTC confirmed, ~21.7% below).
+- Composition: AI-complex **2/2** · Energy **1** · Outside **1/1** · dedup OK — **full target floor MET**. Cadence **wk of Oct 12 (wk #15)** | opening trades **0/3** (CAP=3).
+- Dry powder **$8.00 (1.4%)** — below any whole-share or meaningful fractional entry → **no new-buy capacity; manage-only**.
+### Market Context
+- Tape **RISK-ON (mild)**: futures roughly flat, VIX calm, S&P at records, chips/storage + gold/silver leading. Bond market closed (Columbus Day) = no 10Y signal today; rate narrative resumes mid-week with CPI.
+- **AI-complex (QQQ + QTUM):** AI-capex theme intact — WTO flags AI hardware as ~half of recent global trade growth; Broadcom/Nvidia/TSMC leading; TSMC reports mid-Oct, Microsoft/Alphabet late-Oct, Nvidia Nov 17. QQQ +5.66% vs entry well above 20-DMA; QTUM −2.79%, high-beta quantum still below its $156.10 fill → WATCH for a reclaim. No thesis change.
+- **Energy (VST):** nuclear/AI-power thesis hard-intact — DOE $4.2B conditional loan (Beaver Valley/Davis-Besse/Perry) + 20-yr Meta/New Era PPAs; VST ~$159–163, +2.14% vs re-entry, ~21.7% above stop. Multi-day sector catalyst still live.
+- **Outside (XLV):** defensive ballast +6.17% vs entry (book's best), ~24.6% above resting stop — steady, thesis intact.
+### Trade Ideas
+- **None today — book is FULL at 4/4 and cash is $8.00.** No open slot, no deployable capital. Composition floor already met (AI 2 · Energy 1 · Outside 1 · dedup OK). Watchlist scan (VST/URA/XLE energy, QQQ/SMH/QTUM AI, UFO/XLV/GLD/GDX outside) is moot until a slot frees via an exit — manage-only. (Note: gold/miners GLD/GDX momentum is strong this week — candidate Outside rotation IF the XLV slot ever frees, but no action while fully deployed.)
+### Risk Factors
+- **CPI Wed + PPI/Retail Thu + bank earnings = event risk:** a hot inflation print lifts yields and pressures the rate-sensitive AI legs (QQQ/QTUM most); both sit ~18–24% above stops regardless. VST/XLV diversify the rate risk.
+- **QTUM lone red leg (−2.79%), wide pre-mkt spread** ($150.30/$151.76): high-beta quantum; no stock-specific news, ~17.7% above software stop — WATCH for a clean reclaim of $156.10, no action.
+- **Columbus Day thin tape:** bonds closed, some desks light → possibly lower-conviction moves; react at the scan, not into noise.
+### Decision
+**HOLD, manage-only.** Pre-market does not arm orders. Market-open plan: HOLD all four — all comfortably above stops, none near a −20% cut (worst QTUM −2.79%), none at the +15% ratchet tier (best XLV +6.17%, VST +2.14% vs the $183.5 trigger) → no re-pegs. Re-verify at the scan: resting stops VST $127.67 (`6ac8ecbb`) & XLV $129.22 (`6ac8ecab`) still GTC; software stops QQQ $567.88 / QTUM $124.88. **No new buys** — book full 4/4, only $8 cash (no capacity); cadence 0/3 wk #15 is irrelevant while fully deployed. WATCH QTUM for a $156.10 reclaim and QQQ/QTUM rate-sensitivity into Wed CPI. Kill-switch OK (+11.02%). Default to patience; react at the scan, not into pre-mkt noise.
