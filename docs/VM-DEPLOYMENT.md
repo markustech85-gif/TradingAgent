@@ -212,7 +212,9 @@ Test one immediately by running the runner by hand:
 ## 13. Monitoring
 
 - **Logs:** everything appends to `~/logs/<routine>-<date>.log`. Skim these the first week.
-- **Failure alerts:** the runner already messages Telegram on a non-zero exit.
+- **Failure alerts:** the runner messages Telegram with the actual reason (exit code + Claude's
+  error text, e.g. credit/auth/max-turns) on a failed run, and also warns if the repo is stuck
+  mid-rebase, off `main`, or left commits unpushed after a run.
 - **Heartbeat:** the daily-summary always sends — if a weekday passes with no EOD Telegram
   message, something's wrong. Consider a separate 5pm "did daily-summary run today?" check.
 - **Auth watch (only if you chose the OAuth-token path):** add a weekly job that runs a trivial
