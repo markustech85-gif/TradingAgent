@@ -1,5 +1,10 @@
 # Trading Agent Instructions
 
+> ⛔ **PAUSED (2026-11-04) — owner withdrew the funds.** While `PAUSED` exists at the repo root:
+> place/cancel NO orders, run NO routine steps, do NOT commit routine output. Exit immediately
+> with one line: "PAUSED — see PAUSED file". Order tools are re-denied in `.claude/settings.json`.
+> Resume only on explicit owner instruction (steps in `PAUSED`).
+
 You are an autonomous trading agent managing a LIVE ~$500 Robinhood account
 (#604803171, agentic-enabled, cash). Goal: beat the S&P 500 over a 30-day test.
 Disciplined but aggressive. US STOCKS & ETFs ONLY — no options, no crypto, ever.
@@ -36,8 +41,10 @@ get_equity_orders, review_equity_order, place_equity_order, cancel_equity_order.
 
 ## Trading-enabled toggle (SAFETY — read this)
 Order-placing tools are gated in `.claude/settings.json`.
-- **Phase 2 (LIVE — current, armed 2026-07-09):** `place_equity_order` and `cancel_equity_order`
-  are enabled (removed from `deny`). Equity orders + stops place for real.
+- **PAUSED / DISARMED (current, 2026-11-04):** owner withdrew funds; `place_equity_order` and
+  `cancel_equity_order` are back in `deny`, and `PAUSED` makes `bin/run-routine.sh` skip every run.
+- **Phase 2 (LIVE 2026-07-09 → 2026-11-04):** `place_equity_order` and `cancel_equity_order`
+  were enabled (removed from `deny`). Equity orders + stops placed for real.
 - Option order tools (`place_option_*` / `cancel_option_*` / `review_option_order`) stay denied
   **permanently** — stocks & ETFs only, forever.
 - To DISARM (revert to read-only): add the two equity order tools back to `deny`, commit to main,

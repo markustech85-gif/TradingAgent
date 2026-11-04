@@ -1,0 +1,5 @@
+PAUSED 2026-11-04 — owner withdrew the funds from Robinhood #604803171. Agent halted.
+While this file exists, bin/run-routine.sh exits without calling claude (no runs, no API spend),
+and any session must place NO orders and run NO routine steps.
+Resume: delete this file, re-arm .claude/settings.json (remove the two equity order denies),
+commit to main, then `git pull` on the VM.

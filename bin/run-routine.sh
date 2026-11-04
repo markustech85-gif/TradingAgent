@@ -8,6 +8,12 @@ routine="$1"                                    # pre-market|market-open|midday|
 mkdir -p "$HOME/logs"
 log="$HOME/logs/${routine}-$(date +%F).log"
 
+# PAUSE switch: a PAUSED file at the repo root skips the run entirely (no claude call, no spend).
+if [[ -f PAUSED ]]; then
+  echo "=== $(date -Is) SKIP $routine — PAUSED: $(head -1 PAUSED) ===" >> "$log"
+  exit 0
+fi
+
 echo "=== $(date -Is) start $routine ===" >> "$log"
 if ! claude -p "$(cat "routines/${routine}.md")" \
       --permission-mode bypassPermissions \

@@ -15,6 +15,11 @@
   2026-07-09); option order tools stay denied permanently. See CLAUDE.md "Trading-enabled toggle".
 
 ## Open items
+- **⛔ PAUSED 2026-11-04 — owner withdrew the funds.** Book was already flat (owner liquidated
+  Nov 3; live check 2026-11-04 ~08:07 ET: $522.32 cash, 0 positions, 0 open orders; withdrawal
+  not yet reflected). Disarmed: equity order tools re-denied in .claude/settings.json; `PAUSED`
+  file makes bin/run-routine.sh skip all runs; cloud "Daily trading-agent monitor" task disabled.
+  VM cron still fires until the VM pulls main (or the cron lines are commented out).
 - **RESOLVED 2026-07-10: investor profile completed by the user.** The Jul 10 market-open buys
   hit an account-level API 400 (Robinhood requires the investment profile before the 2nd trade).
   Profile completed 2026-07-10; a non-placing review_equity_order probe (XLE) came back clean

@@ -5,9 +5,9 @@ Broker: **Robinhood** (agentic MCP, account #604803171, cash, ~$500). Goal: beat
 S&P 500 over a 30-day test. Research via the agent's native web search, alerts via Telegram,
 state + audit trail in git.
 
-> ⚠️ **Real money — LIVE.** Trading is armed (Phase 2, since 2026-07-09): `place_equity_order`
-> + `cancel_equity_order` are enabled. Option order tools stay denied permanently (stocks & ETFs
-> only). To revert to read-only, re-add the two equity order tools to `deny`.
+> ⛔ **PAUSED (2026-11-04).** Owner withdrew the funds. Equity order tools are re-denied and the
+> `PAUSED` file makes `bin/run-routine.sh` skip every run. To resume, follow the steps in `PAUSED`.
+> Option order tools stay denied permanently (stocks & ETFs only).
 
 ## How it works
 
